@@ -1,0 +1,41 @@
+[
+  {
+    "chainId": 84532,
+    "title": "ETH/USDC",
+    "type": "Narrow",
+    "liquidityType": "uniV4",
+    "strategist": "Gamma",
+    "riskLevel": 5,
+    "riskDescription": "This strategy is moderate risk, due to its narrow strategy and the price deviations between the non-correlated assets.",
+    "address": "0xdb7608614dfdd9febfc1b82a7609420fa7b3bc34",
+    "token0Address": "0x0000000000000000000000000000000000000000",
+    "token1Address": "0x26336351DB798dd9BEA02ec1a4B2C81fDa0BD894",
+    "v4PoolId": "0x2a06ec4869b1a21843a99f25a184c71a7a5ea56ed533ec2bf035e1ad50f66483"
+  },
+  {
+    "chainId": 84532,
+    "title": "USDC/cbBTC",
+    "type": "Narrow",
+    "liquidityType": "uniV4",
+    "strategist": "Gamma",
+    "riskLevel": 5,
+    "riskDescription": "This strategy is moderate risk, due to its narrow strategy and the price deviations between the non-correlated assets.",
+    "address": "0x9616052273A598BC04BD1Ad7f7A753157C24f77E",
+    "token0Address": "0x26336351DB798dd9BEA02ec1a4B2C81fDa0BD894",
+    "token1Address": "0x2b7a959451C7b2C3029966a6526aab939fe9E863",
+    "v4PoolId": "0x4d4fb0dbfdd83450bc26dcfa9b8627eeee560cf5a7a52731a3a51ab0f2f62db3"
+  },
+  {
+    "chainId": 84532,
+    "title": "USDC/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 3,
+    "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets.",
+    "address": "0x0034060c628D988Bf8D34bd2F8ff3fbDc02044BD",
+    "token0Address": "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "depositToken": "0x4200000000000000000000000000000000000006"
+  }
+]
