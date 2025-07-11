@@ -133,7 +133,7 @@ export const tokens: Token[] = [
     symbol: "BRZ",
     decimals: 18,
     logoURI:
-      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/BRZ.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRZ.png",
   },
   {
     chainId: 8453,
@@ -142,7 +142,7 @@ export const tokens: Token[] = [
     symbol: "cbBTC",
     decimals: 8,
     logoURI:
-      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBBTC.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBBTC.png",
   },
   {
     chainId: 8453,
@@ -151,7 +151,7 @@ export const tokens: Token[] = [
     symbol: "cbDOGE",
     decimals: 8,
     logoURI:
-      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBDOGE.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBDOGE.png",
   },
   {
     chainId: 8453,
@@ -160,7 +160,7 @@ export const tokens: Token[] = [
     symbol: "cbXRP",
     decimals: 6,
     logoURI:
-      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBXRP.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBXRP.png",
   },
   {
     chainId: 8453,
@@ -169,7 +169,7 @@ export const tokens: Token[] = [
     symbol: "cbADA",
     decimals: 6,
     logoURI:
-      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBADA.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBADA.png",
   },
   {
     chainId: 8453,
@@ -178,7 +178,7 @@ export const tokens: Token[] = [
     symbol: "cbLTC",
     decimals: 8,
     logoURI:
-      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBLTC.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBLTC.png",
   },
   {
     chainId: 8453,
@@ -319,7 +319,7 @@ export const tokens: Token[] = [
     symbol: "frxUSD",
     decimals: 18,
     logoURI:
-      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/FRXUSD.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FRXUSD.png",
   },
   {
     chainId: 8453,
@@ -515,7 +515,7 @@ export const tokens: Token[] = [
     symbol: "tBTC",
     decimals: 18,
     logoURI:
-      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/TBTC.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TBTC.png",
   },
   {
     chainId: 8453,
@@ -549,7 +549,7 @@ export const tokens: Token[] = [
     symbol: "USDS",
     decimals: 18,
     logoURI:
-      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/USDS.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDS.png",
   },
   {
     chainId: 8453,
@@ -603,7 +603,7 @@ export const tokens: Token[] = [
     symbol: "weETH",
     decimals: 18,
     logoURI:
-      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/WEETH.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WEETH.png",
   },
   {
     chainId: 8453,
@@ -612,7 +612,7 @@ export const tokens: Token[] = [
     symbol: "WETH",
     decimals: 18,
     logoURI:
-      "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/WETH.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WETH.png",
   },
   {
     chainId: 8453,

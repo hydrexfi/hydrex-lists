@@ -86,7 +86,7 @@ function checkForDuplicateBadges(badges: Badge[]) {
 const tokenList: TokenList = {
   name: "Hydrex Token List",
   logoURI:
-    "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/HYDREX.png",
+    "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HYDREX.png",
   keywords: ["base", "meme"],
   version: {
     major: 1,

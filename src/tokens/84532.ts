@@ -9,7 +9,7 @@ export const WETH: Token = {
   symbol: "WETH",
   decimals: 18,
   logoURI:
-    "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/WETH.png",
+    "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WETH.png",
 };
 
 export const USDC: Token = {
@@ -19,7 +19,7 @@ export const USDC: Token = {
   symbol: "USDC",
   decimals: 6,
   logoURI:
-    "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/USDC.png",
+    "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDC.png",
 };
 
 export const USDC_ALT: Token = {
@@ -29,7 +29,7 @@ export const USDC_ALT: Token = {
   symbol: "USDC",
   decimals: 6,
   logoURI:
-    "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/USDC.png",
+    "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDC.png",
 };
 
 export const USDC_ICHI: Token = {
@@ -39,7 +39,7 @@ export const USDC_ICHI: Token = {
   symbol: "USDC",
   decimals: 6,
   logoURI:
-    "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/USDC.png",
+    "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDC.png",
 };
 
 export const cbBTC: Token = {
@@ -49,7 +49,7 @@ export const cbBTC: Token = {
   symbol: "cbBTC",
   decimals: 18,
   logoURI:
-    "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBBTC.png",
+    "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBBTC.png",
 };
 
 export const LINK: Token = {
@@ -59,7 +59,7 @@ export const LINK: Token = {
   symbol: "LINK",
   decimals: 18,
   logoURI:
-    "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/LINK.png",
+    "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LINK.png",
 };
 
 export const EURC: Token = {
@@ -69,7 +69,7 @@ export const EURC: Token = {
   symbol: "EURC",
   decimals: 6,
   logoURI:
-    "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/EURC.png",
+    "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EURC.png",
 };
 
 export const tokens: Token[] = [

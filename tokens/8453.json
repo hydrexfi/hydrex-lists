@@ -117,7 +117,7 @@
     "name": "BRZ Token",
     "symbol": "BRZ",
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/BRZ.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRZ.png"
   },
   {
     "chainId": 8453,
@@ -125,7 +125,7 @@
     "name": "Coinbase Wrapped BTC",
     "symbol": "cbBTC",
     "decimals": 8,
-    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBBTC.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBBTC.png"
   },
   {
     "chainId": 8453,
@@ -133,7 +133,7 @@
     "name": "Coinbase Wrapped DOGE",
     "symbol": "cbDOGE",
     "decimals": 8,
-    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBDOGE.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBDOGE.png"
   },
   {
     "chainId": 8453,
@@ -141,7 +141,7 @@
     "name": "Coinbase Wrapped XRP",
     "symbol": "cbXRP",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBXRP.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBXRP.png"
   },
   {
     "chainId": 8453,
@@ -149,7 +149,7 @@
     "name": "Coinbase Wrapped ADA",
     "symbol": "cbADA",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBADA.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBADA.png"
   },
   {
     "chainId": 8453,
@@ -157,7 +157,7 @@
     "name": "Coinbase Wrapped LTC",
     "symbol": "cbLTC",
     "decimals": 8,
-    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/CBLTC.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBLTC.png"
   },
   {
     "chainId": 8453,
@@ -285,7 +285,7 @@
     "name": "Frax USD",
     "symbol": "frxUSD",
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/FRXUSD.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FRXUSD.png"
   },
   {
     "chainId": 8453,
@@ -461,7 +461,7 @@
     "name": "Threshold BTC",
     "symbol": "tBTC",
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/TBTC.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TBTC.png"
   },
   {
     "chainId": 8453,
@@ -493,7 +493,7 @@
     "name": "USD Sky",
     "symbol": "USDS",
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/USDS.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDS.png"
   },
   {
     "chainId": 8453,
@@ -541,7 +541,7 @@
     "name": "Wrapped eETH",
     "symbol": "weETH",
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/WEETH.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WEETH.png"
   },
   {
     "chainId": 8453,
@@ -549,7 +549,7 @@
     "name": "Wrapped Ether",
     "symbol": "WETH",
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/alma-labs/hydrex-lists/main/assets/tokens/WETH.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WETH.png"
   },
   {
     "chainId": 8453,
