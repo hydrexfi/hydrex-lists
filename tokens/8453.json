@@ -97,6 +97,22 @@
   },
   {
     "chainId": 8453,
+    "address": "0xbc45647ea894030a4e9801ec03479739fa2485f0",
+    "name": "Basenji",
+    "symbol": "BENJI",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BENJI.png"
+  },
+  {
+    "chainId": 8453,
+    "address": "0x532f27101965dd16442e59d40670faf5ebb142e4",
+    "name": "Brett",
+    "symbol": "BRETT",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRETT.png"
+  },
+  {
+    "chainId": 8453,
     "address": "0x1F9bD96DDB4Bd07d6061f8933e9bA9EDE9967550",
     "name": "Boba Network",
     "symbol": "BOBA",
@@ -590,5 +606,13 @@
     "symbol": "ZRX",
     "decimals": 18,
     "logoURI": "https://ethereum-optimism.github.io/data/ZRX/logo.png"
+  },
+  {
+    "chainId": 8453,
+    "address": "0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452",
+    "name": "Lido Wrapped stETH",
+    "symbol": "wstETH",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WSTETH.png"
   }
 ]
