@@ -1,7 +1,7 @@
 import { Badge } from "../types";
 
 const LINK_PREFIX =
-  "https://raw.githubusercontent.com/alma-labs/hydrex-lists/staging/assets/badges";
+  "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/badges";
 
 const Badges: Badge[] = [
   {
