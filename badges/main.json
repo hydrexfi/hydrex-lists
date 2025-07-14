@@ -13,6 +13,21 @@
     "metric": "Locked veTokens"
   },
   {
+    "name": "BASED DAO",
+    "nftId": "30",
+    "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/badges/30.png",
+    "rewardImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/badges/30.png",
+    "description": "Own a Based Nouns DAO NFT",
+    "fullDescription": "Claim this badge by holding a Based Nouns DAO NFT in your wallet.",
+    "type": "Partner",
+    "category": "NFT",
+    "partnerName": "BasedNouns",
+    "minHydropoints": 1000,
+    "poolSize": 400000,
+    "maxSupply": 150,
+    "externalLink": "https://opensea.io/collection/based-dao"
+  },
+  {
     "name": "B3 Player",
     "nftId": "27",
     "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/badges/27.png",
