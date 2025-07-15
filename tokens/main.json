@@ -153,7 +153,8 @@
       "name": "Coinbase Wrapped BTC",
       "symbol": "cbBTC",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBBTC.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBBTC.png",
+      "type": "bluechip"
     },
     {
       "chainId": 8453,
@@ -161,7 +162,8 @@
       "name": "Coinbase Wrapped DOGE",
       "symbol": "cbDOGE",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBDOGE.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBDOGE.png",
+      "type": "bluechip"
     },
     {
       "chainId": 8453,
@@ -169,7 +171,8 @@
       "name": "Coinbase Wrapped XRP",
       "symbol": "cbXRP",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBXRP.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBXRP.png",
+      "type": "bluechip"
     },
     {
       "chainId": 8453,
@@ -177,7 +180,8 @@
       "name": "Coinbase Wrapped ADA",
       "symbol": "cbADA",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBADA.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBADA.png",
+      "type": "bluechip"
     },
     {
       "chainId": 8453,
@@ -185,7 +189,8 @@
       "name": "Coinbase Wrapped LTC",
       "symbol": "cbLTC",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBLTC.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBLTC.png",
+      "type": "bluechip"
     },
     {
       "chainId": 8453,
@@ -193,7 +198,8 @@
       "name": "Coinbase Wrapped Staked ETH",
       "symbol": "cbETH",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/cbETH/logo.svg"
+      "logoURI": "https://ethereum-optimism.github.io/data/cbETH/logo.svg",
+      "type": "bluechip"
     },
     {
       "chainId": 8453,
@@ -225,7 +231,8 @@
       "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg"
+      "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
+      "type": "stablecoin"
     },
     {
       "chainId": 8453,
@@ -265,7 +272,8 @@
       "name": "EURC",
       "symbol": "EURC",
       "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/26045/standard/euro.png"
+      "logoURI": "https://assets.coingecko.com/coins/images/26045/standard/euro.png",
+      "type": "stablecoin"
     },
     {
       "chainId": 8453,
@@ -313,7 +321,8 @@
       "name": "Frax USD",
       "symbol": "frxUSD",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FRXUSD.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FRXUSD.png",
+      "type": "stablecoin"
     },
     {
       "chainId": 8453,
@@ -337,7 +346,8 @@
       "name": "Gho Token",
       "symbol": "GHO",
       "decimals": 18,
-      "logoURI": "https://coin-images.coingecko.com/coins/images/30663/large/gho-token-logo.png?1720517092"
+      "logoURI": "https://coin-images.coingecko.com/coins/images/30663/large/gho-token-logo.png?1720517092",
+      "type": "stablecoin"
     },
     {
       "chainId": 8453,
@@ -489,7 +499,8 @@
       "name": "Threshold BTC",
       "symbol": "tBTC",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TBTC.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TBTC.png",
+      "type": "bluechip"
     },
     {
       "chainId": 8453,
@@ -505,7 +516,7 @@
       "name": "USD Base Coin",
       "symbol": "USDbC",
       "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDC.png"
     },
     {
       "chainId": 8453,
@@ -513,7 +524,8 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/data/USDC/logo.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDC.png",
+      "type": "stablecoin"
     },
     {
       "chainId": 8453,
@@ -521,7 +533,8 @@
       "name": "USD Sky",
       "symbol": "USDS",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDS.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDS.png",
+      "type": "stablecoin"
     },
     {
       "chainId": 8453,
@@ -529,7 +542,8 @@
       "name": "Tether USD",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+      "type": "stablecoin"
     },
     {
       "chainId": 8453,
@@ -537,7 +551,8 @@
       "name": "Bridged USDT0",
       "symbol": "USDT0",
       "decimals": 6,
-      "logoURI": "https://assets.coingecko.com/coins/images/53705/large/usdt0.jpg?1737086183"
+      "logoURI": "https://assets.coingecko.com/coins/images/53705/large/usdt0.jpg?1737086183",
+      "type": "stablecoin"
     },
     {
       "chainId": 8453,
@@ -569,7 +584,8 @@
       "name": "Wrapped eETH",
       "symbol": "weETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WEETH.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WEETH.png",
+      "type": "bluechip"
     },
     {
       "chainId": 8453,
@@ -577,7 +593,8 @@
       "name": "Wrapped Ether",
       "symbol": "WETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WETH.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WETH.png",
+      "type": "bluechip"
     },
     {
       "chainId": 8453,
@@ -625,7 +642,26 @@
       "name": "Lido Wrapped stETH",
       "symbol": "wstETH",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WSTETH.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WSTETH.png",
+      "type": "bluechip"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb600ce2781e5018b922ca471c19562799cb96ead",
+      "name": "tinysoulgame",
+      "symbol": "tinysoulgame",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TINYSOULGAME.png",
+      "type": "zora-creator"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xd769d56f479e9e72a77bb1523e866a33098feec5",
+      "name": "Base is for everyone",
+      "symbol": "Base is for everyone",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BASEISFOREVERYONE.png",
+      "type": "zora-post"
     },
     {
       "chainId": 84532,

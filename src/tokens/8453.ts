@@ -161,6 +161,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBBTC.png",
+    type: "bluechip",
   },
   {
     chainId: 8453,
@@ -170,6 +171,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBDOGE.png",
+    type: "bluechip",
   },
   {
     chainId: 8453,
@@ -179,6 +181,7 @@ export const tokens: Token[] = [
     decimals: 6,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBXRP.png",
+    type: "bluechip",
   },
   {
     chainId: 8453,
@@ -188,6 +191,7 @@ export const tokens: Token[] = [
     decimals: 6,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBADA.png",
+    type: "bluechip",
   },
   {
     chainId: 8453,
@@ -197,6 +201,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBLTC.png",
+    type: "bluechip",
   },
   {
     chainId: 8453,
@@ -205,6 +210,7 @@ export const tokens: Token[] = [
     symbol: "cbETH",
     decimals: 18,
     logoURI: "https://ethereum-optimism.github.io/data/cbETH/logo.svg",
+    type: "bluechip",
   },
   {
     chainId: 8453,
@@ -239,6 +245,7 @@ export const tokens: Token[] = [
     symbol: "DAI",
     decimals: 18,
     logoURI: "https://ethereum-optimism.github.io/data/DAI/logo.svg",
+    type: "stablecoin",
   },
   {
     chainId: 8453,
@@ -284,6 +291,7 @@ export const tokens: Token[] = [
     decimals: 6,
     logoURI:
       "https://assets.coingecko.com/coins/images/26045/standard/euro.png",
+    type: "stablecoin",
   },
   {
     chainId: 8453,
@@ -338,6 +346,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FRXUSD.png",
+    type: "stablecoin",
   },
   {
     chainId: 8453,
@@ -364,6 +373,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI:
       "https://coin-images.coingecko.com/coins/images/30663/large/gho-token-logo.png?1720517092",
+    type: "stablecoin",
   },
   {
     chainId: 8453,
@@ -534,6 +544,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TBTC.png",
+    type: "bluechip",
   },
   {
     chainId: 8453,
@@ -550,7 +561,8 @@ export const tokens: Token[] = [
     name: "USD Base Coin",
     symbol: "USDbC",
     decimals: 6,
-    logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDC.png",
   },
   {
     chainId: 8453,
@@ -558,7 +570,9 @@ export const tokens: Token[] = [
     name: "USD Coin",
     symbol: "USDC",
     decimals: 6,
-    logoURI: "https://ethereum-optimism.github.io/data/USDC/logo.png",
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDC.png",
+    type: "stablecoin",
   },
   {
     chainId: 8453,
@@ -568,6 +582,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDS.png",
+    type: "stablecoin",
   },
   {
     chainId: 8453,
@@ -577,6 +592,7 @@ export const tokens: Token[] = [
     decimals: 6,
     logoURI:
       "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    type: "stablecoin",
   },
   {
     chainId: 8453,
@@ -586,6 +602,7 @@ export const tokens: Token[] = [
     decimals: 6,
     logoURI:
       "https://assets.coingecko.com/coins/images/53705/large/usdt0.jpg?1737086183",
+    type: "stablecoin",
   },
   {
     chainId: 8453,
@@ -622,6 +639,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WEETH.png",
+    type: "bluechip",
   },
   {
     chainId: 8453,
@@ -631,6 +649,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WETH.png",
+    type: "bluechip",
   },
   {
     chainId: 8453,
@@ -684,5 +703,28 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WSTETH.png",
+    type: "bluechip",
+  },
+
+  // Zora
+  {
+    chainId: 8453,
+    address: "0xb600ce2781e5018b922ca471c19562799cb96ead",
+    name: "tinysoulgame",
+    symbol: "tinysoulgame",
+    decimals: 18,
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TINYSOULGAME.png",
+    type: "zora-creator",
+  },
+  {
+    chainId: 8453,
+    address: "0xd769d56f479e9e72a77bb1523e866a33098feec5",
+    name: "Base is for everyone",
+    symbol: "Base is for everyone",
+    decimals: 18,
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BASEISFOREVERYONE.png",
+    type: "zora-post",
   },
 ];

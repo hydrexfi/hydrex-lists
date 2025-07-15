@@ -15,6 +15,7 @@ export interface Token {
   symbol: string;
   decimals: number;
   logoURI: string;
+  type?: "stablecoin" | "bluechip" | "zora-creator" | "zora-post";
 }
 
 export interface TokenList {
