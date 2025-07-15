@@ -80,7 +80,7 @@ const Badges: Badge[] = [
     minHydropoints: 1000,
     poolSize: 250000,
     maxSupply: 100,
-    externalLink: "https://based.so/",
+    externalLink: "https://opensea.io/collection/basedpunks",
   },
   {
     name: "Society of Apes",
@@ -127,7 +127,7 @@ const Badges: Badge[] = [
     minHydropoints: 1000,
     poolSize: 250000,
     maxSupply: 100,
-    externalLink: "https://www.basenjibase.com/",
+    externalLink: "https://opensea.io/collection/basenjinfts",
   },
   {
     name: "B3 Player",
