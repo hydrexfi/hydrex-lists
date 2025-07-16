@@ -342,6 +342,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0x64cc19A52f4D631eF5BE07947CABA14aE00c52Eb",
+      "name": "Cat Town",
+      "symbol": "KIBBLE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BASEISFOREVERYONE.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0x6Bb7a212910682DCFdbd5BCBb3e28FB4E8da10Ee",
       "name": "Gho Token",
       "symbol": "GHO",
