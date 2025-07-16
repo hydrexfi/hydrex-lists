@@ -372,7 +372,7 @@ export const tokens: Token[] = [
     symbol: "KIBBLE",
     decimals: 18,
     logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BASEISFOREVERYONE.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KIBBLE.png",
   },
   {
     chainId: 8453,
