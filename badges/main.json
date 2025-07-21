@@ -73,21 +73,6 @@
     "externalLink": "https://opensea.io/collection/basedpunks"
   },
   {
-    "name": "Society of Apes",
-    "nftId": "34",
-    "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/badges/34.png",
-    "rewardImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/badges/34.png",
-    "description": "Own an Ape Society NFT",
-    "fullDescription": "Claim this badge by holding an Ape Society NFT in your wallet.",
-    "type": "Activity",
-    "category": "NFT",
-    "partnerName": "Ape Society",
-    "minHydropoints": 1000,
-    "poolSize": 250000,
-    "maxSupply": 100,
-    "externalLink": "https://opensea.io/collection/t-a-s"
-  },
-  {
     "name": "NFToshi",
     "nftId": "35",
     "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/badges/35.png",
