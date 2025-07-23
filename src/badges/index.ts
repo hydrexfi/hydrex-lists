@@ -15,9 +15,9 @@ const Badges: Badge[] = [
     type: "Activity",
     category: "Based",
     partnerName: "Base App",
-    minHydropoints: 1000,
+    minHydropoints: 10,
     poolSize: 250000,
-    maxSupply: 10,
+    maxSupply: 1000,
     externalLink: "https://base.org",
   },
   {
