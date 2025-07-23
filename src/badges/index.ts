@@ -18,7 +18,7 @@ const Badges: Badge[] = [
     minHydropoints: 10,
     poolSize: 250000,
     maxSupply: 1000,
-    externalLink: "https://base.org",
+    externalLink: "https://join.base.app",
   },
   {
     name: "Vote Escrow Maxi",
