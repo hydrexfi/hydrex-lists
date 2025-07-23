@@ -5,6 +5,22 @@ const LINK_PREFIX =
 
 const Badges: Badge[] = [
   {
+    name: "TBA Creator",
+    nftId: "37",
+    image: `${LINK_PREFIX}/37.png`,
+    rewardImage: `${LINK_PREFIX}/37.png`,
+    description: "Coin Base App Content",
+    fullDescription:
+      "Claim this badge by coining a piece of content in the Base App.",
+    type: "Activity",
+    category: "Based",
+    partnerName: "Base App",
+    minHydropoints: 1000,
+    poolSize: 250000,
+    maxSupply: 10,
+    externalLink: "https://base.org",
+  },
+  {
     name: "Vote Escrow Maxi",
     nftId: "17",
     image: `${LINK_PREFIX}/17.png`,
