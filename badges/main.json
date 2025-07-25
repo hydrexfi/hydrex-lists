@@ -9,8 +9,8 @@
     "type": "Activity",
     "category": "Based",
     "partnerName": "Base App",
-    "minHydropoints": 10,
-    "poolSize": 250000,
+    "minHydropoints": 0,
+    "poolSize": 100000,
     "maxSupply": 1000,
     "externalLink": "https://join.base.app"
   },
