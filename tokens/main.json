@@ -334,6 +334,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
+      "name": "IDRX",
+      "symbol": "IDRX",
+      "decimals": 2,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/IDRX.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0xFf9957816c813C5Ad0b9881A8990Df1E3AA2a057",
       "name": "Geojam",
       "symbol": "JAM",
