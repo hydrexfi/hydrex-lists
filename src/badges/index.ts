@@ -34,6 +34,22 @@ const Badges: Badge[] = [
     minHydropoints: 1000,
     metric: "Locked veTokens",
   },
+  // {
+  //   name: "Clank, Clank",
+  //   nftId: "38",
+  //   image: `${LINK_PREFIX}/38.png`,
+  //   rewardImage: `${LINK_PREFIX}/38.png`,
+  //   description: "Use Clanker to Deploy",
+  //   fullDescription:
+  //     "Claim this badge by using Clanker to deploy a token on Base.",
+  //   type: "Partner",
+  //   category: "Memes",
+  //   partnerName: "Clanker",
+  //   minHydropoints: 1000,
+  //   poolSize: 250000,
+  //   maxSupply: 250,
+  //   externalLink: "https://clanker.world",
+  // },
   {
     name: "BASED DAO",
     nftId: "30",
