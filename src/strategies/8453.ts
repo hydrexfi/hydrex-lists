@@ -19,7 +19,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x4200000000000000000000000000000000000006",
-    tags: ["bluechip"],
+    tags: ["bluechip", "safe"],
   },
   {
     chainId: 8453,
@@ -33,7 +33,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     depositToken: "0x4200000000000000000000000000000000000006",
-    tags: ["bluechip"],
+    tags: ["bluechip", "safe"],
   },
   {
     chainId: 8453,
@@ -47,7 +47,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["stable", "correlated"],
+    tags: ["stable", "correlated", "safe"],
   },
   {
     chainId: 8453,
@@ -61,7 +61,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     depositToken: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-    tags: ["bluechip"],
+    tags: ["bluechip", "safe"],
   },
   {
     chainId: 8453,
@@ -75,7 +75,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
     depositToken: "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
-    tags: ["bluechip", "correlated"],
+    tags: ["bluechip", "correlated", "safe"],
   },
   {
     chainId: 8453,
@@ -89,7 +89,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x1111111111166b7FE7bd91427724B487980aFc69",
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x1111111111166b7FE7bd91427724B487980aFc69",
-    tags: ["ecosystem"],
+    tags: ["ecosystem", "exotic"],
   },
   {
     chainId: 8453,
@@ -103,7 +103,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xAC1Bd2486aAf3B5C0fc3Fd868558b082a531B2B4",
     depositToken: "0xAC1Bd2486aAf3B5C0fc3Fd868558b082a531B2B4",
-    tags: ["memecoin"],
+    tags: ["memecoin", "exotic"],
   },
   {
     chainId: 8453,
@@ -117,7 +117,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xBC45647eA894030a4E9801Ec03479739FA2485F0",
     depositToken: "0xBC45647eA894030a4E9801Ec03479739FA2485F0",
-    tags: ["memecoin"],
+    tags: ["memecoin", "exotic"],
   },
   {
     chainId: 8453,
@@ -131,7 +131,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x532f27101965dd16442E59d40670FaF5eBB142E4",
     depositToken: "0x532f27101965dd16442E59d40670FaF5eBB142E4",
-    tags: ["memecoin"],
+    tags: ["memecoin", "exotic"],
   },
   {
     chainId: 8453,
@@ -145,7 +145,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x4F9Fd6Be4a90f2620860d680c0d4d5Fb53d1A825",
     depositToken: "0x4F9Fd6Be4a90f2620860d680c0d4d5Fb53d1A825",
-    tags: ["memecoin"],
+    tags: ["memecoin", "exotic"],
   },
   {
     chainId: 8453,
@@ -160,7 +160,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x64cc19A52f4D631eF5BE07947CABA14aE00c52Eb",
     v4PoolId:
       "0xb7af3f156e4fba06eb87421eaad538de9763b59f50b0911c62cc7024b5d65ee4",
-    tags: ["memecoin"],
+    tags: ["memecoin", "exotic"],
   },
 
   {
@@ -175,7 +175,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x4200000000000000000000000000000000000006",
-    tags: ["bluechip", "correlated"],
+    tags: ["bluechip", "correlated", "safe"],
   },
   {
     chainId: 8453,
@@ -189,7 +189,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     depositToken: "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
-    tags: ["bluechip", "correlated"],
+    tags: ["bluechip", "correlated", "safe"],
   },
   {
     chainId: 8453,
@@ -203,7 +203,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["stable", "correlated"],
+    tags: ["stable", "correlated", "safe"],
   },
   {
     chainId: 8453,
@@ -217,7 +217,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["bluechip"],
+    tags: ["bluechip", "safe"],
   },
   {
     chainId: 8453,
@@ -245,7 +245,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xcbADA732173e39521CDBE8bf59a6Dc85A9fc7b8c",
     depositToken: "0xcbADA732173e39521CDBE8bf59a6Dc85A9fc7b8c",
-    tags: ["bluechip"],
+    tags: ["bluechip", "standard"],
   },
   {
     chainId: 8453,
@@ -259,7 +259,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xcb17C9Db87B595717C857a08468793f5bAb6445F",
     depositToken: "0xcb17C9Db87B595717C857a08468793f5bAb6445F",
-    tags: ["bluechip"],
+    tags: ["bluechip", "standard"],
   },
   {
     chainId: 8453,
@@ -273,7 +273,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xcbD06E5A2B0C65597161de254AA074E489dEb510",
     depositToken: "0xcbD06E5A2B0C65597161de254AA074E489dEb510",
-    tags: ["memecoin", "bluechip"],
+    tags: ["memecoin", "bluechip", "standard"],
   },
   {
     chainId: 8453,
@@ -287,7 +287,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xcb585250f852C6c6bf90434AB21A00f02833a4af",
     depositToken: "0xcb585250f852C6c6bf90434AB21A00f02833a4af",
-    tags: ["bluechip"],
+    tags: ["bluechip", "standard"],
   },
   {
     chainId: 8453,
@@ -301,7 +301,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     depositToken: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-    tags: ["bluechip"],
+    tags: ["bluechip", "safe"],
   },
   {
     chainId: 8453,
@@ -315,7 +315,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
     depositToken: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
-    tags: ["bluechip"],
+    tags: ["bluechip", "safe"],
   },
   {
     chainId: 8453,
@@ -330,7 +330,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     v4PoolId:
       "0xa18262d729e388b0a67aa65c0dd2a096482b3a27058be5547a3235d053dd90b4",
-    tags: ["stable", "correlated"],
+    tags: ["stable", "correlated", "safe"],
   },
   {
     chainId: 8453,
@@ -345,6 +345,6 @@ export const strategies: Strategy[] = [
     token1Address: "0x102d758f688a4C1C5a80b116bD945d4455460282",
     v4PoolId:
       "0xf36aa3809afef1433f731a64d34df3d2e1a129b60f15f85eeda713f7694ab2b3",
-    tags: ["bluechip"],
+    tags: ["bluechip", "safe"],
   },
 ];

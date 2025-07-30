@@ -11,7 +11,10 @@ export type StrategyTag =
   | "correlated"
   | "bluechip"
   | "memecoin"
-  | "ecosystem";
+  | "ecosystem"
+  | "safe"
+  | "standard"
+  | "exotic";
 
 export const ETH_NATIVE_ADDRESS = "0x0000000000000000000000000000000000000000";
 
