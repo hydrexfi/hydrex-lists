@@ -6,6 +6,16 @@ export type StrategyType =
   | "Single Sided";
 export type Strategist = "Ichi" | "Gamma";
 
+export type StrategyTag =
+  | "stable"
+  | "correlated"
+  | "bluechip"
+  | "memecoin"
+  | "ecosystem"
+  | "safe"
+  | "standard"
+  | "exotic";
+
 export const ETH_NATIVE_ADDRESS = "0x0000000000000000000000000000000000000000";
 
 export interface Token {
@@ -71,6 +81,7 @@ export interface Strategy {
   token0Address?: string;
   token1Address?: string;
   v4PoolId?: string;
+  tags?: StrategyTag[];
 }
 
 export const LOW_RISK_STRING =
