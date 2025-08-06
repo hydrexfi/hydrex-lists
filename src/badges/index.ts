@@ -248,6 +248,22 @@ const Badges: Badge[] = [
   //   externalLink: "https://opensea.io/collection/t-a-s",
   // },
   {
+    name: "Cat Town Collector",
+    nftId: "39",
+    image: `${LINK_PREFIX}/39.png`,
+    rewardImage: `${LINK_PREFIX}/39.png`,
+    description: "Own a Founder NFT",
+    fullDescription:
+      "Claim this badge by having held a Cat Town Founder NFT in your wallet for at least 1 month.",
+    type: "Activity",
+    category: "NFT",
+    partnerName: "Cat Town",
+    minHydropoints: 1000,
+    poolSize: 250000,
+    maxSupply: 100,
+    externalLink: "https://opensea.io/collection/cat-town-founder-collection",
+  },
+  {
     name: "OG Base Fren",
     nftId: "28",
     image: `${LINK_PREFIX}/28.png`,
