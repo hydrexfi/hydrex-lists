@@ -93,6 +93,21 @@
     "poolSize": 2000000
   },
   {
+    "name": "Clank, Clank",
+    "nftId": "38",
+    "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/badges/38.png",
+    "rewardImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/badges/38.png",
+    "description": "Clank a Token on Base",
+    "fullDescription": "Claim this badge by using Clanker to deploy a token on Base.",
+    "type": "Partner",
+    "category": "Memes",
+    "partnerName": "Clanker",
+    "minHydropoints": 1000,
+    "poolSize": 250000,
+    "maxSupply": 500,
+    "externalLink": "https://clanker.world"
+  },
+  {
     "name": "Squad Up",
     "nftId": "8",
     "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/badges/8.png",
