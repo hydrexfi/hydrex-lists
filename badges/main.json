@@ -222,8 +222,8 @@
     "category": "Social",
     "partnerName": "Hydrex",
     "minHydropoints": 1000,
-    "poolSize": 250000,
-    "maxSupply": 1000
+    "poolSize": 125000,
+    "maxSupply": 500
   },
   {
     "name": "Fren Magnet",
@@ -236,8 +236,8 @@
     "category": "Social",
     "partnerName": "Hydrex",
     "minHydropoints": 5000,
-    "poolSize": 1250000,
-    "maxSupply": 250
+    "poolSize": 625000,
+    "maxSupply": 125
   },
   {
     "name": "Hydrex Ambassador",
@@ -250,8 +250,8 @@
     "category": "Social",
     "partnerName": "Hydrex",
     "minHydropoints": 10000,
-    "poolSize": 1500000,
-    "maxSupply": 100
+    "poolSize": 750000,
+    "maxSupply": 50
   },
   {
     "name": "Hydrex KOL",
@@ -264,8 +264,8 @@
     "category": "Social",
     "partnerName": "Hydrex",
     "minHydropoints": 25000,
-    "poolSize": 2500000,
-    "maxSupply": 50
+    "poolSize": 1250000,
+    "maxSupply": 25
   },
   {
     "name": "Cat Town Collector",

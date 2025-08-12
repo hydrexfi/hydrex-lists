@@ -259,8 +259,8 @@ const Badges: Badge[] = [
     category: "Social",
     partnerName: "Hydrex",
     minHydropoints: 1000,
-    poolSize: 250000,
-    maxSupply: 1000,
+    poolSize: 250000 / 2,
+    maxSupply: 500,
   },
   {
     name: "Fren Magnet",
@@ -274,8 +274,8 @@ const Badges: Badge[] = [
     category: "Social",
     partnerName: "Hydrex",
     minHydropoints: 5000,
-    poolSize: 250 * 5000,
-    maxSupply: 250,
+    poolSize: 125 * 5000,
+    maxSupply: 125,
   },
   {
     name: "Hydrex Ambassador",
@@ -289,8 +289,8 @@ const Badges: Badge[] = [
     category: "Social",
     partnerName: "Hydrex",
     minHydropoints: 10000,
-    poolSize: 100 * 15000,
-    maxSupply: 100,
+    poolSize: 50 * 15000,
+    maxSupply: 50,
   },
   {
     name: "Hydrex KOL",
@@ -304,8 +304,8 @@ const Badges: Badge[] = [
     category: "Social",
     partnerName: "Hydrex",
     minHydropoints: 25000,
-    poolSize: 50 * 50000,
-    maxSupply: 50,
+    poolSize: 25 * 50000,
+    maxSupply: 25,
   },
   {
     name: "Cat Town Collector",
