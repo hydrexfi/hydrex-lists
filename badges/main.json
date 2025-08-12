@@ -222,7 +222,7 @@
     "category": "Social",
     "partnerName": "Hydrex",
     "minHydropoints": 1000,
-    "poolSize": 125000,
+    "poolSize": 187500,
     "maxSupply": 500
   },
   {
@@ -236,7 +236,7 @@
     "category": "Social",
     "partnerName": "Hydrex",
     "minHydropoints": 5000,
-    "poolSize": 625000,
+    "poolSize": 937500,
     "maxSupply": 125
   },
   {
@@ -250,7 +250,7 @@
     "category": "Social",
     "partnerName": "Hydrex",
     "minHydropoints": 10000,
-    "poolSize": 750000,
+    "poolSize": 1125000,
     "maxSupply": 50
   },
   {
@@ -264,7 +264,7 @@
     "category": "Social",
     "partnerName": "Hydrex",
     "minHydropoints": 25000,
-    "poolSize": 1250000,
+    "poolSize": 1875000,
     "maxSupply": 25
   },
   {

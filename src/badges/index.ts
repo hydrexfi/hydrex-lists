@@ -259,7 +259,7 @@ const Badges: Badge[] = [
     category: "Social",
     partnerName: "Hydrex",
     minHydropoints: 1000,
-    poolSize: 250000 / 2,
+    poolSize: (250000 / 2) * 1.5,
     maxSupply: 500,
   },
   {
@@ -274,7 +274,7 @@ const Badges: Badge[] = [
     category: "Social",
     partnerName: "Hydrex",
     minHydropoints: 5000,
-    poolSize: 125 * 5000,
+    poolSize: 125 * 5000 * 1.5,
     maxSupply: 125,
   },
   {
@@ -289,7 +289,7 @@ const Badges: Badge[] = [
     category: "Social",
     partnerName: "Hydrex",
     minHydropoints: 10000,
-    poolSize: 50 * 15000,
+    poolSize: 50 * 15000 * 1.5,
     maxSupply: 50,
   },
   {
@@ -304,7 +304,7 @@ const Badges: Badge[] = [
     category: "Social",
     partnerName: "Hydrex",
     minHydropoints: 25000,
-    poolSize: 25 * 50000,
+    poolSize: 25 * 50000 * 1.5,
     maxSupply: 25,
   },
   {
