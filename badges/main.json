@@ -341,6 +341,21 @@
     "externalLink": "https://cat.town/"
   },
   {
+    "name": "It's a Me, Bario!",
+    "nftId": "25",
+    "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/badges/25.png",
+    "rewardImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/badges/25.png",
+    "description": "For BARIO Token Holders",
+    "fullDescription": "Claim this badge by holding at least 1,000,000 BARIO tokens in your wallet.",
+    "type": "Partner",
+    "category": "Gaming",
+    "partnerName": "Bario",
+    "minHydropoints": 1000,
+    "poolSize": 500000,
+    "maxSupply": 100,
+    "externalLink": "https://baes.so/#token"
+  },
+  {
     "name": "The Dropzone",
     "nftId": "26",
     "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/badges/26.png",
