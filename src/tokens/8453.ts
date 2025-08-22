@@ -362,7 +362,8 @@ export const tokens: Token[] = [
     name: "IDRX",
     symbol: "IDRX",
     decimals: 2,
-    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/IDRX.png",
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/IDRX.png",
   },
   {
     chainId: 8453,
@@ -508,6 +509,15 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI:
       "https://coin-images.coingecko.com/coins/images/8365/large/RSR_Blue_Circle_1000.png?1721777856",
+  },
+  {
+    chainId: 8453,
+    address: "0x6e2c81b6c2c0e02360f00a0da694e489acb0b05e",
+    name: "Reflect",
+    symbol: "RFL",
+    decimals: 18,
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RFL.png",
   },
   {
     chainId: 8453,
