@@ -111,7 +111,7 @@ const Badges: Badge[] = [
     rewardImage: `${LINK_PREFIX}/25.png`,
     description: "For BARIO Token Holders",
     fullDescription:
-      "Claim this badge by holding at least 1,000,000 BARIO tokens in your wallet.",
+      "Claim this badge by holding at least 1,000,000 BARIO tokens in your wallet for at least 1 week.",
     type: "Partner",
     category: "Gaming",
     partnerName: "Bario",
