@@ -5,7 +5,7 @@
     "name": "1inch",
     "symbol": "1INCH",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/13469/large/1inch-token.png?1608803028"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/1INCH.png"
   },
   {
     "chainId": 8453,
@@ -13,7 +13,7 @@
     "name": "Aave",
     "symbol": "AAVE",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/12645/large/AAVE.png?1601374110"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AAVE.png"
   },
   {
     "chainId": 8453,
@@ -21,7 +21,7 @@
     "name": "Arcblock",
     "symbol": "ABT",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/2341/large/arcblock.png?1547036543"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ABT.png"
   },
   {
     "chainId": 8453,
@@ -29,7 +29,7 @@
     "name": "Ambire AdEx",
     "symbol": "ADX",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/847/large/Ambire_AdEx_Symbol_color.png?1655432540"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ADX.png"
   },
   {
     "chainId": 8453,
@@ -37,7 +37,7 @@
     "name": "Aerodrome Finance",
     "symbol": "AERO",
     "decimals": 18,
-    "logoURI": "https://basescan.org/token/images/aerodrome_32.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AERO.png"
   },
   {
     "chainId": 8453,
@@ -45,7 +45,7 @@
     "name": "aixbt by Virtuals",
     "symbol": "AIXBT",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/51784/large/3.png?1731981138"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AIXBT.png"
   },
   {
     "chainId": 8453,
@@ -53,7 +53,7 @@
     "name": "Alethea Artificial Liquid Intelligence",
     "symbol": "ALI",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/22062/large/alethea-logo-transparent-colored.png?1642748848"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ALI.png"
   },
   {
     "chainId": 8453,
@@ -61,7 +61,7 @@
     "name": "AltLayer",
     "symbol": "ALT",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/34608/standard/Logomark_200x200.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ALT.png"
   },
   {
     "chainId": 8453,
@@ -69,7 +69,7 @@
     "name": "B3",
     "symbol": "B3",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/54287/large/B3.png?1739001374"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/B3.png"
   },
   {
     "chainId": 8453,
@@ -77,7 +77,7 @@
     "name": "Balancer",
     "symbol": "BAL",
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BAL.png"
   },
   {
     "chainId": 8453,
@@ -93,7 +93,7 @@
     "name": "Biconomy",
     "symbol": "BICO",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/21061/large/biconomy_logo.jpg?1638269749"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BICO.png"
   },
   {
     "chainId": 8453,
@@ -101,7 +101,7 @@
     "name": "HarryPotterObamaSonic10Inu",
     "symbol": "BITCOIN",
     "decimals": 8,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/30323/large/hpos10i_logo_casino_night-dexview.png?1696529224"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BITCOIN.png"
   },
   {
     "chainId": 8453,
@@ -125,7 +125,7 @@
     "name": "Boba Network",
     "symbol": "BOBA",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/20285/large/BOBA.png?1636811576"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BOBA.png"
   },
   {
     "chainId": 8453,
@@ -133,7 +133,7 @@
     "name": "Braintrust",
     "symbol": "BTRST",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/18100/large/braintrust.PNG?1630475394"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BTRST.png"
   },
   {
     "chainId": 8453,
@@ -194,7 +194,7 @@
     "name": "Coinbase Wrapped Staked ETH",
     "symbol": "cbETH",
     "decimals": 18,
-    "logoURI": "https://ethereum-optimism.github.io/data/cbETH/logo.svg",
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBETH.png",
     "type": "bluechip"
   },
   {
@@ -203,7 +203,7 @@
     "name": "tokenbot",
     "symbol": "CLANKER",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/51440/large/CLANKER.png?1731232869"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CLANKER.png"
   },
   {
     "chainId": 8453,
@@ -211,7 +211,7 @@
     "name": "Compound",
     "symbol": "COMP",
     "decimals": 18,
-    "logoURI": "https://ethereum-optimism.github.io/data/COMP/logo.svg"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/COMP.png"
   },
   {
     "chainId": 8453,
@@ -219,7 +219,7 @@
     "name": "Cookie",
     "symbol": "COOKIE",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/38450/large/cookie_token_logo_200x200.png?1733194528"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/COOKIE.png"
   },
   {
     "chainId": 8453,
@@ -227,7 +227,7 @@
     "name": "Dai Stablecoin",
     "symbol": "DAI",
     "decimals": 18,
-    "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DAI.png",
     "type": "stablecoin"
   },
   {
@@ -236,7 +236,7 @@
     "name": "Degen",
     "symbol": "DEGEN",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/34515/large/android-chrome-512x512.png?1706198225"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DEGEN.png"
   },
   {
     "chainId": 8453,
@@ -244,7 +244,7 @@
     "name": "doginme",
     "symbol": "doginme",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/35123/large/doginme-logo1-transparent200.png?1710856784"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOGINME.png"
   },
   {
     "chainId": 8453,
@@ -252,7 +252,7 @@
     "name": "Derive",
     "symbol": "DRV",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/52889/large/Token_Logo.png?1734601695"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DRV.png"
   },
   {
     "chainId": 8453,
@@ -260,7 +260,7 @@
     "name": "Definitive",
     "symbol": "EDGE",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/55072/large/EDGE-120x120.png?1743598652"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EDGE.png"
   },
   {
     "chainId": 8453,
@@ -268,7 +268,7 @@
     "name": "EURC",
     "symbol": "EURC",
     "decimals": 6,
-    "logoURI": "https://assets.coingecko.com/coins/images/26045/standard/euro.png",
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EURC.png",
     "type": "stablecoin"
   },
   {
@@ -277,7 +277,7 @@
     "name": "FAI",
     "symbol": "FAI",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/52315/large/FAI.png?1733076295"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FAI.png"
   },
   {
     "chainId": 8453,
@@ -285,7 +285,7 @@
     "name": "Harvest Finance",
     "symbol": "FARM",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/12304/large/Harvest.png?1613016180"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FARM.png"
   },
   {
     "chainId": 8453,
@@ -293,7 +293,7 @@
     "name": "Fetch ai",
     "symbol": "FET",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/5681/large/Fetch.jpg?1572098136"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FET.png"
   },
   {
     "chainId": 8453,
@@ -301,7 +301,7 @@
     "name": "Ampleforth Governance Token",
     "symbol": "FORTH",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/14917/large/photo_2021-04-22_00.00.03.jpeg?1619020835"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FORTH.png"
   },
   {
     "chainId": 8453,
@@ -309,7 +309,7 @@
     "name": "ShapeShift FOX Token",
     "symbol": "FOX",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/9988/large/FOX.png?1574330622"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FOX.png"
   },
   {
     "chainId": 8453,
@@ -326,7 +326,7 @@
     "name": "IoTeX",
     "symbol": "IOTX",
     "decimals": 18,
-    "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/2777.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/IOTX.png"
   },
   {
     "chainId": 8453,
@@ -342,7 +342,7 @@
     "name": "Geojam",
     "symbol": "JAM",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/24648/large/ey40AzBN_400x400.jpg?1648507272"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/JAM.png"
   },
   {
     "chainId": 8453,
@@ -358,7 +358,7 @@
     "name": "Gho Token",
     "symbol": "GHO",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/30663/large/gho-token-logo.png?1720517092",
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GHO.png",
     "type": "stablecoin"
   },
   {
@@ -367,7 +367,7 @@
     "name": "KAITO",
     "symbol": "KAITO",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/54411/large/Qm4DW488_400x400.jpg?1739552780"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KAITO.png"
   },
   {
     "chainId": 8453,
@@ -375,7 +375,7 @@
     "name": "Keyboard Cat",
     "symbol": "KEYCAT",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/36608/large/keyboard_cat.jpeg?1711965348"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KEYCAT.png"
   },
   {
     "chainId": 8453,
@@ -383,7 +383,7 @@
     "name": "KRYLL",
     "symbol": "KRL",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/2807/large/krl.png?1547036979"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KRL.png"
   },
   {
     "chainId": 8453,
@@ -391,7 +391,7 @@
     "name": "LCX",
     "symbol": "LCX",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/9985/large/zRPSu_0o_400x400.jpg?1574327008"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LCX.png"
   },
   {
     "chainId": 8453,
@@ -399,7 +399,7 @@
     "name": "Liquity",
     "symbol": "LQTY",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/14665/large/200-lqty-icon.png?1617631180"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LQTY.png"
   },
   {
     "chainId": 8453,
@@ -407,7 +407,7 @@
     "name": "PolySwarm",
     "symbol": "NCT",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/2843/large/ImcYCVfX_400x400.jpg?1628519767"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NCT.png"
   },
   {
     "chainId": 8453,
@@ -415,7 +415,7 @@
     "name": "Odos Token",
     "symbol": "ODOS",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/52914/large/odos.jpg?1734678948"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ODOS.png"
   },
   {
     "chainId": 8453,
@@ -423,7 +423,7 @@
     "name": "Origin Protocol",
     "symbol": "OGN",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/3296/large/op.jpg?1547037878"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OGN.png"
   },
   {
     "chainId": 8453,
@@ -431,7 +431,7 @@
     "name": "Pendle",
     "symbol": "PENDLE",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/15069/large/Pendle_Logo_Normal-03.png?1696514728"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PENDLE.png"
   },
   {
     "chainId": 8453,
@@ -439,7 +439,7 @@
     "name": "Pepe",
     "symbol": "PEPE",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1682922725"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PEPE.png"
   },
   {
     "chainId": 8453,
@@ -447,7 +447,7 @@
     "name": "Perpetual Protocol",
     "symbol": "PERP",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/12381/large/60d18e06844a844ad75901a9_mark_only_03.png?1628674771"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PERP.png"
   },
   {
     "chainId": 8453,
@@ -455,7 +455,7 @@
     "name": "Prompt",
     "symbol": "PROMPT",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/55169/large/wayfinder.jpg?1744336900"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PROMPT.png"
   },
   {
     "chainId": 8453,
@@ -463,7 +463,7 @@
     "name": "Reserve Rights",
     "symbol": "RSR",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/8365/large/RSR_Blue_Circle_1000.png?1721777856"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RSR.png"
   },
   {
     "chainId": 8453,
@@ -479,7 +479,7 @@
     "name": "Seamlesss",
     "symbol": "SEAM",
     "decimals": 18,
-    "logoURI": "https://basescan.org/token/images/seamless_32.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SEAM.png"
   },
   {
     "chainId": 8453,
@@ -487,7 +487,7 @@
     "name": "Status",
     "symbol": "SNT",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/779/large/status.png?1548610778"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SNT.png"
   },
   {
     "chainId": 8453,
@@ -495,7 +495,7 @@
     "name": "Synthetix Network Token",
     "symbol": "SNX",
     "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SNX.png"
   },
   {
     "chainId": 8453,
@@ -503,7 +503,7 @@
     "name": "SPX6900",
     "symbol": "SPX",
     "decimals": 8,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/31401/large/sticker_(1).jpg?1702371083"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPX.png"
   },
   {
     "chainId": 8453,
@@ -511,7 +511,7 @@
     "name": "Sushi",
     "symbol": "SUSHI",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/12271/large/512x512_Logo_no_chop.png?1606986688"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SUSHI.png"
   },
   {
     "chainId": 8453,
@@ -528,7 +528,7 @@
     "name": "Toshi",
     "symbol": "TOSHI",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/31126/large/Toshi_Logo_-_Circular.png?1721677476"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TOSHI.png"
   },
   {
     "chainId": 8453,
@@ -562,7 +562,7 @@
     "name": "Tether USD",
     "symbol": "USDT",
     "decimals": 6,
-    "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDT.png",
     "type": "stablecoin"
   },
   {
@@ -571,7 +571,7 @@
     "name": "Bridged USDT0",
     "symbol": "USDT0",
     "decimals": 6,
-    "logoURI": "https://assets.coingecko.com/coins/images/53705/large/usdt0.jpg?1737086183",
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDT0.png",
     "type": "stablecoin"
   },
   {
@@ -580,7 +580,7 @@
     "name": "Venice Token",
     "symbol": "VVV",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/54023/standard/Venice_Token_(1).png?1738017546"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VVV.png"
   },
   {
     "chainId": 8453,
@@ -588,7 +588,7 @@
     "name": "Wrapped Ampleforth",
     "symbol": "WAMPL",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/20825/large/photo_2021-11-25_02-05-11.jpg?1637811951"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WAMPL.png"
   },
   {
     "chainId": 8453,
@@ -596,7 +596,7 @@
     "name": "Moonwell",
     "symbol": "WELL",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/26133/large/WELL.png?1696525221"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WELL.png"
   },
   {
     "chainId": 8453,
@@ -622,7 +622,7 @@
     "name": "XYO Network",
     "symbol": "XYO",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/4519/large/XYO_Network-logo.png?1547039819"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/XYO.png"
   },
   {
     "chainId": 8453,
@@ -630,7 +630,7 @@
     "name": "yearn finance",
     "symbol": "YFI",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/11849/large/yfi-192x192.png?1598325330"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/YFI.png"
   },
   {
     "chainId": 8453,
@@ -638,7 +638,7 @@
     "name": "Zora",
     "symbol": "ZORA",
     "decimals": 18,
-    "logoURI": "https://coin-images.coingecko.com/coins/images/54693/large/zora.jpg?1741094751"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZORA.png"
   },
   {
     "chainId": 8453,
@@ -646,7 +646,7 @@
     "name": "LayerZero",
     "symbol": "ZRO",
     "decimals": 18,
-    "logoURI": "https://assets.coingecko.com/coins/images/28206/standard/ftxG9_TJ_400x400.jpeg?1696527208"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZRO.png"
   },
   {
     "chainId": 8453,
@@ -654,7 +654,7 @@
     "name": "0x Protocol Token",
     "symbol": "ZRX",
     "decimals": 18,
-    "logoURI": "https://ethereum-optimism.github.io/data/ZRX/logo.png"
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZRX.png"
   },
   {
     "chainId": 8453,
