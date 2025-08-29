@@ -81,6 +81,14 @@
   },
   {
     "chainId": 8453,
+    "address": "0x814fE70e85025BeC87d4Ad3F3b713bDCAAC0579B",
+    "name": "Bario",
+    "symbol": "BARIO",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BARIO.png"
+  },
+  {
+    "chainId": 8453,
     "address": "0xf5Dbaa3DFC5e81405c7306039fB037a3DCD57Ce2",
     "name": "Biconomy",
     "symbol": "BICO",
