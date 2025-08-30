@@ -8,7 +8,7 @@ export const tokens: Token[] = [
     symbol: "1INCH",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/13469/large/1inch-token.png?1608803028",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/1INCH.png",
   },
   {
     chainId: 8453,
@@ -17,7 +17,7 @@ export const tokens: Token[] = [
     symbol: "AAVE",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/12645/large/AAVE.png?1601374110",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AAVE.png",
   },
   {
     chainId: 8453,
@@ -26,7 +26,7 @@ export const tokens: Token[] = [
     symbol: "ABT",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/2341/large/arcblock.png?1547036543",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ABT.png",
   },
   {
     chainId: 8453,
@@ -35,7 +35,7 @@ export const tokens: Token[] = [
     symbol: "ADX",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/847/large/Ambire_AdEx_Symbol_color.png?1655432540",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ADX.png",
   },
   {
     chainId: 8453,
@@ -43,7 +43,7 @@ export const tokens: Token[] = [
     name: "Aerodrome Finance",
     symbol: "AERO",
     decimals: 18,
-    logoURI: "https://basescan.org/token/images/aerodrome_32.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AERO.png",
   },
   {
     chainId: 8453,
@@ -52,7 +52,7 @@ export const tokens: Token[] = [
     symbol: "AIXBT",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/51784/large/3.png?1731981138",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AIXBT.png",
   },
   {
     chainId: 8453,
@@ -61,7 +61,7 @@ export const tokens: Token[] = [
     symbol: "ALI",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/22062/large/alethea-logo-transparent-colored.png?1642748848",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ALI.png",
   },
   {
     chainId: 8453,
@@ -70,7 +70,7 @@ export const tokens: Token[] = [
     symbol: "ALT",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/34608/standard/Logomark_200x200.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ALT.png",
   },
   {
     chainId: 8453,
@@ -79,7 +79,7 @@ export const tokens: Token[] = [
     symbol: "B3",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/54287/large/B3.png?1739001374",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/B3.png",
   },
   {
     chainId: 8453,
@@ -88,7 +88,7 @@ export const tokens: Token[] = [
     symbol: "BAL",
     decimals: 18,
     logoURI:
-      "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BAL.png",
   },
   {
     chainId: 8453,
@@ -106,7 +106,7 @@ export const tokens: Token[] = [
     symbol: "BICO",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/21061/large/biconomy_logo.jpg?1638269749",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BICO.png",
   },
   {
     chainId: 8453,
@@ -115,7 +115,7 @@ export const tokens: Token[] = [
     symbol: "BITCOIN",
     decimals: 8,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/30323/large/hpos10i_logo_casino_night-dexview.png?1696529224",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BITCOIN.png",
   },
   {
     chainId: 8453,
@@ -142,7 +142,7 @@ export const tokens: Token[] = [
     symbol: "BOBA",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/20285/large/BOBA.png?1636811576",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BOBA.png",
   },
   {
     chainId: 8453,
@@ -151,7 +151,7 @@ export const tokens: Token[] = [
     symbol: "BTRST",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/18100/large/braintrust.PNG?1630475394",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BTRST.png",
   },
   {
     chainId: 8453,
@@ -218,7 +218,7 @@ export const tokens: Token[] = [
     name: "Coinbase Wrapped Staked ETH",
     symbol: "cbETH",
     decimals: 18,
-    logoURI: "https://ethereum-optimism.github.io/data/cbETH/logo.svg",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBETH.png",
     type: "bluechip",
   },
   {
@@ -228,7 +228,7 @@ export const tokens: Token[] = [
     symbol: "CLANKER",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/51440/large/CLANKER.png?1731232869",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CLANKER.png",
   },
   {
     chainId: 8453,
@@ -236,7 +236,7 @@ export const tokens: Token[] = [
     name: "Compound",
     symbol: "COMP",
     decimals: 18,
-    logoURI: "https://ethereum-optimism.github.io/data/COMP/logo.svg",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/COMP.png",
   },
   {
     chainId: 8453,
@@ -245,7 +245,7 @@ export const tokens: Token[] = [
     symbol: "COOKIE",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/38450/large/cookie_token_logo_200x200.png?1733194528",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/COOKIE.png",
   },
   {
     chainId: 8453,
@@ -253,7 +253,7 @@ export const tokens: Token[] = [
     name: "Dai Stablecoin",
     symbol: "DAI",
     decimals: 18,
-    logoURI: "https://ethereum-optimism.github.io/data/DAI/logo.svg",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DAI.png",
     type: "stablecoin",
   },
   {
@@ -263,7 +263,7 @@ export const tokens: Token[] = [
     symbol: "DEGEN",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/34515/large/android-chrome-512x512.png?1706198225",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DEGEN.png",
   },
   {
     chainId: 8453,
@@ -272,7 +272,7 @@ export const tokens: Token[] = [
     symbol: "doginme",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/35123/large/doginme-logo1-transparent200.png?1710856784",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOGINME.png",
   },
   {
     chainId: 8453,
@@ -281,7 +281,7 @@ export const tokens: Token[] = [
     symbol: "DRV",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/52889/large/Token_Logo.png?1734601695",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DRV.png",
   },
   {
     chainId: 8453,
@@ -290,7 +290,7 @@ export const tokens: Token[] = [
     symbol: "EDGE",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/55072/large/EDGE-120x120.png?1743598652",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EDGE.png",
   },
   {
     chainId: 8453,
@@ -299,7 +299,7 @@ export const tokens: Token[] = [
     symbol: "EURC",
     decimals: 6,
     logoURI:
-      "https://assets.coingecko.com/coins/images/26045/standard/euro.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EURC.png",
     type: "stablecoin",
   },
   {
@@ -309,7 +309,7 @@ export const tokens: Token[] = [
     symbol: "FAI",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/52315/large/FAI.png?1733076295",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FAI.png",
   },
   {
     chainId: 8453,
@@ -318,7 +318,7 @@ export const tokens: Token[] = [
     symbol: "FARM",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/12304/large/Harvest.png?1613016180",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FARM.png",
   },
   {
     chainId: 8453,
@@ -327,7 +327,7 @@ export const tokens: Token[] = [
     symbol: "FET",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/5681/large/Fetch.jpg?1572098136",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FET.png",
   },
   {
     chainId: 8453,
@@ -336,7 +336,7 @@ export const tokens: Token[] = [
     symbol: "FORTH",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/14917/large/photo_2021-04-22_00.00.03.jpeg?1619020835",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FORTH.png",
   },
   {
     chainId: 8453,
@@ -345,7 +345,7 @@ export const tokens: Token[] = [
     symbol: "FOX",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/9988/large/FOX.png?1574330622",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FOX.png",
   },
   {
     chainId: 8453,
@@ -363,7 +363,7 @@ export const tokens: Token[] = [
     name: "IoTeX",
     symbol: "IOTX",
     decimals: 18,
-    logoURI: "https://s2.coinmarketcap.com/static/img/coins/64x64/2777.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/IOTX.png",
   },
   {
     chainId: 8453,
@@ -381,7 +381,7 @@ export const tokens: Token[] = [
     symbol: "JAM",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/24648/large/ey40AzBN_400x400.jpg?1648507272",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/JAM.png",
   },
   {
     chainId: 8453,
@@ -399,7 +399,7 @@ export const tokens: Token[] = [
     symbol: "GHO",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/30663/large/gho-token-logo.png?1720517092",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GHO.png",
     type: "stablecoin",
   },
   {
@@ -409,7 +409,7 @@ export const tokens: Token[] = [
     symbol: "KAITO",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/54411/large/Qm4DW488_400x400.jpg?1739552780",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KAITO.png",
   },
   {
     chainId: 8453,
@@ -418,7 +418,7 @@ export const tokens: Token[] = [
     symbol: "KEYCAT",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/36608/large/keyboard_cat.jpeg?1711965348",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KEYCAT.png",
   },
   {
     chainId: 8453,
@@ -427,7 +427,7 @@ export const tokens: Token[] = [
     symbol: "KRL",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/2807/large/krl.png?1547036979",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KRL.png",
   },
   {
     chainId: 8453,
@@ -436,7 +436,7 @@ export const tokens: Token[] = [
     symbol: "LCX",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/9985/large/zRPSu_0o_400x400.jpg?1574327008",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LCX.png",
   },
   {
     chainId: 8453,
@@ -445,7 +445,7 @@ export const tokens: Token[] = [
     symbol: "LQTY",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/14665/large/200-lqty-icon.png?1617631180",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LQTY.png",
   },
   {
     chainId: 8453,
@@ -454,7 +454,7 @@ export const tokens: Token[] = [
     symbol: "NCT",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/2843/large/ImcYCVfX_400x400.jpg?1628519767",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NCT.png",
   },
   {
     chainId: 8453,
@@ -463,7 +463,7 @@ export const tokens: Token[] = [
     symbol: "ODOS",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/52914/large/odos.jpg?1734678948",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ODOS.png",
   },
   {
     chainId: 8453,
@@ -472,7 +472,7 @@ export const tokens: Token[] = [
     symbol: "OGN",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/3296/large/op.jpg?1547037878",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OGN.png",
   },
   {
     chainId: 8453,
@@ -481,7 +481,7 @@ export const tokens: Token[] = [
     symbol: "PENDLE",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/15069/large/Pendle_Logo_Normal-03.png?1696514728",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PENDLE.png",
   },
   {
     chainId: 8453,
@@ -490,7 +490,7 @@ export const tokens: Token[] = [
     symbol: "PEPE",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1682922725",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PEPE.png",
   },
   {
     chainId: 8453,
@@ -499,7 +499,7 @@ export const tokens: Token[] = [
     symbol: "PERP",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/12381/large/60d18e06844a844ad75901a9_mark_only_03.png?1628674771",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PERP.png",
   },
   {
     chainId: 8453,
@@ -508,7 +508,7 @@ export const tokens: Token[] = [
     symbol: "PROMPT",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/55169/large/wayfinder.jpg?1744336900",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PROMPT.png",
   },
   {
     chainId: 8453,
@@ -517,7 +517,7 @@ export const tokens: Token[] = [
     symbol: "RSR",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/8365/large/RSR_Blue_Circle_1000.png?1721777856",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RSR.png",
   },
   {
     chainId: 8453,
@@ -534,7 +534,7 @@ export const tokens: Token[] = [
     name: "Seamlesss",
     symbol: "SEAM",
     decimals: 18,
-    logoURI: "https://basescan.org/token/images/seamless_32.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SEAM.png",
   },
   {
     chainId: 8453,
@@ -543,7 +543,7 @@ export const tokens: Token[] = [
     symbol: "SNT",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/779/large/status.png?1548610778",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SNT.png",
   },
   {
     chainId: 8453,
@@ -552,7 +552,7 @@ export const tokens: Token[] = [
     symbol: "SNX",
     decimals: 18,
     logoURI:
-      "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F/logo.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SNX.png",
   },
   {
     chainId: 8453,
@@ -561,7 +561,7 @@ export const tokens: Token[] = [
     symbol: "SPX",
     decimals: 8,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/31401/large/sticker_(1).jpg?1702371083",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPX.png",
   },
   {
     chainId: 8453,
@@ -570,7 +570,7 @@ export const tokens: Token[] = [
     symbol: "SUSHI",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/12271/large/512x512_Logo_no_chop.png?1606986688",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SUSHI.png",
   },
   {
     chainId: 8453,
@@ -589,7 +589,7 @@ export const tokens: Token[] = [
     symbol: "TOSHI",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/31126/large/Toshi_Logo_-_Circular.png?1721677476",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TOSHI.png",
   },
   {
     chainId: 8453,
@@ -627,7 +627,7 @@ export const tokens: Token[] = [
     symbol: "USDT",
     decimals: 6,
     logoURI:
-      "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDT.png",
     type: "stablecoin",
   },
   {
@@ -637,7 +637,7 @@ export const tokens: Token[] = [
     symbol: "USDT0",
     decimals: 6,
     logoURI:
-      "https://assets.coingecko.com/coins/images/53705/large/usdt0.jpg?1737086183",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDT0.png",
     type: "stablecoin",
   },
   {
@@ -647,7 +647,7 @@ export const tokens: Token[] = [
     symbol: "VVV",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/54023/standard/Venice_Token_(1).png?1738017546",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VVV.png",
   },
   {
     chainId: 8453,
@@ -656,7 +656,7 @@ export const tokens: Token[] = [
     symbol: "WAMPL",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/20825/large/photo_2021-11-25_02-05-11.jpg?1637811951",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WAMPL.png",
   },
   {
     chainId: 8453,
@@ -665,7 +665,7 @@ export const tokens: Token[] = [
     symbol: "WELL",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/26133/large/WELL.png?1696525221",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WELL.png",
   },
   {
     chainId: 8453,
@@ -694,7 +694,7 @@ export const tokens: Token[] = [
     symbol: "XYO",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/4519/large/XYO_Network-logo.png?1547039819",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/XYO.png",
   },
   {
     chainId: 8453,
@@ -703,7 +703,7 @@ export const tokens: Token[] = [
     symbol: "YFI",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/11849/large/yfi-192x192.png?1598325330",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/YFI.png",
   },
   {
     chainId: 8453,
@@ -712,7 +712,7 @@ export const tokens: Token[] = [
     symbol: "ZORA",
     decimals: 18,
     logoURI:
-      "https://coin-images.coingecko.com/coins/images/54693/large/zora.jpg?1741094751",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZORA.png",
   },
   {
     chainId: 8453,
@@ -721,7 +721,7 @@ export const tokens: Token[] = [
     symbol: "ZRO",
     decimals: 18,
     logoURI:
-      "https://assets.coingecko.com/coins/images/28206/standard/ftxG9_TJ_400x400.jpeg?1696527208",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZRO.png",
   },
   {
     chainId: 8453,
@@ -729,7 +729,7 @@ export const tokens: Token[] = [
     name: "0x Protocol Token",
     symbol: "ZRX",
     decimals: 18,
-    logoURI: "https://ethereum-optimism.github.io/data/ZRX/logo.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZRX.png",
   },
   {
     chainId: 8453,
