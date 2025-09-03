@@ -341,6 +341,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
+    name: "BRZ Token",
+    symbol: "BRZ",
+    decimals: 18,
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRZ.png",
+  },
+  {
+    chainId: 8453,
     address: "0xCb327b99fF831bF8223cCEd12B1338FF3aA322Ff",
     name: "Reserve Based ETH",
     symbol: "bsdETH",
@@ -355,15 +364,6 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BTRST.png",
-  },
-  {
-    chainId: 8453,
-    address: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
-    name: "BRZ Token",
-    symbol: "BRZ",
-    decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRZ.png",
   },
   {
     chainId: 8453,
@@ -382,6 +382,16 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CARV.png",
+  },
+  {
+    chainId: 8453,
+    address: "0xcbada732173e39521cdbe8bf59a6dc85a9fc7b8c",
+    name: "Coinbase Wrapped ADA",
+    symbol: "cbADA",
+    decimals: 6,
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBADA.png",
+    type: "bluechip",
   },
   {
     chainId: 8453,
@@ -405,22 +415,11 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
-    address: "0xcb585250f852c6c6bf90434ab21a00f02833a4af",
-    name: "Coinbase Wrapped XRP",
-    symbol: "cbXRP",
-    decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBXRP.png",
-    type: "bluechip",
-  },
-  {
-    chainId: 8453,
-    address: "0xcbada732173e39521cdbe8bf59a6dc85a9fc7b8c",
-    name: "Coinbase Wrapped ADA",
-    symbol: "cbADA",
-    decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBADA.png",
+    address: "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    name: "Coinbase Wrapped Staked ETH",
+    symbol: "cbETH",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBETH.png",
     type: "bluechip",
   },
   {
@@ -435,11 +434,12 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
-    address: "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
-    name: "Coinbase Wrapped Staked ETH",
-    symbol: "cbETH",
-    decimals: 18,
-    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBETH.png",
+    address: "0xcb585250f852c6c6bf90434ab21a00f02833a4af",
+    name: "Coinbase Wrapped XRP",
+    symbol: "cbXRP",
+    decimals: 6,
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBXRP.png",
     type: "bluechip",
   },
   {
@@ -506,21 +506,21 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
-    address: "0x4621b7A9c75199271F773Ebd9A499dbd165c3191",
-    name: "DOLA Stablecoin",
-    symbol: "DOLA",
-    decimals: 18,
-    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOLA.png",
-    type: "stablecoin",
-  },
-  {
-    chainId: 8453,
     address: "0x6921B130D297cc43754afba22e5EAc0FBf8Db75b",
     name: "doginme",
     symbol: "doginme",
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOGINME.png",
+  },
+  {
+    chainId: 8453,
+    address: "0x4621b7A9c75199271F773Ebd9A499dbd165c3191",
+    name: "DOLA Stablecoin",
+    symbol: "DOLA",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOLA.png",
+    type: "stablecoin",
   },
   {
     chainId: 8453,
@@ -616,11 +616,13 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
-    address: "0xBCBAf311ceC8a4EAC0430193A528d9FF27ae38C1",
-    name: "IoTeX",
-    symbol: "IOTX",
+    address: "0x6Bb7a212910682DCFdbd5BCBb3e28FB4E8da10Ee",
+    name: "Gho Token",
+    symbol: "GHO",
     decimals: 18,
-    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/IOTX.png",
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GHO.png",
+    type: "stablecoin",
   },
   {
     chainId: 8453,
@@ -633,22 +635,20 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xBCBAf311ceC8a4EAC0430193A528d9FF27ae38C1",
+    name: "IoTeX",
+    symbol: "IOTX",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/IOTX.png",
+  },
+  {
+    chainId: 8453,
     address: "0x64cc19A52f4D631eF5BE07947CABA14aE00c52Eb",
     name: "Cat Town",
     symbol: "KIBBLE",
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KIBBLE.png",
-  },
-  {
-    chainId: 8453,
-    address: "0x6Bb7a212910682DCFdbd5BCBb3e28FB4E8da10Ee",
-    name: "Gho Token",
-    symbol: "GHO",
-    decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GHO.png",
-    type: "stablecoin",
   },
   {
     chainId: 8453,
@@ -724,21 +724,21 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
-    address: "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
-    name: "Reserve Rights",
-    symbol: "RSR",
-    decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RSR.png",
-  },
-  {
-    chainId: 8453,
     address: "0x6e2c81b6c2c0e02360f00a0da694e489acb0b05e",
     name: "Reflect",
     symbol: "RFL",
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RFL.png",
+  },
+  {
+    chainId: 8453,
+    address: "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
+    name: "Reserve Rights",
+    symbol: "RSR",
+    decimals: 18,
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RSR.png",
   },
   {
     chainId: 8453,
@@ -787,21 +787,21 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
-    address: "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
-    name: "USD Base Coin",
-    symbol: "USDbC",
-    decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDC.png",
-  },
-  {
-    chainId: 8453,
     address: "0xB79DD08EA68A908A97220C76d19A6aA9cBDE4376",
     name: "Overnight Finance USD+",
     symbol: "USD+",
     decimals: 6,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USD+.png",
+  },
+  {
+    chainId: 8453,
+    address: "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+    name: "USD Base Coin",
+    symbol: "USDbC",
+    decimals: 6,
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDC.png",
   },
   {
     chainId: 8453,
@@ -863,15 +863,6 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
-    address: "0xA88594D404727625A9437C3f886C7643872296AE",
-    name: "Moonwell",
-    symbol: "WELL",
-    decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WELL.png",
-  },
-  {
-    chainId: 8453,
     address: "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a",
     name: "Wrapped eETH",
     symbol: "weETH",
@@ -882,12 +873,31 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xA88594D404727625A9437C3f886C7643872296AE",
+    name: "Moonwell",
+    symbol: "WELL",
+    decimals: 18,
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WELL.png",
+  },
+  {
+    chainId: 8453,
     address: "0x4200000000000000000000000000000000000006",
     name: "Wrapped Ether",
     symbol: "WETH",
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WETH.png",
+    type: "bluechip",
+  },
+  {
+    chainId: 8453,
+    address: "0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452",
+    name: "Lido Wrapped stETH",
+    symbol: "wstETH",
+    decimals: 18,
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WSTETH.png",
     type: "bluechip",
   },
   {
@@ -934,28 +944,8 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZRX.png",
   },
-  {
-    chainId: 8453,
-    address: "0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452",
-    name: "Lido Wrapped stETH",
-    symbol: "wstETH",
-    decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WSTETH.png",
-    type: "bluechip",
-  },
 
   // Zora
-  {
-    chainId: 8453,
-    address: "0xb600ce2781e5018b922ca471c19562799cb96ead",
-    name: "tinysoulgame",
-    symbol: "tinysoulgame",
-    decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TINYSOULGAME.png",
-    type: "zora-creator",
-  },
   {
     chainId: 8453,
     address: "0xd769d56f479e9e72a77bb1523e866a33098feec5",
@@ -965,5 +955,15 @@ export const tokens: Token[] = [
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BASEISFOREVERYONE.png",
     type: "zora-post",
+  },
+  {
+    chainId: 8453,
+    address: "0xb600ce2781e5018b922ca471c19562799cb96ead",
+    name: "tinysoulgame",
+    symbol: "tinysoulgame",
+    decimals: 18,
+    logoURI:
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TINYSOULGAME.png",
+    type: "zora-creator",
   },
 ];
