@@ -12,7 +12,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xc5fecC3a29Fb57B5024eEc8a2239d4621e111CBE",
-    name: "1inch",
+    name: "1INCH Token",
     symbol: "1INCH",
     decimals: 18,
     logoURI:
@@ -21,7 +21,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x820C5F0fB255a1D18fd0eBB0F1CCefbC4D546dA7",
-    name: "a0x",
+    name: "A0x",
     symbol: "A0X",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/A0X.png",
@@ -29,7 +29,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xaaa843fb2916c0B57454270418E121C626402AAa",
-    name: "Arcadia Finance",
+    name: "Arcadia",
     symbol: "AAA",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AAA.png",
@@ -37,7 +37,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x63706e401c06ac8513145b7687A14804d17f814b",
-    name: "Aave",
+    name: "Aave Token",
     symbol: "AAVE",
     decimals: 18,
     logoURI:
@@ -46,7 +46,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xe2A8cCB00E328a0EC2204CB0c736309D7c1fa556",
-    name: "Arcblock",
+    name: "ArcBlock",
     symbol: "ABT",
     decimals: 18,
     logoURI:
@@ -73,7 +73,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x3c87e7AF3cDBAe5bB56b4936325Ea95CA3E0EfD9",
-    name: "Ambire AdEx",
+    name: "AdEx Network",
     symbol: "ADX",
     decimals: 18,
     logoURI:
@@ -82,7 +82,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
-    name: "Aerodrome Finance",
+    name: "Aerodrome",
     symbol: "AERO",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AERO.png",
@@ -99,7 +99,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xD71552d9e08E5351AdB52163B3bbbC4d7DE53Ce1",
-    name: "Solidus AI Tech",
+    name: "AITECH",
     symbol: "AITECH",
     decimals: 18,
     logoURI:
@@ -117,7 +117,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x76C71F1703Fbf19FFdcF3051E1e684Cb9934510f",
-    name: "aixCB",
+    name: "aixCB by Virtuals",
     symbol: "AIXCB",
     decimals: 18,
     logoURI:
@@ -126,7 +126,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x97c806e7665d3AFd84A8Fe1837921403D59F3Dcc",
-    name: "Alethea Artificial Liquid Intelligence",
+    name: "Artificial Liquid Intelligence Token",
     symbol: "ALI",
     decimals: 18,
     logoURI:
@@ -153,7 +153,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x58D75a1c4477914f9a98A8708fEaeD1DbE40b8a3",
-    name: "AthenaDAO",
+    name: "AthenaDAO Token",
     symbol: "ATH",
     decimals: 18,
     logoURI:
@@ -171,7 +171,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xd89d90d26B48940FA8F58385Fe84625d468E057a",
-    name: "Avail",
+    name: "Avail (Wormhole)",
     symbol: "AVAIL",
     decimals: 18,
     logoURI:
@@ -180,7 +180,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x1B4617734C43F6159F3a70b7E06d883647512778",
-    name: "Awe Network",
+    name: "AWE Network",
     symbol: "AWE",
     decimals: 18,
     logoURI:
@@ -189,7 +189,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xEB466342C4d449BC9f53A865D5Cb90586f405215",
-    name: "Axelar Bridged USDC",
+    name: "Axelar Wrapped USDC",
     symbol: "axlUSDC",
     decimals: 6,
     logoURI:
@@ -216,7 +216,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x814fE70e85025BeC87d4Ad3F3b713bDCAAC0579B",
-    name: "Bario",
+    name: "Based Mario",
     symbol: "BARIO",
     decimals: 18,
     logoURI:
@@ -252,7 +252,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x226A2FA2556C48245E57cd1cbA4C6c9e67077DD2",
-    name: "Bio Token",
+    name: "BIO",
     symbol: "BIO",
     decimals: 18,
     logoURI:
@@ -279,7 +279,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x616b416f777E3Dc904A44Aa259A475bf26d06Ef9",
-    name: "Blai",
+    name: "blai",
     symbol: "BLAI",
     decimals: 18,
     logoURI:
@@ -306,7 +306,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x1F9bD96DDB4Bd07d6061f8933e9bA9EDE9967550",
-    name: "Boba Network",
+    name: "Boba Token",
     symbol: "BOBA",
     decimals: 18,
     logoURI:
@@ -315,11 +315,12 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x03569CC076654F82679C4BA2124D64774781B01D",
-    name: "Bold Stablecoin",
+    name: "BOLD Stablecoin",
     symbol: "BOLD",
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BOLD.png",
+    type: "stablecoin",
   },
   {
     chainId: 8453,
@@ -351,7 +352,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xCb327b99fF831bF8223cCEd12B1338FF3aA322Ff",
-    name: "Reserve Based ETH",
+    name: "Based ETH",
     symbol: "bsdETH",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BSDETH.png",
@@ -359,7 +360,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xA7d68d155d17cB30e311367c2Ef1E82aB6022b67",
-    name: "Braintrust",
+    name: "BTRST",
     symbol: "BTRST",
     decimals: 18,
     logoURI:
@@ -377,7 +378,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
-    name: "CARV Labs",
+    name: "CARV",
     symbol: "CARV",
     decimals: 18,
     logoURI:
@@ -480,7 +481,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xc694a91e6b071bF030A18BD3053A7fE09B6DaE69",
-    name: "COW Token",
+    name: "CoW Protocol Token",
     symbol: "COW",
     decimals: 18,
     logoURI:
@@ -498,7 +499,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x1f4446fAAAed23090f324f051C3F8c5ce5aD1c36",
-    name: "CRYO Token",
+    name: "CryoDAO",
     symbol: "CRYO",
     decimals: 18,
     logoURI:
@@ -561,7 +562,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xDE5ed76E7c05eC5e4572CfC88d1ACEA165109E44",
-    name: "Deus Token",
+    name: "DEUS",
     symbol: "DEUS",
     decimals: 18,
     logoURI:
@@ -570,7 +571,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x54BC229d1cB15F8B6415EfEab4290a40bc8b7D84",
-    name: "dHEDGE DAO Token",
+    name: "dHedge DAO Token",
     symbol: "DHT",
     decimals: 18,
     logoURI:
@@ -579,7 +580,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xF4d97F2da56e8c3098f3a8D538DB630A2606a024",
-    name: "DIEM Token",
+    name: "Diem",
     symbol: "DIEM",
     decimals: 18,
     logoURI:
@@ -588,7 +589,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x56f8AD6112C2DB9F9848243531B277cE1C3BE30c",
-    name: "Dockerz XBT",
+    name: "dockerzxbt",
     symbol: "dockerzxbt",
     decimals: 18,
     logoURI:
@@ -606,7 +607,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x67f0870BB897F5E1c369976b4A2962d527B9562c",
-    name: "Department of Government Efficiency",
+    name: "Department Of Government Efficiency",
     symbol: "DOGE",
     decimals: 18,
     logoURI:
@@ -624,7 +625,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x4621b7A9c75199271F773Ebd9A499dbd165c3191",
-    name: "DOLA Stablecoin",
+    name: "Dola USD Stablecoin",
     symbol: "DOLA",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOLA.png",
@@ -633,7 +634,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x3ec2156D4c0A9CBdAB4a016633b7BcF6a8d68Ea2",
-    name: "Debt Relief Bot",
+    name: "DebtReliefBot",
     symbol: "DRB",
     decimals: 18,
     logoURI:
@@ -660,7 +661,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xED6E000dEF95780fb89734c07EE2ce9F6dcAf110",
-    name: "Definitive",
+    name: "Edge",
     symbol: "EDGE",
     decimals: 18,
     logoURI:
@@ -669,7 +670,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x2081Ab0D9EC9e4303234Ab26D86b20B3367946ee",
-    name: "Eigen Token",
+    name: "Eigen",
     symbol: "EIGEN",
     decimals: 18,
     logoURI:
@@ -687,7 +688,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x58538e6A46E07434d7E7375Bc268D3cb839C0133",
-    name: "Ethena",
+    name: "ENA",
     symbol: "ENA",
     decimals: 18,
     logoURI:
@@ -696,7 +697,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x6C240DDA6b5c336DF09A4D011139beAAa1eA2Aa2",
-    name: "ether.fi Governance Token",
+    name: "ether.fi governance token",
     symbol: "ETHFI",
     decimals: 18,
     logoURI:
@@ -724,8 +725,8 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
-    name: "eUSD",
-    symbol: "EUSD",
+    name: "Electronic Dollar",
+    symbol: "eUSD",
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EUSD.png",
@@ -760,7 +761,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xD08a2917653d4E460893203471f0000826fb4034",
-    name: "Harvest Finance",
+    name: "FARM Reward Token",
     symbol: "FARM",
     decimals: 18,
     logoURI:
@@ -778,7 +779,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x74F804B4140ee70830B3Eef4e690325841575F89",
-    name: "Fetch ai",
+    name: "Fetch",
     symbol: "FET",
     decimals: 18,
     logoURI:
@@ -805,7 +806,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x968B2323d4b005C7D39c67D31774FE83c9943A60",
-    name: "Ampleforth Governance Token",
+    name: "Ampleforth Governance",
     symbol: "FORTH",
     decimals: 18,
     logoURI:
@@ -814,7 +815,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x2dbe0d779c7A04F7a5de83326973effE23356930",
-    name: "ShapeShift FOX Token",
+    name: "ShapeShift FOX",
     symbol: "FOX",
     decimals: 18,
     logoURI:
@@ -878,7 +879,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x1db0c569ebb4a8b57AC01833B9792F526305e062",
-    name: "GENOME Token",
+    name: "GENOME",
     symbol: "GENOME",
     decimals: 18,
     logoURI:
@@ -921,7 +922,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x0578d8A44db98B23BF096A382e016e29a5Ce0ffe",
-    name: "Higher",
+    name: "higher",
     symbol: "HIGHER",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HIGHER.png",
@@ -929,7 +930,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x4BfAa776991E85e5f8b1255461cbbd216cFc714f",
-    name: "defi.app",
+    name: "Home",
     symbol: "HOME",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HOME.png",
@@ -995,7 +996,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xBCBAf311ceC8a4EAC0430193A528d9FF27ae38C1",
-    name: "IoTeX",
+    name: "IoTeX Network",
     symbol: "IOTX",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/IOTX.png",
@@ -1003,7 +1004,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x777b2839832982B35213063d850848369390EE16",
-    name: "Jarvis Token",
+    name: "JARVIS",
     symbol: "JARVIS",
     decimals: 18,
     logoURI:
@@ -1021,7 +1022,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x4eeD0d2deb4C588393c80869B122327581B0D98e",
-    name: "Jackal",
+    name: "JKL",
     symbol: "JKL",
     decimals: 6,
     logoURI:
@@ -1048,7 +1049,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x64cc19A52f4D631eF5BE07947CABA14aE00c52Eb",
-    name: "Cat Town",
+    name: "Kibble",
     symbol: "KIBBLE",
     decimals: 18,
     logoURI:
@@ -1057,7 +1058,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xE22C243c7559C667a1EB94B593369D192c5fbac0",
-    name: "KING Protocol",
+    name: "King Protocol",
     symbol: "KING",
     decimals: 18,
     logoURI:
@@ -1066,7 +1067,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xDCEFd8C8fCc492630B943ABcaB3429F12Ea9Fea2",
-    name: "Klima Token",
+    name: "Klima DAO",
     symbol: "KLIMA",
     decimals: 9,
     logoURI:
@@ -1093,7 +1094,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
-    name: "Lombard Staked BTC",
+    name: "Lombard Staked Bitcoin",
     symbol: "LBTC",
     decimals: 8,
     logoURI:
@@ -1111,7 +1112,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x901F1D2BF312e6Fa1716Df603df8F86315bcb355",
-    name: "LINKS Token",
+    name: "Links",
     symbol: "LINKS",
     decimals: 18,
     logoURI:
@@ -1120,7 +1121,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xB676f87A6E701f0DE8De5Ab91B56b66109766DB1",
-    name: "Blocklords",
+    name: "BLOCKLORDS",
     symbol: "LRDS",
     decimals: 18,
     logoURI:
@@ -1130,7 +1131,7 @@ export const tokens: Token[] = [
     chainId: 8453,
     address: "0xB29749498954A3A821ec37BdE86e386dF3cE30B6",
     name: "Liquid Staked ETH",
-    symbol: "lsETH",
+    symbol: "LsETH",
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LSETH.png",
@@ -1175,7 +1176,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xbf1aeA8670D2528E08334083616dD9C5F3B087aE",
-    name: "MAI Stablecoin",
+    name: "Mai Stablecoin",
     symbol: "MAI",
     decimals: 18,
     logoURI:
@@ -1221,7 +1222,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xB1a03EdA10342529bBF8EB700a06C60441fEf25d",
-    name: "Mr. Miggles",
+    name: "Mister Miggles",
     symbol: "MIGGLES",
     decimals: 18,
     logoURI:
@@ -1239,7 +1240,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x084382D1cc4f4DFD1769b1cC1Ac2A9b1f8365e90",
-    name: "Mode",
+    name: "MODE",
     symbol: "MODE",
     decimals: 18,
     logoURI:
@@ -1330,7 +1331,7 @@ export const tokens: Token[] = [
     chainId: 8453,
     address: "0x9Cb41FD9dC6891BAe8187029461bfAADF6CC0C69",
     name: "noice",
-    symbol: "Noice",
+    symbol: "noice",
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NOICE.png",
@@ -1365,7 +1366,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x7002458B1DF59EccB57387bC79fFc7C29E22e6f7",
-    name: "Origin Protocol",
+    name: "OriginToken",
     symbol: "OGN",
     decimals: 18,
     logoURI:
@@ -1392,7 +1393,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xA3d1a8DEB97B111454B294E2324EfAD13a9d8396",
-    name: "Overnight",
+    name: "OVN",
     symbol: "OVN",
     decimals: 18,
     logoURI:
@@ -1455,7 +1456,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xCD6dDDa305955AcD6b94b934f057E8b0daaD58dE",
-    name: "Perpetual Protocol",
+    name: "Perpetual",
     symbol: "PERP",
     decimals: 18,
     logoURI:
@@ -1482,7 +1483,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x764A726d9ceD0433A8D7643335919dEb03a9a935",
-    name: "Reflect",
+    name: "Pocket Network",
     symbol: "POKT",
     decimals: 6,
     logoURI:
@@ -1593,7 +1594,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x6B2504A03ca4D43d0D73776F6aD46dAb2F2a4cFD",
-    name: "REI",
+    name: "Unit 00 - Rei",
     symbol: "REI",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/REI.png",
@@ -1650,7 +1651,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xFbB75A59193A3525a8825BeBe7D4b56899E2f7e1",
-    name: "ReasearchCoin",
+    name: "ResearchCoin",
     symbol: "RSC",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RSC.png",
@@ -1667,11 +1668,11 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x0C5142BC58f9A61AB8C3D2085DD2F4e550c5cE0B",
-    name: "RUSSEL",
-    symbol: "RUSSEL",
+    name: "RUSSELL",
+    symbol: "RUSSELL",
     decimals: 18,
     logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RUSSEL.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RUSSELL.png",
   },
   {
     chainId: 8453,
@@ -1703,7 +1704,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x1C7a460413dD4e964f96D8dFC56E7223cE88CD85",
-    name: "Seamlesss",
+    name: "Seamless",
     symbol: "SEAM",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SEAM.png",
@@ -1775,7 +1776,7 @@ export const tokens: Token[] = [
     chainId: 8453,
     address: "0x3B86Ad95859b6AB773f55f8d94B4b9d443EE931f",
     name: "Solv BTC",
-    symbol: "solvBTC",
+    symbol: "SolvBTC",
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SOLVBTC.png",
@@ -1783,7 +1784,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xb9E1Fd5A02D3A33b25a14d661414E6ED6954a721",
-    name: " SOON Token",
+    name: "SOON Token",
     symbol: "SOON",
     decimals: 18,
     logoURI:
@@ -1818,7 +1819,7 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
-    address: "0x50dA645f148798F68EF2d7dB7C1Cb22A6819bb2C",
+    address: "0x50da645f148798f68ef2d7db7c1cb22a6819bb2c",
     name: "SPX6900",
     symbol: "SPX",
     decimals: 8,
@@ -1918,7 +1919,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x236aa50979d5f3de3bd1eeb40e81137f22ab794b",
-    name: "Threshold BTC",
+    name: "Base tBTC v2",
     symbol: "tBTC",
     decimals: 18,
     logoURI:
@@ -2135,7 +2136,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xB79DD08EA68A908A97220C76d19A6aA9cBDE4376",
-    name: "Overnight Finance USD+",
+    name: "USD+",
     symbol: "USD+",
     decimals: 6,
     logoURI:
@@ -2163,7 +2164,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
-    name: "USD Sky",
+    name: "USDS Stablecoin",
     symbol: "USDS",
     decimals: 18,
     logoURI:
@@ -2183,11 +2184,11 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x102d758f688a4C1C5a80b116bD945d4455460282",
-    name: "Bridged USDT0",
-    symbol: "USDT0",
+    name: "Stargate USD₮0 (Bridged)",
+    symbol: "USD₮0",
     decimals: 6,
     logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDT0.png",
+      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USD₮0.png",
     type: "stablecoin",
   },
   {
@@ -2374,7 +2375,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xA88594D404727625A9437C3f886C7643872296AE",
-    name: "Moonwell",
+    name: "WELL",
     symbol: "WELL",
     decimals: 18,
     logoURI:
@@ -2447,7 +2448,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452",
-    name: "Lido Wrapped stETH",
+    name: "Wrapped liquid staked Ether 2.0",
     symbol: "wstETH",
     decimals: 18,
     logoURI:
@@ -2476,7 +2477,7 @@ export const tokens: Token[] = [
     chainId: 8453,
     address: "0x750cF88d9E0c2BCedEEC31d5FaAd6eD6E3F1abC6",
     name: "XCAD Token",
-    symbol: "xCAD",
+    symbol: "XCAD",
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/XCAD.png",
@@ -2502,7 +2503,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xD7B99ffB8B2afc6fe013a17207cbe50f223aDc94",
-    name: "XYO Network",
+    name: "XY Oracle",
     symbol: "XYO",
     decimals: 18,
     logoURI:
@@ -2511,7 +2512,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x9EaF8C1E34F05a589EDa6BAfdF391Cf6Ad3CB239",
-    name: "yearn finance",
+    name: "yearn.finance",
     symbol: "YFI",
     decimals: 18,
     logoURI:
@@ -2619,7 +2620,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xE99D2F7988c5F2d013A34E7484f079cAB87f469F",
-    name: "01111010011110000110001001110100",
+    name: "ZXBT",
     symbol: "ZXBT",
     decimals: 18,
     logoURI:
