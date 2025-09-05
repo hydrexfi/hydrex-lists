@@ -3,12 +3,7 @@
   "version": "1.1.0",
   "scripts": {
     "convert": "npx ts-node src/convertToJson.ts",
-    "validate-tokens:1": "npx ts-node src/validateTokens.ts --segment=1",
-    "validate-tokens:2": "npx ts-node src/validateTokens.ts --segment=2",
-    "validate-tokens:3": "npx ts-node src/validateTokens.ts --segment=3",
-    "validate-tokens:4": "npx ts-node src/validateTokens.ts --segment=4",
-    "validate-tokens:5": "npx ts-node src/validateTokens.ts --segment=5",
-    "validate-tokens:6": "npx ts-node src/validateTokens.ts --segment=6"
+    "validate-tokens": "npx ts-node scripts/validateTokens.ts"
   },
   "dependencies": {
     "viem": "^2.21.54"

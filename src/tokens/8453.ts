@@ -3,14 +3,6 @@ import { Token } from "../types";
 export const tokens: Token[] = [
   {
     chainId: 8453,
-    address: "0xd52333441c0553fACb259600FA833a69186893A5",
-    name: "PAAL AI",
-    symbol: "$PAAL",
-    decimals: 18,
-    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/$PAAL.png",
-  },
-  {
-    chainId: 8453,
     address: "0xc5fecC3a29Fb57B5024eEc8a2239d4621e111CBE",
     name: "1INCH Token",
     symbol: "1INCH",
@@ -1407,6 +1399,14 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI:
       "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OX.png",
+  },
+  {
+    chainId: 8453,
+    address: "0xd52333441c0553fACb259600FA833a69186893A5",
+    name: "PAAL AI",
+    symbol: "PAAL",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PAAL.png",
   },
   {
     chainId: 8453,
