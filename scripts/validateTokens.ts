@@ -33,8 +33,8 @@ const ERC20_ABI = [
 
 const BATCH_SIZE = 20;
 const BATCH_DELAY = 3000;
-const MAX_RETRIES = 3;
-const RETRY_DELAY = 2000;
+const MAX_RETRIES = 8;
+const RETRY_DELAY_BASE = 3000;
 
 const client = createPublicClient({
   chain: base,
@@ -60,7 +60,7 @@ function normalizeSymbol(symbol: string): string {
   return symbol.startsWith('$') ? symbol.slice(1) : symbol;
 }
 
-// Retry with exponential backoff
+// Retry with exponential backoff and rate limit detection
 async function retry<T>(fn: () => Promise<T>): Promise<T> {
   let lastError: Error;
   
@@ -70,10 +70,21 @@ async function retry<T>(fn: () => Promise<T>): Promise<T> {
     } catch (error) {
       lastError = error as Error;
       
+      // Check if it's a rate limit error
+      const isRateLimit = lastError.message.includes('rate limit') || 
+                         lastError.message.includes('429') ||
+                         lastError.message.includes('too many requests') ||
+                         lastError.message.includes('over rate limit') ||
+                         lastError.message.includes('rate exceeded') ||
+                         lastError.message.includes('throttled');
+      
       if (attempt === MAX_RETRIES - 1) break;
       
-      const delay = RETRY_DELAY * Math.pow(2, attempt);
-      console.log(`  ⏳ Retrying in ${delay/1000}s...`);
+      // Use longer delays for rate limits, shorter for other errors
+      const baseDelay = isRateLimit ? RETRY_DELAY_BASE * 2 : RETRY_DELAY_BASE;
+      const delay = baseDelay * Math.pow(2, attempt);
+      
+      console.log(`  ${isRateLimit ? 'Rate limited' : 'Error'}, retrying in ${delay/1000}s... (${attempt + 1}/${MAX_RETRIES})`);
       await new Promise(resolve => setTimeout(resolve, delay));
     }
   }
