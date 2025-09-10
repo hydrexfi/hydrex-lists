@@ -1,10 +1,11 @@
-export type LiquidityType = "uniV4" | "integral";
+export type LiquidityType = "uniV4" | "integral" | "morpho";
 export type StrategyType =
   | "Narrow"
   | "Correlated"
   | "Long-Short"
-  | "Single Sided";
-export type Strategist = "Ichi" | "Gamma";
+  | "Single Sided"
+  | "Lending";
+export type Strategist = "Ichi" | "Gamma" | "Morpho";
 
 export type StrategyTag =
   | "stable"
