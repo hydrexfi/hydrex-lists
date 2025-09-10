@@ -9,6 +9,20 @@ import {
 export const strategies: Strategy[] = [
   {
     chainId: 8453,
+    title: "Morpho USDC",
+    type: "Lending",
+    liquidityType: "morpho",
+    strategist: "Morpho",
+    riskLevel: 3,
+    riskDescription: MODERATE_LOW_RISK_STRING,
+    address: "0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A",
+    token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    token1Address: "",
+    depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["bluechip", "safe"],
+  },
+  {
+    chainId: 8453,
     title: "WETH/USDC",
     type: "Single Sided",
     liquidityType: "integral",
