@@ -22,8 +22,8 @@
     {
       "chainId": 8453,
       "address": "0x820C5F0fB255a1D18fd0eBB0F1CCefbC4D546dA7",
-      "name": "A0",
-      "symbol": "A0",
+      "name": "A0x",
+      "symbol": "A0X",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/A0X.png"
     },
