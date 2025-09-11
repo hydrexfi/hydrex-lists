@@ -2184,7 +2184,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x102d758f688a4C1C5a80b116bD945d4455460282",
-    name: "Stargate USD₮0 (Bridged)",
+    name: "USDT0 (Stargate Bridged)",
     symbol: "USD₮0",
     decimals: 6,
     logoURI:
