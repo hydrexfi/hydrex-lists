@@ -3,12 +3,46 @@ import { Token } from "../types";
 export const tokens: Token[] = [
   {
     chainId: 8453,
+    address: "0x00000e7efa313F4E11Bfff432471eD9423AC6B30",
+    name: "Hydrex",
+    symbol: "HYDX",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HYDX.png",
+  },
+  {
+    chainId: 8453,
+    address: "0x4200000000000000000000000000000000000006",
+    name: "Wrapped Ether",
+    symbol: "WETH",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WETH.png",
+    type: "bluechip",
+  },
+  {
+    chainId: 8453,
+    address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    name: "USD Coin",
+    symbol: "USDC",
+    decimals: 6,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDC.png",
+    type: "stablecoin",
+  },
+  {
+    chainId: 8453,
+    address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    name: "Coinbase Wrapped BTC",
+    symbol: "cbBTC",
+    decimals: 8,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBBTC.png",
+    type: "bluechip",
+  },
+  {
+    chainId: 8453,
     address: "0xc5fecC3a29Fb57B5024eEc8a2239d4621e111CBE",
     name: "1INCH Token",
     symbol: "1INCH",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/1INCH.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/1INCH.png",
   },
   {
     chainId: 8453,
@@ -32,8 +66,7 @@ export const tokens: Token[] = [
     name: "Aave Token",
     symbol: "AAVE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AAVE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AAVE.png",
   },
   {
     chainId: 8453,
@@ -41,8 +74,7 @@ export const tokens: Token[] = [
     name: "ArcBlock",
     symbol: "ABT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ABT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ABT.png",
   },
   {
     chainId: 8453,
@@ -50,8 +82,7 @@ export const tokens: Token[] = [
     name: "Acolyte by Virtuals",
     symbol: "ACOLYT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ACOLYT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ACOLYT.png",
   },
   {
     chainId: 8453,
@@ -59,8 +90,7 @@ export const tokens: Token[] = [
     name: "Voice of the Gods by Virtuals",
     symbol: "ADM",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ADM.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ADM.png",
   },
   {
     chainId: 8453,
@@ -68,8 +98,7 @@ export const tokens: Token[] = [
     name: "AdEx Network",
     symbol: "ADX",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ADX.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ADX.png",
   },
   {
     chainId: 8453,
@@ -85,8 +114,7 @@ export const tokens: Token[] = [
     name: "AION 5100",
     symbol: "AION",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AION.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AION.png",
   },
   {
     chainId: 8453,
@@ -94,8 +122,7 @@ export const tokens: Token[] = [
     name: "AITECH",
     symbol: "AITECH",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AITECH.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AITECH.png",
   },
   {
     chainId: 8453,
@@ -103,8 +130,7 @@ export const tokens: Token[] = [
     name: "aixbt by Virtuals",
     symbol: "AIXBT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AIXBT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AIXBT.png",
   },
   {
     chainId: 8453,
@@ -112,8 +138,7 @@ export const tokens: Token[] = [
     name: "aixCB by Virtuals",
     symbol: "AIXCB",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AIXCB.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AIXCB.png",
   },
   {
     chainId: 8453,
@@ -121,8 +146,7 @@ export const tokens: Token[] = [
     name: "Artificial Liquid Intelligence Token",
     symbol: "ALI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ALI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ALI.png",
   },
   {
     chainId: 8453,
@@ -130,8 +154,7 @@ export const tokens: Token[] = [
     name: "HeyAnon",
     symbol: "Anon",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ANON.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ANON.png",
   },
   {
     chainId: 8453,
@@ -139,8 +162,7 @@ export const tokens: Token[] = [
     name: "Anzen Token",
     symbol: "ANZ",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ANZ.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ANZ.png",
   },
   {
     chainId: 8453,
@@ -148,8 +170,7 @@ export const tokens: Token[] = [
     name: "AthenaDAO Token",
     symbol: "ATH",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ATH.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ATH.png",
   },
   {
     chainId: 8453,
@@ -157,8 +178,7 @@ export const tokens: Token[] = [
     name: "Auki Token",
     symbol: "AUKI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AUKI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AUKI.png",
   },
   {
     chainId: 8453,
@@ -166,8 +186,7 @@ export const tokens: Token[] = [
     name: "Avail (Wormhole)",
     symbol: "AVAIL",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AVAIL.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AVAIL.png",
   },
   {
     chainId: 8453,
@@ -175,8 +194,7 @@ export const tokens: Token[] = [
     name: "AWE Network",
     symbol: "AWE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AWE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AWE.png",
   },
   {
     chainId: 8453,
@@ -184,8 +202,7 @@ export const tokens: Token[] = [
     name: "Axelar Wrapped USDC",
     symbol: "axlUSDC",
     decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AXLUSDC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AXLUSDC.png",
   },
   {
     chainId: 8453,
@@ -193,8 +210,7 @@ export const tokens: Token[] = [
     name: "B3",
     symbol: "B3",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/B3.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/B3.png",
   },
   {
     chainId: 8453,
@@ -202,8 +218,7 @@ export const tokens: Token[] = [
     name: "Balancer",
     symbol: "BAL",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BAL.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BAL.png",
   },
   {
     chainId: 8453,
@@ -211,8 +226,7 @@ export const tokens: Token[] = [
     name: "Based Mario",
     symbol: "BARIO",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BARIO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BARIO.png",
   },
   {
     chainId: 8453,
@@ -220,8 +234,7 @@ export const tokens: Token[] = [
     name: "Basenji",
     symbol: "BENJI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BENJI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BENJI.png",
   },
   {
     chainId: 8453,
@@ -229,8 +242,7 @@ export const tokens: Token[] = [
     name: "Biconomy",
     symbol: "BICO",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BICO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BICO.png",
   },
   {
     chainId: 8453,
@@ -238,8 +250,7 @@ export const tokens: Token[] = [
     name: "CreatorBid",
     symbol: "BID",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BID.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BID.png",
   },
   {
     chainId: 8453,
@@ -247,8 +258,7 @@ export const tokens: Token[] = [
     name: "BIO",
     symbol: "BIO",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BIO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BIO.png",
   },
   {
     chainId: 8453,
@@ -256,8 +266,7 @@ export const tokens: Token[] = [
     name: "BasisOS by Virtuals",
     symbol: "BIOS",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BIOS.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BIOS.png",
   },
   {
     chainId: 8453,
@@ -265,8 +274,7 @@ export const tokens: Token[] = [
     name: "HarryPotterObamaSonic10Inu",
     symbol: "BITCOIN",
     decimals: 8,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BITCOIN.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BITCOIN.png",
   },
   {
     chainId: 8453,
@@ -274,8 +282,7 @@ export const tokens: Token[] = [
     name: "blai",
     symbol: "BLAI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BLAI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BLAI.png",
   },
   {
     chainId: 8453,
@@ -283,8 +290,7 @@ export const tokens: Token[] = [
     name: "BMX",
     symbol: "BMX",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BMX.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BMX.png",
   },
   {
     chainId: 8453,
@@ -292,8 +298,7 @@ export const tokens: Token[] = [
     name: "BankrCoin",
     symbol: "BNKR",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BNKR.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BNKR.png",
   },
   {
     chainId: 8453,
@@ -301,8 +306,7 @@ export const tokens: Token[] = [
     name: "Boba Token",
     symbol: "BOBA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BOBA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BOBA.png",
   },
   {
     chainId: 8453,
@@ -310,8 +314,7 @@ export const tokens: Token[] = [
     name: "BOLD Stablecoin",
     symbol: "BOLD",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BOLD.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BOLD.png",
     type: "stablecoin",
   },
   {
@@ -320,8 +323,7 @@ export const tokens: Token[] = [
     name: "Botto",
     symbol: "BOTTO",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BOTTO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BOTTO.png",
   },
   {
     chainId: 8453,
@@ -329,8 +331,7 @@ export const tokens: Token[] = [
     name: "Brett",
     symbol: "BRETT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRETT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRETT.png",
   },
   {
     chainId: 8453,
@@ -338,8 +339,7 @@ export const tokens: Token[] = [
     name: "BRZ Token",
     symbol: "BRZ",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRZ.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRZ.png",
   },
   {
     chainId: 8453,
@@ -355,8 +355,7 @@ export const tokens: Token[] = [
     name: "BTRST",
     symbol: "BTRST",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BTRST.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BTRST.png",
   },
   {
     chainId: 8453,
@@ -364,8 +363,7 @@ export const tokens: Token[] = [
     name: "CAD Coin",
     symbol: "CADC",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CADC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CADC.png",
   },
   {
     chainId: 8453,
@@ -373,8 +371,7 @@ export const tokens: Token[] = [
     name: "CARV",
     symbol: "CARV",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CARV.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CARV.png",
   },
   {
     chainId: 8453,
@@ -382,18 +379,7 @@ export const tokens: Token[] = [
     name: "Coinbase Wrapped ADA",
     symbol: "cbADA",
     decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBADA.png",
-    type: "bluechip",
-  },
-  {
-    chainId: 8453,
-    address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-    name: "Coinbase Wrapped BTC",
-    symbol: "cbBTC",
-    decimals: 8,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBBTC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBADA.png",
     type: "bluechip",
   },
   {
@@ -402,8 +388,7 @@ export const tokens: Token[] = [
     name: "Coinbase Wrapped DOGE",
     symbol: "cbDOGE",
     decimals: 8,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBDOGE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBDOGE.png",
     type: "bluechip",
   },
   {
@@ -421,8 +406,7 @@ export const tokens: Token[] = [
     name: "Coinbase Wrapped LTC",
     symbol: "cbLTC",
     decimals: 8,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBLTC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBLTC.png",
     type: "bluechip",
   },
   {
@@ -431,8 +415,7 @@ export const tokens: Token[] = [
     name: "Coinbase Wrapped XRP",
     symbol: "cbXRP",
     decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBXRP.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBXRP.png",
     type: "bluechip",
   },
   {
@@ -441,8 +424,7 @@ export const tokens: Token[] = [
     name: "Super Champs",
     symbol: "CHAMP",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CHAMP.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CHAMP.png",
   },
   {
     chainId: 8453,
@@ -450,8 +432,7 @@ export const tokens: Token[] = [
     name: "tokenbot",
     symbol: "CLANKER",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CLANKER.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CLANKER.png",
   },
   {
     chainId: 8453,
@@ -467,8 +448,7 @@ export const tokens: Token[] = [
     name: "Cookie",
     symbol: "COOKIE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/COOKIE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/COOKIE.png",
   },
   {
     chainId: 8453,
@@ -476,8 +456,7 @@ export const tokens: Token[] = [
     name: "CoW Protocol Token",
     symbol: "COW",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/COW.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/COW.png",
   },
   {
     chainId: 8453,
@@ -485,8 +464,7 @@ export const tokens: Token[] = [
     name: "CreatorDAO",
     symbol: "CREATOR",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CREATOR.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CREATOR.png",
   },
   {
     chainId: 8453,
@@ -494,8 +472,7 @@ export const tokens: Token[] = [
     name: "CryoDAO",
     symbol: "CRYO",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CRYO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CRYO.png",
   },
   {
     chainId: 8453,
@@ -503,8 +480,7 @@ export const tokens: Token[] = [
     name: "Cryptex",
     symbol: "CTX",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CTX.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CTX.png",
   },
   {
     chainId: 8453,
@@ -512,8 +488,7 @@ export const tokens: Token[] = [
     name: "Compounding Open Dollar",
     symbol: "cUSDO",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CUSDO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CUSDO.png",
   },
   {
     chainId: 8453,
@@ -521,8 +496,7 @@ export const tokens: Token[] = [
     name: "Covalent X Token",
     symbol: "CXT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CXT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CXT.png",
   },
   {
     chainId: 8453,
@@ -539,8 +513,7 @@ export const tokens: Token[] = [
     name: "Degen",
     symbol: "DEGEN",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DEGEN.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DEGEN.png",
   },
   {
     chainId: 8453,
@@ -548,8 +521,7 @@ export const tokens: Token[] = [
     name: "DeFi Janus Henderson Anemoy AAA CLO Fund Token",
     symbol: "deJAAA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DEJAAA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DEJAAA.png",
   },
   {
     chainId: 8453,
@@ -557,8 +529,7 @@ export const tokens: Token[] = [
     name: "DEUS",
     symbol: "DEUS",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DEUS.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DEUS.png",
   },
   {
     chainId: 8453,
@@ -566,8 +537,7 @@ export const tokens: Token[] = [
     name: "dHedge DAO Token",
     symbol: "DHT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DHT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DHT.png",
   },
   {
     chainId: 8453,
@@ -575,8 +545,7 @@ export const tokens: Token[] = [
     name: "Diem",
     symbol: "DIEM",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DIEM.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DIEM.png",
   },
   {
     chainId: 8453,
@@ -584,8 +553,7 @@ export const tokens: Token[] = [
     name: "dockerzxbt",
     symbol: "dockerzxbt",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOCKERZXBT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOCKERZXBT.png",
   },
   {
     chainId: 8453,
@@ -593,8 +561,7 @@ export const tokens: Token[] = [
     name: "The Doge NFT",
     symbol: "DOG",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOG.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOG.png",
   },
   {
     chainId: 8453,
@@ -602,8 +569,7 @@ export const tokens: Token[] = [
     name: "Department Of Government Efficiency",
     symbol: "DOGE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOGE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOGE.png",
   },
   {
     chainId: 8453,
@@ -611,8 +577,7 @@ export const tokens: Token[] = [
     name: "doginme",
     symbol: "doginme",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOGINME.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOGINME.png",
   },
   {
     chainId: 8453,
@@ -629,8 +594,7 @@ export const tokens: Token[] = [
     name: "DebtReliefBot",
     symbol: "DRB",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DRB.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DRB.png",
   },
   {
     chainId: 8453,
@@ -638,8 +602,7 @@ export const tokens: Token[] = [
     name: "Derive",
     symbol: "DRV",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DRV.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DRV.png",
   },
   {
     chainId: 8453,
@@ -647,8 +610,7 @@ export const tokens: Token[] = [
     name: "ether.fi BTC",
     symbol: "eBTC",
     decimals: 8,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EBTC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EBTC.png",
   },
   {
     chainId: 8453,
@@ -656,8 +618,7 @@ export const tokens: Token[] = [
     name: "Edge",
     symbol: "EDGE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EDGE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EDGE.png",
   },
   {
     chainId: 8453,
@@ -665,8 +626,7 @@ export const tokens: Token[] = [
     name: "Eigen",
     symbol: "EIGEN",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EIGEN.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EIGEN.png",
   },
   {
     chainId: 8453,
@@ -674,8 +634,7 @@ export const tokens: Token[] = [
     name: "Empyreal",
     symbol: "EMP",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EMP.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EMP.png",
   },
   {
     chainId: 8453,
@@ -683,8 +642,7 @@ export const tokens: Token[] = [
     name: "ENA",
     symbol: "ENA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ENA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ENA.png",
   },
   {
     chainId: 8453,
@@ -692,8 +650,7 @@ export const tokens: Token[] = [
     name: "ether.fi governance token",
     symbol: "ETHFI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ETHFI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ETHFI.png",
   },
   {
     chainId: 8453,
@@ -701,8 +658,7 @@ export const tokens: Token[] = [
     name: "Euler",
     symbol: "EUL",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EUL.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EUL.png",
   },
   {
     chainId: 8453,
@@ -710,8 +666,7 @@ export const tokens: Token[] = [
     name: "EURC",
     symbol: "EURC",
     decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EURC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EURC.png",
     type: "stablecoin",
   },
   {
@@ -720,8 +675,7 @@ export const tokens: Token[] = [
     name: "Electronic Dollar",
     symbol: "eUSD",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EUSD.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EUSD.png",
   },
   {
     chainId: 8453,
@@ -729,8 +683,7 @@ export const tokens: Token[] = [
     name: "Extra Finance",
     symbol: "EXTRA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EXTRA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EXTRA.png",
   },
   {
     chainId: 8453,
@@ -738,8 +691,7 @@ export const tokens: Token[] = [
     name: "Renzo Restaked ETH",
     symbol: "ezETH",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EZETH.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EZETH.png",
   },
   {
     chainId: 8453,
@@ -747,8 +699,7 @@ export const tokens: Token[] = [
     name: "FAI",
     symbol: "FAI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FAI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FAI.png",
   },
   {
     chainId: 8453,
@@ -756,8 +707,7 @@ export const tokens: Token[] = [
     name: "FARM Reward Token",
     symbol: "FARM",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FARM.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FARM.png",
   },
   {
     chainId: 8453,
@@ -765,8 +715,7 @@ export const tokens: Token[] = [
     name: "Fantom Bomb",
     symbol: "fBOMB",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FBOMB.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FBOMB.png",
   },
   {
     chainId: 8453,
@@ -774,8 +723,7 @@ export const tokens: Token[] = [
     name: "Fetch",
     symbol: "FET",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FET.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FET.png",
   },
   {
     chainId: 8453,
@@ -783,8 +731,7 @@ export const tokens: Token[] = [
     name: "Flayer",
     symbol: "FLAY",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FLAY.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FLAY.png",
   },
   {
     chainId: 8453,
@@ -792,8 +739,7 @@ export const tokens: Token[] = [
     name: "FLock.io",
     symbol: "FLOCK",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FLOCK.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FLOCK.png",
   },
   {
     chainId: 8453,
@@ -801,8 +747,7 @@ export const tokens: Token[] = [
     name: "Ampleforth Governance",
     symbol: "FORTH",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FORTH.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FORTH.png",
   },
   {
     chainId: 8453,
@@ -810,8 +755,7 @@ export const tokens: Token[] = [
     name: "ShapeShift FOX",
     symbol: "FOX",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FOX.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FOX.png",
   },
   {
     chainId: 8453,
@@ -819,8 +763,7 @@ export const tokens: Token[] = [
     name: "Frax USD",
     symbol: "frxUSD",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FRXUSD.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FRXUSD.png",
     type: "stablecoin",
   },
   {
@@ -829,8 +772,7 @@ export const tokens: Token[] = [
     name: "fxhash",
     symbol: "FXH",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FXH.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FXH.png",
   },
   {
     chainId: 8453,
@@ -838,8 +780,7 @@ export const tokens: Token[] = [
     name: "Gravity",
     symbol: "G",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/G.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/G.png",
   },
   {
     chainId: 8453,
@@ -847,8 +788,7 @@ export const tokens: Token[] = [
     name: "GraphAI",
     symbol: "GAI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GAI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GAI.png",
   },
   {
     chainId: 8453,
@@ -856,8 +796,7 @@ export const tokens: Token[] = [
     name: "GAME by Virtuals",
     symbol: "GAME",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GAME.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GAME.png",
   },
   {
     chainId: 8453,
@@ -865,8 +804,7 @@ export const tokens: Token[] = [
     name: "Gekko AI by Virtuals",
     symbol: "GEKKO",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GEKKO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GEKKO.png",
   },
   {
     chainId: 8453,
@@ -874,8 +812,7 @@ export const tokens: Token[] = [
     name: "GENOME",
     symbol: "GENOME",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GENOME.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GENOME.png",
   },
   {
     chainId: 8453,
@@ -883,8 +820,7 @@ export const tokens: Token[] = [
     name: "Gho Token",
     symbol: "GHO",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GHO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GHO.png",
     type: "stablecoin",
   },
   {
@@ -973,8 +909,7 @@ export const tokens: Token[] = [
     name: "IDRX",
     symbol: "IDRX",
     decimals: 2,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/IDRX.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/IDRX.png",
   },
   {
     chainId: 8453,
@@ -982,8 +917,7 @@ export const tokens: Token[] = [
     name: "Ionic",
     symbol: "ION",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ION.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ION.png",
   },
   {
     chainId: 8453,
@@ -999,8 +933,7 @@ export const tokens: Token[] = [
     name: "JARVIS",
     symbol: "JARVIS",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/JARVIS.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/JARVIS.png",
   },
   {
     chainId: 8453,
@@ -1008,8 +941,7 @@ export const tokens: Token[] = [
     name: "Jarvis Synthetic Euro",
     symbol: "jEUR",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/JEUR.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/JEUR.png",
   },
   {
     chainId: 8453,
@@ -1017,8 +949,7 @@ export const tokens: Token[] = [
     name: "JKL",
     symbol: "JKL",
     decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/JKL.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/JKL.png",
   },
   {
     chainId: 8453,
@@ -1026,8 +957,7 @@ export const tokens: Token[] = [
     name: "KAITO",
     symbol: "KAITO",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KAITO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KAITO.png",
   },
   {
     chainId: 8453,
@@ -1035,8 +965,7 @@ export const tokens: Token[] = [
     name: "Keyboard Cat",
     symbol: "KEYCAT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KEYCAT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KEYCAT.png",
   },
   {
     chainId: 8453,
@@ -1044,8 +973,7 @@ export const tokens: Token[] = [
     name: "Kibble",
     symbol: "KIBBLE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KIBBLE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KIBBLE.png",
   },
   {
     chainId: 8453,
@@ -1053,8 +981,7 @@ export const tokens: Token[] = [
     name: "King Protocol",
     symbol: "KING",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KING.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KING.png",
   },
   {
     chainId: 8453,
@@ -1062,8 +989,7 @@ export const tokens: Token[] = [
     name: "Klima DAO",
     symbol: "KLIMA",
     decimals: 9,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KLIMA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KLIMA.png",
   },
   {
     chainId: 8453,
@@ -1071,8 +997,7 @@ export const tokens: Token[] = [
     name: "Keeta",
     symbol: "KTA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KTA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KTA.png",
   },
   {
     chainId: 8453,
@@ -1080,8 +1005,7 @@ export const tokens: Token[] = [
     name: "Loomlay",
     symbol: "LAY",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LAY.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LAY.png",
   },
   {
     chainId: 8453,
@@ -1089,8 +1013,7 @@ export const tokens: Token[] = [
     name: "Lombard Staked Bitcoin",
     symbol: "LBTC",
     decimals: 8,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LBTC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LBTC.png",
   },
   {
     chainId: 8453,
@@ -1098,8 +1021,7 @@ export const tokens: Token[] = [
     name: "ChainLink Token",
     symbol: "LINK",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LINK.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LINK.png",
   },
   {
     chainId: 8453,
@@ -1107,8 +1029,7 @@ export const tokens: Token[] = [
     name: "Links",
     symbol: "LINKS",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LINKS.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LINKS.png",
   },
   {
     chainId: 8453,
@@ -1116,8 +1037,7 @@ export const tokens: Token[] = [
     name: "BLOCKLORDS",
     symbol: "LRDS",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LRDS.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LRDS.png",
   },
   {
     chainId: 8453,
@@ -1125,8 +1045,7 @@ export const tokens: Token[] = [
     name: "Liquid Staked ETH",
     symbol: "LsETH",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LSETH.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LSETH.png",
   },
   {
     chainId: 8453,
@@ -1134,8 +1053,7 @@ export const tokens: Token[] = [
     name: "Luchadores.io LUCHA Token",
     symbol: "LUCHA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LUCHA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LUCHA.png",
   },
   {
     chainId: 8453,
@@ -1143,8 +1061,7 @@ export const tokens: Token[] = [
     name: "luminous",
     symbol: "LUM",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LUM.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LUM.png",
   },
   {
     chainId: 8453,
@@ -1152,8 +1069,7 @@ export const tokens: Token[] = [
     name: "Luna by Virtuals",
     symbol: "LUNA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LUNA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LUNA.png",
   },
   {
     chainId: 8453,
@@ -1161,8 +1077,7 @@ export const tokens: Token[] = [
     name: "LUSD Stablecoin",
     symbol: "LUSD",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LUSD.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LUSD.png",
     type: "stablecoin",
   },
   {
@@ -1171,8 +1086,7 @@ export const tokens: Token[] = [
     name: "Mai Stablecoin",
     symbol: "MAI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MAI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MAI.png",
     type: "stablecoin",
   },
   {
@@ -1181,8 +1095,7 @@ export const tokens: Token[] = [
     name: "Mamo",
     symbol: "MAMO",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MAMO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MAMO.png",
   },
   {
     chainId: 8453,
@@ -1190,8 +1103,7 @@ export const tokens: Token[] = [
     name: "Heroes of Mavia",
     symbol: "MAVIA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MAVIA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MAVIA.png",
   },
   {
     chainId: 8453,
@@ -1199,8 +1111,7 @@ export const tokens: Token[] = [
     name: "Metacade",
     symbol: "MCADE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MCADE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MCADE.png",
   },
   {
     chainId: 8453,
@@ -1208,8 +1119,7 @@ export const tokens: Token[] = [
     name: "Metronome2",
     symbol: "MET",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MET.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MET.png",
   },
   {
     chainId: 8453,
@@ -1217,8 +1127,7 @@ export const tokens: Token[] = [
     name: "Mister Miggles",
     symbol: "MIGGLES",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MIGGLES.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MIGGLES.png",
   },
   {
     chainId: 8453,
@@ -1226,8 +1135,7 @@ export const tokens: Token[] = [
     name: "Moca",
     symbol: "MOCA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MOCA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MOCA.png",
   },
   {
     chainId: 8453,
@@ -1235,8 +1143,7 @@ export const tokens: Token[] = [
     name: "MODE",
     symbol: "MODE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MODE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MODE.png",
   },
   {
     chainId: 8453,
@@ -1244,8 +1151,7 @@ export const tokens: Token[] = [
     name: "Mog Coin",
     symbol: "Mog",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MOG.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MOG.png",
   },
   {
     chainId: 8453,
@@ -1253,8 +1159,7 @@ export const tokens: Token[] = [
     name: "Moo BIFI",
     symbol: "mooBIFI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MOOBIFI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MOOBIFI.png",
   },
   {
     chainId: 8453,
@@ -1262,8 +1167,7 @@ export const tokens: Token[] = [
     name: "MOR",
     symbol: "MOR",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MOR.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MOR.png",
   },
   {
     chainId: 8453,
@@ -1271,8 +1175,7 @@ export const tokens: Token[] = [
     name: "Morpho Token",
     symbol: "MORPHO",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MORPHO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MORPHO.png",
   },
   {
     chainId: 8453,
@@ -1280,8 +1183,7 @@ export const tokens: Token[] = [
     name: "Moxie by Virtuals",
     symbol: "MOXIE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MOXIE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MOXIE.png",
   },
   {
     chainId: 8453,
@@ -1289,8 +1191,7 @@ export const tokens: Token[] = [
     name: "Metronome Synth ETH",
     symbol: "msETH",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MSETH.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MSETH.png",
   },
   {
     chainId: 8453,
@@ -1298,8 +1199,7 @@ export const tokens: Token[] = [
     name: "Metronome Synth USD",
     symbol: "msUSD",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MSUSD.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MSUSD.png",
   },
   {
     chainId: 8453,
@@ -1307,8 +1207,7 @@ export const tokens: Token[] = [
     name: "Real MXN",
     symbol: "MXNe",
     decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MXNE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MXNE.png",
   },
   {
     chainId: 8453,
@@ -1316,8 +1215,7 @@ export const tokens: Token[] = [
     name: "Crestal Nation",
     symbol: "NATION",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NATION.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NATION.png",
   },
   {
     chainId: 8453,
@@ -1325,8 +1223,7 @@ export const tokens: Token[] = [
     name: "noice",
     symbol: "noice",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NOICE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NOICE.png",
   },
   {
     chainId: 8453,
@@ -1334,8 +1231,7 @@ export const tokens: Token[] = [
     name: "Non-Playable Coin",
     symbol: "NPC",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NPC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NPC.png",
   },
   {
     chainId: 8453,
@@ -1343,8 +1239,7 @@ export const tokens: Token[] = [
     name: "Odos Token",
     symbol: "ODOS",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ODOS.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ODOS.png",
   },
   {
     chainId: 8453,
@@ -1352,8 +1247,7 @@ export const tokens: Token[] = [
     name: "Orderly Network",
     symbol: "ORDER",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ORDER.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ORDER.png",
   },
   {
     chainId: 8453,
@@ -1361,8 +1255,7 @@ export const tokens: Token[] = [
     name: "OriginToken",
     symbol: "OGN",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OGN.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OGN.png",
   },
   {
     chainId: 8453,
@@ -1370,8 +1263,15 @@ export const tokens: Token[] = [
     name: "OpenUSDT",
     symbol: "oUSDT",
     decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OUSDT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OUSDT.png",
+  },
+  {
+    chainId: 8453,
+    address: "0xA1136031150E50B015b41f1ca6B2e99e49D8cB78",
+    name: "Options Hydrex",
+    symbol: "oHYDX",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OHYDX.png",
   },
   {
     chainId: 8453,
@@ -1379,8 +1279,7 @@ export const tokens: Token[] = [
     name: "Overtime DAO Token",
     symbol: "OVER",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OVER.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OVER.png",
   },
   {
     chainId: 8453,
@@ -1388,8 +1287,7 @@ export const tokens: Token[] = [
     name: "OVN",
     symbol: "OVN",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OVN.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OVN.png",
   },
   {
     chainId: 8453,
@@ -1397,8 +1295,7 @@ export const tokens: Token[] = [
     name: "OX Coin",
     symbol: "OX",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OX.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OX.png",
   },
   {
     chainId: 8453,
@@ -1414,8 +1311,7 @@ export const tokens: Token[] = [
     name: "Paragons DAO Token",
     symbol: "PDT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PDT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PDT.png",
   },
   {
     chainId: 8453,
@@ -1423,8 +1319,7 @@ export const tokens: Token[] = [
     name: "Peapods",
     symbol: "PEAS",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PEAS.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PEAS.png",
   },
   {
     chainId: 8453,
@@ -1432,8 +1327,7 @@ export const tokens: Token[] = [
     name: "PokPok Golden Egg",
     symbol: "PEGG",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PEGG.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PEGG.png",
   },
   {
     chainId: 8453,
@@ -1441,8 +1335,7 @@ export const tokens: Token[] = [
     name: "Pendle",
     symbol: "PENDLE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PENDLE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PENDLE.png",
   },
   {
     chainId: 8453,
@@ -1450,8 +1343,7 @@ export const tokens: Token[] = [
     name: "BasedPepe",
     symbol: "PEPE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PEPE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PEPE.png",
   },
   {
     chainId: 8453,
@@ -1459,8 +1351,7 @@ export const tokens: Token[] = [
     name: "Perpetual",
     symbol: "PERP",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PERP.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PERP.png",
   },
   {
     chainId: 8453,
@@ -1468,8 +1359,7 @@ export const tokens: Token[] = [
     name: "pHAM (BASE)",
     symbol: "pHAM",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PHAM.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PHAM.png",
   },
   {
     chainId: 8453,
@@ -1477,8 +1367,7 @@ export const tokens: Token[] = [
     name: "PLAY",
     symbol: "PLAY",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PLAY.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PLAY.png",
   },
   {
     chainId: 8453,
@@ -1486,8 +1375,7 @@ export const tokens: Token[] = [
     name: "Pocket Network",
     symbol: "POKT",
     decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/POKT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/POKT.png",
   },
   {
     chainId: 8453,
@@ -1495,8 +1383,7 @@ export const tokens: Token[] = [
     name: "Ponke",
     symbol: "PONKE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PONKE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PONKE.png",
   },
   {
     chainId: 8453,
@@ -1504,8 +1391,7 @@ export const tokens: Token[] = [
     name: "PoolTogether",
     symbol: "POOL",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/POOL.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/POOL.png",
   },
   {
     chainId: 8453,
@@ -1513,8 +1399,7 @@ export const tokens: Token[] = [
     name: "Presearch",
     symbol: "PRE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PRE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PRE.png",
   },
   {
     chainId: 8453,
@@ -1522,8 +1407,7 @@ export const tokens: Token[] = [
     name: "Predi by Virtuals",
     symbol: "PREDI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PREDI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PREDI.png",
   },
   {
     chainId: 8453,
@@ -1531,8 +1415,7 @@ export const tokens: Token[] = [
     name: "Prime",
     symbol: "PRIME",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PRIME.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PRIME.png",
   },
   {
     chainId: 8453,
@@ -1540,8 +1423,7 @@ export const tokens: Token[] = [
     name: "Prompt",
     symbol: "PROMPT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PROMPT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PROMPT.png",
   },
   {
     chainId: 8453,
@@ -1621,8 +1503,7 @@ export const tokens: Token[] = [
     name: "Reflect",
     symbol: "RFL",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RFL.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RFL.png",
   },
   {
     chainId: 8453,
@@ -1662,8 +1543,7 @@ export const tokens: Token[] = [
     name: "Reserve Rights",
     symbol: "RSR",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RSR.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RSR.png",
   },
   {
     chainId: 8453,
@@ -1671,8 +1551,7 @@ export const tokens: Token[] = [
     name: "RUSSELL",
     symbol: "RUSSELL",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RUSSELL.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RUSSELL.png",
   },
   {
     chainId: 8453,
@@ -1680,8 +1559,7 @@ export const tokens: Token[] = [
     name: "Rwax Token",
     symbol: "RWAX",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RWAX.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RWAX.png",
   },
   {
     chainId: 8453,
@@ -1689,8 +1567,7 @@ export const tokens: Token[] = [
     name: "SAMURAI",
     symbol: "SAM",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SAM.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SAM.png",
   },
   {
     chainId: 8453,
@@ -1698,8 +1575,7 @@ export const tokens: Token[] = [
     name: "Sapien",
     symbol: "SAPIEN",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SAPIEN.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SAPIEN.png",
   },
   {
     chainId: 8453,
@@ -1715,8 +1591,7 @@ export const tokens: Token[] = [
     name: "sekoia by Virtuals",
     symbol: "SEKOIA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SEKOIA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SEKOIA.png",
   },
   {
     chainId: 8453,
@@ -1724,8 +1599,7 @@ export const tokens: Token[] = [
     name: "Settled ETHXY Token",
     symbol: "SEXY",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SEXY.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SEXY.png",
   },
   {
     chainId: 8453,
@@ -1733,8 +1607,7 @@ export const tokens: Token[] = [
     name: "Sign",
     symbol: "SIGN",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SIGN.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SIGN.png",
   },
   {
     chainId: 8453,
@@ -1742,8 +1615,7 @@ export const tokens: Token[] = [
     name: "Simmi Token",
     symbol: "SIMMI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SIMMI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SIMMI.png",
   },
   {
     chainId: 8453,
@@ -1751,8 +1623,7 @@ export const tokens: Token[] = [
     name: "SKI MASK DOG",
     symbol: "SKI",
     decimals: 9,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SKI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SKI.png",
   },
   {
     chainId: 8453,
@@ -1760,8 +1631,7 @@ export const tokens: Token[] = [
     name: "Synthetix Network Token",
     symbol: "SNX",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SNX.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SNX.png",
   },
   {
     chainId: 8453,
@@ -1769,8 +1639,7 @@ export const tokens: Token[] = [
     name: "Solace by Virtuals",
     symbol: "SOLACE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SOLACE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SOLACE.png",
   },
   {
     chainId: 8453,
@@ -1778,8 +1647,7 @@ export const tokens: Token[] = [
     name: "Solv BTC",
     symbol: "SolvBTC",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SOLVBTC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SOLVBTC.png",
   },
   {
     chainId: 8453,
@@ -1787,8 +1655,7 @@ export const tokens: Token[] = [
     name: "SOON Token",
     symbol: "SOON",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SOON.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SOON.png",
   },
   {
     chainId: 8453,
@@ -1796,8 +1663,7 @@ export const tokens: Token[] = [
     name: "Spectral Token",
     symbol: "SPEC",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPEC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPEC.png",
   },
   {
     chainId: 8453,
@@ -1805,8 +1671,7 @@ export const tokens: Token[] = [
     name: "Spectra Token",
     symbol: "SPECTRA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPECTRA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPECTRA.png",
   },
   {
     chainId: 8453,
@@ -1814,8 +1679,7 @@ export const tokens: Token[] = [
     name: "Spark",
     symbol: "SPK",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPK.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPK.png",
   },
   {
     chainId: 8453,
@@ -1823,8 +1687,7 @@ export const tokens: Token[] = [
     name: "SPX6900",
     symbol: "SPX",
     decimals: 8,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPX.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPX.png",
   },
   {
     chainId: 8453,
@@ -1832,8 +1695,7 @@ export const tokens: Token[] = [
     name: "Subsquid",
     symbol: "SQD",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SQD.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SQD.png",
   },
   {
     chainId: 8453,
@@ -1841,8 +1703,7 @@ export const tokens: Token[] = [
     name: "Tensorplex Staked TAO",
     symbol: "stTAO",
     decimals: 9,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/STTAO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/STTAO.png",
   },
   {
     chainId: 8453,
@@ -1850,8 +1711,7 @@ export const tokens: Token[] = [
     name: "Super OETH",
     symbol: "superOETHb",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SUPEROETHB.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SUPEROETHB.png",
   },
   {
     chainId: 8453,
@@ -1859,8 +1719,7 @@ export const tokens: Token[] = [
     name: "Superseed",
     symbol: "SUPR",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SUPR.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SUPR.png",
   },
   {
     chainId: 8453,
@@ -1868,8 +1727,7 @@ export const tokens: Token[] = [
     name: "Staked USDz",
     symbol: "sUSDz",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SUSDZ.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SUSDZ.png",
   },
   {
     chainId: 8453,
@@ -1877,8 +1735,7 @@ export const tokens: Token[] = [
     name: "Symmio",
     symbol: "SYMM",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SYMM.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SYMM.png",
   },
   {
     chainId: 8453,
@@ -1886,8 +1743,7 @@ export const tokens: Token[] = [
     name: "Syrup Token",
     symbol: "SYRUP",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SYRUP.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SYRUP.png",
   },
   {
     chainId: 8453,
@@ -1895,8 +1751,7 @@ export const tokens: Token[] = [
     name: "Threshold Network Token",
     symbol: "T",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/T.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/T.png",
   },
   {
     chainId: 8453,
@@ -1904,8 +1759,7 @@ export const tokens: Token[] = [
     name: "TalentProtocolToken",
     symbol: "TALENT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TALENT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TALENT.png",
   },
   {
     chainId: 8453,
@@ -1913,8 +1767,7 @@ export const tokens: Token[] = [
     name: "Tarot",
     symbol: "TAROT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TAROT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TAROT.png",
   },
   {
     chainId: 8453,
@@ -1922,8 +1775,7 @@ export const tokens: Token[] = [
     name: "Base tBTC v2",
     symbol: "tBTC",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TBTC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TBTC.png",
     type: "bluechip",
   },
   {
@@ -1932,8 +1784,7 @@ export const tokens: Token[] = [
     name: "Thales DAO Token",
     symbol: "THALES",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/THALES.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/THALES.png",
   },
   {
     chainId: 8453,
@@ -1941,8 +1792,7 @@ export const tokens: Token[] = [
     name: "Ribbita by Virtuals",
     symbol: "TIBBIR",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TIBBIR.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TIBBIR.png",
   },
   {
     chainId: 8453,
@@ -1950,8 +1800,7 @@ export const tokens: Token[] = [
     name: "The Innovation Game",
     symbol: "TIG",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TIG.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TIG.png",
   },
   {
     chainId: 8453,
@@ -1959,8 +1808,7 @@ export const tokens: Token[] = [
     name: "TokenDao",
     symbol: "TKN",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TKN.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TKN.png",
   },
   {
     chainId: 8453,
@@ -1968,8 +1816,7 @@ export const tokens: Token[] = [
     name: "TLOS",
     symbol: "TLOS",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TLOS.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TLOS.png",
   },
   {
     chainId: 8453,
@@ -1977,8 +1824,7 @@ export const tokens: Token[] = [
     name: "The Next 100x Memecoin on Base",
     symbol: "TN100x",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TN100X.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TN100X.png",
   },
   {
     chainId: 8453,
@@ -1986,8 +1832,7 @@ export const tokens: Token[] = [
     name: "Toshi",
     symbol: "TOSHI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TOSHI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TOSHI.png",
   },
   {
     chainId: 8453,
@@ -1995,8 +1840,7 @@ export const tokens: Token[] = [
     name: "TOWER",
     symbol: "TOWER",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TOWER.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TOWER.png",
   },
   {
     chainId: 8453,
@@ -2004,8 +1848,7 @@ export const tokens: Token[] = [
     name: "Towns",
     symbol: "TOWNS",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TOWNS.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TOWNS.png",
   },
   {
     chainId: 8453,
@@ -2013,8 +1856,7 @@ export const tokens: Token[] = [
     name: "Trace Token",
     symbol: "TRAC",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TRAC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TRAC.png",
   },
   {
     chainId: 8453,
@@ -2022,8 +1864,7 @@ export const tokens: Token[] = [
     name: "OFFICIAL TRUMP",
     symbol: "TRUMP",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TRUMP.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TRUMP.png",
   },
   {
     chainId: 8453,
@@ -2031,8 +1872,7 @@ export const tokens: Token[] = [
     name: "TRVL",
     symbol: "TRVL",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TRVL.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TRVL.png",
   },
   {
     chainId: 8453,
@@ -2040,8 +1880,7 @@ export const tokens: Token[] = [
     name: "BiLira",
     symbol: "TRYB",
     decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TRYB.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TRYB.png",
   },
   {
     chainId: 8453,
@@ -2049,8 +1888,7 @@ export const tokens: Token[] = [
     name: "Base God",
     symbol: "TYBG",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TYBG.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TYBG.png",
   },
   {
     chainId: 8453,
@@ -2058,8 +1896,7 @@ export const tokens: Token[] = [
     name: "Cardano (Universal)",
     symbol: "uADA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UADA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UADA.png",
   },
   {
     chainId: 8453,
@@ -2067,8 +1904,7 @@ export const tokens: Token[] = [
     name: "Aptos (Universal)",
     symbol: "uAPT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UAPT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UAPT.png",
   },
   {
     chainId: 8453,
@@ -2076,8 +1912,7 @@ export const tokens: Token[] = [
     name: "Berachain (Universal)",
     symbol: "uBERA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UBERA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UBERA.png",
   },
   {
     chainId: 8453,
@@ -2085,8 +1920,7 @@ export const tokens: Token[] = [
     name: "Bitcoin (Universal)",
     symbol: "uBTC",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UBTC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UBTC.png",
   },
   {
     chainId: 8453,
@@ -2094,8 +1928,7 @@ export const tokens: Token[] = [
     name: "Dogecoin (Universal)",
     symbol: "uDOGE",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UDOGE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UDOGE.png",
   },
   {
     chainId: 8453,
@@ -2103,8 +1936,7 @@ export const tokens: Token[] = [
     name: "Hedera (Universal)",
     symbol: "uHBAR",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UHBAR.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UHBAR.png",
   },
   {
     chainId: 8453,
@@ -2112,8 +1944,7 @@ export const tokens: Token[] = [
     name: "Chainlink (Universal)",
     symbol: "uLINK",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ULINK.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ULINK.png",
   },
   {
     chainId: 8453,
@@ -2121,8 +1952,7 @@ export const tokens: Token[] = [
     name: "NEAR (Universal)",
     symbol: "uNEAR",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UNEAR.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UNEAR.png",
   },
   {
     chainId: 8453,
@@ -2130,8 +1960,7 @@ export const tokens: Token[] = [
     name: "Pump (Universal)",
     symbol: "uPUMP",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UPUMP.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UPUMP.png",
   },
   {
     chainId: 8453,
@@ -2139,8 +1968,7 @@ export const tokens: Token[] = [
     name: "USD+",
     symbol: "USD+",
     decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USD+.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USD+.png",
   },
   {
     chainId: 8453,
@@ -2148,18 +1976,7 @@ export const tokens: Token[] = [
     name: "USD Base Coin",
     symbol: "USDbC",
     decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDC.png",
-  },
-  {
-    chainId: 8453,
-    address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    name: "USD Coin",
-    symbol: "USDC",
-    decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDC.png",
-    type: "stablecoin",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDC.png",
   },
   {
     chainId: 8453,
@@ -2167,8 +1984,7 @@ export const tokens: Token[] = [
     name: "USDS Stablecoin",
     symbol: "USDS",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDS.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDS.png",
     type: "stablecoin",
   },
   {
@@ -2177,8 +1993,7 @@ export const tokens: Token[] = [
     name: "Tether USD",
     symbol: "USDT",
     decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDT.png",
     type: "stablecoin",
   },
   {
@@ -2187,8 +2002,7 @@ export const tokens: Token[] = [
     name: "USDT0 (Stargate Bridged)",
     symbol: "USD₮0",
     decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USD₮0.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USD₮0.png",
     type: "stablecoin",
   },
   {
@@ -2197,8 +2011,7 @@ export const tokens: Token[] = [
     name: "USDz",
     symbol: "USDz",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDZ.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDZ.png",
   },
   {
     chainId: 8453,
@@ -2206,8 +2019,7 @@ export const tokens: Token[] = [
     name: "Sei (Universal)",
     symbol: "uSEI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USEI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USEI.png",
   },
   {
     chainId: 8453,
@@ -2215,8 +2027,7 @@ export const tokens: Token[] = [
     name: "Solana (Universal)",
     symbol: "uSOL",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USOL.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USOL.png",
   },
   {
     chainId: 8453,
@@ -2224,8 +2035,7 @@ export const tokens: Token[] = [
     name: "Resolv USD",
     symbol: "USR",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USR.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USR.png",
   },
   {
     chainId: 8453,
@@ -2233,8 +2043,7 @@ export const tokens: Token[] = [
     name: "Sui (Universal)",
     symbol: "uSUI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USUI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USUI.png",
   },
   {
     chainId: 8453,
@@ -2242,8 +2051,7 @@ export const tokens: Token[] = [
     name: "XRP (Universal)",
     symbol: "uXRP",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UXRP.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UXRP.png",
   },
   {
     chainId: 8453,
@@ -2251,8 +2059,7 @@ export const tokens: Token[] = [
     name: "VNX Franc",
     symbol: "VCHF",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VCHF.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VCHF.png",
   },
   {
     chainId: 8453,
@@ -2260,8 +2067,7 @@ export const tokens: Token[] = [
     name: "VEIL Token",
     symbol: "VEIL",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VEIL.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VEIL.png",
   },
   {
     chainId: 8453,
@@ -2269,8 +2075,7 @@ export const tokens: Token[] = [
     name: "Velvet",
     symbol: "VELVET",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VELVET.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VELVET.png",
   },
   {
     chainId: 8453,
@@ -2278,8 +2083,7 @@ export const tokens: Token[] = [
     name: "VNX Euro",
     symbol: "VEUR",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VEUR.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VEUR.png",
   },
   {
     chainId: 8453,
@@ -2287,8 +2091,7 @@ export const tokens: Token[] = [
     name: "VNX British Pound",
     symbol: "VGBP",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VGBP.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VGBP.png",
   },
   {
     chainId: 8453,
@@ -2296,8 +2099,7 @@ export const tokens: Token[] = [
     name: "VIRGEN by Virtuals",
     symbol: "VIRGEN",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VIRGEN.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VIRGEN.png",
   },
   {
     chainId: 8453,
@@ -2305,8 +2107,7 @@ export const tokens: Token[] = [
     name: "VitaDAO Token",
     symbol: "VITA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VITA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VITA.png",
   },
   {
     chainId: 8453,
@@ -2314,8 +2115,7 @@ export const tokens: Token[] = [
     name: "Vertex",
     symbol: "VRTX",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VRTX.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VRTX.png",
   },
   {
     chainId: 8453,
@@ -2323,8 +2123,7 @@ export const tokens: Token[] = [
     name: "Venice Token",
     symbol: "VVV",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VVV.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VVV.png",
   },
   {
     chainId: 8453,
@@ -2332,8 +2131,7 @@ export const tokens: Token[] = [
     name: "WAI",
     symbol: "WAI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WAI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WAI.png",
   },
   {
     chainId: 8453,
@@ -2341,8 +2139,7 @@ export const tokens: Token[] = [
     name: "Wrapped Ampleforth",
     symbol: "WAMPL",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WAMPL.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WAMPL.png",
   },
   {
     chainId: 8453,
@@ -2350,8 +2147,7 @@ export const tokens: Token[] = [
     name: "Wrapped BMX Liquidity Token",
     symbol: "wBLT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WBLT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WBLT.png",
   },
   {
     chainId: 8453,
@@ -2359,8 +2155,7 @@ export const tokens: Token[] = [
     name: "Wrapped BTC",
     symbol: "WBTC",
     decimals: 8,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WBTC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WBTC.png",
   },
   {
     chainId: 8453,
@@ -2368,8 +2163,7 @@ export const tokens: Token[] = [
     name: "Wrapped eETH",
     symbol: "weETH",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WEETH.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WEETH.png",
     type: "bluechip",
   },
   {
@@ -2378,8 +2172,7 @@ export const tokens: Token[] = [
     name: "WELL",
     symbol: "WELL",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WELL.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WELL.png",
   },
   {
     chainId: 8453,
@@ -2387,18 +2180,7 @@ export const tokens: Token[] = [
     name: "Wrapped Ethlas Token",
     symbol: "WELS",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WELS.png",
-  },
-  {
-    chainId: 8453,
-    address: "0x4200000000000000000000000000000000000006",
-    name: "Wrapped Ether",
-    symbol: "WETH",
-    decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WETH.png",
-    type: "bluechip",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WELS.png",
   },
   {
     chainId: 8453,
@@ -2406,8 +2188,7 @@ export const tokens: Token[] = [
     name: "Wrapped Frax",
     symbol: "WFRAX",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WFRAX.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WFRAX.png",
   },
   {
     chainId: 8453,
@@ -2415,8 +2196,7 @@ export const tokens: Token[] = [
     name: "Wrapped IRON",
     symbol: "wIRON",
     decimals: 8,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WIRON.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WIRON.png",
   },
   {
     chainId: 8453,
@@ -2424,8 +2204,7 @@ export const tokens: Token[] = [
     name: "WorldMobileToken",
     symbol: "WMTX",
     decimals: 6,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WMTX.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WMTX.png",
   },
   {
     chainId: 8453,
@@ -2433,8 +2212,7 @@ export const tokens: Token[] = [
     name: "WOO",
     symbol: "WOO",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WOO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WOO.png",
   },
   {
     chainId: 8453,
@@ -2442,8 +2220,7 @@ export const tokens: Token[] = [
     name: "rsETHWrapper",
     symbol: "wrsETH",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WRSETH.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WRSETH.png",
   },
   {
     chainId: 8453,
@@ -2451,8 +2228,7 @@ export const tokens: Token[] = [
     name: "Wrapped liquid staked Ether 2.0",
     symbol: "wstETH",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WSTETH.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WSTETH.png",
     type: "bluechip",
   },
   {
@@ -2461,8 +2237,7 @@ export const tokens: Token[] = [
     name: "Wrapped USDR",
     symbol: "wUSDR",
     decimals: 9,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WUSDR.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WUSDR.png",
   },
   {
     chainId: 8453,
@@ -2470,8 +2245,7 @@ export const tokens: Token[] = [
     name: "Chia Warped XCH",
     symbol: "wXCH",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WXCH.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WXCH.png",
   },
   {
     chainId: 8453,
@@ -2479,8 +2253,7 @@ export const tokens: Token[] = [
     name: "XCAD Token",
     symbol: "XCAD",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/XCAD.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/XCAD.png",
   },
   {
     chainId: 8453,
@@ -2488,8 +2261,7 @@ export const tokens: Token[] = [
     name: "xPufETH",
     symbol: "xPufETH",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/XPUFETH.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/XPUFETH.png",
   },
   {
     chainId: 8453,
@@ -2497,8 +2269,7 @@ export const tokens: Token[] = [
     name: "XSwap",
     symbol: "XSWAP",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/XSWAP.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/XSWAP.png",
   },
   {
     chainId: 8453,
@@ -2506,8 +2277,7 @@ export const tokens: Token[] = [
     name: "XY Oracle",
     symbol: "XYO",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/XYO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/XYO.png",
   },
   {
     chainId: 8453,
@@ -2515,8 +2285,7 @@ export const tokens: Token[] = [
     name: "yearn.finance",
     symbol: "YFI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/YFI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/YFI.png",
   },
   {
     chainId: 8453,
@@ -2524,8 +2293,7 @@ export const tokens: Token[] = [
     name: "Yield Guild Games Token",
     symbol: "YGG",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/YGG.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/YGG.png",
   },
   {
     chainId: 8453,
@@ -2533,8 +2301,7 @@ export const tokens: Token[] = [
     name: "Yield TRYB",
     symbol: "yTRYB",
     decimals: 8,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/YTRYB.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/YTRYB.png",
   },
   {
     chainId: 8453,
@@ -2542,8 +2309,7 @@ export const tokens: Token[] = [
     name: "ZARP Stablecoin",
     symbol: "ZARP",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZARP.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZARP.png",
     type: "stablecoin",
   },
   {
@@ -2552,8 +2318,7 @@ export const tokens: Token[] = [
     name: "Horizen",
     symbol: "ZEN",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZEN.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZEN.png",
   },
   {
     chainId: 8453,
@@ -2561,8 +2326,7 @@ export const tokens: Token[] = [
     name: "Zentry",
     symbol: "ZENT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZENT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZENT.png",
   },
   {
     chainId: 8453,
@@ -2570,8 +2334,7 @@ export const tokens: Token[] = [
     name: "zkRace",
     symbol: "ZERC",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZERC.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZERC.png",
   },
   {
     chainId: 8453,
@@ -2579,8 +2342,7 @@ export const tokens: Token[] = [
     name: "ZyFAI",
     symbol: "ZFI",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZFI.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZFI.png",
   },
   {
     chainId: 8453,
@@ -2588,8 +2350,7 @@ export const tokens: Token[] = [
     name: "Based ZoomerCoin",
     symbol: "ZOOMER",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZOOMER.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZOOMER.png",
   },
   {
     chainId: 8453,
@@ -2597,8 +2358,7 @@ export const tokens: Token[] = [
     name: "Zora",
     symbol: "ZORA",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZORA.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZORA.png",
   },
   {
     chainId: 8453,
@@ -2606,8 +2366,7 @@ export const tokens: Token[] = [
     name: "LayerZero",
     symbol: "ZRO",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZRO.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZRO.png",
   },
   {
     chainId: 8453,
@@ -2623,8 +2382,7 @@ export const tokens: Token[] = [
     name: "ZXBT",
     symbol: "ZXBT",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZXBT.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZXBT.png",
   },
 
   // Zora
@@ -2634,8 +2392,7 @@ export const tokens: Token[] = [
     name: "Base is for everyone",
     symbol: "Base is for everyone",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BASEISFOREVERYONE.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BASEISFOREVERYONE.png",
     type: "zora-post",
   },
   {
@@ -2644,8 +2401,7 @@ export const tokens: Token[] = [
     name: "tinysoulgame",
     symbol: "tinysoulgame",
     decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TINYSOULGAME.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TINYSOULGAME.png",
     type: "zora-creator",
   },
 ];
