@@ -228,8 +228,7 @@ export const strategies: Strategy[] = [
     address: "0xCa260C4633A3834cAA9D70E5EA2D78d9290890C6",
     token0Address: ETH_NATIVE_ADDRESS,
     token1Address: "0x64cc19A52f4D631eF5BE07947CABA14aE00c52Eb",
-    v4PoolId:
-      "0xb7af3f156e4fba06eb87421eaad538de9763b59f50b0911c62cc7024b5d65ee4",
+    v4PoolId: "0xb7af3f156e4fba06eb87421eaad538de9763b59f50b0911c62cc7024b5d65ee4",
     tags: ["memecoin", "exotic"],
   },
 
@@ -260,6 +259,20 @@ export const strategies: Strategy[] = [
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     depositToken: "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
     tags: ["bluechip", "correlated", "safe"],
+  },
+  {
+    chainId: 8453,
+    title: "frxUSD/USDC",
+    type: "Single Sided",
+    liquidityType: "integral",
+    strategist: "Ichi",
+    riskLevel: 1,
+    riskDescription: LOW_RISK_STRING,
+    address: "0x6F28872Ed9b0dAe3273f5d9eadBeD224f8D24c19",
+    token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["stable", "correlated", "safe"],
   },
   {
     chainId: 8453,
@@ -412,8 +425,7 @@ export const strategies: Strategy[] = [
     address: "0x5fd254cd52235b9c04e53b48d77b52366bfb7c03",
     token0Address: "0x6Bb7a212910682DCFdbd5BCBb3e28FB4E8da10Ee",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    v4PoolId:
-      "0xa18262d729e388b0a67aa65c0dd2a096482b3a27058be5547a3235d053dd90b4",
+    v4PoolId: "0xa18262d729e388b0a67aa65c0dd2a096482b3a27058be5547a3235d053dd90b4",
     tags: ["stable", "correlated", "safe"],
   },
   {
@@ -427,8 +439,7 @@ export const strategies: Strategy[] = [
     address: "0x50cBEfFdD5671C8CdcE323E0553F1990678100FC",
     token0Address: ETH_NATIVE_ADDRESS,
     token1Address: "0x102d758f688a4C1C5a80b116bD945d4455460282",
-    v4PoolId:
-      "0xf36aa3809afef1433f731a64d34df3d2e1a129b60f15f85eeda713f7694ab2b3",
+    v4PoolId: "0xf36aa3809afef1433f731a64d34df3d2e1a129b60f15f85eeda713f7694ab2b3",
     tags: ["bluechip", "safe"],
   },
 ];
