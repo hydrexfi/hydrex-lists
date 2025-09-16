@@ -55,6 +55,14 @@ interface ValidationResult {
   };
 }
 
+// Exception list for tokens where display name differs from on-chain name
+const NAME_EXCEPTIONS: Record<string, string> = {
+  // Options Hydrex
+  '0xA1136031150E50B015b41f1ca6B2e99e49D8cB78': 'Options Hydrex',
+  // USDT0 (Stargate Bridged)
+  '0x102d758f688a4C1C5a80b116bD945d4455460282': 'USDT0 (Stargate Bridged)',
+};
+
 // Normalize symbols for comparison (strip $ prefix)
 function normalizeSymbol(symbol: string): string {
   return symbol.startsWith('$') ? symbol.slice(1) : symbol;
@@ -132,8 +140,13 @@ async function validateBatch(batch: Token[]): Promise<ValidationResult[]> {
       // Validate fields
       if (!onChainName) {
         validationResult.errors.push('Failed to fetch name');
-      } else if (onChainName !== token.name) {
-        validationResult.errors.push(`Name mismatch: expected "${token.name}", got "${onChainName}"`);
+      } else {
+        // Check if this token has an exception for name validation
+        if (NAME_EXCEPTIONS[token.address]) {
+          // Skip name validation for exception tokens
+        } else if (onChainName !== token.name) {
+          validationResult.errors.push(`Name mismatch: expected "${token.name}", got "${onChainName}"`);
+        }
       }
 
       if (!onChainSymbol) {
