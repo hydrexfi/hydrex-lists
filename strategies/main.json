@@ -241,6 +241,23 @@
   },
   {
     "chainId": 8453,
+    "title": "ZFI/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets.",
+    "address": "0xea1bbEb7d8c2e842De7F011B9E66611498D7608F",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xD080eD3c74a20250a2c9821885203034ACD2D5ae",
+    "depositToken": "0xD080eD3c74a20250a2c9821885203034ACD2D5ae",
+    "tags": [
+      "memecoin",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "KIBBLE/ETH",
     "type": "Narrow",
     "liquidityType": "uniV4",
