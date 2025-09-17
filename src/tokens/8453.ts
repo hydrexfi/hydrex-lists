@@ -1739,6 +1739,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x11dc28d01984079b7efe7763b533e6ed9e3722b9",
+    name: "Syndicate",
+    symbol: "SYND",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SYND.png",
+  },
+  {
+    chainId: 8453,
     address: "0x688AEe022AA544f150678B8E5720b6b96a9E9a2F",
     name: "Syrup Token",
     symbol: "SYRUP",
