@@ -285,7 +285,7 @@ export const strategies: Strategy[] = [
     address: "0x6F28872Ed9b0dAe3273f5d9eadBeD224f8D24c19",
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
-    depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    depositToken: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     tags: ["stable", "correlated", "safe"],
   },
   {
