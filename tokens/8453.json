@@ -188,6 +188,14 @@
   },
   {
     "chainId": 8453,
+    "address": "0x696F9436B67233384889472Cd7cD58A6fB5DF4f1",
+    "name": "Avantis",
+    "symbol": "AVNT",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AVNT.png"
+  },
+  {
+    "chainId": 8453,
     "address": "0x1B4617734C43F6159F3a70b7E06d883647512778",
     "name": "AWE Network",
     "symbol": "AWE",
