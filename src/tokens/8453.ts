@@ -1691,6 +1691,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x080D43c2164AFdBc3712422CE78Ab902ccaB5CA1",
+    name: "Spheron Network",
+    symbol: "SPON",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPON.png",
+  },
+  {
+    chainId: 8453,
     address: "0x50da645f148798f68ef2d7db7c1cb22a6819bb2c",
     name: "SPX6900",
     symbol: "SPX",
