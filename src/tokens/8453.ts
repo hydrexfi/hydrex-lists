@@ -1547,6 +1547,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x6555255b8dEd3c538Cb398d9E36769f45D7d3ea7",
+    name: "Backroom by Virtuals",
+    symbol: "ROOM",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ROOM.png",
+  },
+  {
+    chainId: 8453,
     address: "0xFbB75A59193A3525a8825BeBe7D4b56899E2f7e1",
     name: "ResearchCoin",
     symbol: "RSC",
