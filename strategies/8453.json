@@ -121,6 +121,108 @@
   },
   {
     "chainId": 8453,
+    "title": "frxUSD/HYDX",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 5,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets.",
+    "address": "0x4601FbB751146E67ba066D060D2a8931c2adAbC2",
+    "token0Address": "0x00000e7efa313F4E11Bfff432471eD9423AC6B30",
+    "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "depositToken": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "HYDX/frxUSD",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 5,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets.",
+    "address": "0xCfC45c18c07031cC74e734657f99fAD861F331f3",
+    "token0Address": "0x00000e7efa313F4E11Bfff432471eD9423AC6B30",
+    "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "depositToken": "0x00000e7efa313F4E11Bfff432471eD9423AC6B30",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "MIGGLES/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets.",
+    "address": "0xd5a32FE4DA3d98F996421312149308F5b9691828",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xB1a03EdA10342529bBF8EB700a06C60441fEf25d",
+    "depositToken": "0xB1a03EdA10342529bBF8EB700a06C60441fEf25d",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/MIGGLES",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets.",
+    "address": "0xcC726D97D79F3164Ca2521Ed1990eb12db1d7284",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xB1a03EdA10342529bBF8EB700a06C60441fEf25d",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "SPON/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0x4Fa7f5c8B102F6164a267df6b22A8418Cf61aE2E",
+    "token0Address": "0x080D43c2164AFdBc3712422CE78Ab902ccaB5CA1",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "depositToken": "0x080D43c2164AFdBc3712422CE78Ab902ccaB5CA1",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/SPON",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0xBc66c432c18B187194aA18Fd5eba645C41883c50",
+    "token0Address": "0x080D43c2164AFdBc3712422CE78Ab902ccaB5CA1",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "SPX6900/WETH",
     "type": "Single Sided",
     "liquidityType": "integral",

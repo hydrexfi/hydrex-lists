@@ -92,3 +92,6 @@ export const MODERATE_RISK_STRING =
 
 export const MODERATE_LOW_RISK_STRING =
   "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets.";
+
+export const MODERATE_HIGH_RISK_STRING =
+  "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.";
