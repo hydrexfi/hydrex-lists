@@ -2437,6 +2437,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xEF06F8EEBF46238A0c33b22ca5Ce7a7Fde2D6322",
+    name: "bartbaker",
+    symbol: "bartbaker",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BARTBAKER.png",
+    type: "zora-creator",
+  },
+  {
+    chainId: 8453,
     address: "0xb600ce2781e5018b922ca471c19562799cb96ead",
     name: "tinysoulgame",
     symbol: "tinysoulgame",
