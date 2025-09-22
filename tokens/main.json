@@ -272,6 +272,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0xeb560289067c375E4897552DCDA7E3d203BFFBE2",
+      "name": "Base Mascot",
+      "symbol": "Billy",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BILLY.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0x226A2FA2556C48245E57cd1cbA4C6c9e67077DD2",
       "name": "BIO",
       "symbol": "BIO",
@@ -1645,6 +1653,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0xc77eB53473759913bf278e52861EF281829cBE4d",
+      "name": "Skynet by Virtuals",
+      "symbol": "SKY",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SKY.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0x22e6966B799c4D5B13BE962E1D117b56327FDa66",
       "name": "Synthetix Network Token",
       "symbol": "SNX",
@@ -2426,6 +2442,15 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BASEISFOREVERYONE.png",
       "type": "zora-post"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xEF06F8EEBF46238A0c33b22ca5Ce7a7Fde2D6322",
+      "name": "bartbaker",
+      "symbol": "bartbaker",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BARTBAKER.png",
+      "type": "zora-creator"
     },
     {
       "chainId": 8453,
