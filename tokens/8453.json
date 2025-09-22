@@ -260,6 +260,14 @@
   },
   {
     "chainId": 8453,
+    "address": "0xeb560289067c375E4897552DCDA7E3d203BFFBE2",
+    "name": "Base Mascot",
+    "symbol": "Billy",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BILLY.png"
+  },
+  {
+    "chainId": 8453,
     "address": "0x226A2FA2556C48245E57cd1cbA4C6c9e67077DD2",
     "name": "BIO",
     "symbol": "BIO",
@@ -1630,6 +1638,14 @@
     "symbol": "SKI",
     "decimals": 9,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SKI.png"
+  },
+  {
+    "chainId": 8453,
+    "address": "0xc77eB53473759913bf278e52861EF281829cBE4d",
+    "name": "Skynet by Virtuals",
+    "symbol": "SKY",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SKY.png"
   },
   {
     "chainId": 8453,
