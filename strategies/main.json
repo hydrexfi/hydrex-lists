@@ -586,6 +586,23 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/cbADA",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 3,
+    "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets.",
+    "address": "0x129aDE4112D36353397D6184Bd9C55EBe864EC7C",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xcbADA732173e39521CDBE8bf59a6Dc85A9fc7b8c",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "bluechip",
+      "standard"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "cbADA/WETH",
     "type": "Single Sided",
     "liquidityType": "integral",
@@ -613,6 +630,23 @@
     "token0Address": "0x4200000000000000000000000000000000000006",
     "token1Address": "0xcb17C9Db87B595717C857a08468793f5bAb6445F",
     "depositToken": "0xcb17C9Db87B595717C857a08468793f5bAb6445F",
+    "tags": [
+      "bluechip",
+      "standard"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/cbLTC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 3,
+    "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets.",
+    "address": "0xDD007099Dba63Deb59837e56534467759bd80637",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xcb17C9Db87B595717C857a08468793f5bAb6445F",
+    "depositToken": "0x4200000000000000000000000000000000000006",
     "tags": [
       "bluechip",
       "standard"
