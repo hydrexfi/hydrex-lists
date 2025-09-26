@@ -1137,6 +1137,14 @@
   },
   {
     "chainId": 8453,
+    "address": "0xe57e601c06689d3e2bf7db7bebb14b4ff28400c6",
+    "name": "Meridian",
+    "symbol": "MRDN",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MRDN.png"
+  },
+  {
+    "chainId": 8453,
     "address": "0xB1a03EdA10342529bBF8EB700a06C60441fEf25d",
     "name": "Mister Miggles",
     "symbol": "MIGGLES",
