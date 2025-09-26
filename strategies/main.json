@@ -223,6 +223,74 @@
   },
   {
     "chainId": 8453,
+    "title": "MIRA/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets.",
+    "address": "0x2BDb305e99F1F402989e8a516dB66F3A00b09137",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x7AaFD31a321d3627b30A8e2171264B56852187fe",
+    "depositToken": "0x7AaFD31a321d3627b30A8e2171264B56852187fe",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "ROOM/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0x8C4c5faD79Ab6bA7683F88d3DA68cf8fCeAF3412",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x6555255b8dEd3c538Cb398d9E36769f45D7d3ea7",
+    "depositToken": "0x6555255b8dEd3c538Cb398d9E36769f45D7d3ea7",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/ROOM",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0x77c5Ed879d192b375DA9B21Df9477F8Ed392D749",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x6555255b8dEd3c538Cb398d9E36769f45D7d3ea7",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/MIRA",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets.",
+    "address": "0xFfE6bBDe762e781217b8cCeA83CB85E1b3631F52",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x7AaFD31a321d3627b30A8e2171264B56852187fe",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "SPX6900/WETH",
     "type": "Single Sided",
     "liquidityType": "integral",
