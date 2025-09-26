@@ -1147,6 +1147,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x7aafd31a321d3627b30a8e2171264b56852187fe",
+    name: "Mira",
+    symbol: "MIRA",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MIRA.png",
+  },
+  {
+    chainId: 8453,
     address: "0x2B11834Ed1FeAEd4b4b3a86A6F571315E25A884D",
     name: "Moca",
     symbol: "MOCA",
