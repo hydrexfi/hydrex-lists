@@ -240,6 +240,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0x78De5c914b91ee1a1DEfd2C617F759e74A896b07",
+      "name": "Base Strategy",
+      "symbol": "BASTR",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BASTR.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0x814fE70e85025BeC87d4Ad3F3b713bDCAAC0579B",
       "name": "Based Mario",
       "symbol": "BARIO",
