@@ -224,6 +224,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0xB96CFc6f81F85c58a1eCcDd9eC2aD940E2cb8453",
+      "name": "All Your Base",
+      "symbol": "AYB",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AYB.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0xB3B32F9f8827D4634fE7d973Fa1034Ec9fdDB3B3",
       "name": "B3",
       "symbol": "B3",
@@ -584,10 +592,10 @@
     {
       "chainId": 8453,
       "address": "0x56f8AD6112C2DB9F9848243531B277cE1C3BE30c",
-      "name": "dockerzxbt",
-      "symbol": "dockerzxbt",
+      "name": "Docker",
+      "symbol": "docker",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOCKERZXBT.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOCKER.png"
     },
     {
       "chainId": 8453,
