@@ -807,4 +807,32 @@ export const strategies: Strategy[] = [
     v4PoolId: "0xf36aa3809afef1433f731a64d34df3d2e1a129b60f15f85eeda713f7694ab2b3",
     tags: ["bluechip", "safe"],
   },
+
+  // Solidly Style Strategies
+  {
+    chainId: 8453,
+    title: "WETH/USDC",
+    type: "Classic",
+    liquidityType: "classic-volatile",
+    strategist: "Hydrex",
+    riskLevel: 3,
+    riskDescription: MODERATE_LOW_RISK_STRING,
+    address: "0x4dc7efb7d005dd514acdc0a0631630b67dd83a4b",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["bluechip", "safe"],
+  },
+  {
+    chainId: 8453,
+    title: "USDC/WETH",
+    type: "Classic",
+    liquidityType: "classic-stable",
+    strategist: "Hydrex",
+    riskLevel: 1,
+    riskDescription: LOW_RISK_STRING,
+    address: "0x84c7c4d9f5ede7df6fa04cdb737c2f813c42e2f1",
+    token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    token1Address: "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+    tags: ["stable", "safe"],
+  },
 ];
