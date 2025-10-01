@@ -155,6 +155,40 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/BILLY",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0x5aFbB7DccB1d423B3b54270840075cBd48b50913",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xeb560289067c375E4897552DCDA7E3d203BFFBE2",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "BILLY/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0xb9c1569C225aE389C54239e8F6344720DCCa6436",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xeb560289067c375E4897552DCDA7E3d203BFFBE2",
+    "depositToken": "0xeb560289067c375E4897552DCDA7E3d203BFFBE2",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/MRDN",
     "type": "Single Sided",
     "liquidityType": "integral",
@@ -979,7 +1013,7 @@
   },
   {
     "chainId": 8453,
-    "title": "USDC/WETH",
+    "title": "USDC/USDT",
     "type": "Classic",
     "liquidityType": "classic-stable",
     "strategist": "Hydrex",
