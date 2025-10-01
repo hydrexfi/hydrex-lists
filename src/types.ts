@@ -1,10 +1,6 @@
-export type LiquidityType = "uniV4" | "integral";
-export type StrategyType =
-  | "Narrow"
-  | "Correlated"
-  | "Long-Short"
-  | "Single Sided";
-export type Strategist = "Ichi" | "Gamma";
+export type LiquidityType = "uniV4" | "integral" | "classic-volatile" | "classic-stable";
+export type StrategyType = "Narrow" | "Correlated" | "Long-Short" | "Single Sided" | "Classic";
+export type Strategist = "Ichi" | "Gamma" | "Hydrex";
 
 export type StrategyTag =
   | "stable"
@@ -51,15 +47,7 @@ export interface Badge {
     | "Tier" // Tier = The main badge flow, no limit, users split a pool of Hydropoints
     | "Activity" // Activity = Limited supply airdrop, participants get a specific allocation
     | "Partner"; // Partner = Rewards based on a metric, usually with a ratio.
-  category:
-    | "Tier"
-    | "Based"
-    | "Social"
-    | "Memes"
-    | "AI"
-    | "NFT"
-    | "Gaming"
-    | "DeFi";
+  category: "Tier" | "Based" | "Social" | "Memes" | "AI" | "NFT" | "Gaming" | "DeFi";
   minHydropoints: number;
   metric?: string; // Just for showing the metric in the UI
   partnerName?: string; // Just for showing the partner name in the UI

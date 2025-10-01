@@ -155,6 +155,74 @@
   },
   {
     "chainId": 8453,
+    "title": "USDC/MRDN",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0xF1B9D70e54D01E10433a7D9a17361555E1e819aC",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xE57E601c06689D3e2BF7DB7bebb14B4ff28400C6",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "MRDN/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0x323585Ee14a7d93676190c067fa31Ad23dEedB23",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xE57E601c06689D3e2BF7DB7bebb14B4ff28400C6",
+    "depositToken": "0xE57E601c06689D3e2BF7DB7bebb14B4ff28400C6",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/AYB",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0x38D677935e7a1bA244FAa72212C331865e014FcF",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xB96CFc6f81F85c58a1eCcDd9eC2aD940E2cb8453",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "AYB/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0xaadcB07e38222fdf8Dc2609d2EB5c03425304aA0",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xB96CFc6f81F85c58a1eCcDd9eC2aD940E2cb8453",
+    "depositToken": "0xB96CFc6f81F85c58a1eCcDd9eC2aD940E2cb8453",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "MIGGLES/WETH",
     "type": "Single Sided",
     "liquidityType": "integral",
@@ -890,6 +958,38 @@
     "v4PoolId": "0xf36aa3809afef1433f731a64d34df3d2e1a129b60f15f85eeda713f7694ab2b3",
     "tags": [
       "bluechip",
+      "safe"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/USDC",
+    "type": "Classic",
+    "liquidityType": "classic-volatile",
+    "strategist": "Hydrex",
+    "riskLevel": 3,
+    "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets.",
+    "address": "0x4dc7efb7d005dd514acdc0a0631630b67dd83a4b",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "bluechip",
+      "safe"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/WETH",
+    "type": "Classic",
+    "liquidityType": "classic-stable",
+    "strategist": "Hydrex",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0x84c7c4d9f5ede7df6fa04cdb737c2f813c42e2f1",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+    "tags": [
+      "stable",
       "safe"
     ]
   },
