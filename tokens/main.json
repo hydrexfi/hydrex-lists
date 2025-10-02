@@ -369,6 +369,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0x9F3BB51d5c14aaf53794FE5780c085967DACaF2D",
+      "name": "Blueprint",
+      "symbol": "BP",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BP.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0x532f27101965dd16442e59d40670faf5ebb142e4",
       "name": "Brett",
       "symbol": "BRETT",
