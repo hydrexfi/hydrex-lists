@@ -25,7 +25,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "WETH/USDC",
+    title: "HYDX/USDC",
     type: "Classic",
     liquidityType: "classic-volatile",
     strategist: "Hydrex",
