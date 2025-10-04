@@ -75,6 +75,9 @@ export interface Strategy {
 export const LOW_RISK_STRING =
   "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.";
 
+export const CLASSIC_VOLATILE_RISK_STRING =
+  "This strategy is moderately-low risk, due to its structure as a classic sided liquidity pool with uncorrelated assets.";
+
 export const MODERATE_RISK_STRING =
   "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets.";
 
