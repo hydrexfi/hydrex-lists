@@ -172,6 +172,72 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/ZFI",
+    "type": "Classic",
+    "liquidityType": "classic-volatile",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy is moderately-low risk, due to its structure as a classic sided liquidity pool with uncorrelated assets.",
+    "address": "0x07BDdA4ab33C2163510284fE15B46187Ad840Ff9",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xD080eD3c74a20250a2c9821885203034ACD2D5ae",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/SKY",
+    "type": "Classic",
+    "liquidityType": "classic-volatile",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy is moderately-low risk, due to its structure as a classic sided liquidity pool with uncorrelated assets.",
+    "address": "0x0DCE62B0a626e709664500ca81767B46295C02B7",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xc77eB53473759913bf278e52861EF281829cBE4d",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/CDX",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets.",
+    "address": "0x65B097BfeC5cEe00BC04Eef63F9f3dCFdEdb27A5",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xC0D3700000c0e32716863323bFd936b54a1633d1",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "CDX/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets.",
+    "address": "0xf4bFf99DE99198101a870710cF494d26B223a53D",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xC0D3700000c0e32716863323bFd936b54a1633d1",
+    "depositToken": "0xC0D3700000c0e32716863323bFd936b54a1633d1",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "WETH/BILLY",
     "type": "Single Sided",
     "liquidityType": "integral",
