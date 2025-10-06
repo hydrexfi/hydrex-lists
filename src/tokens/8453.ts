@@ -548,6 +548,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xD262A4c7108C8139b2B189758e8D17c3DFC91a38",
+    name: "Cypher",
+    symbol: "CYPR",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CYPR.png",
+  },
+  {
+    chainId: 8453,
     address: "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
     name: "Dai Stablecoin",
     symbol: "DAI",
@@ -740,6 +748,14 @@ export const tokens: Token[] = [
     symbol: "ezETH",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EZETH.png",
+  },
+  {
+    chainId: 8453,
+    address: "0xFAC77f01957ed1B3DD1cbEa992199B8f85B6E886",
+    name: "ArAIstotle by Virtuals",
+    symbol: "FACY",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FACY.png",
   },
   {
     chainId: 8453,
@@ -2196,6 +2212,14 @@ export const tokens: Token[] = [
     symbol: "VIRGEN",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VIRGEN.png",
+  },
+  {
+    chainId: 8453,
+    address: "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
+    name: "Virtual Protocol",
+    symbol: "VIRTUAL",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VIRTUAL.png",
   },
   {
     chainId: 8453,
