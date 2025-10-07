@@ -260,6 +260,14 @@
   },
   {
     "chainId": 8453,
+    "address": "0x051024B653E8ec69E72693F776c41C2A9401FB07",
+    "name": "BETRMINT",
+    "symbol": "BETR",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BETR.png"
+  },
+  {
+    "chainId": 8453,
     "address": "0xf5Dbaa3DFC5e81405c7306039fB037a3DCD57Ce2",
     "name": "Biconomy",
     "symbol": "BICO",
