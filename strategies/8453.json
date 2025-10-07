@@ -172,6 +172,22 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/BETR",
+    "type": "Classic",
+    "liquidityType": "classic-volatile",
+    "strategist": "Hydrex",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-low risk, due to its structure as a classic sided liquidity pool with uncorrelated assets.",
+    "address": "0x086745599621901c321fa6662aca87bb5065d1a2",
+    "token0Address": "0x051024b653e8ec69e72693f776c41c2a9401fb07",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "WETH/ZFI",
     "type": "Classic",
     "liquidityType": "classic-volatile",
