@@ -172,6 +172,210 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/KTA",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0x14D43A129b29A1b91d5FC41075195e4f0D4ce298",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xc0634090F2Fe6c6d75e61Be2b949464aBB498973",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "KTA/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0x3D1ca7E78AD41b0d47d5743e39d818A81A8D1AE7",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xc0634090F2Fe6c6d75e61Be2b949464aBB498973",
+    "depositToken": "0xc0634090F2Fe6c6d75e61Be2b949464aBB498973",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/NOICE",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0x6616262218e9d7DA7462250cF6d91Cd01114522c",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x9Cb41FD9dC6891BAe8187029461bfAADF6CC0C69",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "NOICE/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0xa56D4156CCec1a49ceB3e6BFDC20E65A8FB16982",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x9Cb41FD9dC6891BAe8187029461bfAADF6CC0C69",
+    "depositToken": "0x9Cb41FD9dC6891BAe8187029461bfAADF6CC0C69",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/CYPR",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0x272723A5649442aedE7aC1637D53EBd1d781ac84",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xD262A4c7108C8139b2B189758e8D17c3DFC91a38",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "CYPR/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0x98868495fD340160b8396e9138B0C9D195c50CF1",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xD262A4c7108C8139b2B189758e8D17c3DFC91a38",
+    "depositToken": "0xD262A4c7108C8139b2B189758e8D17c3DFC91a38",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/VIRTUAL",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets.",
+    "address": "0xBC8F518DF711D98771076180014C2DE5d245B55C",
+    "token0Address": "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "VIRTUAL/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets.",
+    "address": "0x64ED1Ed19A2c007f5c60C79c2C28694f3fD8d4E8",
+    "token0Address": "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "depositToken": "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/TIBBIR",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0x5c95Bb22f83400EFBEbDF9215A5B2670335cff1a",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xA4A2E2ca3fBfE21aed83471D28b6f65A233C6e00",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "TIBBIR/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0xA8AfD87084666453B102811aEEFD5600D89B5532",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xA4A2E2ca3fBfE21aed83471D28b6f65A233C6e00",
+    "depositToken": "0xA4A2E2ca3fBfE21aed83471D28b6f65A233C6e00",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/FACY",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0x167EbB31851509Fb7C5Ba719F9a6285F98A30329",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xFAC77f01957ed1B3DD1cbEa992199B8f85B6E886",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "FACY/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0x7Dc7C66A8316f2389fEa294E55Cc2BC20F7314E5",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xFAC77f01957ed1B3DD1cbEa992199B8f85B6E886",
+    "depositToken": "0xFAC77f01957ed1B3DD1cbEa992199B8f85B6E886",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "WETH/BETR",
     "type": "Classic",
     "liquidityType": "classic-volatile",
