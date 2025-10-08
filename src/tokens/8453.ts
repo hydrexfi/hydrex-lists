@@ -597,6 +597,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xB69bBB15095C0949489FBB43951d2b750Fa7fA89",
+    name: "Memento",
+    symbol: "DEXTF",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DEXTF.png",
+  },
+  {
+    chainId: 8453,
     address: "0x54BC229d1cB15F8B6415EfEab4290a40bc8b7D84",
     name: "dHedge DAO Token",
     symbol: "DHT",
