@@ -172,6 +172,40 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/DEXTF",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0xEd485e9e60d0E1085Eb159D15455a16ed56AbedA",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xB69bBB15095C0949489FBB43951d2b750Fa7fA89",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "DEXTF/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.",
+    "address": "0xBa1E7e092B6a02d6b0B6Ea822b5bd1255F438756",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xB69bBB15095C0949489FBB43951d2b750Fa7fA89",
+    "depositToken": "0xB69bBB15095C0949489FBB43951d2b750Fa7fA89",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "WETH/KTA",
     "type": "Single Sided",
     "liquidityType": "integral",
