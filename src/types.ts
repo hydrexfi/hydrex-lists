@@ -76,13 +76,13 @@ export const LOW_RISK_STRING =
   "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.";
 
 export const CLASSIC_VOLATILE_RISK_STRING =
-  "This strategy is moderately-low risk, due to its structure as a classic sided liquidity pool with uncorrelated assets.";
+  "This strategy is moderately-low risk, due to its structure as a classic sided liquidity pool with uncorrelated assets. Impermenant loss is possible.";
 
 export const MODERATE_RISK_STRING =
-  "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets.";
+  "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermenant loss can occur based on price deviations.";
 
 export const MODERATE_LOW_RISK_STRING =
-  "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets.";
+  "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets. Impermenant loss is possible.";
 
 export const MODERATE_HIGH_RISK_STRING =
-  "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets.";
+  "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermenant loss.";
