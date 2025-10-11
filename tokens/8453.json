@@ -1457,6 +1457,14 @@
   },
   {
     "chainId": 8453,
+    "address": "0xFb3aD5550ca5730A6F91350032c4Da1eFdfDE3E8",
+    "name": "PHI",
+    "symbol": "PHI",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PHI.png"
+  },
+  {
+    "chainId": 8453,
     "address": "0x7404AC09aDf614603D9c16a7CE85A1101F3514ba",
     "name": "PLAY",
     "symbol": "PLAY",
