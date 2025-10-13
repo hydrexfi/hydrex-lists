@@ -848,6 +848,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x36912b5cf63E509f18E53ac98B3012Fa79e77bf5",
+    name: "Fuego",
+    symbol: "FUEGO",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FUEGO.png",
+  },
+  {
+    chainId: 8453,
     address: "0x5Fc2843838e65eb0B5d33654628F446d54602791",
     name: "fxhash",
     symbol: "FXH",
