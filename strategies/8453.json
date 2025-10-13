@@ -172,6 +172,22 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/FUEGO",
+    "type": "Classic",
+    "liquidityType": "classic-volatile",
+    "strategist": "Hydrex",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderately-low risk, due to its structure as a classic sided liquidity pool with uncorrelated assets. Impermenant loss is possible.",
+    "address": "0x66352585bad83da857a020f739f1f7ca93209a1b",
+    "token0Address": "0x36912b5cf63e509f18e53ac98b3012fa79e77bf5",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "WETH/DEXTF",
     "type": "Single Sided",
     "liquidityType": "integral",
