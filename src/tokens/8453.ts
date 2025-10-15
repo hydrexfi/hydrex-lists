@@ -1363,6 +1363,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xA66B448f97CBf58D12f00711C02bAC2d9EAC6f7f",
+    name: "OpenxAI",
+    symbol: "OPENX",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OPENX.png",
+  },
+  {
+    chainId: 8453,
     address: "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189",
     name: "OpenUSDT",
     symbol: "oUSDT",
@@ -1592,6 +1600,14 @@ export const tokens: Token[] = [
     symbol: "REI",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/REI.png",
+  },
+  {
+    chainId: 8453,
+    address: "0x5eeB2662615782b58251b6f0c3E107571ae1AB07",
+    name: "RETAKE.TV",
+    symbol: "RETAKE",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RETAKE.png",
   },
   {
     chainId: 8453,
@@ -2228,6 +2244,14 @@ export const tokens: Token[] = [
     symbol: "VEUR",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VEUR.png",
+  },
+  {
+    chainId: 8453,
+    address: "0xa749dE6c28262B7ffbc5De27dC845DD7eCD2b358",
+    name: "zkVerify",
+    symbol: "VFY",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VFY.png",
   },
   {
     chainId: 8453,
