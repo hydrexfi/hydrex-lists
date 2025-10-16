@@ -1211,19 +1211,19 @@ export const strategies: Strategy[] = [
   },
 
   // Solidly Style Strategies
-  {
-    chainId: 8453,
-    title: "WETH/USDC",
-    type: "Classic",
-    liquidityType: "classic-volatile",
-    strategist: "Hydrex",
-    riskLevel: 3,
-    riskDescription: MODERATE_LOW_RISK_STRING,
-    address: "0x4dc7efb7d005dd514acdc0a0631630b67dd83a4b",
-    token0Address: "0x4200000000000000000000000000000000000006",
-    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["bluechip", "safe"],
-  },
+  // {
+  //   chainId: 8453,
+  //   title: "WETH/USDC",
+  //   type: "Classic",
+  //   liquidityType: "classic-volatile",
+  //   strategist: "Hydrex",
+  //   riskLevel: 3,
+  //   riskDescription: MODERATE_LOW_RISK_STRING,
+  //   address: "0x4dc7efb7d005dd514acdc0a0631630b67dd83a4b",
+  //   token0Address: "0x4200000000000000000000000000000000000006",
+  //   token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  //   tags: ["bluechip", "safe"],
+  // },
   {
     chainId: 8453,
     title: "USDC/USDT",

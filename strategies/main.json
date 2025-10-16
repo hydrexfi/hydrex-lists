@@ -1452,22 +1452,6 @@
   },
   {
     "chainId": 8453,
-    "title": "WETH/USDC",
-    "type": "Classic",
-    "liquidityType": "classic-volatile",
-    "strategist": "Hydrex",
-    "riskLevel": 3,
-    "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets. Impermenant loss is possible.",
-    "address": "0x4dc7efb7d005dd514acdc0a0631630b67dd83a4b",
-    "token0Address": "0x4200000000000000000000000000000000000006",
-    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    "tags": [
-      "bluechip",
-      "safe"
-    ]
-  },
-  {
-    "chainId": 8453,
     "title": "USDC/USDT",
     "type": "Classic",
     "liquidityType": "classic-stable",
