@@ -763,23 +763,6 @@
   },
   {
     "chainId": 8453,
-    "title": "WETH/SPON",
-    "type": "Single Sided",
-    "liquidityType": "integral",
-    "strategist": "Ichi",
-    "riskLevel": 7,
-    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermenant loss.",
-    "address": "0xBc66c432c18B187194aA18Fd5eba645C41883c50",
-    "token0Address": "0x080D43c2164AFdBc3712422CE78Ab902ccaB5CA1",
-    "token1Address": "0x4200000000000000000000000000000000000006",
-    "depositToken": "0x4200000000000000000000000000000000000006",
-    "tags": [
-      "ecosystem",
-      "exotic"
-    ]
-  },
-  {
-    "chainId": 8453,
     "title": "MIRA/WETH",
     "type": "Single Sided",
     "liquidityType": "integral",
