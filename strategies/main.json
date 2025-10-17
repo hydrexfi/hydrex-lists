@@ -625,6 +625,23 @@
   },
   {
     "chainId": 8453,
+    "title": "CDX/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermenant loss can occur based on price deviations.",
+    "address": "0xf4bFf99DE99198101a870710cF494d26B223a53D",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xC0D3700000c0e32716863323bFd936b54a1633d1",
+    "depositToken": "0xC0D3700000c0e32716863323bFd936b54a1633d1",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "BILLY/WETH",
     "type": "Single Sided",
     "liquidityType": "integral",
