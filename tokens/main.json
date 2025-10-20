@@ -2394,6 +2394,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0x77Ca224436B132CD83581826669025Ed9cfd9b94",
+      "name": "Landwolf",
+      "symbol": "WOLF",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WOLF.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0xF3df0A31ec5EA438150987805e841F960b9471b6",
       "name": "WOO",
       "symbol": "WOO",
