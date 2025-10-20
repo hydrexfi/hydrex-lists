@@ -1579,6 +1579,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x1f16e03C1a5908818F47f6EE7bB16690b40D0671",
+    name: "Recall",
+    symbol: "RECALL",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RECALL.png",
+  },
+  {
+    chainId: 8453,
     address: "0xE642657E4F43e6DcF0bd73Ef24008394574Dee28",
     name: "MusicProtocolRECORDToken",
     symbol: "RECORD",
