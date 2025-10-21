@@ -172,6 +172,176 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/WOLF",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermenant loss.",
+    "address": "0x13b4AB6b3D78487F5511cA98d08C6722223eB9c4",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x77Ca224436B132CD83581826669025Ed9cfd9b94",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WOLF/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermenant loss.",
+    "address": "0x20B233c5A1290D989765Ba1DbDE2F73326D6C3d6",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x77Ca224436B132CD83581826669025Ed9cfd9b94",
+    "depositToken": "0x77Ca224436B132CD83581826669025Ed9cfd9b94",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/FXH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermenant loss.",
+    "address": "0x5954eD82e8d57B61825DDf7166B46cAe251E0448",
+    "token0Address": "0x5Fc2843838e65eb0B5d33654628F446d54602791",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "FXH/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermenant loss.",
+    "address": "0xB3b47181b17C0C287eA18a636FA0b3035caEeED8",
+    "token0Address": "0x5Fc2843838e65eb0B5d33654628F446d54602791",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "depositToken": "0x5Fc2843838e65eb0B5d33654628F446d54602791",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/VFY",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermenant loss.",
+    "address": "0xA0B4c07F1D1c5DE1efcec178A6A453c0796e0B27",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xa749dE6c28262B7ffbc5De27dC845DD7eCD2b358",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "VFY/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermenant loss.",
+    "address": "0xBb5dd9FAe9BF85C3a374aeC0dE948aEA65B4Eb9e",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xa749dE6c28262B7ffbc5De27dC845DD7eCD2b358",
+    "depositToken": "0xa749dE6c28262B7ffbc5De27dC845DD7eCD2b358",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/RECALL",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermenant loss.",
+    "address": "0x92DA8Ec622a4909f708721869f0980d700C1F6D9",
+    "token0Address": "0x1f16e03C1a5908818F47f6EE7bB16690b40D0671",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "RECALL/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermenant loss.",
+    "address": "0xFA2b0B5cA9d829F7136A2963281dCDE7fd1a74EF",
+    "token0Address": "0x1f16e03C1a5908818F47f6EE7bB16690b40D0671",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "depositToken": "0x1f16e03C1a5908818F47f6EE7bB16690b40D0671",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/CARV",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermenant loss.",
+    "address": "0xC14e71b91F14597634EE8D8438C87446773d12bc",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "CARV/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermenant loss.",
+    "address": "0xdb1E743b7881e9630CB3F94d0DbaA6BEa7F58A9c",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
+    "depositToken": "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "fBOMB/WETH",
     "type": "Classic",
     "liquidityType": "classic-volatile",
