@@ -1121,6 +1121,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x9EadbE35F3Ee3bF3e28180070C429298a1b02F93",
+    name: "Limitless Official Token",
+    symbol: "LMTS",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LMTS.png",
+  },
+  {
+    chainId: 8453,
     address: "0xB676f87A6E701f0DE8De5Ab91B56b66109766DB1",
     name: "BLOCKLORDS",
     symbol: "LRDS",
