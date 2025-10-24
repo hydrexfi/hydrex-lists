@@ -1,6 +1,6 @@
-export type LiquidityType = "uniV4" | "integral" | "classic-volatile" | "classic-stable";
-export type StrategyType = "Narrow" | "Correlated" | "Long-Short" | "Single Sided" | "Classic";
-export type Strategist = "Ichi" | "Gamma" | "Hydrex";
+export type LiquidityType = "uniV4" | "integral" | "classic-volatile" | "classic-stable" | "morpho";
+export type StrategyType = "Narrow" | "Correlated" | "Long-Short" | "Single Sided" | "Classic" | "Lending";
+export type Strategist = "Ichi" | "Gamma" | "Hydrex" | "Morpho";
 
 export type StrategyTag =
   | "stable"
@@ -71,6 +71,9 @@ export interface Strategy {
   v4PoolId?: string;
   tags?: StrategyTag[];
 }
+
+export const MORPHO_RISK_STRING =
+  "This strategy is low risk, due to its structure as a lending pool with a single asset causing no impermenant loss.";
 
 export const LOW_RISK_STRING =
   "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.";

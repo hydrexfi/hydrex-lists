@@ -35,6 +35,23 @@
   },
   {
     "chainId": 8453,
+    "title": "Morpho USDC",
+    "type": "Lending",
+    "liquidityType": "morpho",
+    "strategist": "Morpho",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk, due to its structure as a lending pool with a single asset causing no impermenant loss.",
+    "address": "0x25c10987091f98bff0f48a5bd24d7b3bf3419c52",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "bluechip",
+      "safe"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "WETH/USDC",
     "type": "Single Sided",
     "liquidityType": "integral",
