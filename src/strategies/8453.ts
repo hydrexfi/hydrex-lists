@@ -45,7 +45,7 @@ export const strategies: Strategy[] = [
     strategist: "Morpho",
     riskLevel: 1,
     riskDescription: MORPHO_RISK_STRING,
-    address: "0x25c10987091f98bff0f48a5bd24d7b3bf3419c52",
+    address: "0xBEEFE94c8aD530842bfE7d8B397938fFc1cb83b2",
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
