@@ -6,6 +6,7 @@ import {
   MODERATE_HIGH_RISK_STRING,
   CLASSIC_VOLATILE_RISK_STRING,
   Strategy,
+  MORPHO_RISK_STRING,
 } from "../types";
 
 export const strategies: Strategy[] = [
@@ -35,6 +36,20 @@ export const strategies: Strategy[] = [
     token0Address: "0x00000e7efa313F4E11Bfff432471eD9423AC6B30",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["bluechip", "ecosystem", "exotic"],
+  },
+  {
+    chainId: 8453,
+    title: "Morpho USDC",
+    type: "Lending",
+    liquidityType: "morpho",
+    strategist: "Morpho",
+    riskLevel: 1,
+    riskDescription: MORPHO_RISK_STRING,
+    address: "0xBEEFE94c8aD530842bfE7d8B397938fFc1cb83b2",
+    token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    token1Address: "",
+    depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["bluechip", "safe"],
   },
   // {
   //   chainId: 8453,
