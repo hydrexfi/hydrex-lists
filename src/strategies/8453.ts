@@ -39,7 +39,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "Steakhouse USDC",
+    title: "USDC",
     type: "Morpho",
     liquidityType: "morpho",
     strategist: "Steakhouse",
