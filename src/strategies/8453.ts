@@ -5,8 +5,8 @@ import {
   MODERATE_LOW_RISK_STRING,
   MODERATE_HIGH_RISK_STRING,
   CLASSIC_VOLATILE_RISK_STRING,
-  LENDING_RISK_STRING,
   Strategy,
+  MORPHO_RISK_STRING,
 } from "../types";
 
 export const strategies: Strategy[] = [
@@ -39,12 +39,12 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "USDC",
-    type: "Morpho",
+    title: "USDC (Steakhouse)",
+    type: "Lending",
     liquidityType: "morpho",
-    strategist: "Steakhouse",
+    strategist: "Morpho",
     riskLevel: 1,
-    riskDescription: LENDING_RISK_STRING,
+    riskDescription: MORPHO_RISK_STRING,
     address: "0xBEEFE94c8aD530842bfE7d8B397938fFc1cb83b2",
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "",
