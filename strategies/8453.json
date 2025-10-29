@@ -53,7 +53,7 @@
       {
         "title": "Steakhouse",
         "description": "Market curated by the Steakhouse Financial, who powers Coinbase's retail onchain loans.",
-        "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/others/steakhouse.png",
+        "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/steakhouse.png",
         "href": "https://app.morpho.org/base/vault/0xBEEFE94c8aD530842bfE7d8B397938fFc1cb83b2/steakhouse-prime-usdc"
       }
     ]
@@ -78,7 +78,7 @@
       {
         "title": "Steakhouse",
         "description": "Market curated by the Steakhouse Financial, who powers Coinbase's retail onchain loans.",
-        "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/others/steakhouse.png",
+        "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/steakhouse.png",
         "href": "https://app.morpho.org/base/vault/0xbEEf050a7485865A7a8d8Ca0CC5f7536b7a3443e/steakhouse-eth"
       }
     ]
