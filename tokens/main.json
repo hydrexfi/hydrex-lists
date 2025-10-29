@@ -1099,6 +1099,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0x00fBAC94Fec8D4089d3fe979F39454F48c71A65d",
+      "name": "Klima Protocol kVCM",
+      "symbol": "kVCM",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KVCM.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0xb89D354AD1b0d95a48b3De4607F75a8cD710c1bA",
       "name": "Loomlay",
       "symbol": "LAY",
