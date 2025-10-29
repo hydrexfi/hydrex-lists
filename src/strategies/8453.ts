@@ -39,7 +39,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "Morpho USDC",
+    title: "USDC (Steakhouse)",
     type: "Lending",
     liquidityType: "morpho",
     strategist: "Morpho",
@@ -50,6 +50,36 @@ export const strategies: Strategy[] = [
     token1Address: "",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["bluechip", "safe"],
+    displayTags: [
+      {
+        title: "Steakhouse",
+        description: "Market curated by the Steakhouse Financial, who powers Coinbase's retail onchain loans.",
+        image: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/steakhouse.png",
+        href: "https://app.morpho.org/base/vault/0xBEEFE94c8aD530842bfE7d8B397938fFc1cb83b2/steakhouse-prime-usdc",
+      },
+    ],
+  },
+  {
+    chainId: 8453,
+    title: "WETH (Steakhouse)",
+    type: "Lending",
+    liquidityType: "morpho",
+    strategist: "Morpho",
+    riskLevel: 1,
+    riskDescription: MORPHO_RISK_STRING,
+    address: "0xbEEf050a7485865A7a8d8Ca0CC5f7536b7a3443e",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "",
+    depositToken: "0x4200000000000000000000000000000000000006",
+    tags: ["bluechip", "safe"],
+    displayTags: [
+      {
+        title: "Steakhouse",
+        description: "Market curated by the Steakhouse Financial, who powers Coinbase's retail onchain loans.",
+        image: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/steakhouse.png",
+        href: "https://app.morpho.org/base/vault/0xbEEf050a7485865A7a8d8Ca0CC5f7536b7a3443e/steakhouse-eth",
+      },
+    ],
   },
   // {
   //   chainId: 8453,
@@ -106,6 +136,8 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["stable", "correlated", "safe"],
+    strategyInfoOverride:
+      "This strategy is designed for correlated pairs and centers liquidity around a defined peg. It uses median observation over multiple snapshots to avoid reacting to short-term volatility and performs controlled swaps within a single tick to minimize slippage. As a result it does not aim to maintain a specific ratio of the assets in the pool.",
   },
   {
     chainId: 8453,
