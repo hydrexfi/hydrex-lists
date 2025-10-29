@@ -70,6 +70,13 @@ export interface Strategy {
   token1Address?: string;
   v4PoolId?: string;
   tags?: StrategyTag[];
+  strategyInfoOverride?: string;
+  displayTags?: {
+    title: string;
+    description?: string;
+    image?: string;
+    href?: string;
+  }[];
 }
 
 export const MORPHO_RISK_STRING =
