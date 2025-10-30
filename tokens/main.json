@@ -1107,6 +1107,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0x00fBAC94Fec8D4089d3fe979F39454F48c71A65d",
+      "name": "Klima Protocol kVCM",
+      "symbol": "kVCM",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KVCM.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0xb89D354AD1b0d95a48b3De4607F75a8cD710c1bA",
       "name": "Loomlay",
       "symbol": "LAY",
@@ -1506,6 +1514,14 @@
       "symbol": "PHI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PHI.png"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xd85c31854c2B0Fb40aaA9E2Fc4Da23C21f829d46",
+      "name": "Ping",
+      "symbol": "PING",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PING.png"
     },
     {
       "chainId": 8453,
