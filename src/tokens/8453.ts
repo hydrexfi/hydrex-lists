@@ -1081,6 +1081,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x370923D39f139C64813f173a1bf0b4f9Ba36a24f",
+    name: "KRWQ",
+    symbol: "KRWQ",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KRWQ.png",
+  },
+  {
+    chainId: 8453,
     address: "0xc0634090F2Fe6c6d75e61Be2b949464aBB498973",
     name: "Keeta",
     symbol: "KTA",
