@@ -100,6 +100,14 @@
   },
   {
     "chainId": 8453,
+    "address": "0xFad8CB754230dbFd249Db0E8ECCb5142DD675a0d",
+    "name": "Aerobud",
+    "symbol": "AEROBUD",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AEROBUD.png"
+  },
+  {
+    "chainId": 8453,
     "address": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
     "name": "Aerodrome",
     "symbol": "AERO",
