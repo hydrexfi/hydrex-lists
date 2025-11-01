@@ -2164,6 +2164,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x93919784C523f39CACaa98Ee0a9d96c3F32b593e",
+    name: "uniBTC",
+    symbol: "uniBTC",
+    decimals: 8,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UNIBTC.png",
+  },
+  {
+    chainId: 8453,
     address: "0x20fbd133897ef802e0235db77bb19a071e257d41",
     name: "Pump (Universal)",
     symbol: "uPUMP",
