@@ -103,7 +103,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0xFad8CB754230dbFd249Db0E8ECCb5142DD675a0d",
-    name: "Aerobud",
+    name: "AEROBUD",
     symbol: "AEROBUD",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AEROBUD.png",
@@ -123,6 +123,14 @@ export const tokens: Token[] = [
     symbol: "AION",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AION.png",
+  },
+  {
+    chainId: 8453,
+    address: "0x323ac72a3a6267D97427944989b896fB411fdCbb",
+    name: "AicroStrategy",
+    symbol: "AISTR",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AISTR.png",
   },
   {
     chainId: 8453,
@@ -1896,6 +1904,14 @@ export const tokens: Token[] = [
     symbol: "SQD",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SQD.png",
+  },
+  {
+    chainId: 8453,
+    address: "0x75cE54301374E194edAa6cA2e3C118cF01D3a76B",
+    name: "Liquid Staked NIBI",
+    symbol: "stNIBI",
+    decimals: 6,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/STNIBI.png",
   },
   {
     chainId: 8453,
