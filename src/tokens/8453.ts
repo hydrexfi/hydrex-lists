@@ -2456,6 +2456,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x3aDE6652F203d919697f8577F75Eebb989A5C586",
+    name: "Wrapped NIBI",
+    symbol: "WNIBI",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WNIBI.png",
+  },
+  {
+    chainId: 8453,
     address: "0x77Ca224436B132CD83581826669025Ed9cfd9b94",
     name: "Landwolf",
     symbol: "WOLF",
