@@ -1713,6 +1713,14 @@
   },
   {
     "chainId": 8453,
+    "address": "0x09Fc6E5aD1a1e074D017Ec9A6D677F31f97Efb07",
+    "name": "Rocky",
+    "symbol": "ROCKY",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ROCKY.png"
+  },
+  {
+    "chainId": 8453,
     "address": "0x6555255b8dEd3c538Cb398d9E36769f45D7d3ea7",
     "name": "Backroom by Virtuals",
     "symbol": "ROOM",
