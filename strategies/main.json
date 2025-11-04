@@ -119,6 +119,44 @@
   },
   {
     "chainId": 8453,
+    "title": "USDC/DAI",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0x91EB3c5928A08B9aDa859C447F7cc0fFDd7ef097",
+    "token0Address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "stable",
+      "correlated",
+      "safe"
+    ],
+    "strategyInfoOverride": "This strategy is designed for correlated pairs and centers liquidity around a defined peg. It uses median observation over multiple snapshots to avoid reacting to short-term volatility and performs controlled swaps within a single tick to minimize slippage. As a result it does not aim to maintain a specific ratio of the assets in the pool."
+  },
+  {
+    "chainId": 8453,
+    "title": "DAI/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0x6c656bc859fAf5dB64Ee1ea96465f9829522a11a",
+    "token0Address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "depositToken": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+    "tags": [
+      "stable",
+      "correlated",
+      "safe"
+    ],
+    "strategyInfoOverride": "This strategy is designed for correlated pairs and centers liquidity around a defined peg. It uses median observation over multiple snapshots to avoid reacting to short-term volatility and performs controlled swaps within a single tick to minimize slippage. As a result it does not aim to maintain a specific ratio of the assets in the pool."
+  },
+  {
+    "chainId": 8453,
     "title": "cbBTC/WETH",
     "type": "Single Sided",
     "liquidityType": "integral",
@@ -197,6 +235,74 @@
     "token0Address": "0x00000e7efa313F4E11Bfff432471eD9423AC6B30",
     "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "depositToken": "0x00000e7efa313F4E11Bfff432471eD9423AC6B30",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/PING",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x0B30613B308Ef8233cEd96ca1c1BCfC5FAB5432c",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xd85c31854c2B0Fb40aaA9E2Fc4Da23C21f829d46",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "PING/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0xd3c01B14c9C56532F43dae6b22c8C7b0a6F4881a",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xd85c31854c2B0Fb40aaA9E2Fc4Da23C21f829d46",
+    "depositToken": "0xd85c31854c2B0Fb40aaA9E2Fc4Da23C21f829d46",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "kVCM/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0xc465CEad3eEC9bA6F2224727fc73B1685f6A652B",
+    "token0Address": "0x00fBAC94Fec8D4089d3fe979F39454F48c71A65d",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "depositToken": "0x00fBAC94Fec8D4089d3fe979F39454F48c71A65d",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/BRZ",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x43d94098ee81f9010BbA9A163aE62588331D5bf9",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
       "exotic"
