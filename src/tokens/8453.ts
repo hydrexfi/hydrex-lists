@@ -1121,6 +1121,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xF2a81609cb1dA12139488D19512371C8930b8161",
+    name: "LABS",
+    symbol: "LABS",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LABS.png",
+  },
+  {
+    chainId: 8453,
     address: "0xb89D354AD1b0d95a48b3De4607F75a8cD710c1bA",
     name: "Loomlay",
     symbol: "LAY",
@@ -1716,7 +1724,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x09Fc6E5aD1a1e074D017Ec9A6D677F31f97Efb07",
-    name: "Rocky",
+    name: "ROCKY",
     symbol: "ROCKY",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ROCKY.png",
