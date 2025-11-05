@@ -1,4 +1,4 @@
-export type LiquidityType = "uniV4" | "integral" | "classic-volatile" | "classic-stable" | "morpho";
+export type LiquidityType = "uniV4" | "integral" | "classic-volatile" | "classic-stable" | "morpho" | "manual-cl";
 export type StrategyType = "Narrow" | "Correlated" | "Long-Short" | "Single Sided" | "Classic" | "Lending";
 export type Strategist = "Ichi" | "Gamma" | "Hydrex" | "Morpho";
 
@@ -96,3 +96,5 @@ export const MODERATE_LOW_RISK_STRING =
 
 export const MODERATE_HIGH_RISK_STRING =
   "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.";
+
+export const MANUAL_CL_RISK_STRING = "This strategy is manual.";
