@@ -237,7 +237,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     depositToken: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
-    tags: ["ecosystem", "exotic"],
+    tags: ["bluechip", "safe"],
   },
   {
     chainId: 8453,
@@ -251,7 +251,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     depositToken: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-    tags: ["ecosystem", "exotic"],
+    tags: ["bluechip", "safe"],
   },
   {
     chainId: 8453,
@@ -279,6 +279,19 @@ export const strategies: Strategy[] = [
     token0Address: "0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb",
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x4200000000000000000000000000000000000006",
+    tags: ["ecosystem", "exotic"],
+  },
+  {
+    chainId: 8453,
+    title: "AISTR/WETH",
+    type: "Classic",
+    liquidityType: "classic-volatile",
+    strategist: "Hydrex",
+    riskLevel: 6,
+    riskDescription: CLASSIC_VOLATILE_RISK_STRING,
+    address: "0xcf8324597147a1daed32b6b3d4c08dd3d61c8aa1",
+    token0Address: "0x323ac72a3a6267d97427944989b896fb411fdcbb",
+    token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
   },
   {
