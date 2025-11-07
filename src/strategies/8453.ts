@@ -81,6 +81,28 @@ export const strategies: Strategy[] = [
       },
     ],
   },
+  {
+    chainId: 8453,
+    title: "EURC (Steakhouse)",
+    type: "Lending",
+    liquidityType: "morpho",
+    strategist: "Morpho",
+    riskLevel: 1,
+    riskDescription: MORPHO_RISK_STRING,
+    address: "0xBeEF086b8807Dc5E5A1740C5E3a7C4c366eA6ab5",
+    token0Address: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    token1Address: "",
+    depositToken: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    tags: ["bluechip", "safe"],
+    displayTags: [
+      {
+        title: "Steakhouse",
+        description: "Market curated by the Steakhouse Financial, who powers Coinbase's retail onchain loans.",
+        image: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/steakhouse.png",
+        href: "https://app.morpho.org/base/vault/0xBeEF086b8807Dc5E5A1740C5E3a7C4c366eA6ab5/steakhouse-eurc",
+      },
+    ],
+  },
   // {
   //   chainId: 8453,
   //   title: "HYDX/USDC",
