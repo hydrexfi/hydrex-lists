@@ -1216,6 +1216,14 @@
   },
   {
     "chainId": 8453,
+    "address": "0x7F6F8bB1AA8206921e80Ab6aBf1ac5737E39Ab07",
+    "name": "machines cash",
+    "symbol": "MACHINES",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MACHINES.png"
+  },
+  {
+    "chainId": 8453,
     "address": "0xbf1aeA8670D2528E08334083616dD9C5F3B087aE",
     "name": "Mai Stablecoin",
     "symbol": "MAI",
