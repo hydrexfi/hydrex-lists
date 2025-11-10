@@ -977,6 +977,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x15D0e0c55a3E7eE67152aD7E89acf164253Ff68d",
+    name: "HYPE",
+    symbol: "HYPE",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HYPE.png",
+  },
+  {
+    chainId: 8453,
     address: "0xC9d23ED2ADB0f551369946BD377f8644cE1ca5c4",
     name: "Hyperlane",
     symbol: "HYPER",
@@ -1161,6 +1169,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xF732A566121Fa6362E9E0FBdd6D66E5c8C925E49",
+    name: "Lit Protocol",
+    symbol: "LITKEY",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LITKEY.png",
+  },
+  {
+    chainId: 8453,
     address: "0x9EadbE35F3Ee3bF3e28180070C429298a1b02F93",
     name: "Limitless Official Token",
     symbol: "LMTS",
@@ -1219,7 +1235,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x7F6F8bB1AA8206921e80Ab6aBf1ac5737E39Ab07",
-    name: "machines cash",
+    name: "machines-cash",
     symbol: "MACHINES",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MACHINES.png",
@@ -1808,6 +1824,14 @@ export const tokens: Token[] = [
     symbol: "SEKOIA",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SEKOIA.png",
+  },
+  {
+    chainId: 8453,
+    address: "0x5576D6ed9181F2225afF5282Ac0ED29f755437Ea",
+    name: "OpenServ",
+    symbol: "SERV",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SERV.png",
   },
   {
     chainId: 8453,
