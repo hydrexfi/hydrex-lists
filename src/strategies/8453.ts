@@ -249,7 +249,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "HYPE/ETH",
+    title: "HYPE/WETH",
     type: "Single Sided",
     liquidityType: "integral",
     strategist: "Ichi",
@@ -263,7 +263,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "ETH/HYPE",
+    title: "WETH/HYPE",
     type: "Single Sided",
     liquidityType: "integral",
     strategist: "Ichi",
@@ -277,7 +277,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "LITKEY/ETH",
+    title: "LITKEY/WETH",
     type: "Single Sided",
     liquidityType: "integral",
     strategist: "Ichi",
@@ -291,7 +291,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "ETH/LITKEY",
+    title: "WETH/LITKEY",
     type: "Single Sided",
     liquidityType: "integral",
     strategist: "Ichi",
@@ -305,7 +305,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "ETH/SERV",
+    title: "WETH/SERV",
     type: "Single Sided",
     liquidityType: "integral",
     strategist: "Ichi",
@@ -319,7 +319,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "SERV/ETH",
+    title: "SERV/WETH",
     type: "Single Sided",
     liquidityType: "integral",
     strategist: "Ichi",
