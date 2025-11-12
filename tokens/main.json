@@ -841,6 +841,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0xD09cf0982A32DD6856e12d6BF2F08A822eA5D91D",
+      "name": "Fey Protocol",
+      "symbol": "FEY",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FEY.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0xF1A7000000950C7ad8Aff13118Bb7aB561A448ee",
       "name": "Flayer",
       "symbol": "FLAY",
