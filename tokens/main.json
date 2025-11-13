@@ -256,14 +256,6 @@
     },
     {
       "chainId": 8453,
-      "address": "0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07",
-      "name": "Bario Entertainment System",
-      "symbol": "BAES",
-      "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BAES.png"
-    },
-    {
-      "chainId": 8453,
       "address": "0x4158734D47Fc9692176B5085E0F52ee0Da5d47F1",
       "name": "Balancer",
       "symbol": "BAL",
