@@ -292,14 +292,14 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BETR.png",
   },
-  {
-    chainId: 8453,
-    address: "0xD88e4a97B9dEfbF2C8491eA0E48fcc7e043C775a",
-    name: "Blink Galaxy",
-    symbol: "BG",
-    decimals: 18,
-    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BG.png",
-  },
+  // {
+  //   chainId: 8453,
+  //   address: "0xD88e4a97B9dEfbF2C8491eA0E48fcc7e043C775a",
+  //   name: "Blink Galaxy",
+  //   symbol: "BG",
+  //   decimals: 18,
+  //   logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BG.png",
+  // },
   {
     chainId: 8453,
     address: "0xf5Dbaa3DFC5e81405c7306039fB037a3DCD57Ce2",
