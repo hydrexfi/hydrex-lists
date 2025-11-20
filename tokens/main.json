@@ -1075,6 +1075,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0x50f88fe97f72cd3e75b9eb4f747f59bceba80d59",
+      "name": "jesse",
+      "symbol": "jesse",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/JESSE.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0x4154550f4Db74Dc38d1FE98e1F3F28ed6daD627d",
       "name": "Jarvis Synthetic Euro",
       "symbol": "jEUR",
