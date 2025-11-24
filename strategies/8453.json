@@ -267,6 +267,22 @@
   },
   {
     "chainId": 8453,
+    "title": "ZXBT/WETH",
+    "type": "Classic",
+    "liquidityType": "classic-volatile",
+    "strategist": "Hydrex",
+    "riskLevel": 9,
+    "riskDescription": "This strategy is moderately-low risk, due to its structure as a classic sided liquidity pool with uncorrelated assets. Impermanent loss is possible.",
+    "address": "0x9637176993491B5Cec9047773a836F6400649A93",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xE99D2F7988c5F2d013A34E7484f079cAB87f469F",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "WETH/jesse",
     "type": "Single Sided",
     "liquidityType": "integral",
