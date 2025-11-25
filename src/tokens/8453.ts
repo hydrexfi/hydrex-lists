@@ -1724,7 +1724,7 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x2E6C05f1f7D1f4Eb9A088bf12257f1647682b754",
-    name: "Axelar Wrapped REGEN",
+    name: "REGEN",
     symbol: "REGEN",
     decimals: 6,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AXLREGEN.png",

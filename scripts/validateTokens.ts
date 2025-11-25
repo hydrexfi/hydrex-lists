@@ -61,6 +61,8 @@ const NAME_EXCEPTIONS: Record<string, string> = {
   '0xA1136031150E50B015b41f1ca6B2e99e49D8cB78': 'Options Hydrex',
   // USDT0 (Stargate Bridged)
   '0x102d758f688a4C1C5a80b116bD945d4455460282': 'USDT0 (Stargate Bridged)',
+  // Axelar Wrapped REGEN (Axelar Wrapped REGEN)
+  '0x2E6C05f1f7D1f4Eb9A088bf12257f1647682b754': 'REGEN',
 };
 
 // Exception list for tokens where display symbol differs from on-chain symbol
