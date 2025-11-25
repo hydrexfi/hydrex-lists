@@ -439,7 +439,7 @@ export const strategies: Strategy[] = [
     address: "0x23A9b03255BE1569dBbcA7e3599616d3BA8A100f",
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x50F88fe97f72CD3E75b9Eb4f747F59BcEBA80d59",
-    tags: ["ecosystem", "exotic", "zora-creator"],
+    tags: ["ecosystem", "exotic", "zora-creator"], // TODO: remove zora-creator tag
   },
   {
     chainId: 8453,
@@ -1480,7 +1480,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xeb560289067c375E4897552DCDA7E3d203BFFBE2",
     depositToken: "0xeb560289067c375E4897552DCDA7E3d203BFFBE2",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "zora-creator"], // TODO: remove zora-creator tag
   },
   {
     chainId: 8453,
@@ -1536,7 +1536,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xB96CFc6f81F85c58a1eCcDd9eC2aD940E2cb8453",
     depositToken: "0xB96CFc6f81F85c58a1eCcDd9eC2aD940E2cb8453",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "zora-creator"], // TODO: remove zora-creator tag
   },
   {
     chainId: 8453,
@@ -1550,7 +1550,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xB1a03EdA10342529bBF8EB700a06C60441fEf25d",
     depositToken: "0xB1a03EdA10342529bBF8EB700a06C60441fEf25d",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "zora-creator"], // TODO: remove zora-creator tag
   },
   // {
   //   chainId: 8453,
