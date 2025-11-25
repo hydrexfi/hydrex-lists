@@ -800,7 +800,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x00fBAC94Fec8D4089d3fe979F39454F48c71A65d",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x00fBAC94Fec8D4089d3fe979F39454F48c71A65d",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "zora-creator"], // TODO: remove zora-creator tag
   },
   {
     chainId: 8453,
