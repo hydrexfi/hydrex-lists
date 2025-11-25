@@ -685,7 +685,8 @@
     "token1Address": "0x4200000000000000000000000000000000000006",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "zora-creator"
     ]
   },
   {
@@ -701,7 +702,8 @@
     "token1Address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "zora-creator"
     ]
   },
   {
@@ -752,8 +754,7 @@
     "depositToken": "0x00fBAC94Fec8D4089d3fe979F39454F48c71A65d",
     "tags": [
       "ecosystem",
-      "exotic",
-      "zora-creator"
+      "exotic"
     ]
   },
   {
