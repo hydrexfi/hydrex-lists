@@ -61,6 +61,14 @@ const NAME_EXCEPTIONS: Record<string, string> = {
   '0xA1136031150E50B015b41f1ca6B2e99e49D8cB78': 'Options Hydrex',
   // USDT0 (Stargate Bridged)
   '0x102d758f688a4C1C5a80b116bD945d4455460282': 'USDT0 (Stargate Bridged)',
+  // Axelar Wrapped REGEN (Axelar Wrapped REGEN)
+  '0x2E6C05f1f7D1f4Eb9A088bf12257f1647682b754': 'REGEN',
+};
+
+// Exception list for tokens where display symbol differs from on-chain symbol
+const SYMBOL_EXCEPTIONS: Record<string, string> = {
+  // Axelar Wrapped REGEN (display: REGEN, on-chain: axlREGEN)
+  '0x2E6C05f1f7D1f4Eb9A088bf12257f1647682b754': 'REGEN',
 };
 
 // Normalize symbols for comparison (strip $ prefix)
@@ -151,8 +159,13 @@ async function validateBatch(batch: Token[]): Promise<ValidationResult[]> {
 
       if (!onChainSymbol) {
         validationResult.errors.push('Failed to fetch symbol');
-      } else if (normalizeSymbol(onChainSymbol) !== normalizeSymbol(token.symbol)) {
-        validationResult.errors.push(`Symbol mismatch: expected "${token.symbol}", got "${onChainSymbol}"`);
+      } else {
+        // Check if this token has an exception for symbol validation
+        if (SYMBOL_EXCEPTIONS[token.address]) {
+          // Skip symbol validation for exception tokens
+        } else if (normalizeSymbol(onChainSymbol) !== normalizeSymbol(token.symbol)) {
+          validationResult.errors.push(`Symbol mismatch: expected "${token.symbol}", got "${onChainSymbol}"`);
+        }
       }
 
       if (onChainDecimals === null) {
