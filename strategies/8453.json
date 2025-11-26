@@ -267,15 +267,15 @@
   },
   {
     "chainId": 8453,
-    "title": "REGEN/USDC",
+    "title": "REGEN/WETH",
     "type": "Classic",
     "liquidityType": "classic-volatile",
     "strategist": "Hydrex",
     "riskLevel": 7,
     "riskDescription": "This strategy is moderately-low risk, due to its structure as a classic sided liquidity pool with uncorrelated assets. Impermanent loss is possible.",
-    "address": "0x03314C6baFE10589603EC0BbDF99F44D1DfD4ECB",
+    "address": "0x4f0A58B2F561cD23E3059e76526125C85E281821",
     "token0Address": "0x2E6C05f1f7D1f4Eb9A088bf12257f1647682b754",
-    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0x4200000000000000000000000000000000000006",
     "tags": [
       "ecosystem",
       "exotic"
