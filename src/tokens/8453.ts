@@ -1009,6 +1009,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xa2f8Da4a55898B6c947Fa392eF8d6BFd87A4Ff77",
+    name: "hwUSD",
+    symbol: "hwUSD",
+    decimals: 6,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HWUSD.png",
+  },
+  {
+    chainId: 8453,
     address: "0x15D0e0c55a3E7eE67152aD7E89acf164253Ff68d",
     name: "HYPE",
     symbol: "HYPE",
@@ -1323,11 +1331,11 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
-    address: "0xe57e601c06689d3e2bf7db7bebb14b4ff28400c6",
-    name: "Meridian",
-    symbol: "MRDN",
+    address: "0xBB2DB41e62abF596b7f8Ca7bD4733a7b357f5Ab9",
+    name: "metacademax",
+    symbol: "metacademax",
     decimals: 18,
-    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MRDN.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/METACADEMAX.png",
   },
   {
     chainId: 8453,
@@ -1400,6 +1408,14 @@ export const tokens: Token[] = [
     symbol: "MOXIE",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MOXIE.png",
+  },
+  {
+    chainId: 8453,
+    address: "0xe57e601c06689d3e2bf7db7bebb14b4ff28400c6",
+    name: "Meridian",
+    symbol: "MRDN",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MRDN.png",
   },
   {
     chainId: 8453,
@@ -1955,6 +1971,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xc3679395Bddfb080FeD2E26A54aB224dc582c99A",
+    name: "SongCast",
+    symbol: "SONG",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SONG.png",
+  },
+  {
+    chainId: 8453,
     address: "0xb9E1Fd5A02D3A33b25a14d661414E6ED6954a721",
     name: "SOON Token",
     symbol: "SOON",
@@ -2492,6 +2516,14 @@ export const tokens: Token[] = [
     symbol: "WAMPL",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WAMPL.png",
+  },
+  {
+    chainId: 8453,
+    address: "0x8B12bf09B7c6d73735C6a824F1D74a8B5c1AA5ca",
+    name: "WAV.3 AGENTIC MUSIC DISCOVERY by Virtuals",
+    symbol: "WAV3",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WAV3.png",
   },
   {
     chainId: 8453,
