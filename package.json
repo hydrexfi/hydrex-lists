@@ -3,7 +3,8 @@
   "version": "1.1.0",
   "scripts": {
     "convert": "npx ts-node src/convertToJson.ts",
-    "validate-tokens": "npx ts-node scripts/validateTokens.ts"
+    "validate-tokens": "npx ts-node scripts/validateTokens.ts",
+    "compare-strategies": "npx ts-node scripts/compareStrategies.ts"
   },
   "dependencies": {
     "viem": "^2.21.54"
