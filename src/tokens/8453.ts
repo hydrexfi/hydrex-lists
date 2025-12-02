@@ -516,6 +516,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xD302A92fb82EA59aa676Ae3d5799AC296AFa7390",
+    name: "chubal",
+    symbol: "chubal",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CHUBAL.png",
+  },
+  {
+    chainId: 8453,
     address: "0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb",
     name: "tokenbot",
     symbol: "CLANKER",
