@@ -267,6 +267,22 @@
   },
   {
     "chainId": 8453,
+    "title": "SONG/USDC",
+    "type": "Classic",
+    "liquidityType": "classic-volatile",
+    "strategist": "Hydrex",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-low risk, due to its structure as a classic sided liquidity pool with uncorrelated assets. Impermanent loss is possible.",
+    "address": "0x7329E7e633B722E648fC1e261Ac1E71D41ba86A5",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xc3679395Bddfb080FeD2E26A54aB224dc582c99A",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "REGEN/WETH",
     "type": "Classic",
     "liquidityType": "classic-volatile",
