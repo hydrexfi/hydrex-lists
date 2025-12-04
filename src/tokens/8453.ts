@@ -1979,6 +1979,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x311935Cd80B76769bF2ecC9D8Ab7635b2139cf82",
+    name: "Solana",
+    symbol: "SOL",
+    decimals: 9,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SOL.png",
+  },
+  {
+    chainId: 8453,
     address: "0x7d6fcB3327D7E17095fA8B0E3513AC7A3564f5E1",
     name: "Solace by Virtuals",
     symbol: "SOLACE",
