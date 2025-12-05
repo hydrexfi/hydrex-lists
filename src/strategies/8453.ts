@@ -4,12 +4,42 @@ import {
   MODERATE_RISK_STRING,
   MODERATE_LOW_RISK_STRING,
   MODERATE_HIGH_RISK_STRING,
+  MANUAL_CONCENTRATED_RISK_STRING,
   CLASSIC_VOLATILE_RISK_STRING,
   Strategy,
   MORPHO_RISK_STRING,
 } from "../types";
 
 export const strategies: Strategy[] = [
+  // Test Manual Concentrated Strategies
+  {
+    chainId: 8453,
+    title: "BRETT/WETH",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 2,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xa4b2401dbbf97e3fbda6fb4ef3f4b7a37069232b",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0x532f27101965dd16442E59d40670FaF5eBB142E4",
+    tags: ["memecoin", "exotic"],
+  },
+  {
+    chainId: 8453,
+    title: "frxUSD/GHO",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 1,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x850279e38330cDcb53e33F99Ba776D1888c94304",
+    token0Address: "0x6Bb7a212910682DCFdbd5BCBb3e28FB4E8da10Ee",
+    token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    tags: ["correlated", "safe"],
+  },
+
+  // Single Sided Strategies
   {
     chainId: 8453,
     title: "USDC/HYDX",
