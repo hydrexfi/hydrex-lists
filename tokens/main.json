@@ -1781,6 +1781,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0xFf8104251E7761163faC3211eF5583FB3F8583d6",
+      "name": "REPPO",
+      "symbol": "REPPO",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/REPPO.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0x5eeB2662615782b58251b6f0c3E107571ae1AB07",
       "name": "RETAKE.TV",
       "symbol": "RETAKE",
