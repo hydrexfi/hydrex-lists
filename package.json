@@ -4,6 +4,7 @@
   "scripts": {
     "convert": "npx ts-node src/convertToJson.ts",
     "validate-tokens": "npx ts-node scripts/validateTokens.ts",
+    "validate-gauge": "npx ts-node scripts/validateGauge.ts",
     "compare-strategies": "npx ts-node scripts/compareStrategies.ts"
   },
   "dependencies": {
