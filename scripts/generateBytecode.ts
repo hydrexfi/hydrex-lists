@@ -2,23 +2,8 @@ import { createPublicClient, http, isAddress, Address, encodeAbiParameters, pars
 import { base } from 'viem/chains';
 
 /**
- * Run: npm run generate-bytecode <poolAddress> [duration] [token0Weight] [token1Weight] [liquidityWeight]
- * 
- * This script generates the inputs needed for setMerklConfigOverride:
- * 1. gauge (address) - from Voter.gauges(poolAddress)
- * 2. token (address) - oHYDX token address
- * 3. config (tuple) - Merkl campaign configuration
- * 
- * Optional parameters:
- * - duration: Campaign duration in seconds (default: 604800 = 7 days)
- * - token0Weight: Weight for token0 (default: 4000 = 40%)
- * - token1Weight: Weight for token1 (default: 4000 = 40%)
- * - liquidityWeight: Weight for liquidity contribution (default: 2000 = 20%)
- * 
- * Note: Weights should sum to 10000 (100%)
- * 
- * Output format ready to paste into Safe Wallet transaction builder
- */
+ * Run: npm run generate-bytecode <poolAddress>
+*/
 
 const VOTER_CONTRACT = '0xc69E3eF39E3fFBcE2A1c570f8d3ADF76909ef17b';
 const REWARDS_DISTRIBUTOR_CONTRACT = '0xf5E821da09616b4c576f7dfD0D85D28B5B591589';
@@ -57,7 +42,6 @@ const client = createPublicClient({
 
 /**
  * Generates the campaign data bytes for a concentrated liquidity campaign
- * Based on Merkl's actual encoding structure from payload.json
  * 
  * Structure: abi.encode(
  *   hydrexPool, propFees, propToken0, propToken1, 
