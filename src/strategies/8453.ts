@@ -11,7 +11,7 @@ import {
 } from "../types";
 
 export const strategies: Strategy[] = [
-  // Test Manual Concentrated Strategies
+  // MANUAL STRATEGIES
   {
     chainId: 8453,
     title: "HYDX/USDC",
@@ -1014,7 +1014,7 @@ export const strategies: Strategy[] = [
     tags: ["stable", "correlated", "safe"],
   },
 
-  // Single Sided Strategies
+  // ORIGINAL STRATEGIES
   {
     chainId: 8453,
     title: "USDC/HYDX",
