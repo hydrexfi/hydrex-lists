@@ -1,4 +1,4 @@
-import { createPublicClient, http, isAddress, Address } from 'viem';
+import { createPublicClient, http, isAddress, Address, decodeAbiParameters, parseAbiParameters } from 'viem';
 import { base } from 'viem/chains';
 import { strategies } from '../src/strategies/8453';
 
@@ -8,7 +8,9 @@ import { strategies } from '../src/strategies/8453';
  * This script validates that a pool address:
  * 1. Has a valid gauge address (not 0x0000...)
  * 2. Has a valid effective config for the oHYDX token
- * 3. Has correct token0 and token1 addresses in the strategies file
+ * 3. Fetches and decodes the Merkl campaign configuration
+ * 4. Validates campaign parameters (weights, pool address, etc.)
+ * 5. Has correct token0 and token1 addresses in the strategies file
  */
 
 const VOTER_CONTRACT = '0xc69E3eF39E3fFBcE2A1c570f8d3ADF76909ef17b';
@@ -32,10 +34,21 @@ const REWARDS_DISTRIBUTOR_ABI = [
       { internalType: 'address', name: 'gauge', type: 'address' },
       { internalType: 'address', name: 'token', type: 'address' },
     ],
-    name: 'getEffectiveConfig',
+    name: 'getMerklConfig',
     outputs: [
-      { internalType: 'uint256', name: 'rewardRate', type: 'uint256' },
-      { internalType: 'uint256', name: 'rewardAmount', type: 'uint256' },
+      {
+        components: [
+          { internalType: 'address', name: 'distributionCreator', type: 'address' },
+          { internalType: 'bytes32', name: 'campaignId', type: 'bytes32' },
+          { internalType: 'address', name: 'creator', type: 'address' },
+          { internalType: 'uint32', name: 'campaignType', type: 'uint32' },
+          { internalType: 'uint32', name: 'duration', type: 'uint32' },
+          { internalType: 'bytes', name: 'campaignData', type: 'bytes' },
+        ],
+        internalType: 'struct IIncentiveCampaignManager.MerklConfig',
+        name: '',
+        type: 'tuple',
+      },
     ],
     stateMutability: 'view',
     type: 'function',
@@ -66,6 +79,60 @@ const client = createPublicClient({
 
 function normalizeAddress(address: string): string {
   return address.toLowerCase();
+}
+
+interface DecodedCampaignData {
+  hydrexPool: Address;
+  propFees: bigint;
+  propToken0: bigint;
+  propToken1: bigint;
+  isOutOfRangeIncentivized: bigint;
+  boostingAddress: Address;
+  boostedReward: bigint;
+  whitelist: Address[];
+  blacklist: Address[];
+  extraData: `0x${string}`;
+  extraData2: `0x${string}`;
+  extraData3: `0x${string}`;
+}
+
+function decodeCampaignData(campaignData: `0x${string}`): DecodedCampaignData | null {
+  try {
+    const campaignDataParams = parseAbiParameters([
+      'address',      // hydrexPool
+      'uint256',      // propFees
+      'uint256',      // propToken0
+      'uint256',      // propToken1
+      'uint256',      // isOutOfRangeIncentivized
+      'address',      // boostingAddress
+      'uint256',      // boostedReward
+      'address[]',    // whitelist
+      'address[]',    // blacklist
+      'bytes',        // extraData
+      'bytes',        // extraData2
+      'bytes',        // extraData3
+    ].join(','));
+
+    const decoded = decodeAbiParameters(campaignDataParams, campaignData);
+
+    return {
+      hydrexPool: decoded[0] as Address,
+      propFees: decoded[1] as bigint,
+      propToken0: decoded[2] as bigint,
+      propToken1: decoded[3] as bigint,
+      isOutOfRangeIncentivized: decoded[4] as bigint,
+      boostingAddress: decoded[5] as Address,
+      boostedReward: decoded[6] as bigint,
+      whitelist: decoded[7] as Address[],
+      blacklist: decoded[8] as Address[],
+      extraData: decoded[9] as `0x${string}`,
+      extraData2: decoded[10] as `0x${string}`,
+      extraData3: decoded[11] as `0x${string}`,
+    };
+  } catch (error) {
+    console.error('   ⚠️  Error decoding campaign data:', error);
+    return null;
+  }
 }
 
 async function validateGauge(poolAddress: string): Promise<void> {
@@ -102,27 +169,54 @@ async function validateGauge(poolAddress: string): Promise<void> {
 
     console.log('   ✅ Valid gauge address found');
 
-    // Step 2: Get effective config from RewardsDistributor
-    console.log('\n📍 Step 2: Fetching effective config from RewardsDistributor...');
-    console.log(`   Token: ${OHYDX_TOKEN} (oHYDX)`);
+    // Step 2: Get Merkl config
+    console.log('\n📍 Step 2: Fetching Merkl campaign configuration...');
     
-    const config = await client.readContract({
+    const merklConfig = await client.readContract({
       address: REWARDS_DISTRIBUTOR_CONTRACT,
       abi: REWARDS_DISTRIBUTOR_ABI,
-      functionName: 'getEffectiveConfig',
+      functionName: 'getMerklConfig',
       args: [gaugeAddress, OHYDX_TOKEN as Address],
     });
 
-    const [rewardRate, rewardAmount] = config;
-    console.log(`   Reward Rate: ${rewardRate.toString()}`);
-    console.log(`   Reward Amount: ${rewardAmount.toString()}`);
+    console.log(`   Distribution Creator: ${merklConfig.distributionCreator}`);
+    console.log(`   Campaign ID: ${merklConfig.campaignId}`);
+    console.log(`   Creator: ${merklConfig.creator}`);
+    console.log(`   Campaign Type: ${merklConfig.campaignType}`);
+    console.log(`   Duration: ${merklConfig.duration}s (${merklConfig.duration / 86400} days)`);
+    console.log(`   Campaign Data (raw): ${merklConfig.campaignData.slice(0, 66)}...`);
 
-    // Check if config exists (both values should be non-zero for active config)
-    if (rewardRate === BigInt(0) && rewardAmount === BigInt(0)) {
-      console.warn('\n ⚠️ WARNING: Config exists but both reward rate and amount are zero');
-      console.warn('   This gauge may not have active rewards configured.');
-    } else {
-      console.log('   ✅ Valid config found');
+    // Decode campaign data
+    console.log('\n📍 Step 2b: Decoding campaign data...');
+    const decodedCampaign = decodeCampaignData(merklConfig.campaignData);
+    
+    if (decodedCampaign) {
+      console.log(`   Pool Address: ${decodedCampaign.hydrexPool}`);
+      console.log(`   Liquidity Weight (propFees): ${decodedCampaign.propFees.toString()} (${Number(decodedCampaign.propFees) / 100}%)`);
+      console.log(`   Token0 Weight: ${decodedCampaign.propToken0.toString()} (${Number(decodedCampaign.propToken0) / 100}%)`);
+      console.log(`   Token1 Weight: ${decodedCampaign.propToken1.toString()} (${Number(decodedCampaign.propToken1) / 100}%)`);
+      console.log(`   Out-of-Range Incentivized: ${decodedCampaign.isOutOfRangeIncentivized === BigInt(0) ? 'No (in-range only)' : 'Yes'}`);
+      console.log(`   Boosting Address: ${decodedCampaign.boostingAddress}`);
+      console.log(`   Boosted Reward: ${decodedCampaign.boostedReward.toString()}`);
+      console.log(`   Whitelist: ${decodedCampaign.whitelist.length > 0 ? decodedCampaign.whitelist.join(', ') : 'None'}`);
+      console.log(`   Blacklist: ${decodedCampaign.blacklist.length > 0 ? decodedCampaign.blacklist.join(', ') : 'None'}`);
+      
+      // Verify the pool address matches
+      if (normalizeAddress(decodedCampaign.hydrexPool) !== normalizeAddress(poolAddress)) {
+        console.error('\n❌ FAILED: Campaign pool address mismatch!');
+        console.error(`   Expected: ${poolAddress}`);
+        console.error(`   Got:      ${decodedCampaign.hydrexPool}`);
+        process.exit(1);
+      }
+      console.log('   ✅ Campaign pool address matches');
+      
+      // Verify weights sum to 10000 (100%)
+      const totalWeight = Number(decodedCampaign.propFees) + Number(decodedCampaign.propToken0) + Number(decodedCampaign.propToken1);
+      if (totalWeight !== 10000) {
+        console.warn(`\n ⚠️ WARNING: Weights sum to ${totalWeight} instead of 10000 (100%)`);
+      } else {
+        console.log('   ✅ Weights sum to 100%');
+      }
     }
 
     // Step 3: Get token0 and token1 from pool contract
@@ -182,16 +276,29 @@ async function validateGauge(poolAddress: string): Promise<void> {
     console.log('   ✅ Token addresses match');
 
     // Success summary
-    console.log('\n' + '='.repeat(60));
+    console.log('\n' + '='.repeat(80));
     console.log('✅ VALIDATION SUCCESSFUL');
-    console.log('='.repeat(60));
+    console.log('='.repeat(80));
     console.log(`\nPool: ${poolAddress}`);
     console.log(`Gauge: ${gaugeAddress}`);
     console.log(`Strategy: ${strategy.title}`);
     console.log(`Token0: ${token0}`);
     console.log(`Token1: ${token1}`);
-    console.log(`Reward Rate: ${rewardRate.toString()}`);
-    console.log(`Reward Amount: ${rewardAmount.toString()}`);
+    
+    if (decodedCampaign) {
+      console.log(`\nMerkl Campaign Configuration:`);
+      console.log(`  Distribution Creator: ${merklConfig.distributionCreator}`);
+      console.log(`  Campaign ID: ${merklConfig.campaignId}`);
+      console.log(`  Creator: ${merklConfig.creator}`);
+      console.log(`  Duration: ${merklConfig.duration}s (${merklConfig.duration / 86400} days)`);
+      console.log(`  Campaign Type: ${merklConfig.campaignType} (2 = Concentrated Liquidity)`);
+      console.log(`\nWeight Distribution:`);
+      console.log(`  Liquidity: ${Number(decodedCampaign.propFees) / 100}%`);
+      console.log(`  Token0: ${Number(decodedCampaign.propToken0) / 100}%`);
+      console.log(`  Token1: ${Number(decodedCampaign.propToken1) / 100}%`);
+      console.log(`  In-Range Only: ${decodedCampaign.isOutOfRangeIncentivized === BigInt(0) ? 'Yes' : 'No'}`);
+    }
+    
     console.log('\n✨ All checks passed!\n');
 
   } catch (error) {
