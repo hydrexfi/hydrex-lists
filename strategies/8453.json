@@ -1100,6 +1100,22 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/REPPO",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x2Df4Af05F8C4AFf0d3FbfC327595dbb7Fc6498BF",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xFf8104251E7761163faC3211eF5583FB3F8583d6",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "ARIO/USDC",
     "type": "Manual",
     "liquidityType": "integral-manual",
