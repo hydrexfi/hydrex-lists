@@ -16,7 +16,6 @@ const REWARDS_DISTRIBUTOR_CONTRACT = '0xf5E821da09616b4c576f7dfD0D85D28B5B591589
 const OHYDX_TOKEN = '0xA1136031150E50B015b41f1ca6B2e99e49D8cB78';
 const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
 
-// ABI for Voter.gauges(address pool) -> address gauge
 const VOTER_ABI = [
   {
     inputs: [{ internalType: 'address', name: '', type: 'address' }],
@@ -27,7 +26,6 @@ const VOTER_ABI = [
   },
 ] as const;
 
-// ABI for RewardsDistributor.getEffectiveConfig(address gauge, address token) -> (uint256, uint256)
 const REWARDS_DISTRIBUTOR_ABI = [
   {
     inputs: [
@@ -44,7 +42,6 @@ const REWARDS_DISTRIBUTOR_ABI = [
   },
 ] as const;
 
-// ABI for Pool.token0() and Pool.token1()
 const POOL_ABI = [
   {
     inputs: [],
@@ -122,7 +119,7 @@ async function validateGauge(poolAddress: string): Promise<void> {
 
     // Check if config exists (both values should be non-zero for active config)
     if (rewardRate === BigInt(0) && rewardAmount === BigInt(0)) {
-      console.warn('\n⚠️  WARNING: Config exists but both reward rate and amount are zero');
+      console.warn('\n ⚠️ WARNING: Config exists but both reward rate and amount are zero');
       console.warn('   This gauge may not have active rewards configured.');
     } else {
       console.log('   ✅ Valid config found');
