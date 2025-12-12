@@ -246,6 +246,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x3595ca37596D5895B70EFAB592ac315D5B9809B2",
+    name: "Azos Stablecoin",
+    symbol: "AZUSD",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AZUSD.png",
+  },
+  {
+    chainId: 8453,
     address: "0xB3B32F9f8827D4634fE7d973Fa1034Ec9fdDB3B3",
     name: "B3",
     symbol: "B3",
@@ -2185,6 +2193,14 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TBTC.png",
     type: "bluechip",
+  },
+  {
+    chainId: 8453,
+    address: "0xD75dfa972C6136f1c594Fec1945302f885E1ab29",
+    name: "TGNToken",
+    symbol: "TGN",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TGN.png",
   },
   {
     chainId: 8453,
