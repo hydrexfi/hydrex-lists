@@ -1389,6 +1389,14 @@
     },
     {
       "chainId": 8453,
+      "address": "0x774EAeFE73Df7959496Ac92a77279A8D7d690b07",
+      "name": "Minted Merch",
+      "symbol": "mintedmerch",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MINTEDMERCH.png"
+    },
+    {
+      "chainId": 8453,
       "address": "0x7aafd31a321d3627b30a8e2171264b56852187fe",
       "name": "Mira",
       "symbol": "MIRA",
