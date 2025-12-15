@@ -1309,6 +1309,134 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/BAES",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xe62a34Ae5e0B9FdE3501Aeb72DC9585Bb3B72A7e",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/LUNA",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x9f08E5b5c6219531962D30859D3F84244A671011",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x55cD6469F597452B5A7536e2CD98fDE4c1247ee4",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/DONUT",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xFB1F03ac39418C9B150ddB7E82e4a9622968E09E",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xAE4a37d554C6D6F3E398546d8566B25052e0169C",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "GAME/WETH",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x4964Af09aE3Cab10cbc16f78a20A3690A39507D9",
+    "token0Address": "0x1C4CcA7C5DB003824208aDDA61Bd749e55F463a3",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "GAME/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x3dB9404376aB007139495Cb8F33C479A00473421",
+    "token0Address": "0x1C4CcA7C5DB003824208aDDA61Bd749e55F463a3",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/CHECK",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xAbC8134375A48542b66bdbf30B308255B7fd635F",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0x9126236476eFBA9Ad8aB77855c60eB5BF37586Eb",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/CHECK",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x567b69f72c0a2689C9be0cfBa576Af3CAA896Cb2",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x9126236476eFBA9Ad8aB77855c60eB5BF37586Eb",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/RIZE",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x7A730f3643D31DEd71333A2c3c7889f788f5Cd79",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0x9818B6c09f5ECc843060927E8587c427C7C93583",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
@@ -1593,6 +1721,108 @@
     "token0Address": "0x00000e7efa313F4E11Bfff432471eD9423AC6B30",
     "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "depositToken": "0x00000e7efa313F4E11Bfff432471eD9423AC6B30",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "OTTO/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0xb5b39954cf7e8924575bc58244e32AA34Bc47e36",
+    "token0Address": "0x380337d0180db7D0DF76ac4fAaE2fcea908EE1fC",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "depositToken": "0x380337d0180db7D0DF76ac4fAaE2fcea908EE1fC",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/OTTO",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x57682CFDF0BD27920b7Af5A7e7ECB56fC10Fcd22",
+    "token0Address": "0x380337d0180db7D0DF76ac4fAaE2fcea908EE1fC",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "BAES/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0x58688a807383a8A9229649ff177f99Fc61AE8c44",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07",
+    "depositToken": "0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/BAES",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0x094a3e0ec9554140C801f640ba0EDB41261d5bf3",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "REPPO/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0x7bD6f79e5270519C29C1e483A442E3741686d00D",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xFf8104251E7761163faC3211eF5583FB3F8583d6",
+    "depositToken": "0xFf8104251E7761163faC3211eF5583FB3F8583d6",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/REPPO",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0xa006975ea90D072c314CC8ebB3dC332e91B46Fc5",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xFf8104251E7761163faC3211eF5583FB3F8583d6",
+    "depositToken": "0x4200000000000000000000000000000000000006",
     "tags": [
       "ecosystem",
       "exotic"
