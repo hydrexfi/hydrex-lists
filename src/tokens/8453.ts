@@ -532,6 +532,14 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x9126236476eFBA9Ad8aB77855c60eB5BF37586Eb",
+    name: "Checkmate",
+    symbol: "CHECK",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CHECK.png",
+  },
+  {
+    chainId: 8453,
     address: "0xD302A92fb82EA59aa676Ae3d5799AC296AFa7390",
     name: "chubal",
     symbol: "chubal",
@@ -715,6 +723,14 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOLA.png",
     type: "stablecoin",
+  },
+  {
+    chainId: 8453,
+    address: "0xAE4a37d554C6D6F3E398546d8566B25052e0169C",
+    name: "Donut",
+    symbol: "DONUT",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DONUT.png",
   },
   {
     chainId: 8453,
