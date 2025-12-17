@@ -13,6 +13,8 @@ export type StrategyTag =
   | "exotic"
   | "zora-creator";
 
+export type TokenLiquidity = "exotic" | "low" | "medium" | "high";
+
 export const ETH_NATIVE_ADDRESS = "0x0000000000000000000000000000000000000000";
 
 export interface Token {
@@ -23,6 +25,7 @@ export interface Token {
   decimals: number;
   logoURI: string;
   type?: "stablecoin" | "bluechip" | "zora-creator" | "zora-post";
+  liquidity?: TokenLiquidity;
 }
 
 export interface TokenList {
