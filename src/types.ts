@@ -24,6 +24,7 @@ export interface Token {
   symbol: string;
   decimals: number;
   logoURI: string;
+  website?: string;
   type?: "stablecoin" | "bluechip" | "zora-creator" | "zora-post";
   liquidity?: TokenLiquidity;
 }
