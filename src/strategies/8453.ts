@@ -1169,6 +1169,19 @@ export const strategies: Strategy[] = [
     token1Address: "0x9818B6c09f5ECc843060927E8587c427C7C93583",
     tags: ["ecosystem", "exotic"],
   },
+  {
+    chainId: 8453,
+    title: "AZUSD/USDC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 1,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x763ADCf71cB195184088A26BE01662119E303F5f",
+    token0Address: "0x3595ca37596D5895B70EFAB592ac315D5B9809B2",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["ecosystem", "stable"],
+  },
 
   // ORIGINAL STRATEGIES
   {
