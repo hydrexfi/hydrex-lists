@@ -1437,6 +1437,22 @@
   },
   {
     "chainId": 8453,
+    "title": "AZUSD/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 1,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x763ADCf71cB195184088A26BE01662119E303F5f",
+    "token0Address": "0x3595ca37596D5895B70EFAB592ac315D5B9809B2",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "stable"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
