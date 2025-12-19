@@ -18,6 +18,7 @@
       "symbol": "HYDX",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HYDX.png",
+      "website": "https://www.hydrex.fi",
       "liquidity": "medium"
     },
     {
@@ -27,6 +28,7 @@
       "symbol": "WETH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WETH.png",
+      "website": "https://ethereum.org/en/wrapped-eth",
       "type": "bluechip",
       "liquidity": "high"
     },
@@ -37,6 +39,7 @@
       "symbol": "USDC",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDC.png",
+      "website": "https://www.circle.com/en/usdc",
       "type": "stablecoin",
       "liquidity": "high"
     },
@@ -47,6 +50,7 @@
       "symbol": "cbBTC",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBBTC.png",
+      "website": "https://www.coinbase.com/cbbtc",
       "type": "bluechip",
       "liquidity": "high"
     },
@@ -66,6 +70,7 @@
       "symbol": "A0X",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/A0X.png",
+      "website": "https://a0x.co/",
       "liquidity": "low"
     },
     {
@@ -147,6 +152,7 @@
       "symbol": "AISTR",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AISTR.png",
+      "website": "https://aicrostrategy.com/",
       "liquidity": "exotic"
     },
     {
@@ -164,6 +170,7 @@
       "symbol": "AIXBT",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AIXBT.png",
+      "website": "https://aixbt.tech/",
       "liquidity": "high"
     },
     {
@@ -206,6 +213,7 @@
       "symbol": "ARIO",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ARIO.png",
+      "website": "https://ar.io/",
       "liquidity": "low"
     },
     {
@@ -239,6 +247,7 @@
       "symbol": "AVNT",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AVNT.png",
+      "website": "https://www.avantisfi.com/",
       "liquidity": "high"
     },
     {
@@ -264,6 +273,7 @@
       "symbol": "AYB",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AYB.png",
+      "website": "https://www.allyourbase.fun/",
       "liquidity": "exotic"
     },
     {
@@ -273,6 +283,7 @@
       "symbol": "AZUSD",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AZUSD.png",
+      "website": "https://azos.finance/",
       "liquidity": "exotic"
     },
     {
@@ -290,6 +301,7 @@
       "symbol": "BAES",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BAES.png",
+      "website": "https://baes.so/welcome",
       "liquidity": "exotic"
     },
     {
@@ -315,6 +327,7 @@
       "symbol": "BENJI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BENJI.png",
+      "website": "https://basenji.dog/",
       "liquidity": "medium"
     },
     {
@@ -324,6 +337,7 @@
       "symbol": "BETR",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BETR.png",
+      "website": "https://betrmint.fun/",
       "liquidity": "exotic"
     },
     {
@@ -349,6 +363,7 @@
       "symbol": "Billy",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BILLY.png",
+      "website": "https://www.basechainbilly.xyz/",
       "liquidity": "exotic"
     },
     {
@@ -398,6 +413,7 @@
       "symbol": "BNKR",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BNKR.png",
+      "website": "https://bankr.bot/",
       "liquidity": "high"
     },
     {
@@ -440,6 +456,7 @@
       "symbol": "BRETT",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRETT.png",
+      "website": "https://www.basedbrett.com/",
       "liquidity": "high"
     },
     {
@@ -449,6 +466,7 @@
       "symbol": "BRZ",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRZ.png",
+      "website": "https://www.brztoken.io/",
       "liquidity": "high"
     },
     {
@@ -482,6 +500,7 @@
       "symbol": "CARV",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CARV.png",
+      "website": "https://carv.io/",
       "liquidity": "high"
     },
     {
@@ -491,6 +510,7 @@
       "symbol": "cbADA",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBADA.png",
+      "website": "https://www.coinbase.com/campaigns/wrapped-assets",
       "type": "bluechip",
       "liquidity": "high"
     },
@@ -501,6 +521,7 @@
       "symbol": "cbDOGE",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBDOGE.png",
+      "website": "https://www.coinbase.com/campaigns/wrapped-assets",
       "type": "bluechip",
       "liquidity": "high"
     },
@@ -520,6 +541,7 @@
       "symbol": "cbLTC",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBLTC.png",
+      "website": "https://www.coinbase.com/campaigns/wrapped-assets",
       "type": "bluechip",
       "liquidity": "high"
     },
@@ -530,6 +552,7 @@
       "symbol": "cbXRP",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBXRP.png",
+      "website": "https://www.coinbase.com/campaigns/wrapped-assets",
       "type": "bluechip",
       "liquidity": "high"
     },
@@ -540,6 +563,7 @@
       "symbol": "CDX",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CDX.png",
+      "website": "https://cod3x.org/",
       "liquidity": "medium"
     },
     {
@@ -557,6 +581,7 @@
       "symbol": "CHECK",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CHECK.png",
+      "website": "https://anichess.com/",
       "liquidity": "exotic"
     },
     {
@@ -566,6 +591,7 @@
       "symbol": "chubal",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CHUBAL.png",
+      "website": "https://x.com/WilderStubbs",
       "liquidity": "exotic"
     },
     {
@@ -575,6 +601,7 @@
       "symbol": "CLANKER",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CLANKER.png",
+      "website": "https://www.clanker.world/",
       "liquidity": "high"
     },
     {
@@ -648,6 +675,7 @@
       "symbol": "CYPR",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CYPR.png",
+      "website": "https://cypherhq.io/cypr/",
       "liquidity": "medium"
     },
     {
@@ -657,6 +685,7 @@
       "symbol": "DAI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DAI.png",
+      "website": "https://makerdao.com/",
       "type": "stablecoin",
       "liquidity": "high"
     },
@@ -691,6 +720,7 @@
       "symbol": "DEXTF",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DEXTF.png",
+      "website": "https://mementoblockchain.com/",
       "liquidity": "medium"
     },
     {
@@ -716,6 +746,7 @@
       "symbol": "docker",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DOCKER.png",
+      "website": "https://dockerxbt.com/",
       "liquidity": "low"
     },
     {
@@ -758,6 +789,7 @@
       "symbol": "DONUT",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DONUT.png",
+      "website": "https://www.glazecorp.io/",
       "liquidity": "low"
     },
     {
@@ -791,6 +823,7 @@
       "symbol": "EDEL",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EDEL.png",
+      "website": "https://edel.finance/",
       "liquidity": "low"
     },
     {
@@ -832,6 +865,7 @@
       "symbol": "ETHFI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ETHFI.png",
+      "website": "https://www.ether.fi/",
       "liquidity": "high"
     },
     {
@@ -849,6 +883,7 @@
       "symbol": "EURC",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EURC.png",
+      "website": "https://www.circle.com/eurc",
       "type": "stablecoin",
       "liquidity": "high"
     },
@@ -883,6 +918,7 @@
       "symbol": "FACY",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FACY.png",
+      "website": "https://www.facticity.ai/",
       "liquidity": "low"
     },
     {
@@ -908,6 +944,7 @@
       "symbol": "fBOMB",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FBOMB.png",
+      "website": "https://mclb.org/fbomb/",
       "liquidity": "low"
     },
     {
@@ -941,6 +978,7 @@
       "symbol": "FLOCK",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FLOCK.png",
+      "website": "https://www.flock.io/",
       "liquidity": "high"
     },
     {
@@ -966,6 +1004,7 @@
       "symbol": "frxUSD",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FRXUSD.png",
+      "website": "https://frax.com/",
       "type": "stablecoin",
       "liquidity": "high"
     },
@@ -976,6 +1015,7 @@
       "symbol": "FUEGO",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FUEGO.png",
+      "website": "https://fuegobase.io/",
       "liquidity": "exotic"
     },
     {
@@ -985,6 +1025,7 @@
       "symbol": "FXH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FXH.png",
+      "website": "https://www.fxhash.xyz/",
       "liquidity": "low"
     },
     {
@@ -1010,6 +1051,7 @@
       "symbol": "GAME",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GAME.png",
+      "website": "https://docs.game.virtuals.io/",
       "liquidity": "low"
     },
     {
@@ -1035,6 +1077,7 @@
       "symbol": "GHO",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GHO.png",
+      "website": "https://gho.xyz/",
       "type": "stablecoin",
       "liquidity": "high"
     },
@@ -1053,6 +1096,7 @@
       "symbol": "GIZA",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GIZA.png",
+      "website": "https://www.gizatech.xyz/",
       "liquidity": "medium"
     },
     {
@@ -1094,6 +1138,7 @@
       "symbol": "hwUSD",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HWUSD.png",
+      "website": "https://app.hyperwavefi.xyz/vaults/hwusd",
       "liquidity": "high"
     },
     {
@@ -1103,6 +1148,7 @@
       "symbol": "HYPE",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HYPE.png",
+      "website": "https://hyperliquid.gitbook.io/hyperliquid-docs",
       "liquidity": "exotic"
     },
     {
@@ -1128,6 +1174,7 @@
       "symbol": "i",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/I.png",
+      "website": "https://indexy.xyz/home",
       "liquidity": "medium"
     },
     {
@@ -1145,6 +1192,7 @@
       "symbol": "IDRX",
       "decimals": 2,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/IDRX.png",
+      "website": "https://idrx.co/",
       "liquidity": "low"
     },
     {
@@ -1178,6 +1226,7 @@
       "symbol": "jesse",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/JESSE.png",
+      "website": "https://jesse.xyz/",
       "liquidity": "medium"
     },
     {
@@ -1203,6 +1252,7 @@
       "symbol": "KAITO",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KAITO.png",
+      "website": "https://yaps.kaito.ai/",
       "liquidity": "high"
     },
     {
@@ -1220,6 +1270,7 @@
       "symbol": "KIBBLE",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KIBBLE.png",
+      "website": "https://cat.town/",
       "liquidity": "exotic"
     },
     {
@@ -1229,6 +1280,7 @@
       "symbol": "KING",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KING.png",
+      "website": "https://kingprotocol.org/",
       "liquidity": "medium"
     },
     {
@@ -1254,6 +1306,7 @@
       "symbol": "KTA",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KTA.png",
+      "website": "https://keeta.com/",
       "liquidity": "low"
     },
     {
@@ -1263,6 +1316,7 @@
       "symbol": "kVCM",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KVCM.png",
+      "website": "https://klimaprotocol.com/",
       "liquidity": "high"
     },
     {
@@ -1280,6 +1334,7 @@
       "symbol": "latenightonbase",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LNOB.png",
+      "website": "https://x.com/latenightonbase",
       "liquidity": "exotic"
     },
     {
@@ -1321,6 +1376,7 @@
       "symbol": "LITKEY",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LITKEY.png",
+      "website": "https://www.litprotocol.com/",
       "liquidity": "low"
     },
     {
@@ -1370,6 +1426,7 @@
       "symbol": "LUNA",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LUNA.png",
+      "website": "https://luna.fun/",
       "liquidity": "high"
     },
     {
@@ -1388,6 +1445,7 @@
       "symbol": "MACHINES",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MACHINES.png",
+      "website": "https://www.machines.cash/",
       "liquidity": "low"
     },
     {
@@ -1438,6 +1496,7 @@
       "symbol": "metacademax",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/METACADEMAX.png",
+      "website": "https://x.com/Metacade_",
       "liquidity": "exotic"
     },
     {
@@ -1447,6 +1506,7 @@
       "symbol": "MIGGLES",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MIGGLES.png",
+      "website": "https://miggles.io/",
       "liquidity": "medium"
     },
     {
@@ -1464,6 +1524,7 @@
       "symbol": "MIRA",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MIRA.png",
+      "website": "https://mira.network/",
       "liquidity": "high"
     },
     {
@@ -1513,6 +1574,7 @@
       "symbol": "MORPHO",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MORPHO.png",
+      "website": "https://morpho.org/",
       "liquidity": "high"
     },
     {
@@ -1530,6 +1592,7 @@
       "symbol": "MRDN",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MRDN.png",
+      "website": "https://www.mrdn.finance/",
       "liquidity": "exotic"
     },
     {
@@ -1571,6 +1634,7 @@
       "symbol": "noice",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NOICE.png",
+      "website": "https://noice.so/",
       "liquidity": "low"
     },
     {
@@ -1628,6 +1692,7 @@
       "symbol": "OTTO",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OTTO.png",
+      "website": "https://www.ottowallet.xyz/",
       "liquidity": "exotic"
     },
     {
@@ -1741,6 +1806,7 @@
       "symbol": "PIGGY",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PIGGY.png",
+      "website": "https://www.piggy.vision/",
       "liquidity": "exotic"
     },
     {
@@ -1750,6 +1816,7 @@
       "symbol": "PING",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PING.png",
+      "website": "https://x.com/pingobserver",
       "liquidity": "low"
     },
     {
@@ -1855,6 +1922,7 @@
       "symbol": "RECALL",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RECALL.png",
+      "website": "https://recall.network/",
       "liquidity": "high"
     },
     {
@@ -1880,6 +1948,7 @@
       "symbol": "REGEN",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AXLREGEN.png",
+      "website": "https://www.regen.network/",
       "liquidity": "exotic"
     },
     {
@@ -1889,6 +1958,7 @@
       "symbol": "REGENT",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/REGENT.png",
+      "website": "https://www.regent.cx/",
       "liquidity": "exotic"
     },
     {
@@ -1906,6 +1976,7 @@
       "symbol": "REPPO",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/REPPO.png",
+      "website": "https://reppo.xyz/",
       "liquidity": "medium"
     },
     {
@@ -1939,6 +2010,7 @@
       "symbol": "RFL",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RFL.png",
+      "website": "https://www.reflect.now/",
       "liquidity": "exotic"
     },
     {
@@ -1964,6 +2036,7 @@
       "symbol": "RIZE",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RIZE.png",
+      "website": "https://rizenet.io/",
       "liquidity": "high"
     },
     {
@@ -1981,6 +2054,7 @@
       "symbol": "ROOM",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ROOM.png",
+      "website": "https://backroom.tech/",
       "liquidity": "exotic"
     },
     {
@@ -2030,6 +2104,7 @@
       "symbol": "SAPIEN",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SAPIEN.png",
+      "website": "https://www.sapien.io/",
       "liquidity": "high"
     },
     {
@@ -2055,6 +2130,7 @@
       "symbol": "SERV",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SERV.png",
+      "website": "https://openserv.ai/",
       "liquidity": "high"
     },
     {
@@ -2096,6 +2172,7 @@
       "symbol": "SKY",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SKY.png",
+      "website": "https://www.skynetxbt.ai/",
       "liquidity": "exotic"
     },
     {
@@ -2113,6 +2190,7 @@
       "symbol": "SOL",
       "decimals": 9,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SOL.png",
+      "website": "https://solana.com/",
       "liquidity": "medium"
     },
     {
@@ -2138,6 +2216,7 @@
       "symbol": "SONG",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SONG.png",
+      "website": "https://songcast.xyz/",
       "liquidity": "exotic"
     },
     {
@@ -2179,6 +2258,7 @@
       "symbol": "SPON",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPON.png",
+      "website": "https://spheron.network/",
       "liquidity": "exotic"
     },
     {
@@ -2188,6 +2268,7 @@
       "symbol": "SPX",
       "decimals": 8,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPX.png",
+      "website": "https://www.spx6900.com/",
       "liquidity": "high"
     },
     {
@@ -2253,6 +2334,7 @@
       "symbol": "SYND",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SYND.png",
+      "website": "https://syndicate.io/",
       "liquidity": "high"
     },
     {
@@ -2294,6 +2376,7 @@
       "symbol": "tBTC",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TBTC.png",
+      "website": "https://threshold.network/",
       "type": "bluechip",
       "liquidity": "high"
     },
@@ -2320,6 +2403,7 @@
       "symbol": "TIBBIR",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TIBBIR.png",
+      "website": "https://x.com/ribbita2012",
       "liquidity": "high"
     },
     {
@@ -2361,6 +2445,7 @@
       "symbol": "TOSHI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TOSHI.png",
+      "website": "https://www.toshithecat.com/",
       "liquidity": "high"
     },
     {
@@ -2531,6 +2616,7 @@
       "symbol": "USDT",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDT.png",
+      "website": "https://tether.to/",
       "type": "stablecoin",
       "liquidity": "high"
     },
@@ -2541,6 +2627,7 @@
       "symbol": "USD₮0",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USD₮0.png",
+      "website": "https://usdt0.to/",
       "type": "stablecoin",
       "liquidity": "high"
     },
@@ -2607,6 +2694,7 @@
       "symbol": "VEIL",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VEIL.png",
+      "website": "https://www.veil.cash/",
       "liquidity": "low"
     },
     {
@@ -2632,6 +2720,7 @@
       "symbol": "VFY",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VFY.png",
+      "website": "https://zkverify.io/",
       "liquidity": "medium"
     },
     {
@@ -2657,6 +2746,7 @@
       "symbol": "VIRTUAL",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VIRTUAL.png",
+      "website": "https://www.virtuals.io/",
       "liquidity": "high"
     },
     {
@@ -2706,6 +2796,7 @@
       "symbol": "WAV3",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WAV3.png",
+      "website": "https://solo.to/wav.3",
       "liquidity": "exotic"
     },
     {
@@ -2731,6 +2822,7 @@
       "symbol": "weETH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WEETH.png",
+      "website": "https://www.ether.fi/",
       "type": "bluechip",
       "liquidity": "high"
     },
@@ -2741,6 +2833,7 @@
       "symbol": "WELL",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WELL.png",
+      "website": "https://moonwell.fi/",
       "liquidity": "high"
     },
     {
@@ -2782,6 +2875,7 @@
       "symbol": "WNIBI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WNIBI.png",
+      "website": "https://nibiru.fi/",
       "liquidity": "high"
     },
     {
@@ -2791,6 +2885,7 @@
       "symbol": "WOLF",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WOLF.png",
+      "website": "https://landwolf.com/",
       "liquidity": "exotic"
     },
     {
@@ -2816,6 +2911,7 @@
       "symbol": "wstETH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WSTETH.png",
+      "website": "https://lido.fi/",
       "type": "bluechip",
       "liquidity": "high"
     },
@@ -2907,6 +3003,7 @@
       "symbol": "ZEN",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZEN.png",
+      "website": "https://www.horizen.io/",
       "liquidity": "high"
     },
     {
@@ -2932,6 +3029,7 @@
       "symbol": "ZFI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZFI.png",
+      "website": "https://www.zyf.ai/",
       "liquidity": "medium"
     },
     {
@@ -2949,6 +3047,7 @@
       "symbol": "ZORA",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZORA.png",
+      "website": "https://zora.co/",
       "liquidity": "high"
     },
     {
@@ -2973,7 +3072,8 @@
       "name": "ZXBT",
       "symbol": "ZXBT",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZXBT.png"
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZXBT.png",
+      "website": "https://zxbt.art/"
     },
     {
       "chainId": 8453,
