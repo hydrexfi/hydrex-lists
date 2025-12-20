@@ -24,7 +24,6 @@ export interface Token {
   symbol: string;
   decimals: number;
   logoURI: string;
-  website?: string;
   type?: "stablecoin" | "bluechip" | "zora-creator" | "zora-post";
   liquidity?: TokenLiquidity;
 }
@@ -75,6 +74,7 @@ export interface Strategy {
   token1Address?: string;
   v4PoolId?: string;
   tags?: StrategyTag[];
+  website?: string;
   strategyInfoOverride?: string;
   displayTags?: {
     title: string;
