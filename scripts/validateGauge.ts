@@ -138,7 +138,7 @@ function decodeCampaignData(campaignData: `0x${string}`): DecodedCampaignData | 
 async function validateGauge(poolAddress: string): Promise<void> {
   console.log('\n🔍 Validating Gauge Configuration\n');
   console.log('='.repeat(60));
-  
+
   // Validate input
   if (!isAddress(poolAddress)) {
     console.error('❌ Invalid pool address format');
@@ -171,7 +171,7 @@ async function validateGauge(poolAddress: string): Promise<void> {
 
     // Step 2: Get Merkl config
     console.log('\n📍 Step 2: Fetching Merkl campaign configuration...');
-    
+
     const merklConfig = await client.readContract({
       address: REWARDS_DISTRIBUTOR_CONTRACT,
       abi: REWARDS_DISTRIBUTOR_ABI,
@@ -189,7 +189,7 @@ async function validateGauge(poolAddress: string): Promise<void> {
     // Decode campaign data
     console.log('\n📍 Step 2b: Decoding campaign data...');
     const decodedCampaign = decodeCampaignData(merklConfig.campaignData);
-    
+
     if (decodedCampaign) {
       console.log(`   Pool Address: ${decodedCampaign.hydrexPool}`);
       console.log(`   Liquidity Weight (propFees): ${decodedCampaign.propFees.toString()} (${Number(decodedCampaign.propFees) / 100}%)`);
@@ -200,7 +200,7 @@ async function validateGauge(poolAddress: string): Promise<void> {
       console.log(`   Boosted Reward: ${decodedCampaign.boostedReward.toString()}`);
       console.log(`   Whitelist: ${decodedCampaign.whitelist.length > 0 ? decodedCampaign.whitelist.join(', ') : 'None'}`);
       console.log(`   Blacklist: ${decodedCampaign.blacklist.length > 0 ? decodedCampaign.blacklist.join(', ') : 'None'}`);
-      
+
       // Verify the pool address matches
       if (normalizeAddress(decodedCampaign.hydrexPool) !== normalizeAddress(poolAddress)) {
         console.error('\n❌ FAILED: Campaign pool address mismatch!');
@@ -209,7 +209,7 @@ async function validateGauge(poolAddress: string): Promise<void> {
         process.exit(1);
       }
       console.log('   ✅ Campaign pool address matches');
-      
+
       // Verify weights sum to 10000 (100%)
       const totalWeight = Number(decodedCampaign.propFees) + Number(decodedCampaign.propToken0) + Number(decodedCampaign.propToken1);
       if (totalWeight !== 10000) {
@@ -221,7 +221,7 @@ async function validateGauge(poolAddress: string): Promise<void> {
 
     // Step 3: Get token0 and token1 from pool contract
     console.log('\n📍 Step 3: Fetching token addresses from pool contract...');
-    
+
     const [token0, token1] = await Promise.all([
       client.readContract({
         address: poolAddress as Address,
@@ -240,7 +240,7 @@ async function validateGauge(poolAddress: string): Promise<void> {
 
     // Step 4: Verify against strategies file
     console.log('\n📍 Step 4: Verifying against strategies file...');
-    
+
     const strategy = strategies.find(
       s => normalizeAddress(s.address) === normalizeAddress(poolAddress)
     );
@@ -284,7 +284,7 @@ async function validateGauge(poolAddress: string): Promise<void> {
     console.log(`Strategy: ${strategy.title}`);
     console.log(`Token0: ${token0}`);
     console.log(`Token1: ${token1}`);
-    
+
     if (decodedCampaign) {
       console.log(`\nMerkl Campaign Configuration:`);
       console.log(`  Distribution Creator: ${merklConfig.distributionCreator}`);
@@ -293,12 +293,23 @@ async function validateGauge(poolAddress: string): Promise<void> {
       console.log(`  Duration: ${merklConfig.duration}s (${merklConfig.duration / 86400} days)`);
       console.log(`  Campaign Type: ${merklConfig.campaignType} (2 = Concentrated Liquidity)`);
       console.log(`\nWeight Distribution:`);
-      console.log(`  Liquidity: ${Number(decodedCampaign.propFees) / 100}%`);
-      console.log(`  Token0: ${Number(decodedCampaign.propToken0) / 100}%`);
-      console.log(`  Token1: ${Number(decodedCampaign.propToken1) / 100}%`);
+      const liquidityWeight = Number(decodedCampaign.propFees) / 100;
+      const token0Weight = Number(decodedCampaign.propToken0) / 100;
+      const token1Weight = Number(decodedCampaign.propToken1) / 100;
+      console.log(`  Liquidity: ${liquidityWeight}%`);
+      console.log(`  Token0: ${token0Weight}%`);
+      console.log(`  Token1: ${token1Weight}%`);
       console.log(`  In-Range Only: ${decodedCampaign.isOutOfRangeIncentivized === BigInt(0) ? 'Yes' : 'No'}`);
+
+      // Check if weight distribution is standard (20/40/40)
+      const isStandard = liquidityWeight === 20 && token0Weight === 40 && token1Weight === 40;
+      if (isStandard) {
+        console.log(`  Distribution Type: ✅ STANDARD (20/40/40)`);
+      } else {
+        console.log(`  Distribution Type: ⚠️  NON-STANDARD (Standard is 20/40/40)`);
+      }
     }
-    
+
     console.log('\n✨ All checks passed!\n');
 
   } catch (error) {
