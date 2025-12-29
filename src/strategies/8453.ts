@@ -63,6 +63,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xB69bBB15095C0949489FBB43951d2b750Fa7fA89",
     tags: ["ecosystem", "exotic"],
+    website: "https://mementoblockchain.com/",
   },
   {
     chainId: 8453,
@@ -102,6 +103,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["bluechip", "ecosystem", "exotic"],
+    website: "https://makerdao.com/",
   },
   {
     chainId: 8453,
@@ -128,6 +130,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xFAC77f01957ed1B3DD1cbEa992199B8f85B6E886",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.facticity.ai/",
   },
   {
     chainId: 8453,
@@ -141,6 +144,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x00fBAC94Fec8D4089d3fe979F39454F48c71A65d",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://klimaprotocol.com/",
   },
   {
     chainId: 8453,
@@ -154,6 +158,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     tags: ["bluechip", "correlated", "safe"],
+    website: "https://threshold.network/",
   },
   {
     chainId: 8453,
@@ -167,6 +172,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
     tags: ["bluechip", "correlated", "safe"],
+    website: "https://lido.fi/",
   },
   {
     chainId: 8453,
@@ -180,6 +186,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x7F6F8bB1AA8206921e80Ab6aBf1ac5737E39Ab07",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.machines.cash/",
   },
   {
     chainId: 8453,
@@ -193,6 +200,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x696F9436B67233384889472Cd7cD58A6fB5DF4f1",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.avantisfi.com/",
   },
   {
     chainId: 8453,
@@ -206,6 +214,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["bluechip", "correlated", "safe"],
+    website: "https://www.ether.fi/",
   },
   {
     chainId: 8453,
@@ -245,6 +254,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x6f89bcA4eA5931EdFCB09786267b251DeE752b07",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.regent.cx/",
   },
   {
     chainId: 8453,
@@ -258,6 +268,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x051024B653E8ec69E72693F776c41C2A9401FB07",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://betrmint.fun/",
   },
   {
     chainId: 8453,
@@ -271,6 +282,7 @@ export const strategies: Strategy[] = [
     token0Address: "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     tags: ["bluechip", "safe"],
+    website: "https://lido.fi/",
   },
   {
     chainId: 8453,
@@ -284,6 +296,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.virtuals.io/",
   },
   {
     chainId: 8453,
@@ -310,6 +323,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xE57E601c06689D3e2BF7DB7bebb14B4ff28400C6",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.mrdn.finance/",
   },
   {
     chainId: 8453,
@@ -323,6 +337,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xA4A2E2ca3fBfE21aed83471D28b6f65A233C6e00",
     tags: ["ecosystem", "exotic"],
+    website: "https://x.com/ribbita2012",
   },
   {
     chainId: 8453,
@@ -336,6 +351,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.clanker.world/",
   },
   {
     chainId: 8453,
@@ -349,6 +365,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xc0634090F2Fe6c6d75e61Be2b949464aBB498973",
     tags: ["ecosystem", "exotic"],
+    website: "https://keeta.com/",
   },
   {
     chainId: 8453,
@@ -362,6 +379,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x5Fc2843838e65eb0B5d33654628F446d54602791",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.fxhash.xyz/",
   },
   {
     chainId: 8453,
@@ -375,6 +393,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x1111111111166b7FE7bd91427724B487980aFc69",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://zora.co/",
   },
   {
     chainId: 8453,
@@ -388,6 +407,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xD262A4c7108C8139b2B189758e8D17c3DFC91a38",
     tags: ["ecosystem", "exotic"],
+    website: "https://cypherhq.io/cypr/",
   },
   {
     chainId: 8453,
@@ -401,6 +421,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x15D0e0c55a3E7eE67152aD7E89acf164253Ff68d",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://hyperliquid.gitbook.io/hyperliquid-docs",
   },
   {
     chainId: 8453,
@@ -427,6 +448,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.brztoken.io/",
   },
   {
     chainId: 8453,
@@ -440,6 +462,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xA88594D404727625A9437C3f886C7643872296AE",
     tags: ["ecosystem", "exotic"],
+    website: "https://moonwell.fi/",
   },
   {
     chainId: 8453,
@@ -453,6 +476,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x56f8AD6112C2DB9F9848243531B277cE1C3BE30c",
     tags: ["ecosystem", "exotic"],
+    website: "https://dockerxbt.com/",
   },
   {
     chainId: 8453,
@@ -466,6 +490,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xD302A92fb82EA59aa676Ae3d5799AC296AFa7390",
     tags: ["ecosystem", "exotic"],
+    website: "https://x.com/WilderStubbs",
   },
   {
     chainId: 8453,
@@ -479,6 +504,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xBB2DB41e62abF596b7f8Ca7bD4733a7b357f5Ab9",
     tags: ["ecosystem", "exotic"],
+    website: "https://x.com/Metacade_",
   },
   {
     chainId: 8453,
@@ -492,6 +518,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x77Ca224436B132CD83581826669025Ed9cfd9b94",
     tags: ["ecosystem", "exotic"],
+    website: "https://landwolf.com/",
   },
   {
     chainId: 8453,
@@ -505,6 +532,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["stable", "correlated"],
+    website: "https://idrx.co/",
   },
   {
     chainId: 8453,
@@ -518,6 +546,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xa749dE6c28262B7ffbc5De27dC845DD7eCD2b358",
     tags: ["ecosystem", "exotic"],
+    website: "https://zkverify.io/",
   },
   {
     chainId: 8453,
@@ -531,6 +560,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xFb31f85A8367210B2e4Ed2360D2dA9Dc2D2Ccc95",
     tags: ["ecosystem", "exotic"],
+    website: "https://edel.finance/",
   },
   {
     chainId: 8453,
@@ -544,6 +574,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xC0D3700000c0e32716863323bFd936b54a1633d1",
     tags: ["ecosystem", "exotic"],
+    website: "https://cod3x.org/",
   },
   {
     chainId: 8453,
@@ -557,6 +588,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x11dC28D01984079b7efE7763b533e6ed9E3722B9",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://syndicate.io/",
   },
   {
     chainId: 8453,
@@ -570,6 +602,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x50F88fe97f72CD3E75b9Eb4f747F59BcEBA80d59",
     tags: ["ecosystem", "exotic"],
+    website: "https://jesse.xyz/",
   },
   {
     chainId: 8453,
@@ -583,6 +616,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xd85c31854c2B0Fb40aaA9E2Fc4Da23C21f829d46",
     tags: ["ecosystem", "exotic"],
+    website: "https://x.com/pingobserver",
   },
   {
     chainId: 8453,
@@ -596,6 +630,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xD080eD3c74a20250a2c9821885203034ACD2D5ae",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.zyf.ai/",
   },
   {
     chainId: 8453,
@@ -609,6 +644,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x767A739D1A152639e9Ea1D8c1BD55FDC5B217D7f",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.veil.cash/",
   },
   {
     chainId: 8453,
@@ -622,6 +658,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x1F015712aa2a48085eC93F87d643bB625b668B07",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://indexy.xyz/home",
   },
   {
     chainId: 8453,
@@ -635,6 +672,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x9Cb41FD9dC6891BAe8187029461bfAADF6CC0C69",
     tags: ["ecosystem", "exotic"],
+    website: "https://noice.so/",
   },
   {
     chainId: 8453,
@@ -648,6 +686,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x22aF33FE49fD1Fa80c7149773dDe5890D3c76F3b",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://bankr.bot/",
   },
   {
     chainId: 8453,
@@ -661,6 +700,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x532f27101965dd16442E59d40670FaF5eBB142E4",
     tags: ["memecoin", "exotic"],
+    website: "https://www.basedbrett.com/",
   },
   {
     chainId: 8453,
@@ -687,6 +727,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x6555255b8dEd3c538Cb398d9E36769f45D7d3ea7",
     tags: ["ecosystem", "exotic"],
+    website: "https://backroom.tech/",
   },
   {
     chainId: 8453,
@@ -700,6 +741,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x080D43c2164AFdBc3712422CE78Ab902ccaB5CA1",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://spheron.network/",
   },
   {
     chainId: 8453,
@@ -713,6 +755,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xF732A566121Fa6362E9E0FBdd6D66E5c8C925E49",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.litprotocol.com/",
   },
   {
     chainId: 8453,
@@ -726,6 +769,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xC729777d0470F30612B1564Fd96E8Dd26f5814E3",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.sapien.io/",
   },
   {
     chainId: 8453,
@@ -739,6 +783,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xB1a03EdA10342529bBF8EB700a06C60441fEf25d",
     tags: ["ecosystem", "exotic"],
+    website: "https://miggles.io/",
   },
   {
     chainId: 8453,
@@ -752,6 +797,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x4F9Fd6Be4a90f2620860d680c0d4d5Fb53d1A825",
     tags: ["ecosystem", "exotic"],
+    website: "https://aixbt.tech/",
   },
   {
     chainId: 8453,
@@ -765,6 +811,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xc3679395Bddfb080FeD2E26A54aB224dc582c99A",
     tags: ["ecosystem", "exotic"],
+    website: "https://songcast.xyz/",
   },
   {
     chainId: 8453,
@@ -778,6 +825,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x590830dFDf9A3F68aFCDdE2694773dEBDF267774",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.gizatech.xyz/",
   },
   {
     chainId: 8453,
@@ -791,6 +839,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xAC1Bd2486aAf3B5C0fc3Fd868558b082a531B2B4",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.toshithecat.com/",
   },
   {
     chainId: 8453,
@@ -804,6 +853,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x1f16e03C1a5908818F47f6EE7bB16690b40D0671",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://recall.network/",
   },
   {
     chainId: 8453,
@@ -817,6 +867,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xf43eB8De897Fbc7F2502483B2Bef7Bb9EA179229",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.horizen.io/",
   },
   {
     chainId: 8453,
@@ -830,6 +881,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xBC45647eA894030a4E9801Ec03479739FA2485F0",
     tags: ["ecosystem", "exotic"],
+    website: "https://basenji.dog/",
   },
   {
     chainId: 8453,
@@ -843,6 +895,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
     tags: ["ecosystem", "exotic"],
+    website: "https://carv.io/",
   },
   {
     chainId: 8453,
@@ -856,6 +909,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x5aB3D4c385B400F3aBB49e80DE2fAF6a88A7B691",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.flock.io/",
   },
   {
     chainId: 8453,
@@ -869,6 +923,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xE22C243c7559C667a1EB94B593369D192c5fbac0",
     tags: ["ecosystem", "exotic"],
+    website: "https://kingprotocol.org/",
   },
   {
     chainId: 8453,
@@ -882,6 +937,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xa2f8Da4a55898B6c947Fa392eF8d6BFd87A4Ff77",
     tags: ["stable", "correlated", "safe"],
+    website: "https://app.hyperwavefi.xyz/vaults/hwusd",
   },
   {
     chainId: 8453,
@@ -895,6 +951,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x8C32bcFC720FEC35443748A96030cE866d0665ff",
     tags: ["ecosystem", "exotic"],
+    website: "https://x.com/latenightonbase",
   },
   {
     chainId: 8453,
@@ -908,6 +965,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xFf8104251E7761163faC3211eF5583FB3F8583d6",
     tags: ["ecosystem", "exotic"],
+    website: "https://reppo.xyz/",
   },
   {
     chainId: 8453,
@@ -921,6 +979,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x138746adfA52909E5920def027f5a8dc1C7EfFb6",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://ar.io/",
   },
   {
     chainId: 8453,
@@ -934,6 +993,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x6C240DDA6b5c336DF09A4D011139beAAa1eA2Aa2",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.ether.fi/",
   },
   {
     chainId: 8453,
@@ -947,6 +1007,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xB96CFc6f81F85c58a1eCcDd9eC2aD940E2cb8453",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.allyourbase.fun/",
   },
   {
     chainId: 8453,
@@ -960,6 +1021,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x6Bb7a212910682DCFdbd5BCBb3e28FB4E8da10Ee",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     tags: ["correlated", "safe"],
+    website: "https://gho.xyz/",
   },
   {
     chainId: 8453,
@@ -973,6 +1035,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xeb560289067c375E4897552DCDA7E3d203BFFBE2",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.basechainbilly.xyz/",
   },
   {
     chainId: 8453,
@@ -986,6 +1049,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x820C5F0fB255a1D18fd0eBB0F1CCefbC4D546dA7",
     tags: ["ecosystem", "exotic"],
+    website: "https://a0x.co/",
   },
   {
     chainId: 8453,
@@ -999,6 +1063,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x5576D6ed9181F2225afF5282Ac0ED29f755437Ea",
     tags: ["ecosystem", "exotic"],
+    website: "https://openserv.ai/",
   },
   {
     chainId: 8453,
@@ -1012,6 +1077,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842",
     tags: ["ecosystem", "exotic"],
+    website: "https://morpho.org/",
   },
   {
     chainId: 8453,
@@ -1038,6 +1104,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x380337d0180db7D0DF76ac4fAaE2fcea908EE1fC",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.ottowallet.xyz/",
   },
   {
     chainId: 8453,
@@ -1051,6 +1118,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xe3CF8dBcBDC9B220ddeaD0bD6342E245DAFF934d",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.piggy.vision/",
   },
   {
     chainId: 8453,
@@ -1064,6 +1132,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x311935Cd80B76769bF2ecC9D8Ab7635b2139cf82",
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     tags: ["bluechip", "standard"],
+    website: "https://solana.com/",
   },
   {
     chainId: 8453,
@@ -1077,6 +1146,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07",
     tags: ["ecosystem", "exotic"],
+    website: "https://baes.so/welcome",
   },
   {
     chainId: 8453,
@@ -1090,6 +1160,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x55cD6469F597452B5A7536e2CD98fDE4c1247ee4",
     tags: ["ecosystem", "exotic"],
+    website: "https://luna.fun/",
   },
   {
     chainId: 8453,
@@ -1103,6 +1174,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xAE4a37d554C6D6F3E398546d8566B25052e0169C",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.glazecorp.io/",
   },
   {
     chainId: 8453,
@@ -1116,6 +1188,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x1C4CcA7C5DB003824208aDDA61Bd749e55F463a3",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://docs.game.virtuals.io/",
   },
   {
     chainId: 8453,
@@ -1129,6 +1202,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x1C4CcA7C5DB003824208aDDA61Bd749e55F463a3",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://docs.game.virtuals.io/",
   },
   {
     chainId: 8453,
@@ -1142,6 +1216,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0x9126236476eFBA9Ad8aB77855c60eB5BF37586Eb",
     tags: ["ecosystem", "exotic"],
+    website: "https://anichess.com/",
   },
   {
     chainId: 8453,
@@ -1155,6 +1230,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x9126236476eFBA9Ad8aB77855c60eB5BF37586Eb",
     tags: ["ecosystem", "exotic"],
+    website: "https://anichess.com/",
   },
   {
     chainId: 8453,
@@ -1168,6 +1244,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0x9818B6c09f5ECc843060927E8587c427C7C93583",
     tags: ["ecosystem", "exotic"],
+    website: "https://rizenet.io/",
   },
   {
     chainId: 8453,
@@ -1181,6 +1258,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x3595ca37596D5895B70EFAB592ac315D5B9809B2",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "stable"],
+    website: "https://azos.finance/",
   },
 
   // ORIGINAL STRATEGIES
@@ -1356,6 +1434,7 @@ export const strategies: Strategy[] = [
     tags: ["stable", "correlated", "safe"],
     strategyInfoOverride:
       "This strategy is designed for correlated pairs and centers liquidity around a defined peg. It uses median observation over multiple snapshots to avoid reacting to short-term volatility and performs controlled swaps within a single tick to minimize slippage. As a result it does not aim to maintain a specific ratio of the assets in the pool.",
+    website: "https://makerdao.com/",
   },
   {
     chainId: 8453,
@@ -1372,6 +1451,7 @@ export const strategies: Strategy[] = [
     tags: ["stable", "correlated", "safe"],
     strategyInfoOverride:
       "This strategy is designed for correlated pairs and centers liquidity around a defined peg. It uses median observation over multiple snapshots to avoid reacting to short-term volatility and performs controlled swaps within a single tick to minimize slippage. As a result it does not aim to maintain a specific ratio of the assets in the pool.",
+    website: "https://makerdao.com/",
   },
   {
     chainId: 8453,
@@ -1400,6 +1480,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     depositToken: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     tags: ["bluechip", "safe"],
+    website: "https://lido.fi/",
   },
   {
     chainId: 8453,
@@ -1414,6 +1495,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     depositToken: "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
     tags: ["bluechip", "safe"],
+    website: "https://lido.fi/",
   },
   {
     chainId: 8453,
@@ -1523,6 +1605,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x380337d0180db7D0DF76ac4fAaE2fcea908EE1fC",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.ottowallet.xyz/",
   },
   {
     chainId: 8453,
@@ -1537,6 +1620,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.ottowallet.xyz/",
   },
   {
     chainId: 8453,
@@ -1551,6 +1635,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07",
     depositToken: "0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07",
     tags: ["ecosystem", "exotic"],
+    website: "https://baes.so/welcome",
   },
   {
     chainId: 8453,
@@ -1565,6 +1650,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xa9F6d9EcA1F803854A13CECad0f21d43e007DB07",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://baes.so/welcome",
   },
   {
     chainId: 8453,
@@ -1579,6 +1665,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xFf8104251E7761163faC3211eF5583FB3F8583d6",
     depositToken: "0xFf8104251E7761163faC3211eF5583FB3F8583d6",
     tags: ["ecosystem", "exotic"],
+    website: "https://reppo.xyz/",
   },
   {
     chainId: 8453,
@@ -1593,6 +1680,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xFf8104251E7761163faC3211eF5583FB3F8583d6",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://reppo.xyz/",
   },
   {
     chainId: 8453,
@@ -1607,6 +1695,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xD080eD3c74a20250a2c9821885203034ACD2D5ae",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["memecoin", "exotic"],
+    website: "https://www.zyf.ai/",
   },
   {
     chainId: 8453,
@@ -1621,6 +1710,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://ar.io/",
   },
   {
     chainId: 8453,
@@ -1635,6 +1725,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x138746adfA52909E5920def027f5a8dc1C7EfFb6",
     tags: ["ecosystem", "exotic"],
+    website: "https://ar.io/",
   },
   {
     chainId: 8453,
@@ -1649,6 +1740,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x8C32bcFC720FEC35443748A96030cE866d0665ff",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic", "zora-creator"],
+    website: "https://x.com/latenightonbase",
   },
   {
     chainId: 8453,
@@ -1663,6 +1755,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x8C32bcFC720FEC35443748A96030cE866d0665ff",
     depositToken: "0x8C32bcFC720FEC35443748A96030cE866d0665ff",
     tags: ["ecosystem", "exotic", "zora-creator"],
+    website: "https://x.com/latenightonbase",
   },
   {
     chainId: 8453,
@@ -1679,6 +1772,7 @@ export const strategies: Strategy[] = [
     tags: ["stable", "correlated", "safe"],
     strategyInfoOverride:
       "This strategy is designed for correlated pairs and centers liquidity around a defined peg. It uses median observation over multiple snapshots to avoid reacting to short-term volatility and performs controlled swaps within a single tick to minimize slippage. As a result it does not aim to maintain a specific ratio of the assets in the pool.",
+    website: "https://app.hyperwavefi.xyz/vaults/hwusd",
   },
   {
     chainId: 8453,
@@ -1695,6 +1789,7 @@ export const strategies: Strategy[] = [
     tags: ["stable", "correlated", "safe"],
     strategyInfoOverride:
       "This strategy is designed for correlated pairs and centers liquidity around a defined peg. It uses median observation over multiple snapshots to avoid reacting to short-term volatility and performs controlled swaps within a single tick to minimize slippage. As a result it does not aim to maintain a specific ratio of the assets in the pool.",
+    website: "https://app.hyperwavefi.xyz/vaults/hwusd",
   },
   {
     chainId: 8453,
@@ -1709,6 +1804,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xD302A92fb82EA59aa676Ae3d5799AC296AFa7390",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic", "zora-creator"],
+    website: "https://x.com/WilderStubbs",
   },
   {
     chainId: 8453,
@@ -1723,6 +1819,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xD302A92fb82EA59aa676Ae3d5799AC296AFa7390",
     depositToken: "0xD302A92fb82EA59aa676Ae3d5799AC296AFa7390",
     tags: ["ecosystem", "exotic", "zora-creator"],
+    website: "https://x.com/WilderStubbs",
   },
   {
     chainId: 8453,
@@ -1737,6 +1834,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xBB2DB41e62abF596b7f8Ca7bD4733a7b357f5Ab9",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic", "zora-creator"],
+    website: "https://x.com/Metacade_",
   },
   {
     chainId: 8453,
@@ -1751,6 +1849,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xBB2DB41e62abF596b7f8Ca7bD4733a7b357f5Ab9",
     depositToken: "0xBB2DB41e62abF596b7f8Ca7bD4733a7b357f5Ab9",
     tags: ["ecosystem", "exotic", "zora-creator"],
+    website: "https://x.com/Metacade_",
   },
   {
     chainId: 8453,
@@ -1765,6 +1864,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xc3679395Bddfb080FeD2E26A54aB224dc582c99A",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic", "zora-creator"],
+    website: "https://songcast.xyz/",
   },
   {
     chainId: 8453,
@@ -1779,6 +1879,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xc3679395Bddfb080FeD2E26A54aB224dc582c99A",
     depositToken: "0xc3679395Bddfb080FeD2E26A54aB224dc582c99A",
     tags: ["ecosystem", "exotic", "zora-creator"],
+    website: "https://songcast.xyz/",
   },
   {
     chainId: 8453,
@@ -1793,6 +1894,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x56f8AD6112C2DB9F9848243531B277cE1C3BE30c",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic", "zora-creator"],
+    website: "https://dockerxbt.com/",
   },
   {
     chainId: 8453,
@@ -1807,6 +1909,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x56f8AD6112C2DB9F9848243531B277cE1C3BE30c",
     depositToken: "0x56f8AD6112C2DB9F9848243531B277cE1C3BE30c",
     tags: ["ecosystem", "exotic", "zora-creator"],
+    website: "https://dockerxbt.com/",
   },
   {
     chainId: 8453,
@@ -1821,6 +1924,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x8B12bf09B7c6d73735C6a824F1D74a8B5c1AA5ca",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://solo.to/wav.3",
   },
   {
     chainId: 8453,
@@ -1835,6 +1939,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x8B12bf09B7c6d73735C6a824F1D74a8B5c1AA5ca",
     depositToken: "0x8B12bf09B7c6d73735C6a824F1D74a8B5c1AA5ca",
     tags: ["ecosystem", "exotic"],
+    website: "https://solo.to/wav.3",
   },
   {
     chainId: 8453,
@@ -1848,6 +1953,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x2E6C05f1f7D1f4Eb9A088bf12257f1647682b754",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.regen.network/",
   },
   {
     chainId: 8453,
@@ -1862,6 +1968,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x820C5F0fB255a1D18fd0eBB0F1CCefbC4D546dA7",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://a0x.co/",
   },
   {
     chainId: 8453,
@@ -1876,6 +1983,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x820C5F0fB255a1D18fd0eBB0F1CCefbC4D546dA7",
     depositToken: "0x820C5F0fB255a1D18fd0eBB0F1CCefbC4D546dA7",
     tags: ["ecosystem", "exotic"],
+    website: "https://a0x.co/",
   },
   {
     chainId: 8453,
@@ -1890,6 +1998,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x6C240DDA6b5c336DF09A4D011139beAAa1eA2Aa2",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.ether.fi/",
   },
   {
     chainId: 8453,
@@ -1904,6 +2013,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x6C240DDA6b5c336DF09A4D011139beAAa1eA2Aa2",
     depositToken: "0x6C240DDA6b5c336DF09A4D011139beAAa1eA2Aa2",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.ether.fi/",
   },
   {
     chainId: 8453,
@@ -1918,6 +2028,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://indexy.xyz/home",
   },
   {
     chainId: 8453,
@@ -1932,6 +2043,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x1F015712aa2a48085eC93F87d643bB625b668B07",
     tags: ["ecosystem", "exotic"],
+    website: "https://indexy.xyz/home",
   },
   {
     chainId: 8453,
@@ -1946,6 +2058,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xE22C243c7559C667a1EB94B593369D192c5fbac0",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://kingprotocol.org/",
   },
   {
     chainId: 8453,
@@ -1960,6 +2073,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xE22C243c7559C667a1EB94B593369D192c5fbac0",
     depositToken: "0xE22C243c7559C667a1EB94B593369D192c5fbac0",
     tags: ["ecosystem", "exotic"],
+    website: "https://kingprotocol.org/",
   },
   {
     chainId: 8453,
@@ -1974,6 +2088,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x6f89bcA4eA5931EdFCB09786267b251DeE752b07",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.regent.cx/",
   },
   {
     chainId: 8453,
@@ -1988,6 +2103,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x6f89bcA4eA5931EdFCB09786267b251DeE752b07",
     depositToken: "0x6f89bcA4eA5931EdFCB09786267b251DeE752b07",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.regent.cx/",
   },
   {
     chainId: 8453,
@@ -2002,6 +2118,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x50F88fe97f72CD3E75b9Eb4f747F59BcEBA80d59",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://jesse.xyz/",
   },
   {
     chainId: 8453,
@@ -2016,6 +2133,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x50F88fe97f72CD3E75b9Eb4f747F59BcEBA80d59",
     depositToken: "0x50F88fe97f72CD3E75b9Eb4f747F59BcEBA80d59",
     tags: ["ecosystem", "exotic"],
+    website: "https://jesse.xyz/",
   },
   {
     chainId: 8453,
@@ -2029,6 +2147,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x50F88fe97f72CD3E75b9Eb4f747F59BcEBA80d59",
     tags: ["ecosystem", "exotic"],
+    website: "https://jesse.xyz/",
   },
   {
     chainId: 8453,
@@ -2043,6 +2162,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://morpho.org/",
   },
   {
     chainId: 8453,
@@ -2057,6 +2177,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842",
     depositToken: "0xBAa5CC21fd487B8Fcc2F632f3F4E8D37262a0842",
     tags: ["ecosystem", "exotic"],
+    website: "https://morpho.org/",
   },
   {
     chainId: 8453,
@@ -2071,6 +2192,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xFb31f85A8367210B2e4Ed2360D2dA9Dc2D2Ccc95",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://edel.finance/",
   },
   {
     chainId: 8453,
@@ -2085,6 +2207,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xFb31f85A8367210B2e4Ed2360D2dA9Dc2D2Ccc95",
     depositToken: "0xFb31f85A8367210B2e4Ed2360D2dA9Dc2D2Ccc95",
     tags: ["ecosystem", "exotic"],
+    website: "https://edel.finance/",
   },
   {
     chainId: 8453,
@@ -2099,6 +2222,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x98d0baa52b2D063E780DE12F615f963Fe8537553",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://yaps.kaito.ai/",
   },
   {
     chainId: 8453,
@@ -2113,6 +2237,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x98d0baa52b2D063E780DE12F615f963Fe8537553",
     depositToken: "0x98d0baa52b2D063E780DE12F615f963Fe8537553",
     tags: ["ecosystem", "exotic"],
+    website: "https://yaps.kaito.ai/",
   },
   {
     chainId: 8453,
@@ -2127,6 +2252,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://betrmint.fun/",
   },
   {
     chainId: 8453,
@@ -2141,6 +2267,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x051024B653E8ec69E72693F776c41C2A9401FB07",
     tags: ["ecosystem", "exotic"],
+    website: "https://betrmint.fun/",
   },
   {
     chainId: 8453,
@@ -2154,6 +2281,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x3aDE6652F203d919697f8577F75Eebb989A5C586",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://nibiru.fi/",
   },
   {
     chainId: 8453,
@@ -2168,6 +2296,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x15D0e0c55a3E7eE67152aD7E89acf164253Ff68d",
     tags: ["ecosystem", "exotic"],
+    website: "https://hyperliquid.gitbook.io/hyperliquid-docs",
   },
   {
     chainId: 8453,
@@ -2182,6 +2311,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://hyperliquid.gitbook.io/hyperliquid-docs",
   },
   {
     chainId: 8453,
@@ -2196,6 +2326,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xF732A566121Fa6362E9E0FBdd6D66E5c8C925E49",
     depositToken: "0xF732A566121Fa6362E9E0FBdd6D66E5c8C925E49",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.litprotocol.com/",
   },
   {
     chainId: 8453,
@@ -2210,6 +2341,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xF732A566121Fa6362E9E0FBdd6D66E5c8C925E49",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.litprotocol.com/",
   },
   {
     chainId: 8453,
@@ -2224,6 +2356,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x5576D6ed9181F2225afF5282Ac0ED29f755437Ea",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://openserv.ai/",
   },
   {
     chainId: 8453,
@@ -2238,6 +2371,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x5576D6ed9181F2225afF5282Ac0ED29f755437Ea",
     depositToken: "0x5576D6ed9181F2225afF5282Ac0ED29f755437Ea",
     tags: ["ecosystem", "exotic"],
+    website: "https://openserv.ai/",
   },
   {
     chainId: 8453,
@@ -2252,6 +2386,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x7F6F8bB1AA8206921e80Ab6aBf1ac5737E39Ab07",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.machines.cash/",
   },
   {
     chainId: 8453,
@@ -2266,6 +2401,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x7F6F8bB1AA8206921e80Ab6aBf1ac5737E39Ab07",
     depositToken: "0x7F6F8bB1AA8206921e80Ab6aBf1ac5737E39Ab07",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.machines.cash/",
   },
   {
     chainId: 8453,
@@ -2308,6 +2444,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.clanker.world/",
   },
   {
     chainId: 8453,
@@ -2322,6 +2459,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.clanker.world/",
   },
   {
     chainId: 8453,
@@ -2335,6 +2473,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x323ac72a3a6267d97427944989b896fb411fdcbb",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://aicrostrategy.com/",
   },
   {
     chainId: 8453,
@@ -2348,6 +2487,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x323ac72a3a6267d97427944989b896fb411fdcbb",
     token1Address: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://aicrostrategy.com/",
   },
   {
     chainId: 8453,
@@ -2362,6 +2502,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xd85c31854c2B0Fb40aaA9E2Fc4Da23C21f829d46",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://x.com/pingobserver",
   },
   {
     chainId: 8453,
@@ -2376,6 +2517,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xd85c31854c2B0Fb40aaA9E2Fc4Da23C21f829d46",
     depositToken: "0xd85c31854c2B0Fb40aaA9E2Fc4Da23C21f829d46",
     tags: ["ecosystem", "exotic"],
+    website: "https://x.com/pingobserver",
   },
   {
     chainId: 8453,
@@ -2390,6 +2532,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x00fBAC94Fec8D4089d3fe979F39454F48c71A65d",
     tags: ["ecosystem", "exotic"],
+    website: "https://klimaprotocol.com/",
   },
   {
     chainId: 8453,
@@ -2404,6 +2547,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.brztoken.io/",
   },
   {
     chainId: 8453,
@@ -2418,6 +2562,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xA88594D404727625A9437C3f886C7643872296AE",
     depositToken: "0xA88594D404727625A9437C3f886C7643872296AE",
     tags: ["ecosystem", "exotic"],
+    website: "https://moonwell.fi/",
   },
   {
     chainId: 8453,
@@ -2432,6 +2577,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xA88594D404727625A9437C3f886C7643872296AE",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://moonwell.fi/",
   },
   {
     chainId: 8453,
@@ -2446,6 +2592,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x5aB3D4c385B400F3aBB49e80DE2fAF6a88A7B691",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.flock.io/",
   },
   {
     chainId: 8453,
@@ -2460,6 +2607,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.flock.io/",
   },
   {
     chainId: 8453,
@@ -2474,6 +2622,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x767A739D1A152639e9Ea1D8c1BD55FDC5B217D7f",
     depositToken: "0x767A739D1A152639e9Ea1D8c1BD55FDC5B217D7f",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.veil.cash/",
   },
   {
     chainId: 8453,
@@ -2488,6 +2637,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x767A739D1A152639e9Ea1D8c1BD55FDC5B217D7f",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.veil.cash/",
   },
   {
     chainId: 8453,
@@ -2502,6 +2652,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xC729777d0470F30612B1564Fd96E8Dd26f5814E3",
     depositToken: "0xC729777d0470F30612B1564Fd96E8Dd26f5814E3",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.sapien.io/",
   },
   {
     chainId: 8453,
@@ -2516,6 +2667,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xC729777d0470F30612B1564Fd96E8Dd26f5814E3",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.sapien.io/",
   },
   {
     chainId: 8453,
@@ -2530,6 +2682,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x77Ca224436B132CD83581826669025Ed9cfd9b94",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://landwolf.com/",
   },
   {
     chainId: 8453,
@@ -2544,6 +2697,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x77Ca224436B132CD83581826669025Ed9cfd9b94",
     depositToken: "0x77Ca224436B132CD83581826669025Ed9cfd9b94",
     tags: ["ecosystem", "exotic"],
+    website: "https://landwolf.com/",
   },
   {
     chainId: 8453,
@@ -2558,6 +2712,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.fxhash.xyz/",
   },
   {
     chainId: 8453,
@@ -2572,6 +2727,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x5Fc2843838e65eb0B5d33654628F446d54602791",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.fxhash.xyz/",
   },
   {
     chainId: 8453,
@@ -2586,6 +2742,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xa749dE6c28262B7ffbc5De27dC845DD7eCD2b358",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://zkverify.io/",
   },
   {
     chainId: 8453,
@@ -2600,6 +2757,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xa749dE6c28262B7ffbc5De27dC845DD7eCD2b358",
     depositToken: "0xa749dE6c28262B7ffbc5De27dC845DD7eCD2b358",
     tags: ["ecosystem", "exotic"],
+    website: "https://zkverify.io/",
   },
   {
     chainId: 8453,
@@ -2614,6 +2772,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://recall.network/",
   },
   {
     chainId: 8453,
@@ -2628,6 +2787,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x1f16e03C1a5908818F47f6EE7bB16690b40D0671",
     tags: ["ecosystem", "exotic"],
+    website: "https://recall.network/",
   },
   {
     chainId: 8453,
@@ -2642,6 +2802,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://carv.io/",
   },
   {
     chainId: 8453,
@@ -2656,6 +2817,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
     depositToken: "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
     tags: ["ecosystem", "exotic"],
+    website: "https://carv.io/",
   },
   {
     chainId: 8453,
@@ -2669,6 +2831,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
     tags: ["ecosystem", "exotic"],
+    website: "https://mclb.org/fbomb/",
   },
   {
     chainId: 8453,
@@ -2682,6 +2845,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x74ccbe53f77b08632ce0cb91d3a545bf6b8e0979",
     token1Address: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://mclb.org/fbomb/",
   },
   {
     chainId: 8453,
@@ -2696,6 +2860,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x22aF33FE49fD1Fa80c7149773dDe5890D3c76F3b",
     tags: ["ecosystem", "exotic"],
+    website: "https://bankr.bot/",
   },
   {
     chainId: 8453,
@@ -2710,6 +2875,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://bankr.bot/",
   },
   {
     chainId: 8453,
@@ -2724,6 +2890,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x590830dFDf9A3F68aFCDdE2694773dEBDF267774",
     depositToken: "0x590830dFDf9A3F68aFCDdE2694773dEBDF267774",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.gizatech.xyz/",
   },
   {
     chainId: 8453,
@@ -2738,6 +2905,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x590830dFDf9A3F68aFCDdE2694773dEBDF267774",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.gizatech.xyz/",
   },
   {
     chainId: 8453,
@@ -2752,6 +2920,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xf43eB8De897Fbc7F2502483B2Bef7Bb9EA179229",
     depositToken: "0xf43eB8De897Fbc7F2502483B2Bef7Bb9EA179229",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.horizen.io/",
   },
   {
     chainId: 8453,
@@ -2766,6 +2935,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xf43eB8De897Fbc7F2502483B2Bef7Bb9EA179229",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.horizen.io/",
   },
   {
     chainId: 8453,
@@ -2779,6 +2949,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x36912b5cf63e509f18e53ac98b3012fa79e77bf5",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://fuegobase.io/",
   },
   {
     chainId: 8453,
@@ -2793,6 +2964,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xB69bBB15095C0949489FBB43951d2b750Fa7fA89",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://mementoblockchain.com/",
   },
   {
     chainId: 8453,
@@ -2807,6 +2979,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xB69bBB15095C0949489FBB43951d2b750Fa7fA89",
     depositToken: "0xB69bBB15095C0949489FBB43951d2b750Fa7fA89",
     tags: ["ecosystem", "exotic"],
+    website: "https://mementoblockchain.com/",
   },
   {
     chainId: 8453,
@@ -2821,6 +2994,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xc0634090F2Fe6c6d75e61Be2b949464aBB498973",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://keeta.com/",
   },
   {
     chainId: 8453,
@@ -2835,6 +3009,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xc0634090F2Fe6c6d75e61Be2b949464aBB498973",
     depositToken: "0xc0634090F2Fe6c6d75e61Be2b949464aBB498973",
     tags: ["ecosystem", "exotic"],
+    website: "https://keeta.com/",
   },
   {
     chainId: 8453,
@@ -2849,6 +3024,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x9Cb41FD9dC6891BAe8187029461bfAADF6CC0C69",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://noice.so/",
   },
   {
     chainId: 8453,
@@ -2863,6 +3039,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x9Cb41FD9dC6891BAe8187029461bfAADF6CC0C69",
     depositToken: "0x9Cb41FD9dC6891BAe8187029461bfAADF6CC0C69",
     tags: ["ecosystem", "exotic"],
+    website: "https://noice.so/",
   },
   {
     chainId: 8453,
@@ -2877,6 +3054,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xD262A4c7108C8139b2B189758e8D17c3DFC91a38",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://cypherhq.io/cypr/",
   },
   {
     chainId: 8453,
@@ -2891,6 +3069,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xD262A4c7108C8139b2B189758e8D17c3DFC91a38",
     depositToken: "0xD262A4c7108C8139b2B189758e8D17c3DFC91a38",
     tags: ["ecosystem", "exotic"],
+    website: "https://cypherhq.io/cypr/",
   },
   {
     chainId: 8453,
@@ -2905,6 +3084,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.virtuals.io/",
   },
   {
     chainId: 8453,
@@ -2919,6 +3099,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.virtuals.io/",
   },
   {
     chainId: 8453,
@@ -2933,6 +3114,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xA4A2E2ca3fBfE21aed83471D28b6f65A233C6e00",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://x.com/ribbita2012",
   },
   {
     chainId: 8453,
@@ -2947,6 +3129,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xA4A2E2ca3fBfE21aed83471D28b6f65A233C6e00",
     depositToken: "0xA4A2E2ca3fBfE21aed83471D28b6f65A233C6e00",
     tags: ["ecosystem", "exotic"],
+    website: "https://x.com/ribbita2012",
   },
   {
     chainId: 8453,
@@ -2961,6 +3144,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xFAC77f01957ed1B3DD1cbEa992199B8f85B6E886",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.facticity.ai/",
   },
   {
     chainId: 8453,
@@ -2975,6 +3159,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xFAC77f01957ed1B3DD1cbEa992199B8f85B6E886",
     depositToken: "0xFAC77f01957ed1B3DD1cbEa992199B8f85B6E886",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.facticity.ai/",
   },
   {
     chainId: 8453,
@@ -2988,6 +3173,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x051024b653e8ec69e72693f776c41c2a9401fb07",
     token1Address: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://betrmint.fun/",
   },
   {
     chainId: 8453,
@@ -3001,6 +3187,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xD080eD3c74a20250a2c9821885203034ACD2D5ae",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.zyf.ai/",
   },
   {
     chainId: 8453,
@@ -3014,6 +3201,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xc77eB53473759913bf278e52861EF281829cBE4d",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.skynetxbt.ai/",
   },
   {
     chainId: 8453,
@@ -3028,6 +3216,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xC0D3700000c0e32716863323bFd936b54a1633d1",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://cod3x.org/",
   },
   {
     chainId: 8453,
@@ -3042,6 +3231,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xC0D3700000c0e32716863323bFd936b54a1633d1",
     depositToken: "0xC0D3700000c0e32716863323bFd936b54a1633d1",
     tags: ["ecosystem", "exotic"],
+    website: "https://cod3x.org/",
   },
   // {
   //   chainId: 8453,
@@ -3070,6 +3260,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xeb560289067c375E4897552DCDA7E3d203BFFBE2",
     depositToken: "0xeb560289067c375E4897552DCDA7E3d203BFFBE2",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.basechainbilly.xyz/",
   },
   {
     chainId: 8453,
@@ -3084,6 +3275,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xE57E601c06689D3e2BF7DB7bebb14B4ff28400C6",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.mrdn.finance/",
   },
   {
     chainId: 8453,
@@ -3098,6 +3290,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xE57E601c06689D3e2BF7DB7bebb14B4ff28400C6",
     depositToken: "0xE57E601c06689D3e2BF7DB7bebb14B4ff28400C6",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.mrdn.finance/",
   },
   // {
   //   chainId: 8453,
@@ -3126,6 +3319,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xB96CFc6f81F85c58a1eCcDd9eC2aD940E2cb8453",
     depositToken: "0xB96CFc6f81F85c58a1eCcDd9eC2aD940E2cb8453",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.allyourbase.fun/",
   },
   {
     chainId: 8453,
@@ -3140,6 +3334,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xB1a03EdA10342529bBF8EB700a06C60441fEf25d",
     depositToken: "0xB1a03EdA10342529bBF8EB700a06C60441fEf25d",
     tags: ["ecosystem", "exotic"],
+    website: "https://miggles.io/",
   },
   // {
   //   chainId: 8453,
@@ -3168,6 +3363,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x080D43c2164AFdBc3712422CE78Ab902ccaB5CA1",
     tags: ["ecosystem", "exotic"],
+    website: "https://spheron.network/",
   },
   // {
   //   chainId: 8453,
@@ -3196,6 +3392,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x7AaFD31a321d3627b30A8e2171264B56852187fe",
     depositToken: "0x7AaFD31a321d3627b30A8e2171264B56852187fe",
     tags: ["ecosystem", "exotic"],
+    website: "https://mira.network/",
   },
   {
     chainId: 8453,
@@ -3210,6 +3407,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x6555255b8dEd3c538Cb398d9E36769f45D7d3ea7",
     depositToken: "0x6555255b8dEd3c538Cb398d9E36769f45D7d3ea7",
     tags: ["ecosystem", "exotic"],
+    website: "https://backroom.tech/",
   },
   // {
   //   chainId: 8453,
@@ -3238,6 +3436,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x7AaFD31a321d3627b30A8e2171264B56852187fe",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://mira.network/",
   },
   {
     chainId: 8453,
@@ -3252,6 +3451,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x50dA645f148798F68EF2d7dB7C1CB22A6819bb2C",
     depositToken: "0x50dA645f148798F68EF2d7dB7C1CB22A6819bb2C",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.spx6900.com/",
   },
   // {
   //   chainId: 8453,
@@ -3280,6 +3480,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x11dC28D01984079b7efE7763b533e6ed9E3722B9",
     tags: ["ecosystem", "exotic"],
+    website: "https://syndicate.io/",
   },
   {
     chainId: 8453,
@@ -3294,6 +3495,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["ecosystem", "exotic"],
+    website: "https://syndicate.io/",
   },
   {
     chainId: 8453,
@@ -3308,6 +3510,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x696F9436B67233384889472Cd7cD58A6fB5DF4f1",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.avantisfi.com/",
   },
   {
     chainId: 8453,
@@ -3322,6 +3525,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.avantisfi.com/",
   },
   {
     chainId: 8453,
@@ -3336,6 +3540,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x6e2c81b6c2C0e02360F00a0dA694e489acB0b05e",
     tags: ["ecosystem", "exotic"],
+    website: "https://www.reflect.now/",
   },
   {
     chainId: 8453,
@@ -3350,6 +3555,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
     depositToken: "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
     tags: ["bluechip", "correlated", "safe"],
+    website: "https://lido.fi/",
   },
   {
     chainId: 8453,
@@ -3364,6 +3570,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x1111111111166b7FE7bd91427724B487980aFc69",
     tags: ["ecosystem", "exotic"],
+    website: "https://zora.co/",
   },
   {
     chainId: 8453,
@@ -3378,6 +3585,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xAC1Bd2486aAf3B5C0fc3Fd868558b082a531B2B4",
     depositToken: "0xAC1Bd2486aAf3B5C0fc3Fd868558b082a531B2B4",
     tags: ["memecoin", "exotic"],
+    website: "https://www.toshithecat.com/",
   },
   {
     chainId: 8453,
@@ -3392,6 +3600,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xBC45647eA894030a4E9801Ec03479739FA2485F0",
     depositToken: "0xBC45647eA894030a4E9801Ec03479739FA2485F0",
     tags: ["memecoin", "exotic"],
+    website: "https://basenji.dog/",
   },
   {
     chainId: 8453,
@@ -3406,6 +3615,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x532f27101965dd16442E59d40670FaF5eBB142E4",
     depositToken: "0x532f27101965dd16442E59d40670FaF5eBB142E4",
     tags: ["memecoin", "exotic"],
+    website: "https://www.basedbrett.com/",
   },
   {
     chainId: 8453,
@@ -3420,6 +3630,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4F9Fd6Be4a90f2620860d680c0d4d5Fb53d1A825",
     depositToken: "0x4F9Fd6Be4a90f2620860d680c0d4d5Fb53d1A825",
     tags: ["memecoin", "exotic"],
+    website: "https://aixbt.tech/",
   },
   {
     chainId: 8453,
@@ -3434,6 +3645,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xD080eD3c74a20250a2c9821885203034ACD2D5ae",
     depositToken: "0xD080eD3c74a20250a2c9821885203034ACD2D5ae",
     tags: ["memecoin", "exotic"],
+    website: "https://www.zyf.ai/",
   },
   {
     chainId: 8453,
@@ -3448,6 +3660,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x64cc19A52f4D631eF5BE07947CABA14aE00c52Eb",
     v4PoolId: "0xb7af3f156e4fba06eb87421eaad538de9763b59f50b0911c62cc7024b5d65ee4",
     tags: ["memecoin", "exotic"],
+    website: "https://cat.town/",
   },
 
   {
@@ -3463,6 +3676,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x4200000000000000000000000000000000000006",
     depositToken: "0x4200000000000000000000000000000000000006",
     tags: ["bluechip", "correlated", "safe"],
+    website: "https://www.ether.fi/",
   },
   {
     chainId: 8453,
@@ -3477,6 +3691,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     depositToken: "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
     tags: ["bluechip", "correlated", "safe"],
+    website: "https://threshold.network/",
   },
   {
     chainId: 8453,
@@ -3491,6 +3706,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     depositToken: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     tags: ["bluechip", "correlated", "safe"],
+    website: "https://threshold.network/",
   },
   {
     chainId: 8453,
@@ -3687,6 +3903,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
     depositToken: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
     tags: ["stable", "correlated"],
+    website: "https://www.brztoken.io/",
   },
   {
     chainId: 8453,
@@ -3701,6 +3918,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
     tags: ["stable", "correlated"],
+    website: "https://idrx.co/",
   },
   {
     chainId: 8453,
@@ -3715,6 +3933,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["stable", "correlated"],
+    website: "https://idrx.co/",
   },
   {
     chainId: 8453,
@@ -3729,6 +3948,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     v4PoolId: "0xa18262d729e388b0a67aa65c0dd2a096482b3a27058be5547a3235d053dd90b4",
     tags: ["stable", "correlated", "safe"],
+    website: "https://gho.xyz/",
   },
   {
     chainId: 8453,
@@ -3743,6 +3963,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x102d758f688a4C1C5a80b116bD945d4455460282",
     v4PoolId: "0xf36aa3809afef1433f731a64d34df3d2e1a129b60f15f85eeda713f7694ab2b3",
     tags: ["bluechip", "safe"],
+    website: "https://usdt0.to/",
   },
 
   // Solidly Style Strategies
@@ -3771,5 +3992,6 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
     tags: ["stable", "safe"],
+    website: "https://tether.to/",
   },
 ];

@@ -1,4 +1,11 @@
-export type LiquidityType = "uniV4" | "integral" | "classic-volatile" | "classic-stable" | "morpho" | "integral-manual" | "euler";
+export type LiquidityType =
+  | "uniV4"
+  | "integral"
+  | "classic-volatile"
+  | "classic-stable"
+  | "morpho"
+  | "integral-manual"
+  | "euler";
 export type StrategyType = "Narrow" | "Correlated" | "Long-Short" | "Single Sided" | "Classic" | "Lending" | "Manual";
 export type Strategist = "Ichi" | "Gamma" | "Hydrex" | "Morpho" | "Euler";
 
@@ -23,6 +30,7 @@ export interface Token {
   decimals: number;
   logoURI: string;
   type?: "stablecoin" | "bluechip" | "zora-creator" | "zora-post";
+  autoSlippage?: number;
 }
 
 export interface TokenList {
@@ -71,6 +79,7 @@ export interface Strategy {
   token1Address?: string;
   v4PoolId?: string;
   tags?: StrategyTag[];
+  website?: string;
   strategyInfoOverride?: string;
   displayTags?: {
     title: string;
