@@ -1,4 +1,11 @@
-export type LiquidityType = "uniV4" | "integral" | "classic-volatile" | "classic-stable" | "morpho" | "integral-manual" | "euler";
+export type LiquidityType =
+  | "uniV4"
+  | "integral"
+  | "classic-volatile"
+  | "classic-stable"
+  | "morpho"
+  | "integral-manual"
+  | "euler";
 export type StrategyType = "Narrow" | "Correlated" | "Long-Short" | "Single Sided" | "Classic" | "Lending" | "Manual";
 export type Strategist = "Ichi" | "Gamma" | "Hydrex" | "Morpho" | "Euler";
 
@@ -13,8 +20,6 @@ export type StrategyTag =
   | "exotic"
   | "zora-creator";
 
-export type TokenLiquidity = "exotic" | "low" | "medium" | "high";
-
 export const ETH_NATIVE_ADDRESS = "0x0000000000000000000000000000000000000000";
 
 export interface Token {
@@ -25,7 +30,7 @@ export interface Token {
   decimals: number;
   logoURI: string;
   type?: "stablecoin" | "bluechip" | "zora-creator" | "zora-post";
-  liquidity?: TokenLiquidity;
+  autoSlippage?: number;
 }
 
 export interface TokenList {
