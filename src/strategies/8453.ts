@@ -1260,6 +1260,19 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "stable"],
     website: "https://azos.finance/",
   },
+  {
+    chainId: 8453,
+    title: "HYDX/WETH",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 1,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x89F29DD355d74e57389374a2AA5f9518a1e497aC",
+    token0Address: "0x00000e7efa313F4E11Bfff432471eD9423AC6B30",
+    token1Address: "0x4200000000000000000000000000000000000006",
+    tags: ["ecosystem", "exotic"],
+  },
 
   // ORIGINAL STRATEGIES
   {
