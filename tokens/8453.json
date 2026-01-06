@@ -2042,6 +2042,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0x05B1266DDCeE093cE060DBF697e230EA9B453633",
+    "name": "ReplyCorp",
+    "symbol": "REPLY",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/REPLY.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0xFf8104251E7761163faC3211eF5583FB3F8583d6",
     "name": "REPPO",
     "symbol": "REPPO",

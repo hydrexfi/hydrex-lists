@@ -3405,6 +3405,7 @@ export const strategies: Strategy[] = [
   //   token1Address: "0x4200000000000000000000000000000000000006",
   //   depositToken: "0x4200000000000000000000000000000000000006",
   //   tags: ["ecosystem", "exotic"],
+  //   website: "https://spheron.network/",
   // },
   {
     chainId: 8453,
