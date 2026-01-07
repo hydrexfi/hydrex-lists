@@ -1547,6 +1547,23 @@
   },
   {
     "chainId": 8453,
+    "title": "REPLY/WETH",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xdF7d47cb2a669852f9E9C3022776ec66EDb217ce",
+    "token0Address": "0x05B1266DDCeE093cE060DBF697e230EA9B453633",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.replycorp.io/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
