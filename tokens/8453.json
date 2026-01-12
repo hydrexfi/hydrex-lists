@@ -2375,6 +2375,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0x3B92844C5aBD9f0562C71EBF219628F1676A856D",
+    "name": "Starly the $STAR™ Guide",
+    "symbol": "STAR",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/STAR.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0x75cE54301374E194edAa6cA2e3C118cF01D3a76B",
     "name": "Liquid Staked NIBI",
     "symbol": "stNIBI",
