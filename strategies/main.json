@@ -1564,6 +1564,23 @@
   },
   {
     "chainId": 8453,
+    "title": "STAR/WETH",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x7E36bfd22c8Cfa3f497901af398d0de0F4616c60",
+    "token0Address": "0x3B92844C5aBD9f0562C71EBF219628F1676A856D",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://sponstar.io/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",

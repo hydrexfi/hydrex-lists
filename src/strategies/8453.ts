@@ -1287,6 +1287,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://www.replycorp.io/",
   },
+  {
+    chainId: 8453,
+    title: "STAR/WETH",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 2,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x7E36bfd22c8Cfa3f497901af398d0de0F4616c60",
+    token0Address: "0x3B92844C5aBD9f0562C71EBF219628F1676A856D",
+    token1Address: "0x4200000000000000000000000000000000000006",
+    tags: ["ecosystem", "exotic"],
+    website: "https://sponstar.io/",
+  },
 
   // ORIGINAL STRATEGIES
   {
