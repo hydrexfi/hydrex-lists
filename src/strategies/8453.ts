@@ -1288,6 +1288,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://sponstar.io/",
   },
+  {
+    chainId: 8453,
+    title: "WETH/HBET",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 2,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xd3D41F050554401bB70340690a25f9cED7531493",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0xc478eA5d6340eF8Ef04088C3a649DDEAc764B545",
+    tags: ["ecosystem", "exotic"],
+    website: "https://playhyperbet.com/",
+  },
 
   // ORIGINAL STRATEGIES
   {
