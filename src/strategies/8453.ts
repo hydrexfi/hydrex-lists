@@ -1302,6 +1302,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://playhyperbet.com/",
   },
+  {
+    chainId: 8453,
+    title: "KIBBLE/USDC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 2,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xCd280042F629FA2384179911f9Cb1F932b9F26C8",
+    token0Address: "0x64cc19A52f4D631eF5BE07947CABA14aE00c52Eb",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["ecosystem", "exotic"],
+    website: "https://cat.town/",
+  },
 
   // ORIGINAL STRATEGIES
   {
