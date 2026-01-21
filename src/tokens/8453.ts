@@ -876,6 +876,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x29cC30f9D113B356Ce408667aa6433589CeCBDcA",
+    name: "Elsa",
+    symbol: "ELSA",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ELSA.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x39D5313C3750140E5042887413bA8AA6145a9bd2",
     name: "Empyreal",
     symbol: "EMP",
