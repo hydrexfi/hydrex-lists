@@ -1090,7 +1090,8 @@ export const tokens: Token[] = [
     symbol: "FXUSD",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FXUSD.png",
-    autoSlippage: 5,
+    type: "stablecoin",
+    autoSlippage: 1,
   },
   {
     chainId: 8453,
@@ -1217,6 +1218,7 @@ export const tokens: Token[] = [
     symbol: "hwUSD",
     decimals: 6,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HWUSD.png",
+    type: "stablecoin",
     autoSlippage: 1,
   },
   {
