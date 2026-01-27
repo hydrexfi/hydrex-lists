@@ -604,6 +604,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0x9f86dB9fc6f7c9408e8Fda3Ff8ce4e78ac7a6b07",
+    "name": "clawd.atg.eth",
+    "symbol": "CLAWD",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CLAWD.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
     "name": "Compound",
     "symbol": "COMP",
