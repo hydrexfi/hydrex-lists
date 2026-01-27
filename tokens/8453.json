@@ -1067,6 +1067,16 @@
   },
   {
     "chainId": 8453,
+    "address": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "name": "FxUSD",
+    "symbol": "FXUSD",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FXUSD.png",
+    "type": "stablecoin",
+    "autoSlippage": 1
+  },
+  {
+    "chainId": 8453,
     "address": "0x9C7BEBa8F6eF6643aBd725e45a4E8387eF260649",
     "name": "Gravity",
     "symbol": "G",
@@ -1190,6 +1200,7 @@
     "symbol": "hwUSD",
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HWUSD.png",
+    "type": "stablecoin",
     "autoSlippage": 1
   },
   {
