@@ -1086,8 +1086,8 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
-    name: "FxUSD",
-    symbol: "FXUSD",
+    name: "fxUSD",
+    symbol: "fxUSD",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FXUSD.png",
     type: "stablecoin",
