@@ -2002,6 +2002,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0x78b9CE06f0e20D89C78ceD2AE739Bb45dd5794ab",
+      "name": "Provenance Fact-check",
+      "symbol": "PROV",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PROV.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0x3Dd79d6BD927615787Cc95F2c7A77C9aC1AF26F4",
       "name": "@MorphexBMX Pod (BASE)",
       "symbol": "pwBLT",

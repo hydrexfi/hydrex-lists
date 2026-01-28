@@ -63,12 +63,16 @@ const NAME_EXCEPTIONS: Record<string, string> = {
   '0x102d758f688a4C1C5a80b116bD945d4455460282': 'USDT0 (Stargate Bridged)',
   // Axelar Wrapped REGEN (Axelar Wrapped REGEN)
   '0x2E6C05f1f7D1f4Eb9A088bf12257f1647682b754': 'REGEN',
+  // fxUSD (display: fxUSD, on-chain: FxUSD)
+  '0x55380fe7A1910dFf29A47B622057ab4139DA42C5': 'fxUSD',
 };
 
 // Exception list for tokens where display symbol differs from on-chain symbol
 const SYMBOL_EXCEPTIONS: Record<string, string> = {
   // Axelar Wrapped REGEN (display: REGEN, on-chain: axlREGEN)
   '0x2E6C05f1f7D1f4Eb9A088bf12257f1647682b754': 'REGEN',
+  // fxUSD (display: fxUSD, on-chain: FXUSD)
+  '0x55380fe7A1910dFf29A47B622057ab4139DA42C5': 'fxUSD',
 };
 
 // Normalize symbols for comparison (strip $ prefix)
