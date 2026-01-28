@@ -1599,6 +1599,23 @@
   },
   {
     "chainId": 8453,
+    "title": "RYFT/WETH",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xAFa8740bD6a2AC2a99Ac02659bB927bE27E72D42",
+    "token0Address": "0x3597194C3b8A9481141Fb9C628FC398C120A58A9",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://entertheryft.com/ryft-token/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
@@ -1874,6 +1891,42 @@
       "safe"
     ],
     "website": "https://lido.fi/"
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/RYFT",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x35118466B00C788979B46a1Aa6984d8bbB474C98",
+    "token0Address": "0x3597194C3b8A9481141Fb9C628FC398C120A58A9",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://entertheryft.com/ryft-token/"
+  },
+  {
+    "chainId": 8453,
+    "title": "RYFT/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0xe8538f904A3D8561bd857B2C85B50Ad9Ee383D3A",
+    "token0Address": "0x3597194C3b8A9481141Fb9C628FC398C120A58A9",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "depositToken": "0x3597194C3b8A9481141Fb9C628FC398C120A58A9",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://entertheryft.com/ryft-token/"
   },
   {
     "chainId": 8453,
