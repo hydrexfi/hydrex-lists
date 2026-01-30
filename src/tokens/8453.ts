@@ -2581,7 +2581,8 @@ export const tokens: Token[] = [
     symbol: "tGBP",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TGBP.png",
-    autoSlippage: 5,
+    type: "stablecoin",
+    autoSlippage: 1,
   },
   {
     chainId: 8453,
