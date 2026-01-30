@@ -1330,6 +1330,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://entertheryft.com/ryft-token/",
   },
+  {
+    chainId: 8453,
+    title: "AZUSD/TGN",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 1,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x30816A9e6572407A83BA5fD18e145D9dd81540f5",
+    token0Address: "0x3595ca37596D5895B70EFAB592ac315D5B9809B2",
+    token1Address: "0xD75dfa972C6136f1c594Fec1945302f885E1ab29",
+    tags: ["ecosystem", "exotic"],
+    website: "https://www.treegens.org/",
+  },
 
   // ORIGINAL STRATEGIES
   {
