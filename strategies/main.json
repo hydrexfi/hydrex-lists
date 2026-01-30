@@ -1633,6 +1633,57 @@
   },
   {
     "chainId": 8453,
+    "title": "frxUSD/BRZ",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 1,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x29262772a1a99f180aC2e70093954CF4adf3CD85",
+    "token0Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "token1Address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
+    "tags": [
+      "ecosystem",
+      "stable"
+    ],
+    "website": "https://www.brztoken.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "IDRX/frxUSD",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 1,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x84994103403C715bace3bFb42f074F50E5432D55",
+    "token0Address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
+    "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "tags": [
+      "ecosystem",
+      "stable"
+    ],
+    "website": "https://idrx.co/"
+  },
+  {
+    "chainId": 8453,
+    "title": "tGBP/frxUSD",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 1,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xd4610403F0a93611ca76a5847743533268efF793",
+    "token0Address": "0x27f6c8289550fCE67f6B50BeD1F519966aFE5287",
+    "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "tags": [
+      "ecosystem",
+      "stable"
+    ],
+    "website": "https://www.tokenisedgbp.com/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
