@@ -2576,6 +2576,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x27f6c8289550fCE67f6B50BeD1F519966aFE5287",
+    name: "tGBP",
+    symbol: "tGBP",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TGBP.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0xD75dfa972C6136f1c594Fec1945302f885E1ab29",
     name: "TGNToken",
     symbol: "TGN",
