@@ -631,6 +631,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xa1F72459dfA10BAD200Ac160eCd78C6b77a747be",
+    name: "CLAWNCH",
+    symbol: "CLAWNCH",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CLAWNCH.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
     name: "Compound",
     symbol: "COMP",
