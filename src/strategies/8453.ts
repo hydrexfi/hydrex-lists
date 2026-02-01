@@ -4232,4 +4232,18 @@ export const strategies: Strategy[] = [
     tags: ["stable", "safe"],
     website: "https://tether.to/",
   },
+  {
+    chainId: 8453,
+    title: "fxUSD/USDC",
+    type: "Classic",
+    liquidityType: "classic-stable",
+    strategist: "Hydrex",
+    riskLevel: 1,
+    riskDescription: LOW_RISK_STRING,
+    address: "0xd62dd40b22db2fb620ef81592f97864496728a51",
+    token0Address: "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["stable", "safe"],
+    website: "https://fx.aladdin.club/",
+  },
 ];

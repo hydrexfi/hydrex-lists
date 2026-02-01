@@ -6,7 +6,8 @@
     "validate-tokens": "npx ts-node scripts/validateTokens.ts",
     "validate-gauge": "npx ts-node scripts/validateGauge.ts",
     "compare-strategies": "npx ts-node scripts/compareStrategies.ts",
-    "generate-bytecode": "npx ts-node scripts/generateBytecode.ts"
+    "generate-bytecode": "npx ts-node scripts/generateBytecode.ts",
+    "add-token": "npx ts-node scripts/listToken.ts"
   },
   "dependencies": {
     "viem": "^2.21.54"
