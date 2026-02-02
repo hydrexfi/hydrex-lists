@@ -1414,6 +1414,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://provenance-ai.gitbook.io/docs/",
   },
+  {
+    chainId: 8453,
+    title: "WETH/MOLT",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 2,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x8C09672caB06ee83F57403F195799D062D2a31D4",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0xB695559b26BB2c9703ef1935c37AeaE9526bab07",
+    tags: ["ecosystem", "exotic"],
+    website: "https://www.moltbook.com/",
+  },
 
   // ORIGINAL STRATEGIES
   {
