@@ -1400,6 +1400,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "stable"],
     website: "https://fx.aladdin.club/",
   },
+  {
+    chainId: 8453,
+    title: "WETH/PROV",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 2,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xe949e084E2252c97c905bD2A7b8DE893EdfA35D1",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0x78b9CE06f0e20D89C78ceD2AE739Bb45dd5794ab",
+    tags: ["ecosystem", "exotic"],
+    website: "https://provenance-ai.gitbook.io/docs/",
+  },
 
   // ORIGINAL STRATEGIES
   {
