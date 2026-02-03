@@ -1769,6 +1769,57 @@
   },
   {
     "chainId": 8453,
+    "title": "fxUSD/MOLT",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x2D9b441c4333b0383A27ad751F9190aB18b0B349",
+    "token0Address": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "token1Address": "0xB695559b26BB2c9703ef1935c37AeaE9526bab07",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.moltbook.com/"
+  },
+  {
+    "chainId": 8453,
+    "title": "fxUSD/CLAWNCH",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xfBf4be25Bc0624e36369cd8Ee2A731eba37509DA",
+    "token0Address": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "token1Address": "0xa1F72459dfA10BAD200Ac160eCd78C6b77a747be",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://clawn.ch/"
+  },
+  {
+    "chainId": 8453,
+    "title": "fxUSD/CLAWD",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x1Ba2D4125D838200aAB35a61f1570b054785d978",
+    "token0Address": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "token1Address": "0x9f86dB9fc6f7c9408e8Fda3Ff8ce4e78ac7a6b07",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://clawdbotatg.eth.limo/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
