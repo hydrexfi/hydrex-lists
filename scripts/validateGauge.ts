@@ -9,9 +9,12 @@ import { strategies } from '../src/strategies/8453';
  * This script validates that a pool address:
  * 1. Has a valid gauge address (not 0x0000...)
  * 2. Has a valid effective config for the oHYDX token
- * 3. Fetches and decodes the Merkl campaign configuration
- * 4. Validates campaign parameters (weights, pool address, etc.)
- * 5. Has correct token0 and token1 addresses in the strategies file
+ * 3. Fetches the Merkl campaign configuration from the contract
+ * 4. Automatically detects if the campaignData is a reference hash or full ABI-encoded data
+ *    - If 32-byte hash (66 chars): fetches config from Merkl API and validates
+ *    - If full data: decodes and validates directly
+ * 5. Validates campaign parameters (weights, pool address, etc.)
+ * 6. Has correct token0 and token1 addresses in the strategies file
  * 
  * Alternatively, validate a pre-live campaign using its config hash:
  * 1. Fetches campaign config from Merkl API using the hash
@@ -243,9 +246,84 @@ async function validateGauge(poolAddress: string): Promise<void> {
     console.log(`   Duration: ${merklConfig.duration}s (${merklConfig.duration / 86400} days)`);
     console.log(`   Campaign Data (raw): ${merklConfig.campaignData.slice(0, 66)}...`);
 
-    // Decode campaign data
-    console.log('\n📍 Step 2b: Decoding campaign data...');
-    const decodedCampaign = decodeCampaignData(merklConfig.campaignData);
+    // Check if campaignData is a 32-byte hash or full ABI-encoded data
+    const isHashReference = merklConfig.campaignData.length === 66; // "0x" + 64 hex chars = 32 bytes
+    
+    let decodedCampaign: DecodedCampaignData | null = null;
+    let apiConfigData: MerklConfigResponse | null = null;
+
+    if (isHashReference) {
+      // Campaign data is a reference hash - fetch from Merkl API
+      console.log('\n📍 Step 2b: Detected 32-byte reference hash, fetching from Merkl API...');
+      console.log(`   Config Hash: ${merklConfig.campaignData}`);
+      
+      apiConfigData = await fetchConfigByHash(merklConfig.campaignData);
+
+      if (!apiConfigData) {
+        console.error('\n❌ FAILED: Could not fetch config from Merkl API');
+        console.error('   The campaign may not exist yet or the hash is invalid');
+        process.exit(1);
+      }
+
+      console.log('   ✅ Config data retrieved from API');
+
+      // Decode campaign data from API response
+      console.log('\n📍 Step 2c: Decoding campaign data from API...');
+
+      // Try to decode from campaignData field if present
+      if (apiConfigData.campaignData) {
+        decodedCampaign = decodeCampaignData(apiConfigData.campaignData as `0x${string}`);
+      }
+
+      // Fall back to config object if available
+      if (!decodedCampaign && apiConfigData.config) {
+        const cfg = apiConfigData.config;
+        if (cfg.hydrexPool) {
+          decodedCampaign = {
+            hydrexPool: cfg.hydrexPool as Address,
+            propFees: BigInt(cfg.propFees || 0),
+            propToken0: BigInt(cfg.propToken0 || 0),
+            propToken1: BigInt(cfg.propToken1 || 0),
+            isOutOfRangeIncentivized: BigInt(cfg.isOutOfRangeIncentivized || 0),
+            boostingAddress: (cfg.boostingAddress || ZERO_ADDRESS) as Address,
+            boostedReward: BigInt(cfg.boostedReward || 0),
+            whitelist: (cfg.whitelist || []) as Address[],
+            blacklist: (cfg.blacklist || []) as Address[],
+            extraData: '0x' as `0x${string}`,
+            extraData2: '0x' as `0x${string}`,
+            extraData3: '0x' as `0x${string}`,
+          };
+        }
+      }
+
+      // Parse API response format (weightFees, weightToken0, weightToken1, etc.)
+      if (!decodedCampaign && apiConfigData.poolAddress) {
+        decodedCampaign = {
+          hydrexPool: apiConfigData.poolAddress as Address,
+          propFees: BigInt(apiConfigData.weightFees || 0),
+          propToken0: BigInt(apiConfigData.weightToken0 || 0),
+          propToken1: BigInt(apiConfigData.weightToken1 || 0),
+          isOutOfRangeIncentivized: BigInt(apiConfigData.isOutOfRangeIncentivized ? 1 : 0),
+          boostingAddress: ZERO_ADDRESS as Address,
+          boostedReward: BigInt(0),
+          whitelist: (apiConfigData.whitelist || []) as Address[],
+          blacklist: (apiConfigData.blacklist || []) as Address[],
+          extraData: '0x' as `0x${string}`,
+          extraData2: '0x' as `0x${string}`,
+          extraData3: '0x' as `0x${string}`,
+        };
+      }
+
+      if (!decodedCampaign) {
+        console.error('\n❌ FAILED: Could not decode campaign data from API response');
+        console.error('   Response:', JSON.stringify(apiConfigData, null, 2));
+        process.exit(1);
+      }
+    } else {
+      // Campaign data is full ABI-encoded data - decode directly
+      console.log('\n📍 Step 2b: Decoding full ABI-encoded campaign data...');
+      decodedCampaign = decodeCampaignData(merklConfig.campaignData);
+    }
 
     if (decodedCampaign) {
       console.log(`   Pool Address: ${decodedCampaign.hydrexPool}`);
@@ -349,6 +427,25 @@ async function validateGauge(poolAddress: string): Promise<void> {
       console.log(`  Creator: ${merklConfig.creator}`);
       console.log(`  Duration: ${merklConfig.duration}s (${merklConfig.duration / 86400} days)`);
       console.log(`  Campaign Type: ${merklConfig.campaignType} (2 = Concentrated Liquidity)`);
+      
+      // Show additional API data if fetched via hash
+      if (isHashReference && apiConfigData) {
+        console.log(`  Config Hash: ${merklConfig.campaignData}`);
+        if (apiConfigData.rewardToken) {
+          console.log(`  Reward Token: ${apiConfigData.rewardToken}`);
+        }
+        if (apiConfigData.amount) {
+          console.log(`  Reward Amount: ${apiConfigData.amount}`);
+        }
+        if (apiConfigData.startTimestamp && apiConfigData.endTimestamp) {
+          console.log(`  Start: ${new Date(apiConfigData.startTimestamp * 1000).toISOString()}`);
+          console.log(`  End: ${new Date(apiConfigData.endTimestamp * 1000).toISOString()}`);
+        }
+        if (apiConfigData.computeChainId) {
+          console.log(`  Chain ID: ${apiConfigData.computeChainId}`);
+        }
+      }
+      
       console.log(`\nWeight Distribution:`);
       const liquidityWeight = Number(decodedCampaign.propFees) / 100;
       const token0Weight = Number(decodedCampaign.propToken0) / 100;
@@ -616,7 +713,9 @@ if (require.main === module) {
     console.error('❌ Error: Invalid arguments');
     console.error('\nUsage:');
     console.error('  npm run validate-gauge <poolAddress>');
+    console.error('    - Automatically detects if campaign uses hash reference or full ABI data');
     console.error('  npm run validate-gauge --hash <configHash>');
+    console.error('    - Validate pre-live campaign directly by config hash');
     console.error('\nExamples:');
     console.error('  npm run validate-gauge 0xa4b2401dbbf97e3fbda6fb4ef3f4b7a37069232b');
     console.error('  npm run validate-gauge --hash 0x6cffa3c201fddee8f6098f783dab4d7136effc986eb6304aa639a267f1c35510');
