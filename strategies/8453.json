@@ -2134,6 +2134,374 @@
   },
   {
     "chainId": 8453,
+    "title": "CLAWD/fxUSD",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0xD5060Df32C5b9cd75DB7498fE15b9778420ceEC1",
+    "token0Address": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "token1Address": "0x9f86dB9fc6f7c9408e8Fda3Ff8ce4e78ac7a6b07",
+    "depositToken": "0x9f86dB9fc6f7c9408e8Fda3Ff8ce4e78ac7a6b07",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://clawdbotatg.eth.limo/"
+  },
+  {
+    "chainId": 8453,
+    "title": "fxUSD/CLAWD",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x4b2B0492b2EA008001873e811D78bd729efAD131",
+    "token0Address": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "token1Address": "0x9f86dB9fc6f7c9408e8Fda3Ff8ce4e78ac7a6b07",
+    "depositToken": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://clawdbotatg.eth.limo/"
+  },
+  {
+    "chainId": 8453,
+    "title": "CLAWNCH/fxUSD",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x50c3add313155D5BeAEe85fC5dA6Ba30B14d992D",
+    "token0Address": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "token1Address": "0xa1F72459dfA10BAD200Ac160eCd78C6b77a747be",
+    "depositToken": "0xa1F72459dfA10BAD200Ac160eCd78C6b77a747be",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://clawn.ch/"
+  },
+  {
+    "chainId": 8453,
+    "title": "fxUSD/CLAWNCH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x3Fa4Cb0A4e5B4f9A116c586Fa8a28EfB0BD410F4",
+    "token0Address": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "token1Address": "0xa1F72459dfA10BAD200Ac160eCd78C6b77a747be",
+    "depositToken": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://clawn.ch/"
+  },
+  {
+    "chainId": 8453,
+    "title": "MOLT/fxUSD",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0xbd21D35828a16AF6A734483E8841b6E39CaBeBb8",
+    "token0Address": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "token1Address": "0xB695559b26BB2c9703ef1935c37AeaE9526bab07",
+    "depositToken": "0xB695559b26BB2c9703ef1935c37AeaE9526bab07",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.moltbook.com/"
+  },
+  {
+    "chainId": 8453,
+    "title": "fxUSD/MOLT",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x377Fe9066Ec08074206e18Ee6762bA7C125046A6",
+    "token0Address": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "token1Address": "0xB695559b26BB2c9703ef1935c37AeaE9526bab07",
+    "depositToken": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.moltbook.com/"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/fxUSD",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0x53DD7B70A79F4d7EAe058d529fc626Ce6546e078",
+    "token0Address": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "stable",
+      "correlated",
+      "safe"
+    ],
+    "website": "https://fx.aladdin.club/"
+  },
+  {
+    "chainId": 8453,
+    "title": "fxUSD/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0x7E4959f3348493e51a3B4B95defA0bb64A142990",
+    "token0Address": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "depositToken": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "tags": [
+      "stable",
+      "correlated",
+      "safe"
+    ],
+    "website": "https://fx.aladdin.club/"
+  },
+  {
+    "chainId": 8453,
+    "title": "BNKR/fxUSD",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0xD4058A6cfaa4D82380ec5362d5DecC904cb76002",
+    "token0Address": "0x22aF33FE49fD1Fa80c7149773dDe5890D3c76F3b",
+    "token1Address": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "depositToken": "0x22aF33FE49fD1Fa80c7149773dDe5890D3c76F3b",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://bankr.bot/"
+  },
+  {
+    "chainId": 8453,
+    "title": "fxUSD/BNKR",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0xcDBba98A2d4eC470a5873BBF28439D35f1c9ab16",
+    "token0Address": "0x22aF33FE49fD1Fa80c7149773dDe5890D3c76F3b",
+    "token1Address": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "depositToken": "0x55380fe7A1910dFf29A47B622057ab4139DA42C5",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://bankr.bot/"
+  },
+  {
+    "chainId": 8453,
+    "title": "kVCM/AZUSD",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0xF4AC71e250bA1F09B2a0f62305ADf87d5F10f7Dd",
+    "token0Address": "0x00fBAC94Fec8D4089d3fe979F39454F48c71A65d",
+    "token1Address": "0x3595ca37596D5895B70EFAB592ac315D5B9809B2",
+    "depositToken": "0x00fBAC94Fec8D4089d3fe979F39454F48c71A65d",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.klimadao.finance/"
+  },
+  {
+    "chainId": 8453,
+    "title": "AZUSD/kVCM",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0x52571A4E8e25522A9871b588d370cb08800E541F",
+    "token0Address": "0x00fBAC94Fec8D4089d3fe979F39454F48c71A65d",
+    "token1Address": "0x3595ca37596D5895B70EFAB592ac315D5B9809B2",
+    "depositToken": "0x3595ca37596D5895B70EFAB592ac315D5B9809B2",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://azos.finance/"
+  },
+  {
+    "chainId": 8453,
+    "title": "MOLT/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0xF80F4A6423421b37141E144bc06f6E5D0b3201a2",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xB695559b26BB2c9703ef1935c37AeaE9526bab07",
+    "depositToken": "0xB695559b26BB2c9703ef1935c37AeaE9526bab07",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.moltbook.com/"
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/MOLT",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x33Cac9ECccDD3455676920b8bF4D413FB3AC9231",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xB695559b26BB2c9703ef1935c37AeaE9526bab07",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.moltbook.com/"
+  },
+  {
+    "chainId": 8453,
+    "title": "IDRX/frxUSD",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0x8Fa0640961d7D9BBcB2724be1AD9b3977f289B50",
+    "token0Address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
+    "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "depositToken": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
+    "tags": [
+      "stable",
+      "correlated",
+      "safe"
+    ],
+    "website": "https://idrx.co/"
+  },
+  {
+    "chainId": 8453,
+    "title": "frxUSD/IDRX",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0x1ffEa4b2d372d2c85fE3A7f28BB1B213dF8c58ED",
+    "token0Address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
+    "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "depositToken": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "tags": [
+      "stable",
+      "correlated",
+      "safe"
+    ],
+    "website": "https://idrx.co/"
+  },
+  {
+    "chainId": 8453,
+    "title": "tGBP/frxUSD",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0x68abD1CE6F25C521C0B7ad4c0fAEBD44307EfD2D",
+    "token0Address": "0x27f6c8289550fCE67f6B50BeD1F519966aFE5287",
+    "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "depositToken": "0x27f6c8289550fCE67f6B50BeD1F519966aFE5287",
+    "tags": [
+      "stable",
+      "correlated",
+      "safe"
+    ],
+    "website": "https://www.tokenisedgbp.com/"
+  },
+  {
+    "chainId": 8453,
+    "title": "frxUSD/tGBP",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0x52801C578172c7cb60a0646fc0af6a42A47bA403",
+    "token0Address": "0x27f6c8289550fCE67f6B50BeD1F519966aFE5287",
+    "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "depositToken": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "tags": [
+      "stable",
+      "correlated",
+      "safe"
+    ],
+    "website": "https://www.tokenisedgbp.com/"
+  },
+  {
+    "chainId": 8453,
+    "title": "BRZ/frxUSD",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0xB45923b18b779040998665F504D4d4B7b90B0Fdc",
+    "token0Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "token1Address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
+    "depositToken": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
+    "tags": [
+      "stable",
+      "correlated",
+      "safe"
+    ],
+    "website": "https://www.brztoken.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "frxUSD/BRZ",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0x80CBb36F48fad69069a3B93989EEE3bAD8f3f103",
+    "token0Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "token1Address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
+    "depositToken": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "tags": [
+      "stable",
+      "correlated",
+      "safe"
+    ],
+    "website": "https://www.brztoken.io/"
+  },
+  {
+    "chainId": 8453,
     "title": "KIBBLE/USDC",
     "type": "Single Sided",
     "liquidityType": "integral",
