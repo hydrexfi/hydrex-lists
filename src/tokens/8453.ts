@@ -507,7 +507,7 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BTRST.png",
     autoSlippage: 5,
   },
-    {
+  {
     chainId: 8453,
     address: "0xCe16Ef461d88256D2D80DFD31F0D9E7a9fD59213",
     name: "MOLT BUNKER",
@@ -516,7 +516,7 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BUNKER.png",
     autoSlippage: 5,
   },
-{
+  {
     chainId: 8453,
     address: "0x043eB4B75d0805c43D7C834902E335621983Cf03",
     name: "CAD Coin",
@@ -1682,7 +1682,7 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MOLT.png",
     autoSlippage: 5,
   },
-      {
+  {
     chainId: 8453,
     address: "0x1B5E07d4d2f753fA2f7f1940A00e2273C19ecB07",
     name: "Molt Road",
@@ -1691,7 +1691,7 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MOLTROAD.png",
     autoSlippage: 5,
   },
-{
+  {
     chainId: 8453,
     address: "0xAeee9062939c935eF5f7FdCaA305B87C2E248b07",
     name: "moltverr",
@@ -1700,7 +1700,7 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MOLTVERR.png",
     autoSlippage: 5,
   },
-{
+  {
     chainId: 8453,
     address: "0xc55E93C62874D8100dBd2DfE307EDc1036ad5434",
     name: "Moo BIFI",
@@ -2473,6 +2473,15 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPK.png",
     autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
+    address: "0x55eEc20A94DD786652d2402Cf9c7De12B68065BA",
+    name: "HydroStrategy",
+    symbol: "SPLASH",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPLASH.png",
+    autoSlippage: 15,
   },
   {
     chainId: 8453,
