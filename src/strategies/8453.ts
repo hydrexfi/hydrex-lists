@@ -4674,4 +4674,18 @@ export const strategies: Strategy[] = [
     tags: ["stable", "safe"],
     website: "https://tether.to/",
   },
+  {
+    chainId: 8453,
+    title: "SPLASH/WETH",
+    type: "Classic",
+    liquidityType: "classic-volatile",
+    strategist: "Hydrex",
+    riskLevel: 7,
+    riskDescription: CLASSIC_VOLATILE_RISK_STRING,
+    address: "0x6b4405de02a6eFdc7E1D071F8e643a09ffAB1fa5",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0x55eEc20A94DD786652d2402Cf9c7De12B68065BA",
+    tags: ["ecosystem", "exotic"],
+    website: "http://vesplash.com/",
+  },
 ];
