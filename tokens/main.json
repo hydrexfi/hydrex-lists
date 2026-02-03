@@ -2470,6 +2470,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0x55eEc20A94DD786652d2402Cf9c7De12B68065BA",
+      "name": "HydroStrategy",
+      "symbol": "SPLASH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPLASH.png",
+      "autoSlippage": 15
+    },
+    {
+      "chainId": 8453,
       "address": "0x080D43c2164AFdBc3712422CE78Ab902ccaB5CA1",
       "name": "Spheron Network",
       "symbol": "SPON",
