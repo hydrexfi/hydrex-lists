@@ -43,6 +43,52 @@ interface DexScreenerResponse {
   pairs: DexScreenerPair[] | null;
 }
 
+interface GeckoTerminalPool {
+  id: string;
+  type: string;
+  attributes: {
+    base_token_price_usd: string;
+    address: string;
+    name: string;
+    pool_created_at: string;
+    token_price_usd: string;
+    reserve_in_usd: string;
+  };
+  relationships: {
+    base_token: {
+      data: {
+        id: string;
+        type: string;
+      };
+    };
+    quote_token: {
+      data: {
+        id: string;
+        type: string;
+      };
+    };
+  };
+}
+
+interface GeckoTerminalToken {
+  id: string;
+  type: string;
+  attributes: {
+    address: string;
+    name: string;
+    symbol: string;
+    image_url: string;
+    coingecko_coin_id: string | null;
+    decimals: string;
+    total_supply: string;
+  };
+}
+
+interface GeckoTerminalResponse {
+  data: GeckoTerminalPool;
+  included: GeckoTerminalToken[];
+}
+
 async function downloadTokenLogo(logoUrl: string, symbol: string): Promise<void> {
   // Modify URL parameters to get higher quality image
   const url = new URL(logoUrl);
@@ -144,10 +190,45 @@ async function fetchFromDexScreener(pairAddress: string): Promise<{ address: str
   };
 }
 
+async function fetchFromGeckoTerminal(poolAddress: string): Promise<{ address: string; name: string; symbol: string; decimals: number; logoUrl?: string }> {
+  const response = await fetch(`https://api.geckoterminal.com/api/v2/networks/base/pools/${poolAddress}?include=base_token`);
+  
+  if (!response.ok) {
+    throw new Error(`GeckoTerminal API error: ${response.status} ${response.statusText}`);
+  }
+
+  const data: GeckoTerminalResponse = await response.json();
+  
+  if (!data.data) {
+    throw new Error("No pool data found from GeckoTerminal");
+  }
+
+  // Find the base token from the included tokens
+  const baseTokenId = data.data.relationships.base_token.data.id;
+  const baseToken = data.included.find(token => token.id === baseTokenId);
+  
+  if (!baseToken) {
+    throw new Error("Base token not found in GeckoTerminal response");
+  }
+
+  const tokenAddress = getAddress(baseToken.attributes.address);
+  
+  // GeckoTerminal provides decimals in the API response
+  const decimals = parseInt(baseToken.attributes.decimals);
+
+  return {
+    address: tokenAddress,
+    name: baseToken.attributes.name,
+    symbol: baseToken.attributes.symbol,
+    decimals: decimals,
+    logoUrl: baseToken.attributes.image_url || undefined,
+  };
+}
+
 async function main() {
   const input = process.argv[2];
   if (!input) {
-    console.error("Please provide a token address or DexScreener URL");
+    console.error("Please provide a token address, DexScreener URL, or GeckoTerminal URL");
     process.exit(1);
   }
 
@@ -160,6 +241,9 @@ async function main() {
   // Check if input is a DexScreener URL
   // Match any valid hex string (flexible for different pair/pool ID formats)
   const dexScreenerMatch = input.match(/dexscreener\.com\/base\/(0x[a-fA-F0-9]+)/);
+  
+  // Check if input is a GeckoTerminal URL
+  const geckoTerminalMatch = input.match(/geckoterminal\.com\/base\/pools\/(0x[a-fA-F0-9]+)/);
   
   if (dexScreenerMatch) {
     // Extract pair address from URL and fetch from DexScreener API
@@ -176,6 +260,23 @@ async function main() {
       console.log(`Found token: ${tokenSymbol} (${tokenName})`);
     } catch (e) {
       console.error("Error fetching from DexScreener:", e instanceof Error ? e.message : e);
+      process.exit(1);
+    }
+  } else if (geckoTerminalMatch) {
+    // Extract pool address from URL and fetch from GeckoTerminal API
+    const poolAddress = geckoTerminalMatch[1];
+    console.log(`Fetching token data from GeckoTerminal for pool: ${poolAddress}`);
+    
+    try {
+      const tokenData = await fetchFromGeckoTerminal(poolAddress);
+      checksummedAddress = tokenData.address as `0x${string}`;
+      tokenName = tokenData.name;
+      tokenSymbol = tokenData.symbol;
+      tokenDecimals = tokenData.decimals;
+      logoUrl = tokenData.logoUrl;
+      console.log(`Found token: ${tokenSymbol} (${tokenName})`);
+    } catch (e) {
+      console.error("Error fetching from GeckoTerminal:", e instanceof Error ? e.message : e);
       process.exit(1);
     }
   } else {
