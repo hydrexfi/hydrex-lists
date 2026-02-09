@@ -4,32 +4,133 @@ import { readFileSync, writeFileSync } from "fs";
 import { resolve } from "path";
 import { Token } from "../src/types";
 
-async function main() {
-  const address = process.argv[2];
-  if (!address) {
-    console.error("Please provide a token address");
-    process.exit(1);
+interface DexScreenerPair {
+  chainId: string;
+  dexId: string;
+  url: string;
+  pairAddress: string;
+  baseToken: {
+    address: string;
+    name: string;
+    symbol: string;
+  };
+  quoteToken: {
+    address: string;
+    name: string;
+    symbol: string;
+  };
+  priceNative: string;
+  priceUsd?: string;
+  liquidity?: {
+    usd: number;
+    base: number;
+    quote: number;
+  };
+  fdv?: number;
+  marketCap?: number;
+}
+
+interface DexScreenerResponse {
+  schemaVersion: string;
+  pairs: DexScreenerPair[] | null;
+}
+
+async function fetchFromDexScreener(pairAddress: string): Promise<{ address: string; name: string; symbol: string; decimals: number }> {
+  const response = await fetch(`https://api.dexscreener.com/latest/dex/pairs/base/${pairAddress}`);
+  
+  if (!response.ok) {
+    throw new Error(`DexScreener API error: ${response.status} ${response.statusText}`);
   }
 
-  let checksummedAddress: `0x${string}`;
-  try {
-    checksummedAddress = getAddress(address);
-  } catch (e) {
-    console.error("Invalid address");
-    process.exit(1);
+  const data: DexScreenerResponse = await response.json();
+  
+  if (!data.pairs || data.pairs.length === 0) {
+    throw new Error("No pair data found from DexScreener");
   }
 
+  const pair = data.pairs[0];
+  const baseToken = pair.baseToken;
+
+  // We still need to fetch decimals from the blockchain
   const client = createPublicClient({
     chain: base,
     transport: http(),
   });
 
-  try {
+  const tokenAddress = getAddress(baseToken.address);
+  const decimals = await client.readContract({
+    address: tokenAddress,
+    abi: erc20Abi,
+    functionName: "decimals",
+  });
+
+  return {
+    address: tokenAddress,
+    name: baseToken.name,
+    symbol: baseToken.symbol,
+    decimals: Number(decimals),
+  };
+}
+
+async function main() {
+  const input = process.argv[2];
+  if (!input) {
+    console.error("Please provide a token address or DexScreener URL");
+    process.exit(1);
+  }
+
+  let checksummedAddress: `0x${string}`;
+  let tokenName: string;
+  let tokenSymbol: string;
+  let tokenDecimals: number;
+
+  // Check if input is a DexScreener URL
+  // Match any valid hex string (flexible for different pair/pool ID formats)
+  const dexScreenerMatch = input.match(/dexscreener\.com\/base\/(0x[a-fA-F0-9]+)/);
+  
+  if (dexScreenerMatch) {
+    // Extract pair address from URL and fetch from DexScreener API
+    const pairAddress = dexScreenerMatch[1];
+    console.log(`Fetching token data from DexScreener for pair: ${pairAddress}`);
+    
+    try {
+      const tokenData = await fetchFromDexScreener(pairAddress);
+      checksummedAddress = tokenData.address as `0x${string}`;
+      tokenName = tokenData.name;
+      tokenSymbol = tokenData.symbol;
+      tokenDecimals = tokenData.decimals;
+      console.log(`Found token: ${tokenSymbol} (${tokenName})`);
+    } catch (e) {
+      console.error("Error fetching from DexScreener:", e instanceof Error ? e.message : e);
+      process.exit(1);
+    }
+  } else {
+    // Treat as direct token address
+    try {
+      checksummedAddress = getAddress(input);
+    } catch (e) {
+      console.error("Invalid address or URL format");
+      process.exit(1);
+    }
+
+    // Fetch token data from blockchain
+    const client = createPublicClient({
+      chain: base,
+      transport: http(),
+    });
+
     const [name, symbol, decimals] = await Promise.all([
       client.readContract({ address: checksummedAddress, abi: erc20Abi, functionName: "name" }),
       client.readContract({ address: checksummedAddress, abi: erc20Abi, functionName: "symbol" }),
       client.readContract({ address: checksummedAddress, abi: erc20Abi, functionName: "decimals" }),
     ]);
+
+    tokenName = name as string;
+    tokenSymbol = symbol as string;
+    tokenDecimals = Number(decimals);
+  }
+
+  try {
 
     const filePath = resolve(__dirname, "../src/tokens/8453.ts");
     const fileContent = readFileSync(filePath, "utf-8");
@@ -51,15 +152,15 @@ async function main() {
 
     // Find insertion point
     const unpinned = tokens.filter((t: Token) => !pinnedAddresses.includes(t.address.toLowerCase()));
-    const nextToken = unpinned.find((t: Token) => t.symbol.toLowerCase().localeCompare(symbol.toLowerCase()) > 0);
+    const nextToken = unpinned.find((t: Token) => t.symbol.toLowerCase().localeCompare(tokenSymbol.toLowerCase()) > 0);
 
     const newTokenStr = `  {
     chainId: 8453,
     address: "${checksummedAddress}",
-    name: "${name}",
-    symbol: "${symbol}",
-    decimals: ${decimals},
-    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/${symbol.toUpperCase()}.png",
+    name: "${tokenName}",
+    symbol: "${tokenSymbol}",
+    decimals: ${tokenDecimals},
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/${tokenSymbol.toUpperCase()}.png",
     autoSlippage: 5,
   },
 `;
@@ -73,7 +174,10 @@ async function main() {
       // Find the start of the object containing that address (the opening '{')
       const openBraceIndex = fileContent.lastIndexOf("{", index);
       
-      newFileContent = fileContent.slice(0, openBraceIndex) + newTokenStr + fileContent.slice(openBraceIndex);
+      // Find the start of the line (including indentation) by going back to the previous newline
+      const lineStartIndex = fileContent.lastIndexOf("\n", openBraceIndex - 1) + 1;
+      
+      newFileContent = fileContent.slice(0, lineStartIndex) + newTokenStr + fileContent.slice(lineStartIndex);
     } else {
       // Insert before the last '];'
       const lastBracketIndex = fileContent.lastIndexOf("];");
@@ -81,7 +185,7 @@ async function main() {
     }
 
     writeFileSync(filePath, newFileContent);
-    console.log(`✅ ${symbol} added to 8453.ts`);
+    console.log(`✅ ${tokenSymbol} added to 8453.ts`);
 
   } catch (error) {
     console.error("Error:", error);
