@@ -80,7 +80,7 @@ async function downloadTokenLogo(logoUrl: string, symbol: string): Promise<void>
     .png()
     .toFile(logoPath);
   
-  console.log(`📥 Downloaded and processed logo to ${symbol.toUpperCase()}.png (circular with 128px radius)`);
+  console.log(`Downloaded and processed logo to ${symbol.toUpperCase()}.png (circular with 128px radius)`);
 }
 
 async function fetchFromDexScreener(pairAddress: string): Promise<{ address: string; name: string; symbol: string; decimals: number; logoUrl?: string }> {
@@ -259,19 +259,19 @@ async function main() {
     }
 
     writeFileSync(filePath, newFileContent);
-    console.log(`✅ ${tokenSymbol} added to 8453.ts`);
+    console.log(`${tokenSymbol} added to 8453.ts`);
 
     // Download logo if available
     if (logoUrl) {
       try {
         await downloadTokenLogo(logoUrl, tokenSymbol);
       } catch (error) {
-        console.warn(`⚠️  Could not download logo: ${error instanceof Error ? error.message : error}`);
-        console.warn(`   Please manually add the logo to assets/tokens/${tokenSymbol.toUpperCase()}.png`);
+        console.warn(`Could not download logo: ${error instanceof Error ? error.message : error}`);
+        console.warn(`Please manually add the logo to assets/tokens/${tokenSymbol.toUpperCase()}.png`);
       }
     } else {
-      console.warn(`⚠️  No logo URL found for ${tokenSymbol}`);
-      console.warn(`   Please manually add the logo to assets/tokens/${tokenSymbol.toUpperCase()}.png`);
+      console.warn(`No logo URL found for ${tokenSymbol}`);
+      console.warn(`Please manually add the logo to assets/tokens/${tokenSymbol.toUpperCase()}.png`);
     }
 
   } catch (error) {
