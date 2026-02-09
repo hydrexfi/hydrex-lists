@@ -500,6 +500,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xBFC5cD421bBC91A2Ca976C4AB1754748634b7D41",
+    name: "Buster",
+    symbol: "BSTR",
+    decimals: 9,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BSTR.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0xA7d68d155d17cB30e311367c2Ef1E82aB6022b67",
     name: "BTRST",
     symbol: "BTRST",
@@ -3227,6 +3236,15 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WSTETH.png",
     type: "bluechip",
     autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
+    address: "0x5cDa0E1CA4ce2af96315f7F8963C85399c172204",
+    name: "Wrapped Coinbase Global Inc ST0x",
+    symbol: "wtCOIN",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTCOIN.png",
+    autoSlippage: 1,
   },
   {
     chainId: 8453,
