@@ -3,6 +3,7 @@ import { base } from "viem/chains";
 import { readFileSync, writeFileSync } from "fs";
 import { resolve } from "path";
 import { Token } from "../src/types";
+import sharp from "sharp";
 
 interface DexScreenerPair {
   chainId: string;
@@ -28,6 +29,13 @@ interface DexScreenerPair {
   };
   fdv?: number;
   marketCap?: number;
+  info?: {
+    imageUrl?: string;
+    header?: string;
+    openGraph?: string;
+    websites?: Array<{ label: string; url: string }>;
+    socials?: Array<{ type: string; url: string }>;
+  };
 }
 
 interface DexScreenerResponse {
@@ -35,7 +43,47 @@ interface DexScreenerResponse {
   pairs: DexScreenerPair[] | null;
 }
 
-async function fetchFromDexScreener(pairAddress: string): Promise<{ address: string; name: string; symbol: string; decimals: number }> {
+async function downloadTokenLogo(logoUrl: string, symbol: string): Promise<void> {
+  // Modify URL parameters to get higher quality image
+  const url = new URL(logoUrl);
+  url.searchParams.set('width', '256');
+  url.searchParams.set('height', '256');
+  url.searchParams.set('quality', '100');
+  
+  const response = await fetch(url.toString());
+  
+  if (!response.ok) {
+    throw new Error(`Failed to download logo: ${response.status} ${response.statusText}`);
+  }
+
+  const arrayBuffer = await response.arrayBuffer();
+  const buffer = Buffer.from(arrayBuffer);
+  
+  // Create a circular mask using SVG
+  const size = 256;
+  const radius = 128;
+  const circleMask = Buffer.from(
+    `<svg width="${size}" height="${size}">
+      <circle cx="${radius}" cy="${radius}" r="${radius}" fill="white"/>
+    </svg>`
+  );
+
+  // Process the image to make it circular with transparent corners
+  const logoPath = resolve(__dirname, `../assets/tokens/${symbol.toUpperCase()}.png`);
+  
+  await sharp(buffer)
+    .resize(size, size, { fit: 'cover' })
+    .composite([{
+      input: circleMask,
+      blend: 'dest-in'
+    }])
+    .png()
+    .toFile(logoPath);
+  
+  console.log(`📥 Downloaded and processed logo to ${symbol.toUpperCase()}.png (circular with 128px radius)`);
+}
+
+async function fetchFromDexScreener(pairAddress: string): Promise<{ address: string; name: string; symbol: string; decimals: number; logoUrl?: string }> {
   const response = await fetch(`https://api.dexscreener.com/latest/dex/pairs/base/${pairAddress}`);
   
   if (!response.ok) {
@@ -64,11 +112,35 @@ async function fetchFromDexScreener(pairAddress: string): Promise<{ address: str
     functionName: "decimals",
   });
 
+  // Try to get logo URL from the pair info first
+  let logoUrl: string | undefined = pair.info?.imageUrl;
+  
+  // If not found in pair info, check token profile API
+  if (!logoUrl) {
+    try {
+      const profileResponse = await fetch(`https://api.dexscreener.com/token-profiles/latest/v1`);
+      if (profileResponse.ok) {
+        const profiles = await profileResponse.json();
+        const profile = profiles.find((p: any) => 
+          p.tokenAddress?.toLowerCase() === tokenAddress.toLowerCase() && 
+          p.chainId === 'base'
+        );
+        if (profile?.icon) {
+          logoUrl = profile.icon;
+        }
+      }
+    } catch (e) {
+      // Silently fail if profile API doesn't work
+      console.warn("Could not fetch from token profiles API");
+    }
+  }
+
   return {
     address: tokenAddress,
     name: baseToken.name,
     symbol: baseToken.symbol,
     decimals: Number(decimals),
+    logoUrl,
   };
 }
 
@@ -83,6 +155,7 @@ async function main() {
   let tokenName: string;
   let tokenSymbol: string;
   let tokenDecimals: number;
+  let logoUrl: string | undefined;
 
   // Check if input is a DexScreener URL
   // Match any valid hex string (flexible for different pair/pool ID formats)
@@ -99,6 +172,7 @@ async function main() {
       tokenName = tokenData.name;
       tokenSymbol = tokenData.symbol;
       tokenDecimals = tokenData.decimals;
+      logoUrl = tokenData.logoUrl;
       console.log(`Found token: ${tokenSymbol} (${tokenName})`);
     } catch (e) {
       console.error("Error fetching from DexScreener:", e instanceof Error ? e.message : e);
@@ -186,6 +260,19 @@ async function main() {
 
     writeFileSync(filePath, newFileContent);
     console.log(`✅ ${tokenSymbol} added to 8453.ts`);
+
+    // Download logo if available
+    if (logoUrl) {
+      try {
+        await downloadTokenLogo(logoUrl, tokenSymbol);
+      } catch (error) {
+        console.warn(`⚠️  Could not download logo: ${error instanceof Error ? error.message : error}`);
+        console.warn(`   Please manually add the logo to assets/tokens/${tokenSymbol.toUpperCase()}.png`);
+      }
+    } else {
+      console.warn(`⚠️  No logo URL found for ${tokenSymbol}`);
+      console.warn(`   Please manually add the logo to assets/tokens/${tokenSymbol.toUpperCase()}.png`);
+    }
 
   } catch (error) {
     console.error("Error:", error);
