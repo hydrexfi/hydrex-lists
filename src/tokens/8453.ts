@@ -1204,6 +1204,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x28974AeC76DE8958361B49e8093865636cE71e1B",
+    name: "GOO",
+    symbol: "GOO",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GOO.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0xc478eA5d6340eF8Ef04088C3a649DDEAc764B545",
     name: "Hyperbet",
     symbol: "HBET",
