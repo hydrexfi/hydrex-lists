@@ -2132,6 +2132,23 @@
   },
   {
     "chainId": 8453,
+    "title": "GOO/cbBTC",
+    "type": "Classic",
+    "liquidityType": "classic-volatile",
+    "strategist": "Hydrex",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-low risk, due to its structure as a classic sided liquidity pool with uncorrelated assets. Impermanent loss is possible.",
+    "address": "0xd2c9f1b70e12a7BDf104e7Ac2096A62d337BbaFa",
+    "token0Address": "0x28974AeC76DE8958361B49e8093865636cE71e1B",
+    "token1Address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://goo.money/"
+  },
+  {
+    "chainId": 8453,
     "title": "WETH/RYFT",
     "type": "Single Sided",
     "liquidityType": "integral",
