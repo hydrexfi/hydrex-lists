@@ -5,6 +5,7 @@
     "convert": "npx ts-node src/convertToJson.ts",
     "validate-tokens": "npx ts-node scripts/validateTokens.ts",
     "validate-gauge": "npx ts-node scripts/validateGauge.ts",
+    "validate-price": "npx ts-node scripts/validatePrice.ts",
     "compare-strategies": "npx ts-node scripts/compareStrategies.ts",
     "generate-bytecode": "npx ts-node scripts/generateBytecode.ts",
     "add-token": "npx ts-node scripts/listToken.ts"
