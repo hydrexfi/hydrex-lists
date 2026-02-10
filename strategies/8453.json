@@ -1820,6 +1820,40 @@
   },
   {
     "chainId": 8453,
+    "title": "wtCOIN/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 1,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xab5d32fF95b58bD5e77De08738a391973eE88C81",
+    "token0Address": "0x5cDa0E1CA4ce2af96315f7F8963C85399c172204",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.st0x.io/strategies"
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/BSTR",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x01CEa5a4D5Ee16BEC9749ab57B0b772DcA9A9A45",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xBFC5cD421bBC91A2Ca976C4AB1754748634b7D41",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://drvnvhcls.app/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
