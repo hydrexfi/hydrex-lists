@@ -23,10 +23,15 @@ import { strategies } from '../src/strategies/8453';
  */
 
 const VOTER_CONTRACT = '0xc69E3eF39E3fFBcE2A1c570f8d3ADF76909ef17b';
-const REWARDS_DISTRIBUTOR_CONTRACT = '0xf5E821da09616b4c576f7dfD0D85D28B5B591589';
+const INCENTIVE_CAMPAIGN_MANAGER = '0x416d1A1b4555f715A6d804fCc10805b44409096D'; // New production contract
 const OHYDX_TOKEN = '0xA1136031150E50B015b41f1ca6B2e99e49D8cB78';
 const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
 const MERKL_API_BASE = 'https://api.merkl.xyz';
+
+// Expected config values from incentive campaign manager (for validation)
+const EXPECTED_DISTRIBUTION_CREATOR = '0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd';
+const EXPECTED_CREATOR = '0x40fbfe5312330f278824ddbb7521ab77409192f0';
+const EXPECTED_CAMPAIGN_TYPE = 2; // Concentrated liquidity
 
 const VOTER_ABI = [
   {
@@ -38,7 +43,7 @@ const VOTER_ABI = [
   },
 ] as const;
 
-const REWARDS_DISTRIBUTOR_ABI = [
+const INCENTIVE_CAMPAIGN_MANAGER_ABI = [
   {
     inputs: [
       { internalType: 'address', name: 'gauge', type: 'address' },
@@ -82,9 +87,12 @@ const POOL_ABI = [
   },
 ] as const;
 
+// Use environment variable or fallback to public RPC
+const RPC_URL = process.env.RPC_URL || 'https://mainnet.base.org';
+
 const client = createPublicClient({
   chain: base,
-  transport: http(process.env.RPC_URL),
+  transport: http(RPC_URL),
 });
 
 function normalizeAddress(address: string): string {
@@ -233,8 +241,8 @@ async function validateGauge(poolAddress: string): Promise<void> {
     console.log('\n📍 Step 2: Fetching Merkl campaign configuration...');
 
     const merklConfig = await client.readContract({
-      address: REWARDS_DISTRIBUTOR_CONTRACT,
-      abi: REWARDS_DISTRIBUTOR_ABI,
+      address: INCENTIVE_CAMPAIGN_MANAGER,
+      abi: INCENTIVE_CAMPAIGN_MANAGER_ABI,
       functionName: 'getMerklConfig',
       args: [gaugeAddress, OHYDX_TOKEN as Address],
     });
@@ -245,6 +253,50 @@ async function validateGauge(poolAddress: string): Promise<void> {
     console.log(`   Campaign Type: ${merklConfig.campaignType}`);
     console.log(`   Duration: ${merklConfig.duration}s (${merklConfig.duration / 86400} days)`);
     console.log(`   Campaign Data (raw): ${merklConfig.campaignData.slice(0, 66)}...`);
+
+    // Validate config values match expected constants
+    console.log('\n📍 Step 2a: Validating config values...');
+    
+    let configValidationPassed = true;
+    
+    if (normalizeAddress(merklConfig.distributionCreator) !== normalizeAddress(EXPECTED_DISTRIBUTION_CREATOR)) {
+      console.warn(`   ⚠️  WARNING: Distribution Creator mismatch`);
+      console.warn(`      Expected: ${EXPECTED_DISTRIBUTION_CREATOR}`);
+      console.warn(`      Got:      ${merklConfig.distributionCreator}`);
+      configValidationPassed = false;
+    } else {
+      console.log(`   ✅ Distribution Creator matches expected value`);
+    }
+
+    if (normalizeAddress(merklConfig.creator) !== normalizeAddress(EXPECTED_CREATOR)) {
+      console.warn(`   ⚠️  WARNING: Creator address mismatch`);
+      console.warn(`      Expected: ${EXPECTED_CREATOR}`);
+      console.warn(`      Got:      ${merklConfig.creator}`);
+      configValidationPassed = false;
+    } else {
+      console.log(`   ✅ Creator address matches expected value`);
+    }
+
+    if (merklConfig.campaignType !== EXPECTED_CAMPAIGN_TYPE) {
+      console.warn(`   ⚠️  WARNING: Campaign Type mismatch`);
+      console.warn(`      Expected: ${EXPECTED_CAMPAIGN_TYPE}`);
+      console.warn(`      Got:      ${merklConfig.campaignType}`);
+      configValidationPassed = false;
+    } else {
+      console.log(`   ✅ Campaign Type matches expected value (Concentrated Liquidity)`);
+    }
+
+    if (merklConfig.duration === 0) {
+      console.warn(`   ⚠️  WARNING: Duration is 0`);
+      configValidationPassed = false;
+    } else {
+      console.log(`   ✅ Duration is valid (${merklConfig.duration / 86400} days)`);
+    }
+
+    if (!configValidationPassed) {
+      console.log('\n   ⚠️  Some config values do not match expected constants');
+      console.log('   This may be intentional, but please verify the configuration');
+    }
 
     // Check if campaignData is a 32-byte hash or full ABI-encoded data
     const isHashReference = merklConfig.campaignData.length === 66; // "0x" + 64 hex chars = 32 bytes
@@ -326,6 +378,7 @@ async function validateGauge(poolAddress: string): Promise<void> {
     }
 
     if (decodedCampaign) {
+      console.log('\n📍 Step 2d: Validating decoded campaign data...');
       console.log(`   Pool Address: ${decodedCampaign.hydrexPool}`);
       console.log(`   Liquidity Weight (propFees): ${decodedCampaign.propFees.toString()} (${Number(decodedCampaign.propFees) / 100}%)`);
       console.log(`   Token0 Weight: ${decodedCampaign.propToken0.toString()} (${Number(decodedCampaign.propToken0) / 100}%)`);
@@ -338,9 +391,9 @@ async function validateGauge(poolAddress: string): Promise<void> {
 
       // Verify the pool address matches
       if (normalizeAddress(decodedCampaign.hydrexPool) !== normalizeAddress(poolAddress)) {
-        console.error('\n❌ FAILED: Campaign pool address mismatch!');
-        console.error(`   Expected: ${poolAddress}`);
-        console.error(`   Got:      ${decodedCampaign.hydrexPool}`);
+        console.error('\n   ❌ FAILED: Campaign pool address mismatch!');
+        console.error(`      Expected: ${poolAddress}`);
+        console.error(`      Got:      ${decodedCampaign.hydrexPool}`);
         process.exit(1);
       }
       console.log('   ✅ Campaign pool address matches');
@@ -348,9 +401,28 @@ async function validateGauge(poolAddress: string): Promise<void> {
       // Verify weights sum to 10000 (100%)
       const totalWeight = Number(decodedCampaign.propFees) + Number(decodedCampaign.propToken0) + Number(decodedCampaign.propToken1);
       if (totalWeight !== 10000) {
-        console.warn(`\n ⚠️ WARNING: Weights sum to ${totalWeight} instead of 10000 (100%)`);
+        console.warn(`\n   ⚠️  WARNING: Weights sum to ${totalWeight} instead of 10000 (100%)`);
       } else {
         console.log('   ✅ Weights sum to 100%');
+      }
+
+      // Additional validation for campaign data structure
+      if (normalizeAddress(decodedCampaign.boostingAddress) !== normalizeAddress(ZERO_ADDRESS)) {
+        console.warn(`   ⚠️  WARNING: Boosting address is not zero address`);
+      } else {
+        console.log('   ✅ Boosting address is zero (no boosting)');
+      }
+
+      if (decodedCampaign.boostedReward !== BigInt(0)) {
+        console.warn(`   ⚠️  WARNING: Boosted reward is not zero`);
+      } else {
+        console.log('   ✅ Boosted reward is zero');
+      }
+
+      if (decodedCampaign.isOutOfRangeIncentivized !== BigInt(0)) {
+        console.warn(`   ⚠️  WARNING: Out-of-range positions are incentivized`);
+      } else {
+        console.log('   ✅ Only in-range positions are incentivized');
       }
     }
 
@@ -421,12 +493,22 @@ async function validateGauge(poolAddress: string): Promise<void> {
     console.log(`Token1: ${token1}`);
 
     if (decodedCampaign) {
-      console.log(`\nMerkl Campaign Configuration:`);
-      console.log(`  Distribution Creator: ${merklConfig.distributionCreator}`);
-      console.log(`  Campaign ID: ${merklConfig.campaignId}`);
-      console.log(`  Creator: ${merklConfig.creator}`);
-      console.log(`  Duration: ${merklConfig.duration}s (${merklConfig.duration / 86400} days)`);
-      console.log(`  Campaign Type: ${merklConfig.campaignType} (2 = Concentrated Liquidity)`);
+      console.log(`\n${'='.repeat(80)}`);
+      console.log('MERKL CAMPAIGN CONFIGURATION (New Incentive Campaign Manager)');
+      console.log('='.repeat(80));
+      console.log(`\nConfig Tuple Fields:`);
+      console.log(`  distributionCreator: ${merklConfig.distributionCreator}`);
+      console.log(`    ${normalizeAddress(merklConfig.distributionCreator) === normalizeAddress(EXPECTED_DISTRIBUTION_CREATOR) ? '✅' : '⚠️ '} ${normalizeAddress(merklConfig.distributionCreator) === normalizeAddress(EXPECTED_DISTRIBUTION_CREATOR) ? 'Matches expected value' : 'Does not match expected: ' + EXPECTED_DISTRIBUTION_CREATOR}`);
+      console.log(`  campaignId: ${merklConfig.campaignId}`);
+      console.log(`    ${merklConfig.campaignId === '0x0000000000000000000000000000000000000000000000000000000000000000' ? '✅ Zero bytes (new campaign)' : 'ℹ️  Existing campaign ID'}`);
+      console.log(`  creator: ${merklConfig.creator}`);
+      console.log(`    ${normalizeAddress(merklConfig.creator) === normalizeAddress(EXPECTED_CREATOR) ? '✅' : '⚠️ '} ${normalizeAddress(merklConfig.creator) === normalizeAddress(EXPECTED_CREATOR) ? 'Matches expected value' : 'Does not match expected: ' + EXPECTED_CREATOR}`);
+      console.log(`  campaignType: ${merklConfig.campaignType}`);
+      console.log(`    ${merklConfig.campaignType === EXPECTED_CAMPAIGN_TYPE ? '✅' : '⚠️ '} ${merklConfig.campaignType === EXPECTED_CAMPAIGN_TYPE ? 'Concentrated Liquidity (type 2)' : 'Unexpected campaign type'}`);
+      console.log(`  duration: ${merklConfig.duration}s (${merklConfig.duration / 86400} days)`);
+      console.log(`    ${merklConfig.duration > 0 ? '✅' : '❌'} ${merklConfig.duration > 0 ? 'Valid duration' : 'Invalid duration (0)'}`);
+      console.log(`  campaignData: ${isHashReference ? 'Hash Reference' : 'Full ABI-encoded data'}`);
+      console.log(`    Length: ${merklConfig.campaignData.length} characters`);
       
       // Show additional API data if fetched via hash
       if (isHashReference && apiConfigData) {
@@ -446,22 +528,34 @@ async function validateGauge(poolAddress: string): Promise<void> {
         }
       }
       
-      console.log(`\nWeight Distribution:`);
+      console.log(`\nCampaign Data (Decoded):`);
+      console.log(`  Pool Address: ${decodedCampaign.hydrexPool}`);
+      console.log(`    ${normalizeAddress(decodedCampaign.hydrexPool) === normalizeAddress(poolAddress) ? '✅ Matches pool address' : '❌ Does not match pool address'}`);
+      
+      console.log(`\n  Weight Distribution:`);
       const liquidityWeight = Number(decodedCampaign.propFees) / 100;
       const token0Weight = Number(decodedCampaign.propToken0) / 100;
       const token1Weight = Number(decodedCampaign.propToken1) / 100;
-      console.log(`  Liquidity: ${liquidityWeight}%`);
-      console.log(`  Token0: ${token0Weight}%`);
-      console.log(`  Token1: ${token1Weight}%`);
-      console.log(`  In-Range Only: ${decodedCampaign.isOutOfRangeIncentivized === BigInt(0) ? 'Yes' : 'No'}`);
+      const totalWeight = liquidityWeight + token0Weight + token1Weight;
+      console.log(`    Liquidity: ${liquidityWeight}% (${decodedCampaign.propFees.toString()} basis points)`);
+      console.log(`    Token0: ${token0Weight}% (${decodedCampaign.propToken0.toString()} basis points)`);
+      console.log(`    Token1: ${token1Weight}% (${decodedCampaign.propToken1.toString()} basis points)`);
+      console.log(`    Total: ${totalWeight}% ${totalWeight === 100 ? '✅' : '⚠️  (should be 100%)'}`);
 
       // Check if weight distribution is standard (20/40/40)
       const isStandard = liquidityWeight === 20 && token0Weight === 40 && token1Weight === 40;
       if (isStandard) {
-        console.log(`  Distribution Type: ✅ STANDARD (20/40/40)`);
+        console.log(`    Distribution Type: ✅ STANDARD (20/40/40)`);
       } else {
-        console.log(`  Distribution Type: ⚠️  NON-STANDARD (Standard is 20/40/40)`);
+        console.log(`    Distribution Type: ⚠️  NON-STANDARD (Standard is 20/40/40)`);
       }
+
+      console.log(`\n  Campaign Settings:`);
+      console.log(`    In-Range Only: ${decodedCampaign.isOutOfRangeIncentivized === BigInt(0) ? '✅ Yes' : '⚠️  No'}`);
+      console.log(`    Boosting Address: ${decodedCampaign.boostingAddress} ${normalizeAddress(decodedCampaign.boostingAddress) === normalizeAddress(ZERO_ADDRESS) ? '✅' : '⚠️ '}`);
+      console.log(`    Boosted Reward: ${decodedCampaign.boostedReward.toString()} ${decodedCampaign.boostedReward === BigInt(0) ? '✅' : '⚠️ '}`);
+      console.log(`    Whitelist: ${decodedCampaign.whitelist.length > 0 ? decodedCampaign.whitelist.join(', ') : 'None ✅'}`);
+      console.log(`    Blacklist: ${decodedCampaign.blacklist.length > 0 ? decodedCampaign.blacklist.join(', ') : 'None ✅'}`);
     }
 
     console.log('\n✨ All checks passed!\n');
