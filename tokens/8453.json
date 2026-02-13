@@ -776,6 +776,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0xd02f50E1017F493ffFFa70c8fCf09e349e11d6c9",
+    "name": "DGLD Token",
+    "symbol": "DGLD",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DGLD.png",
+    "autoSlippage": 3
+  },
+  {
+    "chainId": 8453,
     "address": "0x54BC229d1cB15F8B6415EfEab4290a40bc8b7D84",
     "name": "dHedge DAO Token",
     "symbol": "DHT",
