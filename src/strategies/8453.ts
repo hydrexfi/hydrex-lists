@@ -1526,6 +1526,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://drvnvhcls.app/",
   },
+  {
+    chainId: 8453,
+    title: "USDC/DGLD",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 1,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x9bC08c9afa50475AB7B68E734fbf6fFb9bdEd6F9",
+    token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    token1Address: "0xd02f50E1017F493ffFFa70c8fCf09e349e11d6c9",
+    tags: ["ecosystem", "exotic"],
+    website: "https://dgld.ch/",
+  },
 
   // ORIGINAL STRATEGIES
   {
