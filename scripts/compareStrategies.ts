@@ -1,4 +1,3 @@
-import https from 'https';
 import fs from 'fs';
 import path from 'path';
 
@@ -6,104 +5,55 @@ interface Strategy {
   address: string;
   title?: string;
   chainId: number;
+  permissionless?: boolean;
 }
 
-async function fetchApiStrategies(chainId: number): Promise<Strategy[]> {
-  return new Promise((resolve, reject) => {
-    https.get(`https://api.hydrex.fi/strategies?chainId=${chainId}`, (res) => {
-      let data = '';
-
-      res.on('data', (chunk) => {
-        data += chunk;
-      });
-
-      res.on('end', () => {
-        try {
-          const strategies = JSON.parse(data);
-          resolve(strategies);
-        } catch (error) {
-          reject(error);
-        }
-      });
-    }).on('error', (error) => {
-      reject(error);
-    });
-  });
-}
-
-function normalizeAddress(address: string): string {
-  return address.toLowerCase();
+function formatStrategy(s: Strategy, apiStrategy?: Strategy): string {
+  const label = s.title ? ` (${s.title})` : '';
+  const permTag = apiStrategy?.permissionless ? ' [permissionless]' : '';
+  return `   - ${s.address}${label}${permTag}`;
 }
 
 async function compareStrategies(chainId: number) {
-  console.log(`\n🔍 Comparing strategies for chainId ${chainId}...\n`);
+  console.log(`\nComparing strategies for chainId ${chainId}...\n`);
 
-  // Fetch from API
-  console.log('Fetching from API...');
-  const apiStrategies = await fetchApiStrategies(chainId);
-  
-  // Read local file
-  console.log('Reading local file...');
-  const localFilePath = path.join(__dirname, '..', 'strategies', `${chainId}.json`);
-  const localStrategies: Strategy[] = JSON.parse(fs.readFileSync(localFilePath, 'utf-8'));
+  const [apiRes, localFile] = await Promise.all([
+    fetch(`https://api.hydrex.fi/strategies?chainId=${chainId}`),
+    fs.promises.readFile(path.join(__dirname, '..', 'strategies', `${chainId}.json`), 'utf-8'),
+  ]);
 
-  // Normalize addresses for comparison
-  const apiAddresses = new Set(apiStrategies.map(s => normalizeAddress(s.address)));
-  const localAddresses = new Set(localStrategies.map(s => normalizeAddress(s.address)));
+  const apiStrategies: Strategy[] = await apiRes.json();
+  const localStrategies: Strategy[] = JSON.parse(localFile);
 
-  // Create maps for easy lookup
-  const apiMap = new Map(apiStrategies.map(s => [normalizeAddress(s.address), s]));
-  const localMap = new Map(localStrategies.map(s => [normalizeAddress(s.address), s]));
+  const apiMap = new Map(apiStrategies.map(s => [s.address.toLowerCase(), s]));
+  const localMap = new Map(localStrategies.map(s => [s.address.toLowerCase(), s]));
 
-  // Find discrepancies
-  const inApiNotLocal: Strategy[] = [];
-  const inLocalNotApi: Strategy[] = [];
+  const inApiNotLocal = [...apiMap.entries()].filter(([addr]) => !localMap.has(addr)).map(([, s]) => s);
+  const inLocalNotApi = [...localMap.entries()].filter(([addr]) => !apiMap.has(addr)).map(([, s]) => s);
 
-  apiAddresses.forEach(addr => {
-    if (!localAddresses.has(addr)) {
-      inApiNotLocal.push(apiMap.get(addr)!);
-    }
-  });
-
-  localAddresses.forEach(addr => {
-    if (!apiAddresses.has(addr)) {
-      inLocalNotApi.push(localMap.get(addr)!);
-    }
-  });
-
-  // Print results
-  console.log(`📊 Summary:`);
   console.log(`API strategies: ${apiStrategies.length}`);
-  console.log(`Local strategies: ${localStrategies.length}`);
-  console.log(`\n`);
+  console.log(`Local strategies: ${localStrategies.length}\n`);
 
   if (inApiNotLocal.length > 0) {
-    console.log(`❌ ${inApiNotLocal.length} addresses in API but NOT in local file:`);
-    inApiNotLocal.forEach(s => {
-      console.log(`   - ${s.address} ${s.title ? `(${s.title})` : ''}`);
-    });
-    console.log('');
+    console.log(`${inApiNotLocal.length} in API but NOT in local file:`);
+    inApiNotLocal.forEach(s => console.log(formatStrategy(s, s)));
   } else {
-    console.log(`✅ All API addresses exist in local file`);
-    console.log('');
+    console.log(`All API addresses exist in local file`);
   }
 
+  console.log('');
+
   if (inLocalNotApi.length > 0) {
-    console.log(`❌ ${inLocalNotApi.length} addresses in LOCAL file but NOT in API:`);
-    inLocalNotApi.forEach(s => {
-      console.log(`   - ${s.address} ${s.title ? `(${s.title})` : ''}`);
-    });
-    console.log('');
+    console.log(`${inLocalNotApi.length} in local file but NOT in API:`);
+    inLocalNotApi.forEach(s => console.log(formatStrategy(s, apiMap.get(s.address.toLowerCase()))));
   } else {
-    console.log(`✅ All local addresses exist in API`);
-    console.log('');
+    console.log(`All local addresses exist in API`);
   }
 
   if (inApiNotLocal.length === 0 && inLocalNotApi.length === 0) {
-    console.log(`🎉 Perfect match! Both sources have the same addresses.`);
+    console.log(`\nPerfect match! Both sources have the same addresses.`);
   }
 }
 
-// Run the comparison
 compareStrategies(8453).catch(console.error);
 
