@@ -8,7 +8,8 @@
     "validate-price": "npx ts-node scripts/validatePrice.ts",
     "compare-strategies": "npx ts-node scripts/compareStrategies.ts",
     "generate-bytecode": "npx ts-node scripts/generateBytecode.ts",
-    "add-token": "npx ts-node scripts/listToken.ts"
+    "add-token": "npx ts-node scripts/listToken.ts",
+    "add-pool": "npx ts-node scripts/addPool.ts"
   },
   "dependencies": {
     "viem": "^2.21.54",
