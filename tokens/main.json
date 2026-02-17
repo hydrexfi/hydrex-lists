@@ -2515,8 +2515,8 @@
     },
     {
       "chainId": 8453,
-      "address": "0x55eEc20A94DD786652d2402Cf9c7De12B68065BA",
-      "name": "HydroStrategy",
+      "address": "0xF067CdEe35FB8229f2562f567783aD884B3F270e",
+      "name": "Hydro Strategy",
       "symbol": "SPLASH",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPLASH.png",

@@ -3,18 +3,23 @@ import { base } from 'viem/chains';
 import { strategies } from '../src/strategies/8453';
 
 /**
- * Run: npm run validate-gauge <poolAddress>
+ * Run: npm run validate-gauge <poolAddress> [options]
  * Run: npm run validate-gauge --hash <configHash>
  * 
  * This script validates that a pool address:
  * 1. Has a valid gauge address (not 0x0000...)
  * 2. Has a valid effective config for the oHYDX token
- * 3. Fetches the Merkl campaign configuration from the contract
- * 4. Automatically detects if the campaignData is a reference hash or full ABI-encoded data
+ * 3. Fetches campaign configuration(s) from the contract:
+ *    - Merkl: Fetches and validates Merkl campaign configuration
+ *    - Hydrex: Fetches and validates Hydrex campaign configuration
+ * 4. For Merkl configs, automatically detects if the campaignData is a reference hash or full ABI-encoded data
  *    - If 32-byte hash (66 chars): fetches config from Merkl API and validates
  *    - If full data: decodes and validates directly
- * 5. Validates campaign parameters (weights, pool address, etc.)
+ * 5. Validates campaign parameters (weights, pool address, distributor, duration, etc.)
  * 6. Has correct token0 and token1 addresses in the strategies file
+ * 
+ * Options:
+ *   --type <merkl|hydrex|both>  - Specify which config type to validate (default: both)
  * 
  * Alternatively, validate a pre-live campaign using its config hash:
  * 1. Fetches campaign config from Merkl API using the hash
@@ -32,6 +37,9 @@ const MERKL_API_BASE = 'https://api.merkl.xyz';
 const EXPECTED_DISTRIBUTION_CREATOR = '0x8BB4C975Ff3c250e0ceEA271728547f3802B36Fd';
 const EXPECTED_CREATOR = '0x40fbfe5312330f278824ddbb7521ab77409192f0';
 const EXPECTED_CAMPAIGN_TYPE = 2; // Concentrated liquidity
+
+// Hydrex Campaign Configuration
+const EXPECTED_HYDREX_DISTRIBUTOR = '0x8604d646df5A15074876fc2825CfeE306473dD45';
 
 const VOTER_ABI = [
   {
@@ -61,6 +69,27 @@ const INCENTIVE_CAMPAIGN_MANAGER_ABI = [
           { internalType: 'bytes', name: 'campaignData', type: 'bytes' },
         ],
         internalType: 'struct IIncentiveCampaignManager.MerklConfig',
+        name: '',
+        type: 'tuple',
+      },
+    ],
+    stateMutability: 'view',
+    type: 'function',
+  },
+  {
+    inputs: [
+      { internalType: 'address', name: 'gauge', type: 'address' },
+      { internalType: 'address', name: 'token', type: 'address' },
+    ],
+    name: 'getHydrexConfig',
+    outputs: [
+      {
+        components: [
+          { internalType: 'address', name: 'distributor', type: 'address' },
+          { internalType: 'uint32', name: 'startTimestamp', type: 'uint32' },
+          { internalType: 'uint32', name: 'duration', type: 'uint32' },
+        ],
+        internalType: 'struct IIncentiveCampaignManager.HydrexConfig',
         name: '',
         type: 'tuple',
       },
@@ -203,7 +232,7 @@ function decodeCampaignData(campaignData: `0x${string}`): DecodedCampaignData | 
   }
 }
 
-async function validateGauge(poolAddress: string): Promise<void> {
+async function validateGauge(poolAddress: string, configType: 'merkl' | 'hydrex' | 'both' = 'both'): Promise<void> {
   console.log('\n🔍 Validating Gauge Configuration\n');
   console.log('='.repeat(60));
 
@@ -214,6 +243,7 @@ async function validateGauge(poolAddress: string): Promise<void> {
   }
 
   console.log(`Pool Address: ${poolAddress}`);
+  console.log(`Config Type: ${configType}`);
   console.log('='.repeat(60));
 
   try {
@@ -237,197 +267,254 @@ async function validateGauge(poolAddress: string): Promise<void> {
 
     console.log('   ✅ Valid gauge address found');
 
-    // Step 2: Get Merkl config
-    console.log('\n📍 Step 2: Fetching Merkl campaign configuration...');
-
-    const merklConfig = await client.readContract({
-      address: INCENTIVE_CAMPAIGN_MANAGER,
-      abi: INCENTIVE_CAMPAIGN_MANAGER_ABI,
-      functionName: 'getMerklConfig',
-      args: [gaugeAddress, OHYDX_TOKEN as Address],
-    });
-
-    console.log(`   Distribution Creator: ${merklConfig.distributionCreator}`);
-    console.log(`   Campaign ID: ${merklConfig.campaignId}`);
-    console.log(`   Creator: ${merklConfig.creator}`);
-    console.log(`   Campaign Type: ${merklConfig.campaignType}`);
-    console.log(`   Duration: ${merklConfig.duration}s (${merklConfig.duration / 86400} days)`);
-    console.log(`   Campaign Data (raw): ${merklConfig.campaignData.slice(0, 66)}...`);
-
-    // Validate config values match expected constants
-    console.log('\n📍 Step 2a: Validating config values...');
-    
-    let configValidationPassed = true;
-    
-    if (normalizeAddress(merklConfig.distributionCreator) !== normalizeAddress(EXPECTED_DISTRIBUTION_CREATOR)) {
-      console.warn(`   ⚠️  WARNING: Distribution Creator mismatch`);
-      console.warn(`      Expected: ${EXPECTED_DISTRIBUTION_CREATOR}`);
-      console.warn(`      Got:      ${merklConfig.distributionCreator}`);
-      configValidationPassed = false;
-    } else {
-      console.log(`   ✅ Distribution Creator matches expected value`);
-    }
-
-    if (normalizeAddress(merklConfig.creator) !== normalizeAddress(EXPECTED_CREATOR)) {
-      console.warn(`   ⚠️  WARNING: Creator address mismatch`);
-      console.warn(`      Expected: ${EXPECTED_CREATOR}`);
-      console.warn(`      Got:      ${merklConfig.creator}`);
-      configValidationPassed = false;
-    } else {
-      console.log(`   ✅ Creator address matches expected value`);
-    }
-
-    if (merklConfig.campaignType !== EXPECTED_CAMPAIGN_TYPE) {
-      console.warn(`   ⚠️  WARNING: Campaign Type mismatch`);
-      console.warn(`      Expected: ${EXPECTED_CAMPAIGN_TYPE}`);
-      console.warn(`      Got:      ${merklConfig.campaignType}`);
-      configValidationPassed = false;
-    } else {
-      console.log(`   ✅ Campaign Type matches expected value (Concentrated Liquidity)`);
-    }
-
-    if (merklConfig.duration === 0) {
-      console.warn(`   ⚠️  WARNING: Duration is 0`);
-      configValidationPassed = false;
-    } else {
-      console.log(`   ✅ Duration is valid (${merklConfig.duration / 86400} days)`);
-    }
-
-    if (!configValidationPassed) {
-      console.log('\n   ⚠️  Some config values do not match expected constants');
-      console.log('   This may be intentional, but please verify the configuration');
-    }
-
-    // Check if campaignData is a 32-byte hash or full ABI-encoded data
-    const isHashReference = merklConfig.campaignData.length === 66; // "0x" + 64 hex chars = 32 bytes
-    
+    // Validate Merkl config if requested
     let decodedCampaign: DecodedCampaignData | null = null;
+    let merklConfig: any = null;
     let apiConfigData: MerklConfigResponse | null = null;
+    
+    if (configType === 'merkl' || configType === 'both') {
+      // Step 2: Get Merkl config
+      console.log('\n📍 Step 2: Fetching Merkl campaign configuration...');
 
-    if (isHashReference) {
-      // Campaign data is a reference hash - fetch from Merkl API
-      console.log('\n📍 Step 2b: Detected 32-byte reference hash, fetching from Merkl API...');
-      console.log(`   Config Hash: ${merklConfig.campaignData}`);
+      merklConfig = await client.readContract({
+        address: INCENTIVE_CAMPAIGN_MANAGER,
+        abi: INCENTIVE_CAMPAIGN_MANAGER_ABI,
+        functionName: 'getMerklConfig',
+        args: [gaugeAddress, OHYDX_TOKEN as Address],
+      });
+
+      console.log(`   Distribution Creator: ${merklConfig.distributionCreator}`);
+      console.log(`   Campaign ID: ${merklConfig.campaignId}`);
+      console.log(`   Creator: ${merklConfig.creator}`);
+      console.log(`   Campaign Type: ${merklConfig.campaignType}`);
+      console.log(`   Duration: ${merklConfig.duration}s (${merklConfig.duration / 86400} days)`);
+      console.log(`   Campaign Data (raw): ${merklConfig.campaignData.slice(0, 66)}...`);
+
+      // Validate config values match expected constants
+      console.log('\n📍 Step 2a: Validating Merkl config values...');
       
-      apiConfigData = await fetchConfigByHash(merklConfig.campaignData);
-
-      if (!apiConfigData) {
-        console.error('\n❌ FAILED: Could not fetch config from Merkl API');
-        console.error('   The campaign may not exist yet or the hash is invalid');
-        process.exit(1);
+      let configValidationPassed = true;
+      
+      if (normalizeAddress(merklConfig.distributionCreator) !== normalizeAddress(EXPECTED_DISTRIBUTION_CREATOR)) {
+        console.warn(`   ⚠️  WARNING: Distribution Creator mismatch`);
+        console.warn(`      Expected: ${EXPECTED_DISTRIBUTION_CREATOR}`);
+        console.warn(`      Got:      ${merklConfig.distributionCreator}`);
+        configValidationPassed = false;
+      } else {
+        console.log(`   ✅ Distribution Creator matches expected value`);
       }
 
-      console.log('   ✅ Config data retrieved from API');
-
-      // Decode campaign data from API response
-      console.log('\n📍 Step 2c: Decoding campaign data from API...');
-
-      // Try to decode from campaignData field if present
-      if (apiConfigData.campaignData) {
-        decodedCampaign = decodeCampaignData(apiConfigData.campaignData as `0x${string}`);
+      if (normalizeAddress(merklConfig.creator) !== normalizeAddress(EXPECTED_CREATOR)) {
+        console.warn(`   ⚠️  WARNING: Creator address mismatch`);
+        console.warn(`      Expected: ${EXPECTED_CREATOR}`);
+        console.warn(`      Got:      ${merklConfig.creator}`);
+        configValidationPassed = false;
+      } else {
+        console.log(`   ✅ Creator address matches expected value`);
       }
 
-      // Fall back to config object if available
-      if (!decodedCampaign && apiConfigData.config) {
-        const cfg = apiConfigData.config;
-        if (cfg.hydrexPool) {
+      if (merklConfig.campaignType !== EXPECTED_CAMPAIGN_TYPE) {
+        console.warn(`   ⚠️  WARNING: Campaign Type mismatch`);
+        console.warn(`      Expected: ${EXPECTED_CAMPAIGN_TYPE}`);
+        console.warn(`      Got:      ${merklConfig.campaignType}`);
+        configValidationPassed = false;
+      } else {
+        console.log(`   ✅ Campaign Type matches expected value (Concentrated Liquidity)`);
+      }
+
+      if (merklConfig.duration === 0) {
+        console.warn(`   ⚠️  WARNING: Duration is 0`);
+        configValidationPassed = false;
+      } else {
+        console.log(`   ✅ Duration is valid (${merklConfig.duration / 86400} days)`);
+      }
+
+      if (!configValidationPassed) {
+        console.log('\n   ⚠️  Some config values do not match expected constants');
+        console.log('   This may be intentional, but please verify the configuration');
+      }
+
+      // Check if campaignData is a 32-byte hash or full ABI-encoded data
+      const isHashReference = merklConfig.campaignData.length === 66; // "0x" + 64 hex chars = 32 bytes
+
+      if (isHashReference) {
+        // Campaign data is a reference hash - fetch from Merkl API
+        console.log('\n📍 Step 2b: Detected 32-byte reference hash, fetching from Merkl API...');
+        console.log(`   Config Hash: ${merklConfig.campaignData}`);
+        
+        apiConfigData = await fetchConfigByHash(merklConfig.campaignData);
+
+        if (!apiConfigData) {
+          console.error('\n❌ FAILED: Could not fetch config from Merkl API');
+          console.error('   The campaign may not exist yet or the hash is invalid');
+          process.exit(1);
+        }
+
+        console.log('   ✅ Config data retrieved from API');
+
+        // Decode campaign data from API response
+        console.log('\n📍 Step 2c: Decoding campaign data from API...');
+
+        // Try to decode from campaignData field if present
+        if (apiConfigData.campaignData) {
+          decodedCampaign = decodeCampaignData(apiConfigData.campaignData as `0x${string}`);
+        }
+
+        // Fall back to config object if available
+        if (!decodedCampaign && apiConfigData.config) {
+          const cfg = apiConfigData.config;
+          if (cfg.hydrexPool) {
+            decodedCampaign = {
+              hydrexPool: cfg.hydrexPool as Address,
+              propFees: BigInt(cfg.propFees || 0),
+              propToken0: BigInt(cfg.propToken0 || 0),
+              propToken1: BigInt(cfg.propToken1 || 0),
+              isOutOfRangeIncentivized: BigInt(cfg.isOutOfRangeIncentivized || 0),
+              boostingAddress: (cfg.boostingAddress || ZERO_ADDRESS) as Address,
+              boostedReward: BigInt(cfg.boostedReward || 0),
+              whitelist: (cfg.whitelist || []) as Address[],
+              blacklist: (cfg.blacklist || []) as Address[],
+              extraData: '0x' as `0x${string}`,
+              extraData2: '0x' as `0x${string}`,
+              extraData3: '0x' as `0x${string}`,
+            };
+          }
+        }
+
+        // Parse API response format (weightFees, weightToken0, weightToken1, etc.)
+        if (!decodedCampaign && apiConfigData.poolAddress) {
           decodedCampaign = {
-            hydrexPool: cfg.hydrexPool as Address,
-            propFees: BigInt(cfg.propFees || 0),
-            propToken0: BigInt(cfg.propToken0 || 0),
-            propToken1: BigInt(cfg.propToken1 || 0),
-            isOutOfRangeIncentivized: BigInt(cfg.isOutOfRangeIncentivized || 0),
-            boostingAddress: (cfg.boostingAddress || ZERO_ADDRESS) as Address,
-            boostedReward: BigInt(cfg.boostedReward || 0),
-            whitelist: (cfg.whitelist || []) as Address[],
-            blacklist: (cfg.blacklist || []) as Address[],
+            hydrexPool: apiConfigData.poolAddress as Address,
+            propFees: BigInt(apiConfigData.weightFees || 0),
+            propToken0: BigInt(apiConfigData.weightToken0 || 0),
+            propToken1: BigInt(apiConfigData.weightToken1 || 0),
+            isOutOfRangeIncentivized: BigInt(apiConfigData.isOutOfRangeIncentivized ? 1 : 0),
+            boostingAddress: ZERO_ADDRESS as Address,
+            boostedReward: BigInt(0),
+            whitelist: (apiConfigData.whitelist || []) as Address[],
+            blacklist: (apiConfigData.blacklist || []) as Address[],
             extraData: '0x' as `0x${string}`,
             extraData2: '0x' as `0x${string}`,
             extraData3: '0x' as `0x${string}`,
           };
         }
-      }
 
-      // Parse API response format (weightFees, weightToken0, weightToken1, etc.)
-      if (!decodedCampaign && apiConfigData.poolAddress) {
-        decodedCampaign = {
-          hydrexPool: apiConfigData.poolAddress as Address,
-          propFees: BigInt(apiConfigData.weightFees || 0),
-          propToken0: BigInt(apiConfigData.weightToken0 || 0),
-          propToken1: BigInt(apiConfigData.weightToken1 || 0),
-          isOutOfRangeIncentivized: BigInt(apiConfigData.isOutOfRangeIncentivized ? 1 : 0),
-          boostingAddress: ZERO_ADDRESS as Address,
-          boostedReward: BigInt(0),
-          whitelist: (apiConfigData.whitelist || []) as Address[],
-          blacklist: (apiConfigData.blacklist || []) as Address[],
-          extraData: '0x' as `0x${string}`,
-          extraData2: '0x' as `0x${string}`,
-          extraData3: '0x' as `0x${string}`,
-        };
-      }
-
-      if (!decodedCampaign) {
-        console.error('\n❌ FAILED: Could not decode campaign data from API response');
-        console.error('   Response:', JSON.stringify(apiConfigData, null, 2));
-        process.exit(1);
-      }
-    } else {
-      // Campaign data is full ABI-encoded data - decode directly
-      console.log('\n📍 Step 2b: Decoding full ABI-encoded campaign data...');
-      decodedCampaign = decodeCampaignData(merklConfig.campaignData);
-    }
-
-    if (decodedCampaign) {
-      console.log('\n📍 Step 2d: Validating decoded campaign data...');
-      console.log(`   Pool Address: ${decodedCampaign.hydrexPool}`);
-      console.log(`   Liquidity Weight (propFees): ${decodedCampaign.propFees.toString()} (${Number(decodedCampaign.propFees) / 100}%)`);
-      console.log(`   Token0 Weight: ${decodedCampaign.propToken0.toString()} (${Number(decodedCampaign.propToken0) / 100}%)`);
-      console.log(`   Token1 Weight: ${decodedCampaign.propToken1.toString()} (${Number(decodedCampaign.propToken1) / 100}%)`);
-      console.log(`   Out-of-Range Incentivized: ${decodedCampaign.isOutOfRangeIncentivized === BigInt(0) ? 'No (in-range only)' : 'Yes'}`);
-      console.log(`   Boosting Address: ${decodedCampaign.boostingAddress}`);
-      console.log(`   Boosted Reward: ${decodedCampaign.boostedReward.toString()}`);
-      console.log(`   Whitelist: ${decodedCampaign.whitelist.length > 0 ? decodedCampaign.whitelist.join(', ') : 'None'}`);
-      console.log(`   Blacklist: ${decodedCampaign.blacklist.length > 0 ? decodedCampaign.blacklist.join(', ') : 'None'}`);
-
-      // Verify the pool address matches
-      if (normalizeAddress(decodedCampaign.hydrexPool) !== normalizeAddress(poolAddress)) {
-        console.error('\n   ❌ FAILED: Campaign pool address mismatch!');
-        console.error(`      Expected: ${poolAddress}`);
-        console.error(`      Got:      ${decodedCampaign.hydrexPool}`);
-        process.exit(1);
-      }
-      console.log('   ✅ Campaign pool address matches');
-
-      // Verify weights sum to 10000 (100%)
-      const totalWeight = Number(decodedCampaign.propFees) + Number(decodedCampaign.propToken0) + Number(decodedCampaign.propToken1);
-      if (totalWeight !== 10000) {
-        console.warn(`\n   ⚠️  WARNING: Weights sum to ${totalWeight} instead of 10000 (100%)`);
+        if (!decodedCampaign) {
+          console.error('\n❌ FAILED: Could not decode campaign data from API response');
+          console.error('   Response:', JSON.stringify(apiConfigData, null, 2));
+          process.exit(1);
+        }
       } else {
-        console.log('   ✅ Weights sum to 100%');
+        // Campaign data is full ABI-encoded data - decode directly
+        console.log('\n📍 Step 2b: Decoding full ABI-encoded campaign data...');
+        decodedCampaign = decodeCampaignData(merklConfig.campaignData);
       }
 
-      // Additional validation for campaign data structure
-      if (normalizeAddress(decodedCampaign.boostingAddress) !== normalizeAddress(ZERO_ADDRESS)) {
-        console.warn(`   ⚠️  WARNING: Boosting address is not zero address`);
-      } else {
-        console.log('   ✅ Boosting address is zero (no boosting)');
-      }
+      if (decodedCampaign) {
+        console.log('\n📍 Step 2d: Validating decoded campaign data...');
+        console.log(`   Pool Address: ${decodedCampaign.hydrexPool}`);
+        console.log(`   Liquidity Weight (propFees): ${decodedCampaign.propFees.toString()} (${Number(decodedCampaign.propFees) / 100}%)`);
+        console.log(`   Token0 Weight: ${decodedCampaign.propToken0.toString()} (${Number(decodedCampaign.propToken0) / 100}%)`);
+        console.log(`   Token1 Weight: ${decodedCampaign.propToken1.toString()} (${Number(decodedCampaign.propToken1) / 100}%)`);
+        console.log(`   Out-of-Range Incentivized: ${decodedCampaign.isOutOfRangeIncentivized === BigInt(0) ? 'No (in-range only)' : 'Yes'}`);
+        console.log(`   Boosting Address: ${decodedCampaign.boostingAddress}`);
+        console.log(`   Boosted Reward: ${decodedCampaign.boostedReward.toString()}`);
+        console.log(`   Whitelist: ${decodedCampaign.whitelist.length > 0 ? decodedCampaign.whitelist.join(', ') : 'None'}`);
+        console.log(`   Blacklist: ${decodedCampaign.blacklist.length > 0 ? decodedCampaign.blacklist.join(', ') : 'None'}`);
 
-      if (decodedCampaign.boostedReward !== BigInt(0)) {
-        console.warn(`   ⚠️  WARNING: Boosted reward is not zero`);
-      } else {
-        console.log('   ✅ Boosted reward is zero');
-      }
+        // Verify the pool address matches
+        if (normalizeAddress(decodedCampaign.hydrexPool) !== normalizeAddress(poolAddress)) {
+          console.error('\n   ❌ FAILED: Campaign pool address mismatch!');
+          console.error(`      Expected: ${poolAddress}`);
+          console.error(`      Got:      ${decodedCampaign.hydrexPool}`);
+          process.exit(1);
+        }
+        console.log('   ✅ Campaign pool address matches');
 
-      if (decodedCampaign.isOutOfRangeIncentivized !== BigInt(0)) {
-        console.warn(`   ⚠️  WARNING: Out-of-range positions are incentivized`);
-      } else {
-        console.log('   ✅ Only in-range positions are incentivized');
+        // Verify weights sum to 10000 (100%)
+        const totalWeight = Number(decodedCampaign.propFees) + Number(decodedCampaign.propToken0) + Number(decodedCampaign.propToken1);
+        if (totalWeight !== 10000) {
+          console.warn(`\n   ⚠️  WARNING: Weights sum to ${totalWeight} instead of 10000 (100%)`);
+        } else {
+          console.log('   ✅ Weights sum to 100%');
+        }
+
+        // Additional validation for campaign data structure
+        if (normalizeAddress(decodedCampaign.boostingAddress) !== normalizeAddress(ZERO_ADDRESS)) {
+          console.warn(`   ⚠️  WARNING: Boosting address is not zero address`);
+        } else {
+          console.log('   ✅ Boosting address is zero (no boosting)');
+        }
+
+        if (decodedCampaign.boostedReward !== BigInt(0)) {
+          console.warn(`   ⚠️  WARNING: Boosted reward is not zero`);
+        } else {
+          console.log('   ✅ Boosted reward is zero');
+        }
+
+        if (decodedCampaign.isOutOfRangeIncentivized !== BigInt(0)) {
+          console.warn(`   ⚠️  WARNING: Out-of-range positions are incentivized`);
+        } else {
+          console.log('   ✅ Only in-range positions are incentivized');
+        }
       }
     }
 
-    // Step 3: Get token0 and token1 from pool contract
-    console.log('\n📍 Step 3: Fetching token addresses from pool contract...');
+    // Validate Hydrex config if requested
+    let hydrexConfig: any = null;
+    
+    if (configType === 'hydrex' || configType === 'both') {
+      const stepNum = configType === 'both' ? 3 : 2;
+      console.log(`\n📍 Step ${stepNum}: Fetching Hydrex campaign configuration...`);
+
+      hydrexConfig = await client.readContract({
+        address: INCENTIVE_CAMPAIGN_MANAGER,
+        abi: INCENTIVE_CAMPAIGN_MANAGER_ABI,
+        functionName: 'getHydrexConfig',
+        args: [gaugeAddress, OHYDX_TOKEN as Address],
+      });
+
+      console.log(`   Distributor: ${hydrexConfig.distributor}`);
+      console.log(`   Start Timestamp: ${hydrexConfig.startTimestamp} ${hydrexConfig.startTimestamp === 0 ? '(current block.timestamp)' : `(${new Date(hydrexConfig.startTimestamp * 1000).toISOString()})`}`);
+      console.log(`   Duration: ${hydrexConfig.duration}s (${hydrexConfig.duration / 86400} days)`);
+
+      // Validate Hydrex config values
+      console.log(`\n📍 Step ${stepNum}a: Validating Hydrex config values...`);
+      
+      let hydrexValidationPassed = true;
+      
+      if (normalizeAddress(hydrexConfig.distributor) !== normalizeAddress(EXPECTED_HYDREX_DISTRIBUTOR)) {
+        console.warn(`   ⚠️  WARNING: Distributor address mismatch`);
+        console.warn(`      Expected: ${EXPECTED_HYDREX_DISTRIBUTOR}`);
+        console.warn(`      Got:      ${hydrexConfig.distributor}`);
+        hydrexValidationPassed = false;
+      } else {
+        console.log(`   ✅ Distributor address matches expected value`);
+      }
+
+      if (hydrexConfig.duration === 0) {
+        console.warn(`   ⚠️  WARNING: Duration is 0`);
+        hydrexValidationPassed = false;
+      } else {
+        console.log(`   ✅ Duration is valid (${hydrexConfig.duration / 86400} days)`);
+      }
+
+      // startTimestamp can be 0 (uses current block.timestamp) or a future timestamp
+      if (hydrexConfig.startTimestamp === 0) {
+        console.log(`   ✅ Start timestamp is 0 (will use current block.timestamp)`);
+      } else {
+        console.log(`   ℹ️  Start timestamp is set to: ${new Date(hydrexConfig.startTimestamp * 1000).toISOString()}`);
+      }
+
+      if (!hydrexValidationPassed) {
+        console.log('\n   ⚠️  Some Hydrex config values do not match expected constants');
+        console.log('   This may be intentional, but please verify the configuration');
+      }
+    }
+
+    // Step 3 or 4: Get token0 and token1 from pool contract
+    const nextStepNum = configType === 'both' ? 4 : 3;
+    console.log(`\n📍 Step ${nextStepNum}: Fetching token addresses from pool contract...`);
 
     const [token0, token1] = await Promise.all([
       client.readContract({
@@ -445,8 +532,9 @@ async function validateGauge(poolAddress: string): Promise<void> {
     console.log(`   Token0: ${token0}`);
     console.log(`   Token1: ${token1}`);
 
-    // Step 4: Verify against strategies file
-    console.log('\n📍 Step 4: Verifying against strategies file...');
+    // Step 4 or 5: Verify against strategies file
+    const finalStepNum = nextStepNum + 1;
+    console.log(`\n📍 Step ${finalStepNum}: Verifying against strategies file...`);
 
     const strategy = strategies.find(
       s => normalizeAddress(s.address) === normalizeAddress(poolAddress)
@@ -492,7 +580,9 @@ async function validateGauge(poolAddress: string): Promise<void> {
     console.log(`Token0: ${token0}`);
     console.log(`Token1: ${token1}`);
 
-    if (decodedCampaign) {
+    // Display Merkl config if validated
+    if ((configType === 'merkl' || configType === 'both') && decodedCampaign && merklConfig) {
+      const isHashReference = merklConfig.campaignData.length === 66;
       console.log(`\n${'='.repeat(80)}`);
       console.log('MERKL CAMPAIGN CONFIGURATION (New Incentive Campaign Manager)');
       console.log('='.repeat(80));
@@ -556,6 +646,39 @@ async function validateGauge(poolAddress: string): Promise<void> {
       console.log(`    Boosted Reward: ${decodedCampaign.boostedReward.toString()} ${decodedCampaign.boostedReward === BigInt(0) ? '✅' : '⚠️ '}`);
       console.log(`    Whitelist: ${decodedCampaign.whitelist.length > 0 ? decodedCampaign.whitelist.join(', ') : 'None ✅'}`);
       console.log(`    Blacklist: ${decodedCampaign.blacklist.length > 0 ? decodedCampaign.blacklist.join(', ') : 'None ✅'}`);
+    }
+
+    // Display Hydrex config if validated
+    if ((configType === 'hydrex' || configType === 'both') && hydrexConfig) {
+      console.log(`\n${'='.repeat(80)}`);
+      console.log('HYDREX CAMPAIGN CONFIGURATION (New Incentive Campaign Manager)');
+      console.log('='.repeat(80));
+      console.log(`\nConfig Tuple Fields:`);
+      console.log(`  distributor: ${hydrexConfig.distributor}`);
+      console.log(`    ${normalizeAddress(hydrexConfig.distributor) === normalizeAddress(EXPECTED_HYDREX_DISTRIBUTOR) ? '✅' : '⚠️ '} ${normalizeAddress(hydrexConfig.distributor) === normalizeAddress(EXPECTED_HYDREX_DISTRIBUTOR) ? 'Matches expected value' : 'Does not match expected: ' + EXPECTED_HYDREX_DISTRIBUTOR}`);
+      console.log(`  startTimestamp: ${hydrexConfig.startTimestamp}`);
+      if (hydrexConfig.startTimestamp === 0) {
+        console.log(`    ✅ Will use current block.timestamp when campaign starts`);
+      } else {
+        const startDate = new Date(hydrexConfig.startTimestamp * 1000);
+        const now = new Date();
+        const isFuture = startDate > now;
+        console.log(`    ${isFuture ? 'ℹ️' : '✅'} Scheduled for: ${startDate.toISOString()}`);
+        if (isFuture) {
+          const hoursUntil = Math.round((startDate.getTime() - now.getTime()) / (1000 * 60 * 60));
+          console.log(`    Starts in ~${hoursUntil} hours`);
+        }
+      }
+      console.log(`  duration: ${hydrexConfig.duration}s (${hydrexConfig.duration / 86400} days)`);
+      console.log(`    ${hydrexConfig.duration > 0 ? '✅' : '❌'} ${hydrexConfig.duration > 0 ? 'Valid duration' : 'Invalid duration (0)'}`);
+      
+      if (hydrexConfig.startTimestamp > 0 && hydrexConfig.duration > 0) {
+        const endTimestamp = hydrexConfig.startTimestamp + hydrexConfig.duration;
+        const endDate = new Date(endTimestamp * 1000);
+        console.log(`\n  Campaign Timeline:`);
+        console.log(`    Start: ${new Date(hydrexConfig.startTimestamp * 1000).toISOString()}`);
+        console.log(`    End:   ${endDate.toISOString()}`);
+      }
     }
 
     console.log('\n✨ All checks passed!\n');
@@ -789,29 +912,63 @@ async function validateGaugeByHash(configHash: string): Promise<void> {
 if (require.main === module) {
   const args = process.argv.slice(2);
 
+  // Parse arguments
+  let poolAddress: string | undefined;
+  let configHash: string | undefined;
+  let configType: 'merkl' | 'hydrex' | 'both' = 'both';
+
   // Check for --hash flag
   if (args[0] === '--hash' && args[1]) {
-    const configHash = args[1];
+    configHash = args[1];
+  } else {
+    // Parse pool address and options
+    for (let i = 0; i < args.length; i++) {
+      const arg = args[i];
+      
+      if (arg === '--type' || arg === '-t') {
+        // Parse config type
+        i++;
+        if (i < args.length) {
+          const type = args[i].toLowerCase();
+          if (type === 'merkl' || type === 'hydrex' || type === 'both') {
+            configType = type as 'merkl' | 'hydrex' | 'both';
+          } else {
+            console.error(`❌ Invalid config type: ${args[i]}. Must be 'merkl', 'hydrex', or 'both'`);
+            process.exit(1);
+          }
+        }
+      } else if (!arg.startsWith('-')) {
+        // Positional argument - pool address
+        poolAddress = arg;
+      }
+    }
+  }
+
+  if (configHash) {
+    // Validate by hash (Merkl only)
     validateGaugeByHash(configHash).catch(error => {
       console.error('Validation failed:', error);
       process.exit(1);
     });
-  } else if (args[0] && !args[0].startsWith('--')) {
-    // Assume it's a pool address
-    const poolAddress = args[0];
-    validateGauge(poolAddress).catch(error => {
+  } else if (poolAddress) {
+    // Validate by pool address
+    validateGauge(poolAddress, configType).catch(error => {
       console.error('Validation failed:', error);
       process.exit(1);
     });
   } else {
     console.error('❌ Error: Invalid arguments');
     console.error('\nUsage:');
-    console.error('  npm run validate-gauge <poolAddress>');
-    console.error('    - Automatically detects if campaign uses hash reference or full ABI data');
+    console.error('  npm run validate-gauge <poolAddress> [--type <merkl|hydrex|both>]');
+    console.error('    - Validate gauge configuration (default: validates both Merkl and Hydrex configs)');
     console.error('  npm run validate-gauge --hash <configHash>');
-    console.error('    - Validate pre-live campaign directly by config hash');
+    console.error('    - Validate pre-live Merkl campaign directly by config hash');
+    console.error('\nOptions:');
+    console.error('  --type, -t <type>   Specify config type: "merkl", "hydrex", or "both" (default: both)');
     console.error('\nExamples:');
     console.error('  npm run validate-gauge 0xa4b2401dbbf97e3fbda6fb4ef3f4b7a37069232b');
+    console.error('  npm run validate-gauge 0xa4b2401dbbf97e3fbda6fb4ef3f4b7a37069232b --type hydrex');
+    console.error('  npm run validate-gauge 0xa4b2401dbbf97e3fbda6fb4ef3f4b7a37069232b -t merkl');
     console.error('  npm run validate-gauge --hash 0x6cffa3c201fddee8f6098f783dab4d7136effc986eb6304aa639a267f1c35510');
     process.exit(1);
   }
