@@ -204,7 +204,17 @@ async function main() {
     }
 
     // Generate strategy data
-    const title = generateTitle(token0Info.symbol, token1Info.symbol);
+    let title: string;
+    if (liquidityType === "integral" && depositToken) {
+      // For integral strategies, depositToken comes first in the title
+      const depositTokenInfo = depositToken.toLowerCase() === token0Info.address.toLowerCase() ? token0Info : token1Info;
+      const otherTokenInfo = depositToken.toLowerCase() === token0Info.address.toLowerCase() ? token1Info : token0Info;
+      title = generateTitle(depositTokenInfo.symbol, otherTokenInfo.symbol);
+    } else {
+      // For integral-manual and classic-volatile, use token0/token1 order
+      title = generateTitle(token0Info.symbol, token1Info.symbol);
+    }
+    
     const type = getStrategyType(liquidityType);
     const strategist = getStrategist(liquidityType);
     const riskDescription = getRiskDescription(liquidityType);
@@ -291,7 +301,8 @@ async function main() {
       const closingBraceIndex = fileContent.indexOf("},", addressIndex);
       const insertIndex = fileContent.indexOf("\n", closingBraceIndex) + 1;
       
-      newFileContent = fileContent.slice(0, insertIndex) + newStrategyStr + fileContent.slice(insertIndex);
+      // Add newline after the new strategy to separate it from the next entry
+      newFileContent = fileContent.slice(0, insertIndex) + newStrategyStr + "\n" + fileContent.slice(insertIndex);
     } else {
       console.error("Unsupported liquidityType");
       process.exit(1);
