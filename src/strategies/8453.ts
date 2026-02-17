@@ -1540,6 +1540,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://dgld.ch/",
   },
+  {
+    chainId: 8453,
+    title: "KRWQ/frxUSD",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 1,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xD8Af279a041B798783162126D5DC8FDC04e6387C",
+    token0Address: "0x370923D39f139C64813f173a1bf0b4f9Ba36a24f",
+    token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    tags: ["ecosystem", "stable"],
+    website: "https://www.krwq.cash/",
+  },
 
   // ORIGINAL STRATEGIES
   {
