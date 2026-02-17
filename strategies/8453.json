@@ -1871,6 +1871,23 @@
   },
   {
     "chainId": 8453,
+    "title": "KRWQ/frxUSD",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 1,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xD8Af279a041B798783162126D5DC8FDC04e6387C",
+    "token0Address": "0x370923D39f139C64813f173a1bf0b4f9Ba36a24f",
+    "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "tags": [
+      "ecosystem",
+      "stable"
+    ],
+    "website": "https://www.krwq.cash/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
