@@ -2952,6 +2952,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0xbFCD661Be34C99920036F176876746b9f5B68c26",
+      "name": "Vaultedge Debt Token",
+      "symbol": "USDVE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDVE.png",
+      "autoSlippage": 1
+    },
+    {
+      "chainId": 8453,
       "address": "0x04D5ddf5f3a8939889F11E97f8c4BB48317F1938",
       "name": "USDz",
       "symbol": "USDz",
