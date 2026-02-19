@@ -2166,6 +2166,23 @@
   },
   {
     "chainId": 8453,
+    "title": "USDC/USDVE",
+    "type": "Classic",
+    "liquidityType": "classic-stable",
+    "strategist": "Hydrex",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0xecEe642E6A8E869BB21331d3c5AEBB1d172dC151",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xbFCD661Be34C99920036F176876746b9f5B68c26",
+    "tags": [
+      "stable",
+      "safe"
+    ],
+    "website": "https://www.vaultedge.fi/"
+  },
+  {
+    "chainId": 8453,
     "title": "KRWQ/frxUSD",
     "type": "Single Sided",
     "liquidityType": "integral",
