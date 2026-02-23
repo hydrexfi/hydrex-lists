@@ -29,7 +29,7 @@ export interface Token {
   symbol: string;
   decimals: number;
   logoURI: string;
-  type?: "stablecoin" | "bluechip" | "zora-creator" | "zora-post";
+  type?: "stablecoin" | "bluechip" | "zora-creator" | "zora-post" | "ecosystem";
   autoSlippage?: number;
 }
 
@@ -53,9 +53,9 @@ export interface Badge {
   description: string;
   fullDescription?: string;
   type:
-    | "Tier" // Tier = The main badge flow, no limit, users split a pool of Hydropoints
-    | "Activity" // Activity = Limited supply airdrop, participants get a specific allocation
-    | "Partner"; // Partner = Rewards based on a metric, usually with a ratio.
+  | "Tier" // Tier = The main badge flow, no limit, users split a pool of Hydropoints
+  | "Activity" // Activity = Limited supply airdrop, participants get a specific allocation
+  | "Partner"; // Partner = Rewards based on a metric, usually with a ratio.
   category: "Tier" | "Based" | "Social" | "Memes" | "AI" | "NFT" | "Gaming" | "DeFi";
   minHydropoints: number;
   metric?: string; // Just for showing the metric in the UI

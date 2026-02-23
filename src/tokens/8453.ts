@@ -9,6 +9,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HYDX.png",
     autoSlippage: 5,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -165,6 +166,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AIXBT.png",
     autoSlippage: 2.5,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -344,6 +346,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BETR.png",
     autoSlippage: 5,
+    type: "ecosystem",
   },
   // {
   //   chainId: 8453,
@@ -433,6 +436,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BNKR.png",
     autoSlippage: 2.5,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -479,6 +483,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRETT.png",
     autoSlippage: 5,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -637,6 +642,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CLANKER.png",
     autoSlippage: 2.5,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -1445,6 +1451,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KTA.png",
     autoSlippage: 5,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -1771,6 +1778,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MRDN.png",
     autoSlippage: 5,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -2176,6 +2184,7 @@ export const tokens: Token[] = [
     decimals: 6,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AXLREGEN.png",
     autoSlippage: 10,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -2194,6 +2203,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/REI.png",
     autoSlippage: 5,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -2203,6 +2213,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/REPLY.png",
     autoSlippage: 5,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -2212,6 +2223,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/REPPO.png",
     autoSlippage: 5,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -2718,6 +2730,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TIBBIR.png",
     autoSlippage: 5,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -2763,6 +2776,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TOSHI.png",
     autoSlippage: 2.5,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -3099,6 +3113,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VIRTUAL.png",
     autoSlippage: 5,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -3126,6 +3141,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VVV.png",
     autoSlippage: 5,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
@@ -3281,6 +3297,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTCOIN.png",
     autoSlippage: 1,
+    type: "ecosystem",
   },
   {
     chainId: 8453,
