@@ -18,7 +18,8 @@
       "symbol": "HYDX",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HYDX.png",
-      "autoSlippage": 5
+      "autoSlippage": 5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -174,7 +175,8 @@
       "symbol": "AIXBT",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AIXBT.png",
-      "autoSlippage": 2.5
+      "autoSlippage": 2.5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -345,7 +347,8 @@
       "symbol": "BETR",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BETR.png",
-      "autoSlippage": 5
+      "autoSlippage": 5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -426,7 +429,8 @@
       "symbol": "BNKR",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BNKR.png",
-      "autoSlippage": 2.5
+      "autoSlippage": 2.5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -472,7 +476,8 @@
       "symbol": "BRETT",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRETT.png",
-      "autoSlippage": 5
+      "autoSlippage": 5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -630,7 +635,8 @@
       "symbol": "CLANKER",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CLANKER.png",
-      "autoSlippage": 2.5
+      "autoSlippage": 2.5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -1438,7 +1444,8 @@
       "symbol": "KTA",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KTA.png",
-      "autoSlippage": 5
+      "autoSlippage": 5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -1764,7 +1771,8 @@
       "symbol": "MRDN",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MRDN.png",
-      "autoSlippage": 5
+      "autoSlippage": 5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -2169,7 +2177,8 @@
       "symbol": "REGEN",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AXLREGEN.png",
-      "autoSlippage": 10
+      "autoSlippage": 10,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -2187,7 +2196,8 @@
       "symbol": "REI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/REI.png",
-      "autoSlippage": 5
+      "autoSlippage": 5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -2196,7 +2206,8 @@
       "symbol": "REPLY",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/REPLY.png",
-      "autoSlippage": 5
+      "autoSlippage": 5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -2205,7 +2216,8 @@
       "symbol": "REPPO",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/REPPO.png",
-      "autoSlippage": 5
+      "autoSlippage": 5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -2702,7 +2714,8 @@
       "symbol": "TIBBIR",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TIBBIR.png",
-      "autoSlippage": 5
+      "autoSlippage": 5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -2747,7 +2760,8 @@
       "symbol": "TOSHI",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TOSHI.png",
-      "autoSlippage": 2.5
+      "autoSlippage": 2.5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -3083,7 +3097,8 @@
       "symbol": "VIRTUAL",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VIRTUAL.png",
-      "autoSlippage": 5
+      "autoSlippage": 5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -3110,7 +3125,8 @@
       "symbol": "VVV",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VVV.png",
-      "autoSlippage": 5
+      "autoSlippage": 5,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
@@ -3265,7 +3281,8 @@
       "symbol": "wtCOIN",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTCOIN.png",
-      "autoSlippage": 1
+      "autoSlippage": 1,
+      "type": "ecosystem"
     },
     {
       "chainId": 8453,
