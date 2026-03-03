@@ -2977,6 +2977,7 @@ export const tokens: Token[] = [
     symbol: "USDVE",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDVE.png",
+    type: "stablecoin",
     autoSlippage: 1,
   },
   {
