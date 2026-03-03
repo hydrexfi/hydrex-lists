@@ -2230,6 +2230,7 @@
     "token1Address": "0xbFCD661Be34C99920036F176876746b9f5B68c26",
     "tags": [
       "stable",
+      "correlated",
       "safe"
     ],
     "website": "https://www.vaultedge.fi/"

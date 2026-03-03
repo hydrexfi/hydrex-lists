@@ -1860,7 +1860,7 @@ export const strategies: Strategy[] = [
     address: "0xecEe642E6A8E869BB21331d3c5AEBB1d172dC151",
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xbFCD661Be34C99920036F176876746b9f5B68c26",
-    tags: ["stable", "safe"],
+    tags: ["stable", "correlated", "safe"],
     website: "https://www.vaultedge.fi/",
   },
   {
