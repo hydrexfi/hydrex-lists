@@ -1568,6 +1568,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://www.metacade.co/",
   },
+  {
+    chainId: 8453,
+    title: "wtSPYM/USDC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 2,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x7796fc53B75960A9762Ba267c19F5da9868B7853",
+    token0Address: "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["ecosystem", "exotic"],
+    website: "https://www.st0x.io/strategies",
+  },
 
   // ORIGINAL STRATEGIES
   {
