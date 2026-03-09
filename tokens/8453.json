@@ -3275,6 +3275,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
+    "name": "Wrapped State Street® SPDR Portfolio S&P 500 ETF St0x",
+    "symbol": "wtSPYM",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSPYM.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0x9483ab65847A447e36d21af1CaB8C87e9712ff93",
     "name": "Wrapped USDR",
     "symbol": "wUSDR",
