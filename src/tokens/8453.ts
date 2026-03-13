@@ -936,6 +936,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x4a9f3ed92892c0168DC194eC3867f8316288B32a",
+    name: "Dogelon",
+    symbol: "ELON",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ELON.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x29cC30f9D113B356Ce408667aa6433589CeCBDcA",
     name: "Elsa",
     symbol: "ELSA",
