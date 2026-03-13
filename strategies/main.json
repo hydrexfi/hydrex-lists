@@ -1922,6 +1922,23 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/ELON",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x64ad3Aaab71A311992607F400fE35Cf2B4DEAfB8",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x4a9f3ed92892c0168DC194eC3867f8316288B32a",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://dogelonmars.com/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
