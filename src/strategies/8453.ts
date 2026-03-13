@@ -1582,6 +1582,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://www.st0x.io/strategies",
   },
+  {
+    chainId: 8453,
+    title: "WETH/ELON",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 2,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x64ad3Aaab71A311992607F400fE35Cf2B4DEAfB8",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0x4a9f3ed92892c0168DC194eC3867f8316288B32a",
+    tags: ["ecosystem", "exotic"],
+    website: "https://dogelonmars.com/",
+  },
 
   // ORIGINAL STRATEGIES
   {
