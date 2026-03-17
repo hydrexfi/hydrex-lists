@@ -3311,6 +3311,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
+    name: "Wrapped MicroStrategy Incorporated ST0x",
+    symbol: "wtMSTR",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTMSTR.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
     name: "Wrapped State Street® SPDR Portfolio S&P 500 ETF St0x",
     symbol: "wtSPYM",
