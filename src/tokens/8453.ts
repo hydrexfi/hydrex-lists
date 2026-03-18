@@ -1854,6 +1854,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xF476BA983DE2F1AD532380630e2CF1D1b8b10688",
+    name: "nTZS",
+    symbol: "nTZS",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NTZS.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0xca73ed1815e5915489570014e024b7EbE65dE679",
     name: "Odos Token",
     symbol: "ODOS",
