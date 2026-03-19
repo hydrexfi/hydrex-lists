@@ -694,6 +694,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0x3849cC93e7B71b37885237cd91a215974135cD8D",
+      "name": "Create",
+      "symbol": "CREATE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CREATE.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0x0FD122a924c4528A78a8141bdDd38A0e5bA35FA5",
       "name": "CreatorDAO",
       "symbol": "CREATOR",
@@ -2442,6 +2451,15 @@
       "symbol": "SIGN",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SIGN.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0x55D483033ea6D58b6cD0F0Aa68eCC52d93757600",
+      "name": "Signals",
+      "symbol": "SIGNALS",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SIGNALS.png",
       "autoSlippage": 5
     },
     {
