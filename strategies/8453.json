@@ -2251,6 +2251,23 @@
   },
   {
     "chainId": 8453,
+    "title": "kVCM/USDC",
+    "type": "Classic",
+    "liquidityType": "classic-volatile",
+    "strategist": "Hydrex",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0x3e5D77a94F7629aBB637B241D20a44fDE3C4c38f",
+    "token0Address": "0x00fBAC94Fec8D4089d3fe979F39454F48c71A65d",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://klimaprotocol.com/"
+  },
+  {
+    "chainId": 8453,
     "title": "CADC/frxUSD",
     "type": "Single Sided",
     "liquidityType": "integral",
