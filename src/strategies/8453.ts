@@ -1652,20 +1652,6 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://goo.money/",
   },
-  {
-    chainId: 8453,
-    title: "CREATOR/WETH",
-    type: "Manual",
-    liquidityType: "integral-manual",
-    strategist: "Hydrex",
-    riskLevel: 8,
-    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
-    address: "0x74ef246216DBF60781e62b318Ccec4E729bdf685",
-    token0Address: "0x0FD122a924c4528A78a8141bdDd38A0e5bA35FA5",
-    token1Address: "0x4200000000000000000000000000000000000006",
-    tags: ["ecosystem", "exotic"],
-    website: "https://creatordao.com/",
-  },
 
   // ORIGINAL STRATEGIES
   {
