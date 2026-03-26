@@ -1638,6 +1638,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://vesplash.com/",
   },
+  {
+    chainId: 8453,
+    title: "GOO/cbBTC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 7,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x501477b202e2863F4378f90a55DF64A57bE3999b",
+    token0Address: "0x28974AeC76DE8958361B49e8093865636cE71e1B",
+    token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    tags: ["ecosystem", "exotic"],
+    website: "https://goo.money/",
+  },
 
   // ORIGINAL STRATEGIES
   {
