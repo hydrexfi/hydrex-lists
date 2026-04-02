@@ -1069,6 +1069,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FBOMB.png",
     autoSlippage: 10,
+    reflect: true,
   },
   {
     chainId: 8453,
