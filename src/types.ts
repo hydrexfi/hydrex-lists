@@ -31,6 +31,7 @@ export interface Token {
   logoURI: string;
   type?: "stablecoin" | "bluechip" | "zora-creator" | "zora-post" | "ecosystem";
   autoSlippage?: number;
+  reflect?: boolean;
 }
 
 export interface TokenList {
