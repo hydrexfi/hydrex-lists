@@ -1666,6 +1666,19 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://creatordao.com/",
   },
+  {
+    chainId: 8453,
+    title: "EURC/USDC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 1,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x855fcFC162d89bB4930C746D01F25d255DE5f772",
+    token0Address: "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["bluechip", "safe", "correlated"],
+  },
 
   // ORIGINAL STRATEGIES
   {
