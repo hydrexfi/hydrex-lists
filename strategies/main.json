@@ -2024,6 +2024,23 @@
   },
   {
     "chainId": 8453,
+    "title": "EURC/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 1,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x855fcFC162d89bB4930C746D01F25d255DE5f772",
+    "token0Address": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "bluechip",
+      "safe",
+      "correlated"
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
