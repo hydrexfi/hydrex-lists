@@ -6,7 +6,7 @@ export const Banners: Banner[] = [
         description: "This is a placeholder banner description.",
         mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/placeholder-mobile.png",
         desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/placeholder-desktop.png",
-        externalUrl: "https://www.google.com",
+        internalUrl: "/pools",
         isLive: true,
         placementNumber: 1,
     },
