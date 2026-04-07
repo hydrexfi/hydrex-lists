@@ -6188,6 +6188,58 @@
     "website": "http://vesplash.com/"
   },
   {
+    "chainId": 8453,
+    "title": "Zyfai Vault",
+    "type": "Async",
+    "liquidityType": "async",
+    "strategist": "Zyfai",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is low risk from a liquidity perspective, due to its structure as an async vault with managed deposits and withdrawals. No impermanent loss, but withdrawals may be subject to processing delays.",
+    "address": "0xb539cB80A4818CEBBee2aF1958141138c24a729F",
+    "gaugeAddress": "0xf367f217ff5FE28642E9dC23e32c09526D9489Ef",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "asyncVaultInfo": {
+      "withdrawDelaySeconds": 60,
+      "minimumDepositAmount": "10000000",
+      "minimumWithdrawAmount": "10000000",
+      "asyncClaimMode": "GAUGE_CLAIMS"
+    },
+    "displayTags": [
+      {
+        "title": "Zyfai",
+        "description": "Vault infrastructure powered by Zyfai.",
+        "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/alphagrowth.png",
+        "href": "https://www.zyf.ai/vault"
+      }
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "Yieldpoint Vault",
+    "type": "Async",
+    "liquidityType": "async",
+    "strategist": "Yieldpoint",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is low risk from a liquidity perspective, due to its structure as an async vault with managed deposits and withdrawals. No impermanent loss, but withdrawals may be subject to processing delays.",
+    "address": "0xBa515EEd0119aCB7CFE8fAb3ACD6b362f3ed5319",
+    "gaugeAddress": "0x04739d77d6BDe65E4a097f1A8d1e993Cda3387Be",
+    "depositToken": "0xBA515304d8153c4b162dC79f867E152DF9c127eb",
+    "asyncVaultInfo": {
+      "withdrawDelaySeconds": 604800,
+      "minimumDepositAmount": "0",
+      "minimumWithdrawAmount": "0",
+      "asyncClaimMode": "USER_CLAIMS_AT_VAULT"
+    },
+    "displayTags": [
+      {
+        "title": "Yieldpoint",
+        "description": "Vault infrastructure powered by Yieldpoint.",
+        "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/steakhouse.png",
+        "href": "https://google.com"
+      }
+    ]
+  },
+  {
     "chainId": 84532,
     "title": "ETH/USDC",
     "type": "Narrow",

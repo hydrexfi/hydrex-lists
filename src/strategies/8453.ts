@@ -8,6 +8,7 @@ import {
   CLASSIC_VOLATILE_RISK_STRING,
   Strategy,
   LENDING_RISK_STRING,
+  ASYNC_RISK_STRING,
 } from "../types";
 
 export const strategies: Strategy[] = [
@@ -5225,5 +5226,59 @@ export const strategies: Strategy[] = [
     token1Address: "0x55eEc20A94DD786652d2402Cf9c7De12B68065BA",
     tags: ["ecosystem", "exotic"],
     website: "http://vesplash.com/",
+  },
+
+  // Async Vaults
+  {
+    chainId: 8453,
+    title: "Zyfai Vault",
+    type: "Async",
+    liquidityType: "async",
+    strategist: "Zyfai",
+    riskLevel: 7,
+    riskDescription: ASYNC_RISK_STRING,
+    address: "0xb539cB80A4818CEBBee2aF1958141138c24a729F",
+    gaugeAddress: "0xf367f217ff5FE28642E9dC23e32c09526D9489Ef",
+    depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    asyncVaultInfo: {
+      withdrawDelaySeconds: 60,
+      minimumDepositAmount: "10000000",
+      minimumWithdrawAmount: "10000000",
+      asyncClaimMode: "GAUGE_CLAIMS",
+    },
+    displayTags: [
+      {
+        title: "Zyfai",
+        description: "Vault infrastructure powered by Zyfai.",
+        image: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/alphagrowth.png",
+        href: "https://www.zyf.ai/vault",
+      },
+    ],
+  },
+  {
+    chainId: 8453,
+    title: "Yieldpoint Vault",
+    type: "Async",
+    liquidityType: "async",
+    strategist: "Yieldpoint",
+    riskLevel: 7,
+    riskDescription: ASYNC_RISK_STRING,
+    address: "0xBa515EEd0119aCB7CFE8fAb3ACD6b362f3ed5319",
+    gaugeAddress: "0x04739d77d6BDe65E4a097f1A8d1e993Cda3387Be",
+    depositToken: "0xBA515304d8153c4b162dC79f867E152DF9c127eb",
+    asyncVaultInfo: {
+      withdrawDelaySeconds: 86400 * 7,
+      minimumDepositAmount: "0",
+      minimumWithdrawAmount: "0",
+      asyncClaimMode: "USER_CLAIMS_AT_VAULT"
+    },
+    displayTags: [
+      {
+        title: "Yieldpoint",
+        description: "Vault infrastructure powered by Yieldpoint.",
+        image: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/steakhouse.png",
+        href: "https://google.com",
+      },
+    ],
   },
 ];

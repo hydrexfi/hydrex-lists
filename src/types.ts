@@ -5,9 +5,10 @@ export type LiquidityType =
   | "classic-stable"
   | "morpho"
   | "integral-manual"
-  | "euler";
-export type StrategyType = "Narrow" | "Correlated" | "Long-Short" | "Single Sided" | "Classic" | "Lending" | "Manual";
-export type Strategist = "Ichi" | "Gamma" | "Hydrex" | "Morpho" | "Euler";
+  | "euler"
+  | "async";
+export type StrategyType = "Narrow" | "Correlated" | "Long-Short" | "Single Sided" | "Classic" | "Lending" | "Manual" | "Async";
+export type Strategist = "Ichi" | "Gamma" | "Hydrex" | "Morpho" | "Euler" | "Zyfai" | "Yieldpoint" | "YO";
 
 export type StrategyTag =
   | "stable"
@@ -82,6 +83,13 @@ export interface Strategy {
   tags?: StrategyTag[];
   website?: string;
   strategyInfoOverride?: string;
+  asyncVaultInfo?: {
+    withdrawDelaySeconds: number;
+    minimumDepositAmount: string;
+    minimumWithdrawAmount: string;
+    asyncClaimMode: "GAUGE_CLAIMS" | "USER_CLAIMS_AT_VAULT";
+  };
+  gaugeAddress?: string;
   displayTags?: {
     title: string;
     description?: string;
@@ -110,6 +118,9 @@ export const MODERATE_LOW_RISK_STRING =
 
 export const MODERATE_HIGH_RISK_STRING =
   "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.";
+
+export const ASYNC_RISK_STRING =
+  "This strategy is low risk from a liquidity perspective, due to its structure as an async vault with managed deposits and withdrawals. No impermanent loss, but withdrawals may be subject to processing delays.";
 
 export interface Banner {
   mobileBannerImage: string;
