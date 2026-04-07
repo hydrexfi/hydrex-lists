@@ -5,11 +5,13 @@ import { tokens as baseSepoliaTokens } from "./tokens/84532";
 import { strategies as baseStrategies } from "./strategies/8453";
 import { strategies as baseSepoliaStrategies } from "./strategies/84532";
 import { Badges } from "./badges";
-import { Token, TokenList, Strategy, Badge } from "./types";
+import { Banners } from "./banners";
+import { Token, TokenList, Strategy, Badge, Banner } from "./types";
 
 const outputDir = resolve(__dirname, "../tokens");
 const strategiesOutputDir = resolve(__dirname, "../strategies");
 const badgesOutputDir = resolve(__dirname, "../badges");
+const bannersOutputDir = resolve(__dirname, "../banners");
 
 function ensureDirectoryExists(dir: string) {
   if (!existsSync(dir)) {
@@ -68,6 +70,21 @@ function checkForDuplicateStrategies(strategies: Strategy[]) {
   }
 }
 
+function checkForDuplicateBanners(banners: Banner[]) {
+  const placements = banners.map((b) => b.placementNumber);
+  const duplicates: number[] = [];
+
+  placements.forEach((num, index) => {
+    if (placements.indexOf(num) !== index && !duplicates.includes(num)) {
+      duplicates.push(num);
+    }
+  });
+
+  if (duplicates.length > 0) {
+    throw new Error(`Duplicate banner placementNumbers found: ${duplicates.join(", ")}`);
+  }
+}
+
 function checkForDuplicateBadges(badges: Badge[]) {
   const nftIds = badges.map((badge) => badge.nftId);
   const duplicates: string[] = [];
@@ -101,6 +118,7 @@ const allStrategies = [...baseStrategies, ...baseSepoliaStrategies];
 ensureDirectoryExists(outputDir);
 ensureDirectoryExists(strategiesOutputDir);
 ensureDirectoryExists(badgesOutputDir);
+ensureDirectoryExists(bannersOutputDir);
 
 try {
   checkForDuplicateTokens(baseTokens);
@@ -108,6 +126,7 @@ try {
   checkForDuplicateStrategies(baseStrategies);
   checkForDuplicateStrategies(baseSepoliaStrategies);
   checkForDuplicateBadges(Badges);
+  checkForDuplicateBanners(Banners);
 
   // Write token files
   writeJsonFile("main", tokenList);
@@ -121,6 +140,9 @@ try {
 
   // Write badges
   writeJsonFile("main", Badges, badgesOutputDir);
+
+  // Write banners
+  writeJsonFile("main", Banners, bannersOutputDir);
 } catch (error: any) {
   console.error(`❌ Error processing tokens/strategies: ${error.message}`);
   process.exit(1);

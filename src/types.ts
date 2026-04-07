@@ -110,3 +110,14 @@ export const MODERATE_LOW_RISK_STRING =
 
 export const MODERATE_HIGH_RISK_STRING =
   "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.";
+
+export interface Banner {
+  mobileBannerImage: string;
+  desktopBannerImage: string;
+  isLive: boolean;
+  placementNumber: number;
+  internalUrl?: string;
+  externalUrl?: string;
+  title?: string;
+  description?: string;
+}
