@@ -1679,6 +1679,20 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["bluechip", "safe", "correlated"],
   },
+  {
+    chainId: 8453,
+    title: "KIBBLE/cbBTC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 7,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x57a7A9A089Ad233001B8956b64De8E8D302E4Efa",
+    token0Address: "0x64cc19A52f4D631eF5BE07947CABA14aE00c52Eb",
+    token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    tags: ["ecosystem", "exotic"],
+    website: "https://cat.town/",
+  },
 
   // ORIGINAL STRATEGIES
   {
