@@ -3055,6 +3055,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0xBA515304d8153c4b162dC79f867E152DF9c127eb",
+    "name": "Unity",
+    "symbol": "UTY",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UTY.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0x2615a94df961278DcbC41Fb0a54fEc5f10a693aE",
     "name": "XRP (Universal)",
     "symbol": "uXRP",
@@ -3416,6 +3425,15 @@
     "symbol": "yTRYB",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/YTRYB.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
+    "address": "0xBa515EEd0119aCB7CFE8fAb3ACD6b362f3ed5319",
+    "name": "Staked UTY",
+    "symbol": "yUTY",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/YUTY.png",
     "autoSlippage": 5
   },
   {
