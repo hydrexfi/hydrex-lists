@@ -2058,6 +2058,23 @@
   },
   {
     "chainId": 8453,
+    "title": "yUTY/frxUSD",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 1,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x6DeC381957F7e4ff9E82EA6E661ed01C360d9e4e",
+    "token0Address": "0xBa515EEd0119aCB7CFE8fAb3ACD6b362f3ed5319",
+    "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "tags": [
+      "correlated",
+      "stable"
+    ],
+    "website": "https://yieldpoint.io/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
@@ -2333,6 +2350,42 @@
       "safe"
     ],
     "website": "https://lido.fi/"
+  },
+  {
+    "chainId": 8453,
+    "title": "cbBTC/KIBBLE",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets. Impermanent loss is possible.",
+    "address": "0x11455f9Fdc04f8E311F80Ca5512aa639864fbB32",
+    "token0Address": "0x64cc19A52f4D631eF5BE07947CABA14aE00c52Eb",
+    "token1Address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "depositToken": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://cat.town/"
+  },
+  {
+    "chainId": 8453,
+    "title": "KIBBLE/cbBTC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets. Impermanent loss is possible.",
+    "address": "0xC0d1D82dDD6Fed7E226F9B6144050A7c67fe6034",
+    "token0Address": "0x64cc19A52f4D631eF5BE07947CABA14aE00c52Eb",
+    "token1Address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "depositToken": "0x64cc19A52f4D631eF5BE07947CABA14aE00c52Eb",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://cat.town/"
   },
   {
     "chainId": 8453,
