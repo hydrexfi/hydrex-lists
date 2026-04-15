@@ -321,14 +321,6 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BASTR.png",
     autoSlippage: 5,
   },
-  // {
-  //   chainId: 8453,
-  //   address: "0x814fE70e85025BeC87d4Ad3F3b713bDCAAC0579B",
-  //   name: "Based Mario",
-  //   symbol: "BARIO",
-  //   decimals: 18,
-  //   logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BARIO.png",
-  // },
   {
     chainId: 8453,
     address: "0xbc45647ea894030a4e9801ec03479739fa2485f0",
@@ -348,14 +340,6 @@ export const tokens: Token[] = [
     autoSlippage: 5,
     type: "ecosystem",
   },
-  // {
-  //   chainId: 8453,
-  //   address: "0xD88e4a97B9dEfbF2C8491eA0E48fcc7e043C775a",
-  //   name: "Blink Galaxy",
-  //   symbol: "BG",
-  //   decimals: 18,
-  //   logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BG.png",
-  // },
   {
     chainId: 8453,
     address: "0xf5Dbaa3DFC5e81405c7306039fB037a3DCD57Ce2",
