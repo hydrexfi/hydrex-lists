@@ -406,6 +406,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0xd5F9B7DB3F9Ec658De934638E07919091983Bb07",
+      "name": "BizMarket",
+      "symbol": "BizMart",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BIZMART.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0x616b416f777E3Dc904A44Aa259A475bf26d06Ef9",
       "name": "blai",
       "symbol": "BLAI",
