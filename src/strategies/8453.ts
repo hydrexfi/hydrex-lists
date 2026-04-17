@@ -1707,6 +1707,20 @@ export const strategies: Strategy[] = [
     tags: ["correlated", "stable"],
     website: "https://yieldpoint.io/",
   },
+  {
+    chainId: 8453,
+    title: "BizMart/frxUSD",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 8,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xfD9cd82b2d2AC316E1438613CAF7Acc42Df378B7",
+    token0Address: "0xd5F9B7DB3F9Ec658De934638E07919091983Bb07",
+    token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    tags: ["ecosystem", "stable"],
+    website: "https://www.bitsave.io/bizfi"
+  },
 
   // ORIGINAL STRATEGIES
   {
