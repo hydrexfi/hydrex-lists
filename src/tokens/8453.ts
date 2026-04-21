@@ -2981,6 +2981,16 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x76A9A0062ec6712b99B4f63bD2b4270185759dd5",
+    name: "USDp",
+    symbol: "USDp",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/USDP.png",
+    type: "stablecoin",
+    autoSlippage: 1,
+  },
+  {
+    chainId: 8453,
     address: "0x820c137fa70c8691f0e44dc420a5e53c168921dc",
     name: "USDS Stablecoin",
     symbol: "USDS",
