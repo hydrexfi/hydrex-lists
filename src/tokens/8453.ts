@@ -2578,6 +2578,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPLASH.png",
     autoSlippage: 15,
+    reflect: true,
   },
   {
     chainId: 8453,
