@@ -2370,6 +2370,24 @@
   },
   {
     "chainId": 8453,
+    "title": "USDp/frxUSD",
+    "type": "Classic",
+    "liquidityType": "classic-stable",
+    "strategist": "Hydrex",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0xc7392e80FAf99d6524b94C9d2b8C561a6FE61199",
+    "token0Address": "0x76A9A0062ec6712b99B4f63bD2b4270185759dd5",
+    "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "tags": [
+      "stable",
+      "correlated",
+      "safe"
+    ],
+    "website": "https://docs.parallel.best/developers-hub/contract-addresses/parallel-v3/usdp/base"
+  },
+  {
+    "chainId": 8453,
     "title": "cbBTC/KIBBLE",
     "type": "Single Sided",
     "liquidityType": "integral",
