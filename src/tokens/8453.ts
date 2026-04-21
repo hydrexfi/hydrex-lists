@@ -1631,6 +1631,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xE74731ba9d1Da6Fd3C8c60Ff363732bebAc5273E",
+    name: "maicrotrader by Virtuals",
+    symbol: "MAICRO",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MAICRO.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x7300B37DfdfAb110d83290A29DfB31B1740219fE",
     name: "Mamo",
     symbol: "MAMO",
