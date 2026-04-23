@@ -1735,6 +1735,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://maicrotrader.com/",
   },
+  {
+    chainId: 8453,
+    title: "USDp/frxUSD",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 1,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x053384cc10819B1519DabB5305Dc4711A00CfDB8",
+    token0Address: "0x76A9A0062ec6712b99B4f63bD2b4270185759dd5",
+    token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    tags: ["stable", "correlated", "safe"],
+    website: "https://docs.parallel.best/developers-hub/contract-addresses/parallel-v3/usdp/base",
+  },
 
   // ORIGINAL STRATEGIES
   {
