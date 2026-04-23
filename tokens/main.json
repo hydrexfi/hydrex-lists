@@ -776,6 +776,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0xB8147CE9b0dac5F8165785DEc6494E57748e4B78",
+      "name": "DCAI",
+      "symbol": "DCAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DCAI.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
       "name": "Degen",
       "symbol": "DEGEN",
@@ -1350,6 +1359,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0x00f3C42833C3170159af4E92dbb451Fb3F708917",
+      "name": "ICP",
+      "symbol": "ICP",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ICP.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
       "name": "IDRX",
       "symbol": "IDRX",
@@ -1627,6 +1645,15 @@
       "symbol": "MACHINES",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MACHINES.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0x9E6A46f294bB67c20F1D1E7AfB0bBEf614403B55",
+      "name": "MAG7.ssi",
+      "symbol": "MAG7.ssi",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MAG7SSI.png",
       "autoSlippage": 5
     },
     {
@@ -1971,6 +1998,15 @@
       "symbol": "OVN",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OVN.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xEF5997c2cf2f6c138196f8A6203afc335206b3c1",
+      "name": "OWB",
+      "symbol": "OWB",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OWB.png",
       "autoSlippage": 5
     },
     {
@@ -2366,6 +2402,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0xAb6363dA0C80cEF3Ae105Bd6241E30872355d021",
+      "name": "Roll",
+      "symbol": "ROLL",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ROLL.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0x6555255b8dEd3c538Cb398d9E36769f45D7d3ea7",
       "name": "Backroom by Virtuals",
       "symbol": "ROOM",
@@ -2425,6 +2470,15 @@
       "symbol": "SAM",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SAM.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xac531Eb26Ca1d21b85126De8FB87E80E09002DcF",
+      "name": "SAND",
+      "symbol": "SAND",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SAND.png",
       "autoSlippage": 5
     },
     {
@@ -2573,6 +2627,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0x624e2e7fDc8903165F64891672267AB0FCB98831",
+      "name": "SoSoValue",
+      "symbol": "SOSO",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SOSO.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0x96419929d7949D6A801A6909c145C8EEf6A40431",
       "name": "Spectral Token",
       "symbol": "SPEC",
@@ -2715,6 +2778,16 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SYRUP.png",
       "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0x660975730059246A68521a3e2FBD4740173100f5",
+      "name": "Syrup USDC",
+      "symbol": "syrupUSDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SYRUPUSDC.png",
+      "autoSlippage": 1,
+      "type": "stablecoin"
     },
     {
       "chainId": 8453,
