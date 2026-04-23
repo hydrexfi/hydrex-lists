@@ -1764,6 +1764,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0x1d3bE1CC80cA89DDbabe5b5C254AF63200e708f7",
+    "name": "Monstro DeFi",
+    "symbol": "MONSTRO",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MONSTRO.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0xc55E93C62874D8100dBd2DfE307EDc1036ad5434",
     "name": "Moo BIFI",
     "symbol": "mooBIFI",
