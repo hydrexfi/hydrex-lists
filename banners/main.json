@@ -18,11 +18,11 @@
     "placementNumber": 2
   },
   {
-    "title": "Send Trade",
-    "description": "Trade your favorite assets with low fees on Send.",
-    "mobileBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/send-mobile.png",
-    "desktopBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/send-desktop.png",
-    "externalUrl": "https://www.send.trade",
+    "title": "GBM Pre-TGE",
+    "description": "GBM TGE Goes Live April 27th.",
+    "mobileBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/gbm-pre-mobile.png",
+    "desktopBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/gbm-pre-desktop.png",
+    "externalUrl": "https://www.hydrex.fi/swap",
     "isLive": true,
     "placementNumber": 3
   }
