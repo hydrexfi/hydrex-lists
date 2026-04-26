@@ -1749,6 +1749,20 @@ export const strategies: Strategy[] = [
     tags: ["stable", "correlated", "safe"],
     website: "https://docs.parallel.best/developers-hub/contract-addresses/parallel-v3/usdp/base",
   },
+  {
+    chainId: 8453,
+    title: "GBM/USDC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 8,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xb8F9Dbb4a56292811C749e53B7085fdC9856cEC0",
+    token0Address: "0x22A61FD45EBd3EdeD219cb279715a18Cf85ebB44",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["ecosystem", "exotic"],
+    website: "https://www.gbm.auction/",
+  },
 
   // ORIGINAL STRATEGIES
   {
