@@ -1194,6 +1194,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x22A61FD45EBd3EdeD219cb279715a18Cf85ebB44",
+    name: "GBM Token",
+    symbol: "GBM",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GBM.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0xf7b0dd0B642a6ccc2fc4d8FfE2BfFb0caC8C43C8",
     name: "Gekko AI by Virtuals",
     symbol: "GEKKO",
