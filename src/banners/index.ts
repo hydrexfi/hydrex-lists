@@ -2,11 +2,11 @@ import { Banner } from "../types";
 
 export const Banners: Banner[] = [
     {
-        title: "GBM Pre-TGE",
-        description: "GBM TGE Goes Live April 27th.",
-        mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/gbm-pre-mobile.png",
-        desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/gbm-pre-desktop.png",
-        externalUrl: "https://www.hydrex.fi/swap",
+        title: "GBM",
+        description: "GBM I Live",
+        mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/gbm-mobile.png",
+        desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/gbm-desktop.png",
+        externalUrl: "https://www.hydrex.fi/swap?tokenIn=ETH&tokenOut=0x22a61fd45ebd3eded219cb279715a18cf85ebb44",
         isLive: true,
         placementNumber: 1,
     },
