@@ -2144,6 +2144,40 @@
   },
   {
     "chainId": 8453,
+    "title": "USDC/ZEN",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 6,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x415233bF9B9156d4f777d580E67C0a4e398A84C3",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xf43eB8De897Fbc7F2502483B2Bef7Bb9EA179229",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.horizen.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/VVV",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 6,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x02107bAb40bBA06AE979A15f67B5AD3853c5E116",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://venice.ai/token"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
@@ -2422,12 +2456,86 @@
   },
   {
     "chainId": 8453,
+    "title": "GBM/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0xD1CAFdCaF09f0517591A79e9a54485350A0B18C6",
+    "token0Address": "0x22A61FD45EBd3EdeD219cb279715a18Cf85ebB44",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "depositToken": "0x22A61FD45EBd3EdeD219cb279715a18Cf85ebB44",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.gbm.auction/"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/GBM",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x449daEAA24b465C14a37C2212bd0372A56c70743",
+    "token0Address": "0x22A61FD45EBd3EdeD219cb279715a18Cf85ebB44",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.gbm.auction/"
+  },
+  {
+    "chainId": 8453,
+    "title": "frxUSD/USDp",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0xb438980A42256fB3bD190e5Ef4e9E9ac42EDB659",
+    "token0Address": "0x76A9A0062ec6712b99B4f63bD2b4270185759dd5",
+    "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "depositToken": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "tags": [
+      "stable",
+      "correlated",
+      "safe"
+    ],
+    "website": "https://docs.parallel.best/developers-hub/contract-addresses/parallel-v3/usdp/base"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDp/frxUSD",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0x934905C4F857c06f3AA1fbDBe33dEE30b8FAAd33",
+    "token0Address": "0x76A9A0062ec6712b99B4f63bD2b4270185759dd5",
+    "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "depositToken": "0x76A9A0062ec6712b99B4f63bD2b4270185759dd5",
+    "tags": [
+      "stable",
+      "correlated",
+      "safe"
+    ],
+    "website": "https://docs.parallel.best/developers-hub/contract-addresses/parallel-v3/usdp/base"
+  },
+  {
+    "chainId": 8453,
     "title": "MAICRO/USDC",
     "type": "Single Sided",
     "liquidityType": "integral",
     "strategist": "Ichi",
     "riskLevel": 8,
-    "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets. Impermanent loss is possible.",
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
     "address": "0xDFeeD10CaaD085a62Cfc725694279AF9a9A05F4a",
     "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "token1Address": "0xE74731ba9d1Da6Fd3C8c60Ff363732bebAc5273E",
@@ -2445,7 +2553,7 @@
     "liquidityType": "integral",
     "strategist": "Ichi",
     "riskLevel": 8,
-    "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets. Impermanent loss is possible.",
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
     "address": "0xAeE391de72Bec4cEbe45779cBED6372ce5EdDc95",
     "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "token1Address": "0xE74731ba9d1Da6Fd3C8c60Ff363732bebAc5273E",
