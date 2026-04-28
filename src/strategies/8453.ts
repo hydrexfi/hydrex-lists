@@ -2044,7 +2044,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "KIBBLE/ETH 0.3%",
+    title: "KIBBLE/ETH",
     type: "Narrow",
     liquidityType: "uniV4",
     strategist: "Gamma",
@@ -2056,6 +2056,8 @@ export const strategies: Strategy[] = [
     v4PoolId: "0x0dad56a6eb58063f1185ceae978f1c69463a8e750ee7f3b01a3fb1f78fc7d3c3",
     tags: ["memecoin", "exotic"],
     website: "https://cat.town/",
+    strategyInfoOverride:
+      "This KIBBLE/ETH Gamma strategy uses a 0.3% fee tier. It provides narrow concentrated liquidity using Gamma's active management on Uniswap v4.",
   },
   {
     chainId: 8453,
@@ -5129,7 +5131,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "KIBBLE/ETH 1%",
+    title: "KIBBLE/ETH",
     type: "Narrow",
     liquidityType: "uniV4",
     strategist: "Gamma",
@@ -5141,6 +5143,8 @@ export const strategies: Strategy[] = [
     v4PoolId: "0xb7af3f156e4fba06eb87421eaad538de9763b59f50b0911c62cc7024b5d65ee4",
     tags: ["memecoin", "exotic"],
     website: "https://cat.town/",
+    strategyInfoOverride:
+      "This KIBBLE/ETH Gamma strategy uses a 1% fee tier. It provides narrow concentrated liquidity using Gamma's active management on Uniswap v4.",
   },
   {
     chainId: 8453,
