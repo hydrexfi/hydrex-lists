@@ -2044,7 +2044,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "KIBBLE/ETH",
+    title: "KIBBLE/ETH 0.3%",
     type: "Narrow",
     liquidityType: "uniV4",
     strategist: "Gamma",
@@ -5129,7 +5129,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "KIBBLE/ETH",
+    title: "KIBBLE/ETH 1%",
     type: "Narrow",
     liquidityType: "uniV4",
     strategist: "Gamma",
