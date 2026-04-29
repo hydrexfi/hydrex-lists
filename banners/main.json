@@ -1,10 +1,10 @@
 [
   {
-    "title": "GBM",
-    "description": "GBM I Live",
-    "mobileBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/gbm-mobile.png",
-    "desktopBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/gbm-desktop.png",
-    "externalUrl": "https://www.hydrex.fi/swap?tokenIn=ETH&tokenOut=0x22a61fd45ebd3eded219cb279715a18cf85ebb44",
+    "title": "Send.Trade",
+    "description": "Send.Trade has revamped",
+    "mobileBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/send-new-mobile.png",
+    "desktopBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/send-new-desktop.png",
+    "externalUrl": "https://send.trade",
     "isLive": true,
     "placementNumber": 1
   },
