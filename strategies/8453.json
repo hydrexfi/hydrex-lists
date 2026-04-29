@@ -2456,6 +2456,25 @@
   },
   {
     "chainId": 8453,
+    "title": "KIBBLE/ETH",
+    "type": "Narrow",
+    "liquidityType": "uniV4",
+    "strategist": "Gamma",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0x2d30205A98F6E17F7228E55f8C520469c40e1e56",
+    "token0Address": "0x0000000000000000000000000000000000000000",
+    "token1Address": "0x64cc19A52f4D631eF5BE07947CABA14aE00c52Eb",
+    "v4PoolId": "0x0dad56a6eb58063f1185ceae978f1c69463a8e750ee7f3b01a3fb1f78fc7d3c3",
+    "tags": [
+      "memecoin",
+      "exotic"
+    ],
+    "website": "https://cat.town/",
+    "strategyInfoOverride": "This KIBBLE/ETH Gamma strategy uses a 0.3% fee tier. It provides narrow concentrated liquidity using Gamma's active management on Uniswap v4."
+  },
+  {
+    "chainId": 8453,
     "title": "GBM/USDC",
     "type": "Single Sided",
     "liquidityType": "integral",
@@ -6062,7 +6081,8 @@
       "memecoin",
       "exotic"
     ],
-    "website": "https://cat.town/"
+    "website": "https://cat.town/",
+    "strategyInfoOverride": "This KIBBLE/ETH Gamma strategy uses a 1% fee tier. It provides narrow concentrated liquidity using Gamma's active management on Uniswap v4."
   },
   {
     "chainId": 8453,
