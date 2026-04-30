@@ -1832,6 +1832,20 @@ export const strategies: Strategy[] = [
     token1Address: "0xcb111E6A2a3bde90856D299d61341ac302167D23",
     tags: ["bluechip", "ecosystem", "exotic"],
   },
+  {
+    chainId: 8453,
+    title: "WETH/MILK",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 5,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x89867ac9918d514E85d3ad906351Be90780Ce513",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0x6E0090dBecF3b4F0F9429637756CaDD8Fc468C54",
+    tags: ["ecosystem", "exotic"],
+    website: "https://basedmilk.com/",
+  },
 
   // ORIGINAL STRATEGIES
   {

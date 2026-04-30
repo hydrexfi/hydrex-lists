@@ -2230,6 +2230,23 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/MILK",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x89867ac9918d514E85d3ad906351Be90780Ce513",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x6E0090dBecF3b4F0F9429637756CaDD8Fc468C54",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://basedmilk.com/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
