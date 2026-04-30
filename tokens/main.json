@@ -593,6 +593,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0xcb111E6A2a3bde90856D299d61341ac302167D23",
+      "name": "Coinbase Wrapped MEGA",
+      "symbol": "cbMEGA",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBMEGA.png",
+      "autoSlippage": 3
+    },
+    {
+      "chainId": 8453,
       "address": "0xcb585250f852c6c6bf90434ab21a00f02833a4af",
       "name": "Coinbase Wrapped XRP",
       "symbol": "cbXRP",
@@ -1882,6 +1891,15 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MSUSD.png",
       "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xfA68Ac5cA298aB4B96bCE6542ec74bB9516b0397",
+      "name": "Monstro USDC",
+      "symbol": "mUSDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MUSDC.png",
+      "autoSlippage": 1
     },
     {
       "chainId": 8453,
