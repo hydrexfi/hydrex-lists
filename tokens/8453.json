@@ -1737,6 +1737,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0x6E0090dBecF3b4F0F9429637756CaDD8Fc468C54",
+    "name": "Milk",
+    "symbol": "MILK",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MILK.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0x774EAeFE73Df7959496Ac92a77279A8D7d690b07",
     "name": "Minted Merch",
     "symbol": "mintedmerch",
