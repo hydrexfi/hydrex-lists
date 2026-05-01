@@ -1557,6 +1557,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x3722264aB15a1dfCe5a5af89e6547F7949A8ABA3",
+    name: "LienFi",
+    symbol: "LFI",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LFI.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196",
     name: "ChainLink Token",
     symbol: "LINK",
