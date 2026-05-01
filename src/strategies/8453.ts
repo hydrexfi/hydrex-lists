@@ -1846,6 +1846,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://basedmilk.com/",
   },
+  {
+    chainId: 8453,
+    title: "USDC/yUTY",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 1,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x46a98D61Ea36E9815084ce2445f58bB3B0040868",
+    token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    token1Address: "0xBa515EEd0119aCB7CFE8fAb3ACD6b362f3ed5319",
+    tags: ["stable", "correlated", "safe"],
+    website: "https://yieldpoint.io/",
+  },
 
   // ORIGINAL STRATEGIES
   {
