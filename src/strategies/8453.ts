@@ -1860,6 +1860,20 @@ export const strategies: Strategy[] = [
     tags: ["stable", "correlated", "safe"],
     website: "https://yieldpoint.io/",
   },
+  {
+    chainId: 8453,
+    title: "WETH/NOCK",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 8,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x467a8846E7B54eAC5D4D1cb2FDC9B8752212Ff0e",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0x9B5E262cF9bb04869ab40b19AF91D2dc85761722",
+    tags: ["ecosystem", "exotic"],
+    website: "https://nockchain.org/",
+  },
 
   // ORIGINAL STRATEGIES
   {

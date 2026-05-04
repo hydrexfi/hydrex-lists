@@ -1930,10 +1930,10 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x9B5E262cF9bb04869ab40b19AF91D2dc85761722",
-    name: "NOCK",
-    symbol: "$NOCK",
+    name: "Nock",
+    symbol: "NOCK",
     decimals: 16,
-    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/$NOCK.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NOCK.png",
     autoSlippage: 5,
   },
   {
