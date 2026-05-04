@@ -1927,6 +1927,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0x9B5E262cF9bb04869ab40b19AF91D2dc85761722",
+    "name": "NOCK",
+    "symbol": "$NOCK",
+    "decimals": 16,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/$NOCK.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0x9Cb41FD9dC6891BAe8187029461bfAADF6CC0C69",
     "name": "noice",
     "symbol": "noice",
