@@ -2282,6 +2282,40 @@
   },
   {
     "chainId": 8453,
+    "title": "SOSO/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x17ed8b5358AD5dBF6EF5f07Cf5e398eA40579116",
+    "token0Address": "0x624e2e7fDc8903165F64891672267AB0FCB98831",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://sosovalue.com/"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/MAG7.ssi",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 8,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x88eaaA53405a6Bf098bc38827F4642bcFD195256",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0x9E6A46f294bB67c20F1D1E7AfB0bBEf614403B55",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://sosovalue.com/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
