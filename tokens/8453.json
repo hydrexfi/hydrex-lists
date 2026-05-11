@@ -800,6 +800,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0x9c5C365e764829876243d0b289733B9D2b729685",
+    "name": "DeFi Janus Henderson Anemoy S&P500® Fund Token",
+    "symbol": "deSPXA",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DESPXA.png",
+    "autoSlippage": 3
+  },
+  {
+    "chainId": 8453,
     "address": "0xDE5ed76E7c05eC5e4572CfC88d1ACEA165109E44",
     "name": "DEUS",
     "symbol": "DEUS",
