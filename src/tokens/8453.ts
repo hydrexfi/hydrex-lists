@@ -3502,7 +3502,16 @@ export const tokens: Token[] = [
     symbol: "wtMSTR",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTMSTR.png",
-    autoSlippage: 5,
+    autoSlippage: 2,
+  },
+  {
+    chainId: 8453,
+    address: "0x823FF7Bbde2869aAe73A6CD53e7f614442836757",
+    name: "Wrapped Invesco NASDAQ 100 ETF ST0x",
+    symbol: "wtQQQM",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTQQQM.png",
+    autoSlippage: 2,
   },
   {
     chainId: 8453,
@@ -3511,7 +3520,7 @@ export const tokens: Token[] = [
     symbol: "wtSPYM",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSPYM.png",
-    autoSlippage: 5,
+    autoSlippage: 2,
   },
   {
     chainId: 8453,
