@@ -2316,6 +2316,40 @@
   },
   {
     "chainId": 8453,
+    "title": "wtQQQM/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xece0d1e0615feB34e78129d1996B75f1ff082324",
+    "token0Address": "0x823FF7Bbde2869aAe73A6CD53e7f614442836757",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.st0x.io/strategies"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/TGN",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 6,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x38564DDf10fE9941139f92D6CCDdE2e094B83603",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xD75dfa972C6136f1c594Fec1945302f885E1ab29",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.treegens.org/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
