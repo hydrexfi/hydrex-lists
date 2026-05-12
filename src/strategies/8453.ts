@@ -1958,6 +1958,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://lienfi.com/",
   },
+  {
+    chainId: 8453,
+    title: "WMTX/WETH",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 7,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x18c772b1e324256d4eAe3D444AeD7E856a6D86e2",
+    token0Address: "0x3e31966d4f81C72D2a55310A6365A56A4393E98D",
+    token1Address: "0x4200000000000000000000000000000000000006",
+    tags: ["ecosystem", "exotic"],
+    website: "https://worldmobile.io/the-chain",
+  },
 
   // ORIGINAL STRATEGIES
   {

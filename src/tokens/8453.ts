@@ -1258,6 +1258,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x5F980Dcfc4c0fa3911554cf5ab288ed0eb13DBa3",
+    name: "gitlawb",
+    symbol: "GITLAWB",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GITLAWB.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x590830dFDf9A3F68aFCDdE2694773dEBDF267774",
     name: "Giza",
     symbol: "GIZA",
@@ -2177,6 +2186,15 @@ export const tokens: Token[] = [
     symbol: "PLAY",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PLAY.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
+    address: "0xeD664536023d8E4b1640C394777D34aBAFF1dF8F",
+    name: "Dolphin",
+    symbol: "POD",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/POD.png",
     autoSlippage: 5,
   },
   {
