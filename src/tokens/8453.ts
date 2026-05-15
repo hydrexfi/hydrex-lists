@@ -206,6 +206,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x6E84030FA86EBf585E3E18fe557e5612f7e93Bff",
+    name: "AtlasOra",
+    symbol: "AORA",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AORA.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x138746adfA52909E5920def027f5a8dc1C7EfFb6",
     name: "AR.IO Network",
     symbol: "ARIO",
