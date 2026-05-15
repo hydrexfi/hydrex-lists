@@ -2145,6 +2145,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x54F16Bd3996169914c84dBb2A16635100cF48A0a",
+    name: "Peptai",
+    symbol: "PEPTAI",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PEPTAI.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0xCD6dDDa305955AcD6b94b934f057E8b0daaD58dE",
     name: "Perpetual",
     symbol: "PERP",
