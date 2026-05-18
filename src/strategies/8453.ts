@@ -2000,6 +2000,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://www.atlasora.foundation/",
   },
+  {
+    chainId: 8453,
+    title: "cbETH/WETH",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 2,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xB1383DC47D9971Fc999C3A9088F79E744b376e97",
+    token0Address: "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    token1Address: "0x4200000000000000000000000000000000000006",
+    tags: ["bluechip", "correlated"],
+    website: "https://www.coinbase.com/",
+  },
 
   // ORIGINAL STRATEGIES
   {
