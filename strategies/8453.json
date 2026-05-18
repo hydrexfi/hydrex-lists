@@ -2401,6 +2401,40 @@
   },
   {
     "chainId": 8453,
+    "title": "DRB/WETH",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 8,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xA9A12101BedDf0950c65c32a915ae21db002623D",
+    "token0Address": "0x3ec2156D4c0A9CBdAB4a016633b7BcF6a8d68Ea2",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://bio.site/drbtaskforce"
+  },
+  {
+    "chainId": 8453,
+    "title": "AORA/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 8,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x7B5B9AC36Bef2E808a02568704F651c607634C4B",
+    "token0Address": "0x6E84030FA86EBf585E3E18fe557e5612f7e93Bff",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.atlasora.foundation/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
