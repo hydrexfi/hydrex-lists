@@ -2743,15 +2743,6 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
-    address: "0x692A07f2306a3bba739e5281A26A5a97C6D7A6cA",
-    name: "Spark",
-    symbol: "SPK",
-    decimals: 18,
-    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPK.png",
-    autoSlippage: 5,
-  },
-  {
-    chainId: 8453,
     address: "0xF067CdEe35FB8229f2562f567783aD884B3F270e",
     name: "Hydro Strategy",
     symbol: "SPLASH",
