@@ -543,6 +543,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x65F8152809Dd1fC0D5d8A345c9008d37B95f9ba3",
+    name: "CAPACITR",
+    symbol: "CAPACITR",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CAPACITR.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0xc08Cd26474722cE93F4D0c34D16201461c10AA8C",
     name: "CARV",
     symbol: "CARV",
@@ -943,6 +952,15 @@ export const tokens: Token[] = [
     symbol: "eBTC",
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/EBTC.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
+    address: "0x170dC0ca26F1247CED627D8aBcaFA90ecf1e1519",
+    name: "ecowealth",
+    symbol: "ecowealth",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ECOWEALTH.png",
     autoSlippage: 5,
   },
   {
@@ -1611,6 +1629,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x316ffb9c875f900AdCF04889E415cC86b564EBa3",
+    name: "Litcoin",
+    symbol: "LITCOIN",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LITCOIN.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0xF732A566121Fa6362E9E0FBdd6D66E5c8C925E49",
     name: "Lit Protocol",
     symbol: "LITKEY",
@@ -1763,6 +1790,15 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/METACADEMAX.png",
     autoSlippage: 10,
+  },
+  {
+    chainId: 8453,
+    address: "0x8FB87d13B40B1A67B22ED1a17e2835fe7e3a9bA3",
+    name: "MemeForTrees",
+    symbol: "MfT",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MFT.png",
+    autoSlippage: 5,
   },
   {
     chainId: 8453,
