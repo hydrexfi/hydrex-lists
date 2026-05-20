@@ -2452,6 +2452,40 @@
   },
   {
     "chainId": 8453,
+    "title": "LITCOIN/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 8,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x581ee8F233cB5521D3B34f447E80d3d0ea105035",
+    "token0Address": "0x316ffb9c875f900AdCF04889E415cC86b564EBa3",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://litcoin.app/"
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/CAPACITR",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 8,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xcc706A9f5154730504Fc58ae40a26e6697BF70C2",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x65F8152809Dd1fC0D5d8A345c9008d37B95f9ba3",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://capacitr.xyz/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
