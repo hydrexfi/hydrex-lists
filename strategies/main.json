@@ -2730,6 +2730,24 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/superOETHb",
+    "type": "Classic",
+    "liquidityType": "classic-stable",
+    "strategist": "Hydrex",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
+    "address": "0xEB9ebc2dEF5aa715C0CED10749cbdC15Ac27f632",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3",
+    "tags": [
+      "stable",
+      "correlated",
+      "safe"
+    ],
+    "website": "https://docs.originprotocol.com/yield-bearing-tokens/super-oeth-superoethb"
+  },
+  {
+    "chainId": 8453,
     "title": "WMTX/WETH",
     "type": "Single Sided",
     "liquidityType": "integral",
