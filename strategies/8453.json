@@ -2764,6 +2764,42 @@
   },
   {
     "chainId": 8453,
+    "title": "CAPACITR/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x2589F79d96d84C3c5fd841BE688E47bb626C439C",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x65F8152809Dd1fC0D5d8A345c9008d37B95f9ba3",
+    "depositToken": "0x65F8152809Dd1fC0D5d8A345c9008d37B95f9ba3",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://capacitr.xyz/"
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/CAPACITR",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 8,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0xb0b49d5e039ca530d999B5C65316db47F569fC9E",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x65F8152809Dd1fC0D5d8A345c9008d37B95f9ba3",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://capacitr.xyz/"
+  },
+  {
+    "chainId": 8453,
     "title": "WETH/superOETHb",
     "type": "Classic",
     "liquidityType": "classic-stable",
