@@ -1,12 +1,21 @@
 [
   {
+    "title": "cbETH Incentives live",
+    "description": "cbETH Incentives live on Hydrex",
+    "mobileBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/cbeth-mobile.png",
+    "desktopBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/cbeth-desktop.png",
+    "internalUrl": "/pools?search=cbeth",
+    "isLive": true,
+    "placementNumber": 1
+  },
+  {
     "title": "Bankr Skills Live",
     "description": "Hydrex Skills Live on Bankr",
     "mobileBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/bankr-mobile.png",
     "desktopBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/bankr-desktop.png",
     "internalUrl": "/pools",
     "isLive": true,
-    "placementNumber": 1
+    "placementNumber": 2
   },
   {
     "title": "Send.Trade",
@@ -14,15 +23,6 @@
     "mobileBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/send-early-mobile.png",
     "desktopBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/send-early-desktop.png",
     "externalUrl": "https://send.trade",
-    "isLive": true,
-    "placementNumber": 2
-  },
-  {
-    "title": "Hydrex Academy",
-    "description": "Learn DeFi with the Hydrex Academy.",
-    "mobileBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/academy-mobile.png",
-    "desktopBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/academy-desktop.png",
-    "externalUrl": "https://academy.hydrex.fi",
     "isLive": true,
     "placementNumber": 3
   }
