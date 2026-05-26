@@ -2486,6 +2486,40 @@
   },
   {
     "chainId": 8453,
+    "title": "USDC/DIEM",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 6,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xe6D1dABdDDb884c20C0eFF3c50FBa364e6C14399",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xF4d97F2da56e8c3098f3a8D538DB630A2606a024",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://venice.ai/blog/introducing-diem-as-tokenized-intelligence-the-next-evolution-of-vvv"
+  },
+  {
+    "chainId": 8453,
+    "title": "HOME/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 6,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x3343646E7d40099F1456405859F6c28A40423BbD",
+    "token0Address": "0x4BfAa776991E85e5f8b1255461cbbd216cFc714f",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://defi.app/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
