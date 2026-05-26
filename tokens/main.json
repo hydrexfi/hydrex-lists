@@ -433,6 +433,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0x7afE438411ee3959C7De6f7fB76bf9C769320bA3",
+      "name": "Blocktronics",
+      "symbol": "BLOCKTRONICS",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BLOCKTRONICS.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0x548f93779fBC992010C07467cBaf329DD5F059B7",
       "name": "BMX",
       "symbol": "BMX",
