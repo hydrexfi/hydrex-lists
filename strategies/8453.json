@@ -2520,6 +2520,23 @@
   },
   {
     "chainId": 8453,
+    "title": "BLOCKTRONICS/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 9,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x135bb6B7F4480cC698b0483182e780253dB19f87",
+    "token0Address": "0x7afE438411ee3959C7De6f7fB76bf9C769320bA3",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://blocktronics.xyz/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
@@ -2795,6 +2812,78 @@
       "safe"
     ],
     "website": "https://lido.fi/"
+  },
+  {
+    "chainId": 8453,
+    "title": "HOME/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0xb9e18Cad75Af954AC4c9b9Dd3D7CA418702CAB62",
+    "token0Address": "0x4BfAa776991E85e5f8b1255461cbbd216cFc714f",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "depositToken": "0x4BfAa776991E85e5f8b1255461cbbd216cFc714f",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://defi.app/"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/HOME",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0xE91141f7B9FE875ad721D2986B8197ad124C3b7a",
+    "token0Address": "0x4BfAa776991E85e5f8b1255461cbbd216cFc714f",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://defi.app/"
+  },
+  {
+    "chainId": 8453,
+    "title": "DIEM/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0x814c80f75Bbfe421f7F3455B6207025BEB7A43A3",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xF4d97F2da56e8c3098f3a8D538DB630A2606a024",
+    "depositToken": "0xF4d97F2da56e8c3098f3a8D538DB630A2606a024",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://venice.ai/blog/introducing-diem-as-tokenized-intelligence-the-next-evolution-of-vvv"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/DIEM",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 6,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0x65DB8b729b31235C1F61949865B60cb73D0aA769",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xF4d97F2da56e8c3098f3a8D538DB630A2606a024",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://venice.ai/blog/introducing-diem-as-tokenized-intelligence-the-next-evolution-of-vvv"
   },
   {
     "chainId": 8453,
