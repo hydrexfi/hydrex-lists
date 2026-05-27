@@ -2084,6 +2084,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://blocktronics.xyz/",
   },
+  {
+    chainId: 8453,
+    title: "CODY/USDC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 8,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xA0Fad00cfB7999A0Cd3Da0304ae5F6B1171514f8",
+    token0Address: "0x3977fc913dB86b01a257232C568317798B903B07",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["ecosystem", "exotic"],
+    website: "https://charms.ai/character/cody",
+  },
 
   // ORIGINAL STRATEGIES
   {
