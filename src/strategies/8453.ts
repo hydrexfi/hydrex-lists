@@ -2215,6 +2215,28 @@ export const strategies: Strategy[] = [
       },
     ],
   },
+  {
+    chainId: 8453,
+    title: "cbBTC (AlphaGrowth)",
+    type: "Lending",
+    liquidityType: "euler",
+    strategist: "Euler",
+    riskLevel: 1,
+    riskDescription: LENDING_RISK_STRING,
+    address: "0x882018411Bc4A020A879CEE183441fC9fa5D7f8B",
+    token0Address: "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+    token1Address: "",
+    depositToken: "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+    tags: ["bluechip", "safe"],
+    displayTags: [
+      {
+        title: "AlphaGrowth",
+        description: "Market curated by the AlphaGrowth.",
+        image: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/alphagrowth.png",
+        href: "https://app.euler.finance/vault/0x882018411Bc4A020A879CEE183441fC9fa5D7f8B?network=base",
+      },
+    ],
+  },
   // {
   //   chainId: 8453,
   //   title: "HYDX/USDC",
