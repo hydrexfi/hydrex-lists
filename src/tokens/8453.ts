@@ -702,6 +702,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x3977fc913dB86b01a257232C568317798B903B07",
+    name: "Cody",
+    symbol: "CODY",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CODY.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
     name: "Compound",
     symbol: "COMP",
