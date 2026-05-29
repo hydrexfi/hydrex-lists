@@ -2098,6 +2098,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://charms.ai/character/cody",
   },
+  {
+    chainId: 8453,
+    title: "rootai/cbBTC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 7,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x9e4E5C5C98f29A136Ae392B8096b8E8B9d89d0A8",
+    token0Address: "0x461d3C96D170e551611f54FA466D3D74A680AbA3",
+    token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    tags: ["ecosystem", "exotic"],
+    website: "https://rootedge.ai/",
+  },
 
   // ORIGINAL STRATEGIES
   {
