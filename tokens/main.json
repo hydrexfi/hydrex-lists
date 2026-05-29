@@ -2573,6 +2573,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0x461d3C96D170e551611f54FA466D3D74A680AbA3",
+      "name": "Root Edge",
+      "symbol": "rootai",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ROOTAI.png",
+      "autoSlippage": 2
+    },
+    {
+      "chainId": 8453,
       "address": "0xFbB75A59193A3525a8825BeBe7D4b56899E2f7e1",
       "name": "ResearchCoin",
       "symbol": "RSC",
