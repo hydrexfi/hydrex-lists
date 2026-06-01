@@ -52,6 +52,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x16EE7ecAc70d1028E7712751E2Ee6BA808a7dd92",
+    name: "Sport.fun",
+    symbol: "FUN",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/FUN.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x16eDb4Dfc1d3368d051370699EDfB280e9a1b474",
     name: "Hydrex 40acres Vault",
     symbol: "H40A",
@@ -2136,6 +2145,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x8C0d3ADCF8Ce094E1aE437557Ec90A6374dC9BDD",
+    name: "OpenVPP",
+    symbol: "OVPP",
+    decimals: 9,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OVPP.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0xEF5997c2cf2f6c138196f8A6203afc335206b3c1",
     name: "OWB",
     symbol: "OWB",
@@ -3204,6 +3222,15 @@ export const tokens: Token[] = [
     symbol: "uniBTC",
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UNIBTC.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
+    address: "0x5b2193fDc451C1f847bE09CA9d13A4Bf60f8c86B",
+    name: "Superform",
+    symbol: "UP",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UP.png",
     autoSlippage: 5,
   },
   {
