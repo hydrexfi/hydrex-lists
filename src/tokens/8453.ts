@@ -56,7 +56,7 @@ export const tokens: Token[] = [
     name: "Hydrex 40acres Vault",
     symbol: "H40A",
     decimals: 12,
-    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/40ACRES1.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/H40A.png",
     autoSlippage: 5,
   },
   {
@@ -3352,7 +3352,7 @@ export const tokens: Token[] = [
     name: "Aero 40acres Vault",
     symbol: "A40A",
     decimals: 6,
-    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/40ACRES2.png",
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/A40A.png",
     autoSlippage: 5,
   },
   {
