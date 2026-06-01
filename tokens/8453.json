@@ -50,6 +50,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0x16eDb4Dfc1d3368d051370699EDfB280e9a1b474",
+    "name": "Hydrex 40acres Vault",
+    "symbol": "H40A",
+    "decimals": 12,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/40ACRES1.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0x820C5F0fB255a1D18fd0eBB0F1CCefbC4D546dA7",
     "name": "A0x",
     "symbol": "A0X",
@@ -3333,6 +3342,15 @@
     "symbol": "uXRP",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/UXRP.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
+    "address": "0xB99B6dF96d4d5448cC0a5B3e0ef7896df9507Cf5",
+    "name": "Aero 40acres Vault",
+    "symbol": "A40A",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/40ACRES2.png",
     "autoSlippage": 5
   },
   {
