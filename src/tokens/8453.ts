@@ -71,8 +71,8 @@ export const tokens: Token[] = [
   {
     chainId: 8453,
     address: "0x16eDb4Dfc1d3368d051370699EDfB280e9a1b474",
-    name: "40acres HYDX",
-    symbol: "40A HYDX",
+    name: "40acres Hydrex",
+    symbol: "40A Hydrex",
     decimals: 12,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/40ACRES1.png",
     autoSlippage: 5,
