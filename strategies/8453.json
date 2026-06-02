@@ -3044,6 +3044,150 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/UP",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0xcbAB87dcBA22Ac656b2A23D31ad5A5e22444e6ec",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x5b2193fDc451C1f847bE09CA9d13A4Bf60f8c86B",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.superform.xyz/"
+  },
+  {
+    "chainId": 8453,
+    "title": "UP/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x72581805688523D866F574127a0bCD00bC970Cd0",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x5b2193fDc451C1f847bE09CA9d13A4Bf60f8c86B",
+    "depositToken": "0x5b2193fDc451C1f847bE09CA9d13A4Bf60f8c86B",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.superform.xyz/"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/OVPP",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0xbe00A6e4f8eCBFA03322713CDF02051e12834e2E",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0x8C0d3ADCF8Ce094E1aE437557Ec90A6374dC9BDD",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://openvpp.energy/"
+  },
+  {
+    "chainId": 8453,
+    "title": "OVPP/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x5BDf71b63B91846F427eA68797E56b85f3F7b76B",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0x8C0d3ADCF8Ce094E1aE437557Ec90A6374dC9BDD",
+    "depositToken": "0x8C0d3ADCF8Ce094E1aE437557Ec90A6374dC9BDD",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://openvpp.energy/"
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/FUN",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0xF672Fc94eC081484327Fa58EF1C9BF6Ad0F6A760",
+    "token0Address": "0x16EE7ecAc70d1028E7712751E2Ee6BA808a7dd92",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "depositToken": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.sport.fun/"
+  },
+  {
+    "chainId": 8453,
+    "title": "FUN/WETH",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x53f090fd619cDDe46aE55908644944840Df1f89a",
+    "token0Address": "0x16EE7ecAc70d1028E7712751E2Ee6BA808a7dd92",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "depositToken": "0x16EE7ecAc70d1028E7712751E2Ee6BA808a7dd92",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.sport.fun/"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/AUKI",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x99dcd6F7b98BE99d78Aa11fd608D39fcc5C75948",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xF9569cFb8FD265e91aa478d86ae8c78b8AF55Df4",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.auki.com/"
+  },
+  {
+    "chainId": 8453,
+    "title": "AUKI/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 7,
+    "riskDescription": "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.",
+    "address": "0x4db693aD8d2740CaB56a45C3d1792f77F149FBfC",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xF9569cFb8FD265e91aa478d86ae8c78b8AF55Df4",
+    "depositToken": "0xF9569cFb8FD265e91aa478d86ae8c78b8AF55Df4",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.auki.com/"
+  },
+  {
+    "chainId": 8453,
     "title": "CODY/USDC",
     "type": "Single Sided",
     "liquidityType": "integral",
