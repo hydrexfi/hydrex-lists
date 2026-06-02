@@ -50,6 +50,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0x8281833536a41337E2c9450A0277416049514088",
+    "name": "TheBaseAIIndex",
+    "symbol": "BASEAI",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BASEAI.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0x16EE7ecAc70d1028E7712751E2Ee6BA808a7dd92",
     "name": "Sport.fun",
     "symbol": "FUN",

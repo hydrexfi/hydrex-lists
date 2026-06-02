@@ -2690,6 +2690,40 @@
   },
   {
     "chainId": 8453,
+    "title": "USDC/A40A",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xa69256ea019648815B1a3CE1C83C0D00a288dfc7",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xB99B6dF96d4d5448cC0a5B3e0ef7896df9507Cf5",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.40acres.finance/"
+  },
+  {
+    "chainId": 8453,
+    "title": "H40A/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xff41c74FA7116d546521Edcfff301F71f0F9Dfb2",
+    "token0Address": "0x16eDb4Dfc1d3368d051370699EDfB280e9a1b474",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.40acres.finance/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
