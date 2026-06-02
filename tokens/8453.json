@@ -1663,6 +1663,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0x09b8903aBf2ea0721E34427353988c2F43c6d64F",
+    "name": "LIQUID",
+    "symbol": "LIQ",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LIQ.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0x316ffb9c875f900AdCF04889E415cC86b564EBa3",
     "name": "Litcoin",
     "symbol": "LITCOIN",
@@ -3648,11 +3657,38 @@
   },
   {
     "chainId": 8453,
+    "address": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
+    "name": "Wrapped NVIDIA Corporation ST0x",
+    "symbol": "wtNVDA",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTNVDA.png",
+    "autoSlippage": 2
+  },
+  {
+    "chainId": 8453,
+    "address": "0x82f5BAEE1076334357a34A19E04f7c282D51cE47",
+    "name": "Wrapped abrdn Physical Platinum Shares ETF ST0x",
+    "symbol": "wtPPLT",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTPPLT.png",
+    "autoSlippage": 2
+  },
+  {
+    "chainId": 8453,
     "address": "0x823FF7Bbde2869aAe73A6CD53e7f614442836757",
     "name": "Wrapped Invesco NASDAQ 100 ETF ST0x",
     "symbol": "wtQQQM",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTQQQM.png",
+    "autoSlippage": 2
+  },
+  {
+    "chainId": 8453,
+    "address": "0x78c31580c97101694C70022c83D570150c11e935",
+    "name": "Wrapped  iShares 0-3 Month Treasury Bond ETF ST0x",
+    "symbol": "wtSGOV",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSGOV.png",
     "autoSlippage": 2
   },
   {
