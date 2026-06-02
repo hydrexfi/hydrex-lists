@@ -2226,7 +2226,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "40A Hydrex/USDC",
+    title: "40A HYDX/USDC",
     type: "Manual",
     liquidityType: "integral-manual",
     strategist: "Hydrex",
