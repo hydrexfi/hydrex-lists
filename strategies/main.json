@@ -2639,6 +2639,57 @@
   },
   {
     "chainId": 8453,
+    "title": "USDC/wtNVDA",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x2d8CAf2D736B59b764208ad521669ae1DFcdD9d2",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.st0x.io/strategies"
+  },
+  {
+    "chainId": 8453,
+    "title": "wtSGOV/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x3AA880d06fA191581762976a0E0D1a2ecAe3874E",
+    "token0Address": "0x78c31580c97101694C70022c83D570150c11e935",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.st0x.io/strategies"
+  },
+  {
+    "chainId": 8453,
+    "title": "wtPPLT/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x130D86a1f1602DD03db95f01F2Dc3472423D5Beb",
+    "token0Address": "0x82f5BAEE1076334357a34A19E04f7c282D51cE47",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.st0x.io/strategies"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
