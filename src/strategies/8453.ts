@@ -2212,7 +2212,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "USDC/A40A",
+    title: "USDC/40A AERO",
     type: "Manual",
     liquidityType: "integral-manual",
     strategist: "Hydrex",
@@ -2226,7 +2226,7 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
-    title: "H40A/USDC",
+    title: "40A HYDX/USDC",
     type: "Manual",
     liquidityType: "integral-manual",
     strategist: "Hydrex",
@@ -2237,6 +2237,20 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
     website: "https://www.40acres.finance/",
+  },
+  {
+    chainId: 8453,
+    title: "BASEAI/USDC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 9,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xB38ebed77331641FfD84312f1f8bF0A4ae8BC2cC",
+    token0Address: "0x8281833536a41337E2c9450A0277416049514088",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["ecosystem", "exotic"],
+    website: "https://x.com/theBASEAIindex",
   },
 
   // ORIGINAL STRATEGIES
