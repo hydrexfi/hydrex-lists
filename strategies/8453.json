@@ -2741,6 +2741,57 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/VELVET",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 7,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x77D190B97B20161345AC718c93f530E8a7A4800b",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xbF927b841994731C573BDF09ceB0c6B0Aa887cDd",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.velvet.capital/"
+  },
+  {
+    "chainId": 8453,
+    "title": "MOCA/WETH",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 7,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x3e172Af5f0dcA7b8D183D2Ec7Bc14D8Cab2216A8",
+    "token0Address": "0x2B11834Ed1FeAEd4b4b3a86A6F571315E25A884D",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.moca.network/en"
+  },
+  {
+    "chainId": 8453,
+    "title": "BIO/WETH",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 7,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x4BFf50D91BC2fDE06f31A91a781bd461f69e9BD8",
+    "token0Address": "0x226A2FA2556C48245E57cd1cbA4C6c9e67077DD2",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.bio.xyz/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
