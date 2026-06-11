@@ -3702,6 +3702,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0x19F89aaEf8a93f38A974beca9776f09aB844887F",
+    "name": "Wrapped Space Exploration Technologies Corp. ST0x",
+    "symbol": "wtSPCX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSPCX.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
     "name": "Wrapped State Street® SPDR Portfolio S&P 500 ETF St0x",
     "symbol": "wtSPYM",
