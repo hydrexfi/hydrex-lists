@@ -2758,6 +2758,23 @@
   },
   {
     "chainId": 8453,
+    "title": "wtSPCX/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 9,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xD4f76a51151Be3D58AA1813eaA647E9F97AFc44f",
+    "token0Address": "0x19F89aaEf8a93f38A974beca9776f09aB844887F",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.st0x.io/strategies"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
