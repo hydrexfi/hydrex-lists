@@ -2308,6 +2308,33 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://www.st0x.io/strategies",
   },
+  {
+    chainId: 8453,
+    title: "VVV/cbBTC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 6,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xB651439c9B086c7B4399C623e54dEeBCb3905f17",
+    token0Address: "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",
+    token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    tags: ["ecosystem", "exotic"],
+    website: "https://www.vvv.finance/",
+  },
+  {
+    chainId: 8453,
+    title: "cbADA/cbBTC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 2,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xe8C3C7f1f845bc17E6964D42D84B21F97b12FCC0",
+    token0Address: "0xcbADA732173e39521CDBE8bf59a6Dc85A9fc7b8c",
+    token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    tags: ["bluechip", "standard"],
+  },
 
   // ORIGINAL STRATEGIES
   {
