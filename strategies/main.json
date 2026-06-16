@@ -2643,14 +2643,15 @@
     "type": "Manual",
     "liquidityType": "integral-manual",
     "strategist": "Hydrex",
-    "riskLevel": 5,
+    "riskLevel": 2,
     "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
     "address": "0x3AA880d06fA191581762976a0E0D1a2ecAe3874E",
     "token0Address": "0x78c31580c97101694C70022c83D570150c11e935",
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
-      "ecosystem",
-      "exotic"
+      "stable",
+      "correlated",
+      "safe"
     ],
     "website": "https://www.st0x.io/strategies"
   },
@@ -3333,15 +3334,16 @@
     "type": "Single Sided",
     "liquidityType": "integral",
     "strategist": "Ichi",
-    "riskLevel": 5,
-    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "riskLevel": 2,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
     "address": "0x78c413bd646AF3eD4949e325B66b5281aA2128ea",
     "token0Address": "0x78c31580c97101694C70022c83D570150c11e935",
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
-      "ecosystem",
-      "exotic"
+      "stable",
+      "correlated",
+      "safe"
     ],
     "website": "https://www.st0x.io/strategies"
   },
@@ -3351,15 +3353,16 @@
     "type": "Single Sided",
     "liquidityType": "integral",
     "strategist": "Ichi",
-    "riskLevel": 5,
-    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "riskLevel": 2,
+    "riskDescription": "This strategy is low risk. The assets are highly correlated in price. Please note input proportions vs output proportions may vary.",
     "address": "0xc52f48e137BA0647F2Ad421424f191d295ad216c",
     "token0Address": "0x78c31580c97101694C70022c83D570150c11e935",
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "depositToken": "0x78c31580c97101694C70022c83D570150c11e935",
     "tags": [
-      "ecosystem",
-      "exotic"
+      "stable",
+      "correlated",
+      "safe"
     ],
     "website": "https://www.st0x.io/strategies"
   },
