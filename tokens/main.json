@@ -2092,6 +2092,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0x182FA643E5f29d5EcA75e7b9CF9336A3fe4620b2",
+      "name": "o1.exchange",
+      "symbol": "O",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/O.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0xca73ed1815e5915489570014e024b7EbE65dE679",
       "name": "Odos Token",
       "symbol": "ODOS",
