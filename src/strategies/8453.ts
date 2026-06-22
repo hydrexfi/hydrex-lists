@@ -2335,6 +2335,20 @@ export const strategies: Strategy[] = [
     token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     tags: ["bluechip", "standard"],
   },
+  {
+    chainId: 8453,
+    title: "DEGEN/USDC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 8,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xd2Dd277feEEc88405DB3741239b0A9a96d01692D",
+    token0Address: "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["ecosystem", "exotic"],
+    website: "https://www.degen.tips/",
+  },
 
   // ORIGINAL STRATEGIES
   {
