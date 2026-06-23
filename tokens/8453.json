@@ -2768,6 +2768,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0xfd3ce21c5Acd8BbbE576d0E2336C210C3cEBeb92",
+    "name": "KOKOS SKOOPS",
+    "symbol": "SKOOP",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SKOOP.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0xc77eB53473759913bf278e52861EF281829cBE4d",
     "name": "Skynet by Virtuals",
     "symbol": "SKY",
