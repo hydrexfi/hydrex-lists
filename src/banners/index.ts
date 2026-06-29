@@ -2,13 +2,22 @@ import { Banner } from "../types";
 
 export const Banners: Banner[] = [
     {
-        title: "cbETH Incentives live",
-        description: "cbETH Incentives live on Hydrex",
-        mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/cbeth-mobile.png",
-        desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/cbeth-desktop.png",
-        internalUrl: "/pools?search=cbeth",
+        title: "31 Days of RWAs",
+        description: "Live in July",
+        mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/rwas-mobile.png",
+        desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/rwas-desktop.png",
+        internalUrl: "/pools",
         isLive: true,
         placementNumber: 1,
+    },
+    {
+        title: "Solana on Base",
+        description: "Trade Solana Assets Without Leaving Base",
+        mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/sol-mobile.png",
+        desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/sol-desktop.png",
+        internalUrl: "/swap?tab=solana",
+        isLive: true,
+        placementNumber: 2,
     },
     {
         title: "Bankr Skills Live",
@@ -16,15 +25,6 @@ export const Banners: Banner[] = [
         mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/bankr-mobile.png",
         desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/bankr-desktop.png",
         internalUrl: "/pools",
-        isLive: true,
-        placementNumber: 2,
-    },
-    {
-        title: "Send.Trade",
-        description: "Send.Trade has revamped",
-        mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/send-new-mobile.png",
-        desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/send-early-desktop.png",
-        externalUrl: "https://send.trade",
         isLive: true,
         placementNumber: 3,
     },
