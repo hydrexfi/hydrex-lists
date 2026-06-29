@@ -62,6 +62,16 @@
     },
     {
       "chainId": 8453,
+      "address": "0xd2a530170D71a9Cfe1651Fb468E2B98F7Ed7456b",
+      "name": "Forte AUD",
+      "symbol": "AUDF",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AUDF.png",
+      "type": "stablecoin",
+      "autoSlippage": 1
+    },
+    {
+      "chainId": 8453,
       "address": "0x8281833536a41337E2c9450A0277416049514088",
       "name": "TheBaseAIIndex",
       "symbol": "BASEAI",
