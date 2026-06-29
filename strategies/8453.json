@@ -2843,6 +2843,40 @@
   },
   {
     "chainId": 8453,
+    "title": "CADD/frxUSD",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 1,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x57Bd01Ce65bbb67DD76196ca739F6eF7D036DD2A",
+    "token0Address": "0x16F93eBC5320C89EfC8701577efe49d14A276a06",
+    "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    "tags": [
+      "ecosystem",
+      "stable"
+    ],
+    "website": "https://tetradg.com/cadd-stablecoin/"
+  },
+  {
+    "chainId": 8453,
+    "title": "REI/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 3,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x02b3Df6178DD2f6b43ffA075c9477dd5bBF8fD10",
+    "token0Address": "0x6B2504A03ca4D43d0D73776F6aD46dAb2F2a4cFD",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://reilabs.org/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
