@@ -2349,6 +2349,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://www.degen.tips/",
   },
+  {
+    chainId: 8453,
+    title: "AUDF/frxUSD",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 1,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xC0410fADaD2Da7ba04D029e94A0E3Df228Ec7d28",
+    token0Address: "0xd2a530170D71a9Cfe1651Fb468E2B98F7Ed7456b",
+    token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    tags: ["ecosystem", "stable"],
+    website: "https://forteaud.com/",
+  },
 
   // ORIGINAL STRATEGIES
   {
