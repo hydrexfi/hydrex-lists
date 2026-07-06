@@ -2391,6 +2391,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://reilabs.org/",
   },
+  {
+    chainId: 8453,
+    title: "CX/WETH",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 8,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xc83418f1ACad06914455D931785aEDADb1617DEF",
+    token0Address: "0x000000000000012DeF132E61759048bE5b5C6033",
+    token1Address: "0x4200000000000000000000000000000000000006",
+    tags: ["ecosystem", "exotic"],
+    website: "https://docs.cortexprotocol.com/docs/StartHere",
+  },
 
   // ORIGINAL STRATEGIES
   {

@@ -2877,6 +2877,23 @@
   },
   {
     "chainId": 8453,
+    "title": "CX/WETH",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 8,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xc83418f1ACad06914455D931785aEDADb1617DEF",
+    "token0Address": "0x000000000000012DeF132E61759048bE5b5C6033",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://docs.cortexprotocol.com/docs/StartHere"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
