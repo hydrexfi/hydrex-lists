@@ -81,6 +81,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x000000000000012DeF132E61759048bE5b5C6033",
+    name: "Cortex",
+    symbol: "CX",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CX.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x16EE7ecAc70d1028E7712751E2Ee6BA808a7dd92",
     name: "Sport.fun",
     symbol: "FUN",
