@@ -2055,6 +2055,16 @@
   },
   {
     "chainId": 8453,
+    "address": "0xF197FFC28c23E0309B5559e7a166f2c6164C80aA",
+    "name": "MXNB",
+    "symbol": "MXNB",
+    "decimals": 6,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MXNB.png",
+    "autoSlippage": 1,
+    "type": "stablecoin"
+  },
+  {
+    "chainId": 8453,
     "address": "0x269caE7Dc59803e5C596c95756faEeBb6030E0aF",
     "name": "Real MXN",
     "symbol": "MXNe",
