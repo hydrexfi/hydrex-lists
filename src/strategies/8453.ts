@@ -2405,6 +2405,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://docs.cortexprotocol.com/docs/StartHere",
   },
+  {
+    chainId: 8453,
+    title: "frxUSD/MXNB",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 2,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x99DefDF3E216403C909BA4696Ae26D52A3dE1B31",
+    token0Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
+    token1Address: "0xF197FFC28c23E0309B5559e7a166f2c6164C80aA",
+    tags: ["ecosystem", "stable"],
+    website: "https://mxnb.mx/en-US",
+  },
 
   // ORIGINAL STRATEGIES
   {
