@@ -2530,6 +2530,28 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
+    title: "MXNB (Gauntlet)",
+    type: "Lending",
+    liquidityType: "morpho",
+    strategist: "Morpho",
+    riskLevel: 1,
+    riskDescription: LENDING_RISK_STRING,
+    address: "0x08cc279532f159BdB450eBc0bAf6562f585Ded58",
+    token0Address: "0xF197FFC28c23E0309B5559e7a166f2c6164C80aA",
+    token1Address: "",
+    depositToken: "0xF197FFC28c23E0309B5559e7a166f2c6164C80aA",
+    tags: ["bluechip", "safe"],
+    displayTags: [
+      {
+        title: "Gauntlet",
+        description: "Market curated by Gauntlet, who provides institutional-grade vault strategies for DeFi.",
+        image: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/gauntlet.png",
+        href: "https://app.morpho.org/base/vault/0x08cc279532f159BdB450eBc0bAf6562f585Ded58/juno-mxnb-prime",
+      },
+    ],
+  },
+  {
+    chainId: 8453,
     title: "USDC (AlphaGrowth)",
     type: "Lending",
     liquidityType: "euler",
