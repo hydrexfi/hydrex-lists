@@ -3087,6 +3087,37 @@
   },
   {
     "chainId": 8453,
+    "title": "USDC (Clearstar)",
+    "type": "Lending",
+    "liquidityType": "euler",
+    "strategist": "Euler",
+    "riskLevel": 1,
+    "riskDescription": "This strategy is low risk, due to its structure as a lending pool with a single asset causing no impermanent loss.",
+    "address": "0x07954BEB7e137101A7cbb3e47864C684aEC50524",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "bluechip",
+      "safe"
+    ],
+    "displayTags": [
+      {
+        "title": "Clearstar",
+        "description": "Market curated by Clearstar.",
+        "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/clearstar.png",
+        "href": "https://app.euler.finance/vault/0x07954BEB7e137101A7cbb3e47864C684aEC50524?network=base"
+      },
+      {
+        "title": "Noon Capital",
+        "description": "Exposure to Noon Capital's sUSN.",
+        "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/susn.png",
+        "href": "https://app.euler.finance/vault/0x07954BEB7e137101A7cbb3e47864C684aEC50524?network=base"
+      }
+    ]
+  },
+  {
+    "chainId": 8453,
     "title": "cbBTC (AlphaGrowth)",
     "type": "Lending",
     "liquidityType": "euler",
@@ -3104,7 +3135,7 @@
     "displayTags": [
       {
         "title": "AlphaGrowth",
-        "description": "Market curated by the AlphaGrowth.",
+        "description": "Market curated by AlphaGrowth.",
         "image": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/alphagrowth.png",
         "href": "https://app.euler.finance/vault/0x882018411Bc4A020A879CEE183441fC9fa5D7f8B?network=base"
       }
