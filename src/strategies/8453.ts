@@ -1510,7 +1510,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x5cDa0E1CA4ce2af96315f7F8963C85399c172204",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -1580,7 +1580,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -1608,7 +1608,7 @@ export const strategies: Strategy[] = [
     token0Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     token1Address: "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -1914,7 +1914,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x823FF7Bbde2869aAe73A6CD53e7f614442836757",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -2180,7 +2180,7 @@ export const strategies: Strategy[] = [
   //   token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   //   token1Address: "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
   //   tags: ["ecosystem", "exotic"],
-  //   website: "https://www.st0x.io/strategies",
+  //   website: "https://www.st0x.io/",
   // },
   {
     chainId: 8453,
@@ -2194,7 +2194,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x78c31580c97101694C70022c83D570150c11e935",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["stable", "correlated", "safe"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   // {
   //   chainId: 8453,
@@ -2208,7 +2208,7 @@ export const strategies: Strategy[] = [
   //   token0Address: "0x82f5BAEE1076334357a34A19E04f7c282D51cE47",
   //   token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   //   tags: ["ecosystem", "exotic"],
-  //   website: "https://www.st0x.io/strategies",
+  //   website: "https://www.st0x.io/",
   // },
   {
     chainId: 8453,
@@ -2306,7 +2306,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x19F89aaEf8a93f38A974beca9776f09aB844887F",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -2574,6 +2574,34 @@ export const strategies: Strategy[] = [
   },
   {
     chainId: 8453,
+    title: "USDC (Clearstar)",
+    type: "Lending",
+    liquidityType: "euler",
+    strategist: "Euler",
+    riskLevel: 1,
+    riskDescription: LENDING_RISK_STRING,
+    address: "0x07954BEB7e137101A7cbb3e47864C684aEC50524",
+    token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    token1Address: "",
+    depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["bluechip", "safe"],
+    displayTags: [
+      {
+        title: "Clearstar",
+        description: "Market curated by Clearstar.",
+        image: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/clearstar.png",
+        href: "https://app.euler.finance/vault/0x07954BEB7e137101A7cbb3e47864C684aEC50524?network=base",
+      },
+      {
+        title: "Noon Capital",
+        description: "Exposure to Noon Capital's sUSN.",
+        image: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/susn.png",
+        href: "https://app.euler.finance/vault/0x07954BEB7e137101A7cbb3e47864C684aEC50524?network=base",
+      },
+    ],
+  },
+  {
+    chainId: 8453,
     title: "cbBTC (AlphaGrowth)",
     type: "Lending",
     liquidityType: "euler",
@@ -2588,7 +2616,7 @@ export const strategies: Strategy[] = [
     displayTags: [
       {
         title: "AlphaGrowth",
-        description: "Market curated by the AlphaGrowth.",
+        description: "Market curated by AlphaGrowth.",
         image: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/other/alphagrowth.png",
         href: "https://app.euler.finance/vault/0x882018411Bc4A020A879CEE183441fC9fa5D7f8B?network=base",
       },
@@ -2845,7 +2873,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x19F89aaEf8a93f38A974beca9776f09aB844887F",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -2860,7 +2888,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -3025,7 +3053,7 @@ export const strategies: Strategy[] = [
   //   token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   //   depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   //   tags: ["ecosystem", "exotic"],
-  //   website: "https://www.st0x.io/strategies",
+  //   website: "https://www.st0x.io/",
   // },
   // {
   //   chainId: 8453,
@@ -3040,7 +3068,7 @@ export const strategies: Strategy[] = [
   //   token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   //   depositToken: "0x82f5BAEE1076334357a34A19E04f7c282D51cE47",
   //   tags: ["ecosystem", "exotic"],
-  //   website: "https://www.st0x.io/strategies",
+  //   website: "https://www.st0x.io/",
   // },
   {
     chainId: 8453,
@@ -3055,7 +3083,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["stable", "correlated", "safe"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -3070,7 +3098,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x78c31580c97101694C70022c83D570150c11e935",
     tags: ["stable", "correlated", "safe"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   // {
   //   chainId: 8453,
@@ -3085,7 +3113,7 @@ export const strategies: Strategy[] = [
   //   token1Address: "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
   //   depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   //   tags: ["ecosystem", "exotic"],
-  //   website: "https://www.st0x.io/strategies",
+  //   website: "https://www.st0x.io/",
   // },
   // {
   //   chainId: 8453,
@@ -3100,7 +3128,7 @@ export const strategies: Strategy[] = [
   //   token1Address: "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
   //   depositToken: "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
   //   tags: ["ecosystem", "exotic"],
-  //   website: "https://www.st0x.io/strategies",
+  //   website: "https://www.st0x.io/",
   // },
   {
     chainId: 8453,
@@ -3519,7 +3547,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x823FF7Bbde2869aAe73A6CD53e7f614442836757",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -3534,7 +3562,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -4119,7 +4147,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
     depositToken: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -4134,7 +4162,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
     depositToken: "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -4179,7 +4207,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -4194,7 +4222,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -4358,7 +4386,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
@@ -4373,7 +4401,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x5cDa0E1CA4ce2af96315f7F8963C85399c172204",
     tags: ["ecosystem", "exotic"],
-    website: "https://www.st0x.io/strategies",
+    website: "https://www.st0x.io/",
   },
   {
     chainId: 8453,
