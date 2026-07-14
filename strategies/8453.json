@@ -555,7 +555,8 @@
     "token1Address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.brztoken.io/"
   },
@@ -657,7 +658,8 @@
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "stable",
-      "correlated"
+      "correlated",
+      "rwa"
     ],
     "website": "https://idrx.co/"
   },
@@ -1644,7 +1646,8 @@
     "token1Address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://www.brztoken.io/"
   },
@@ -1661,7 +1664,8 @@
     "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://idrx.co/"
   },
@@ -1678,7 +1682,8 @@
     "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://www.tokenisedgbp.com/"
   },
@@ -1831,7 +1836,8 @@
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -1882,7 +1888,8 @@
     "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://www.krwq.cash/"
   },
@@ -1916,7 +1923,8 @@
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -1950,7 +1958,8 @@
     "token1Address": "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -1967,7 +1976,8 @@
     "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://paytrie.com/cadc"
   },
@@ -2327,7 +2337,8 @@
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -2361,9 +2372,10 @@
     "token1Address": "0x9c5C365e764829876243d0b289733B9D2b729685",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://app.centrifuge.io/"
+    "website": "https://centrifuge.io/"
   },
   {
     "chainId": 8453,
@@ -2650,7 +2662,8 @@
     "token1Address": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -2668,7 +2681,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -2787,7 +2801,8 @@
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -2854,7 +2869,8 @@
     "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://forteaud.com/"
   },
@@ -2871,7 +2887,8 @@
     "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://tetradg.com/cadd-stablecoin/"
   },
@@ -2922,7 +2939,8 @@
     "token1Address": "0xF197FFC28c23E0309B5559e7a166f2c6164C80aA",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://mxnb.mx/en-US"
   },
@@ -2939,7 +2957,8 @@
     "token1Address": "0xAAA0008C8CF3A7Dca931adaF04336A5D808C82Cc",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://centrifuge.io/"
   },
@@ -2956,7 +2975,8 @@
     "token1Address": "0xFcD17aC4c4BF6a72c93018096F3fC09e66573Ff9",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -2973,7 +2993,8 @@
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -2990,7 +3011,8 @@
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -3151,7 +3173,8 @@
     "depositToken": "0xF197FFC28c23E0309B5559e7a166f2c6164C80aA",
     "tags": [
       "bluechip",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "displayTags": [
       {
@@ -3384,7 +3407,8 @@
     "depositToken": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://tetradg.com/cadd-stablecoin/"
   },
@@ -3402,7 +3426,8 @@
     "depositToken": "0x16F93eBC5320C89EfC8701577efe49d14A276a06",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://tetradg.com/cadd-stablecoin/"
   },
@@ -3420,7 +3445,8 @@
     "depositToken": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://forteaud.com/"
   },
@@ -3438,7 +3464,8 @@
     "depositToken": "0xd2a530170D71a9Cfe1651Fb468E2B98F7Ed7456b",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://forteaud.com/"
   },
@@ -3526,7 +3553,8 @@
     "depositToken": "0x19F89aaEf8a93f38A974beca9776f09aB844887F",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -3544,7 +3572,8 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -3745,7 +3774,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -3764,7 +3794,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -3782,7 +3813,8 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -3800,7 +3832,8 @@
     "depositToken": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -4196,9 +4229,10 @@
     "depositToken": "0x9c5C365e764829876243d0b289733B9D2b729685",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://app.centrifuge.io/"
+    "website": "https://centrifuge.io/"
   },
   {
     "chainId": 8453,
@@ -4214,9 +4248,10 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://app.centrifuge.io/"
+    "website": "https://centrifuge.io/"
   },
   {
     "chainId": 8453,
@@ -4304,7 +4339,8 @@
     "depositToken": "0x823FF7Bbde2869aAe73A6CD53e7f614442836757",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -4322,7 +4358,8 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -4972,7 +5009,8 @@
     "depositToken": "0x043eB4B75d0805c43D7C834902E335621983Cf03",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://paytrie.com/cadc"
   },
@@ -4990,7 +5028,8 @@
     "depositToken": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://paytrie.com/cadc"
   },
@@ -5008,7 +5047,8 @@
     "depositToken": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -5026,7 +5066,8 @@
     "depositToken": "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -5080,7 +5121,8 @@
     "depositToken": "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -5098,7 +5140,8 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -5207,7 +5250,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.krwq.cash/"
   },
@@ -5226,7 +5270,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.krwq.cash/"
   },
@@ -5298,7 +5343,8 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -5316,7 +5362,8 @@
     "depositToken": "0x5cDa0E1CA4ce2af96315f7F8963C85399c172204",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.st0x.io/"
   },
@@ -5678,7 +5725,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://idrx.co/"
   },
@@ -5697,7 +5745,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://idrx.co/"
   },
@@ -5716,7 +5765,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.tokenisedgbp.com/"
   },
@@ -5735,7 +5785,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.tokenisedgbp.com/"
   },
@@ -5754,7 +5805,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.brztoken.io/"
   },
@@ -5773,7 +5825,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.brztoken.io/"
   },
@@ -7110,7 +7163,8 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.brztoken.io/"
   },
@@ -8665,7 +8719,8 @@
     "depositToken": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
     "tags": [
       "stable",
-      "correlated"
+      "correlated",
+      "rwa"
     ],
     "website": "https://www.brztoken.io/"
   },
@@ -8683,7 +8738,8 @@
     "depositToken": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
     "tags": [
       "stable",
-      "correlated"
+      "correlated",
+      "rwa"
     ],
     "website": "https://idrx.co/"
   },
@@ -8701,7 +8757,8 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "stable",
-      "correlated"
+      "correlated",
+      "rwa"
     ],
     "website": "https://idrx.co/"
   },

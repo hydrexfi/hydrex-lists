@@ -460,7 +460,7 @@ export const strategies: Strategy[] = [
     address: "0xebfcec0795962b8f3ee7954d5de7606884830e54",
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.brztoken.io/",
   },
   {
@@ -544,7 +544,7 @@ export const strategies: Strategy[] = [
     address: "0x7fd99c8b76c567f632d8a483ba7dd0ff57954e6b",
     token0Address: "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["stable", "correlated"],
+    tags: ["stable", "correlated", "rwa"],
     website: "https://idrx.co/",
   },
   {
@@ -1355,7 +1355,7 @@ export const strategies: Strategy[] = [
     address: "0x29262772a1a99f180aC2e70093954CF4adf3CD85",
     token0Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     token1Address: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
-    tags: ["ecosystem", "stable"],
+    tags: ["ecosystem", "stable", "rwa"],
     website: "https://www.brztoken.io/",
   },
   {
@@ -1369,7 +1369,7 @@ export const strategies: Strategy[] = [
     address: "0x84994103403C715bace3bFb42f074F50E5432D55",
     token0Address: "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
-    tags: ["ecosystem", "stable"],
+    tags: ["ecosystem", "stable", "rwa"],
     website: "https://idrx.co/",
   },
   {
@@ -1383,7 +1383,7 @@ export const strategies: Strategy[] = [
     address: "0xd4610403F0a93611ca76a5847743533268efF793",
     token0Address: "0x27f6c8289550fCE67f6B50BeD1F519966aFE5287",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
-    tags: ["ecosystem", "stable"],
+    tags: ["ecosystem", "stable", "rwa"],
     website: "https://www.tokenisedgbp.com/",
   },
   {
@@ -1509,7 +1509,7 @@ export const strategies: Strategy[] = [
     address: "0xab5d32fF95b58bD5e77De08738a391973eE88C81",
     token0Address: "0x5cDa0E1CA4ce2af96315f7F8963C85399c172204",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -1551,7 +1551,7 @@ export const strategies: Strategy[] = [
     address: "0xD8Af279a041B798783162126D5DC8FDC04e6387C",
     token0Address: "0x370923D39f139C64813f173a1bf0b4f9Ba36a24f",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
-    tags: ["ecosystem", "stable"],
+    tags: ["ecosystem", "stable", "rwa"],
     website: "https://www.krwq.cash/",
   },
   {
@@ -1579,7 +1579,7 @@ export const strategies: Strategy[] = [
     address: "0x7796fc53B75960A9762Ba267c19F5da9868B7853",
     token0Address: "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -1607,7 +1607,7 @@ export const strategies: Strategy[] = [
     address: "0x37077D100b369Ab48c9e6B7b21c15eee4fDF9923",
     token0Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     token1Address: "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -1621,7 +1621,7 @@ export const strategies: Strategy[] = [
     address: "0x9eAd199F786c67Cf6e6bC2b74A29358BE025162F",
     token0Address: "0x043eB4B75d0805c43D7C834902E335621983Cf03",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
-    tags: ["ecosystem", "stable"],
+    tags: ["ecosystem", "stable", "rwa"],
     website: "https://paytrie.com/cadc",
   },
   {
@@ -1913,7 +1913,7 @@ export const strategies: Strategy[] = [
     address: "0xece0d1e0615feB34e78129d1996B75f1ff082324",
     token0Address: "0x823FF7Bbde2869aAe73A6CD53e7f614442836757",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -1941,8 +1941,8 @@ export const strategies: Strategy[] = [
     address: "0xa3C25d3f65e11008465F477665CF2303A420CfB2",
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0x9c5C365e764829876243d0b289733B9D2b729685",
-    tags: ["ecosystem", "exotic"],
-    website: "https://app.centrifuge.io/",
+    tags: ["ecosystem", "exotic", "rwa"],
+    website: "https://centrifuge.io/",
   },
   {
     chainId: 8453,
@@ -2179,7 +2179,7 @@ export const strategies: Strategy[] = [
     address: "0x2d8CAf2D736B59b764208ad521669ae1DFcdD9d2",
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -2193,7 +2193,7 @@ export const strategies: Strategy[] = [
     address: "0x3AA880d06fA191581762976a0E0D1a2ecAe3874E",
     token0Address: "0x78c31580c97101694C70022c83D570150c11e935",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["stable", "correlated", "safe"],
+    tags: ["stable", "correlated", "safe", "rwa"],
     website: "https://www.st0x.io/",
   },
   // {
@@ -2207,7 +2207,7 @@ export const strategies: Strategy[] = [
   //   address: "0x130D86a1f1602DD03db95f01F2Dc3472423D5Beb",
   //   token0Address: "0x82f5BAEE1076334357a34A19E04f7c282D51cE47",
   //   token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-  //   tags: ["ecosystem", "exotic"],
+  //   tags: ["ecosystem", "exotic", "rwa"],
   //   website: "https://www.st0x.io/",
   // },
   {
@@ -2305,7 +2305,7 @@ export const strategies: Strategy[] = [
     address: "0xD4f76a51151Be3D58AA1813eaA647E9F97AFc44f",
     token0Address: "0x19F89aaEf8a93f38A974beca9776f09aB844887F",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -2360,7 +2360,7 @@ export const strategies: Strategy[] = [
     address: "0xC0410fADaD2Da7ba04D029e94A0E3Df228Ec7d28",
     token0Address: "0xd2a530170D71a9Cfe1651Fb468E2B98F7Ed7456b",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
-    tags: ["ecosystem", "stable"],
+    tags: ["ecosystem", "stable", "rwa"],
     website: "https://forteaud.com/",
   },
   {
@@ -2374,7 +2374,7 @@ export const strategies: Strategy[] = [
     address: "0x57Bd01Ce65bbb67DD76196ca739F6eF7D036DD2A",
     token0Address: "0x16F93eBC5320C89EfC8701577efe49d14A276a06",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
-    tags: ["ecosystem", "stable"],
+    tags: ["ecosystem", "stable", "rwa"],
     website: "https://tetradg.com/cadd-stablecoin/",
   },
   {
@@ -2416,7 +2416,7 @@ export const strategies: Strategy[] = [
     address: "0x99DefDF3E216403C909BA4696Ae26D52A3dE1B31",
     token0Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     token1Address: "0xF197FFC28c23E0309B5559e7a166f2c6164C80aA",
-    tags: ["ecosystem", "stable"],
+    tags: ["ecosystem", "stable", "rwa"],
     website: "https://mxnb.mx/en-US",
   },
   {
@@ -2430,7 +2430,7 @@ export const strategies: Strategy[] = [
     address: "0xa44454183676B976bB8F8F6cFCa39e217A38854e",
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xAAA0008C8CF3A7Dca931adaF04336A5D808C82Cc",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://centrifuge.io/",
   },
   {
@@ -2444,7 +2444,7 @@ export const strategies: Strategy[] = [
     address: "0x759409935F8b17B6588B1Fbd81b19F400709bcB3",
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xFcD17aC4c4BF6a72c93018096F3fC09e66573Ff9",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -2458,7 +2458,7 @@ export const strategies: Strategy[] = [
     address: "0xa17dB5cf2f25213356f088a92245B9704bC4310f",
     token0Address: "0x1A91Df4a970EBaB1bB4AF32Eb6d10509028eE4b8",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -2472,7 +2472,7 @@ export const strategies: Strategy[] = [
     address: "0x45330edec3f58AaF7004C375cAb8F640B9A870AF",
     token0Address: "0x1E46d7eFef64A833AFB1CD49299a7AD5B439f4d8",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -2610,7 +2610,7 @@ export const strategies: Strategy[] = [
     token0Address: "0xF197FFC28c23E0309B5559e7a166f2c6164C80aA",
     token1Address: "",
     depositToken: "0xF197FFC28c23E0309B5559e7a166f2c6164C80aA",
-    tags: ["bluechip", "safe"],
+    tags: ["bluechip", "safe", "rwa"],
     displayTags: [
       {
         title: "Gauntlet",
@@ -2824,7 +2824,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x16F93eBC5320C89EfC8701577efe49d14A276a06",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     depositToken: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
-    tags: ["ecosystem", "stable"],
+    tags: ["ecosystem", "stable", "rwa"],
     website: "https://tetradg.com/cadd-stablecoin/",
   },
   {
@@ -2839,7 +2839,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x16F93eBC5320C89EfC8701577efe49d14A276a06",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     depositToken: "0x16F93eBC5320C89EfC8701577efe49d14A276a06",
-    tags: ["ecosystem", "stable"],
+    tags: ["ecosystem", "stable", "rwa"],
     website: "https://tetradg.com/cadd-stablecoin/",
   },
   {
@@ -2854,7 +2854,7 @@ export const strategies: Strategy[] = [
     token0Address: "0xd2a530170D71a9Cfe1651Fb468E2B98F7Ed7456b",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     depositToken: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
-    tags: ["ecosystem", "stable"],
+    tags: ["ecosystem", "stable", "rwa"],
     website: "https://forteaud.com/",
   },
   {
@@ -2869,7 +2869,7 @@ export const strategies: Strategy[] = [
     token0Address: "0xd2a530170D71a9Cfe1651Fb468E2B98F7Ed7456b",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     depositToken: "0xd2a530170D71a9Cfe1651Fb468E2B98F7Ed7456b",
-    tags: ["ecosystem", "stable"],
+    tags: ["ecosystem", "stable", "rwa"],
     website: "https://forteaud.com/",
   },
   {
@@ -2942,7 +2942,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x19F89aaEf8a93f38A974beca9776f09aB844887F",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x19F89aaEf8a93f38A974beca9776f09aB844887F",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -2957,7 +2957,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x19F89aaEf8a93f38A974beca9776f09aB844887F",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -3122,7 +3122,7 @@ export const strategies: Strategy[] = [
   //   token0Address: "0x82f5BAEE1076334357a34A19E04f7c282D51cE47",
   //   token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   //   depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-  //   tags: ["ecosystem", "exotic"],
+  //   tags: ["ecosystem", "exotic", "rwa"],
   //   website: "https://www.st0x.io/",
   // },
   // {
@@ -3137,7 +3137,7 @@ export const strategies: Strategy[] = [
   //   token0Address: "0x82f5BAEE1076334357a34A19E04f7c282D51cE47",
   //   token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   //   depositToken: "0x82f5BAEE1076334357a34A19E04f7c282D51cE47",
-  //   tags: ["ecosystem", "exotic"],
+  //   tags: ["ecosystem", "exotic", "rwa"],
   //   website: "https://www.st0x.io/",
   // },
   {
@@ -3152,7 +3152,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x78c31580c97101694C70022c83D570150c11e935",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["stable", "correlated", "safe"],
+    tags: ["stable", "correlated", "safe", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -3167,7 +3167,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x78c31580c97101694C70022c83D570150c11e935",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x78c31580c97101694C70022c83D570150c11e935",
-    tags: ["stable", "correlated", "safe"],
+    tags: ["stable", "correlated", "safe", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -3182,7 +3182,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -3197,7 +3197,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
     depositToken: "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -3526,8 +3526,8 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0x9c5C365e764829876243d0b289733B9D2b729685",
     depositToken: "0x9c5C365e764829876243d0b289733B9D2b729685",
-    tags: ["ecosystem", "exotic"],
-    website: "https://app.centrifuge.io/",
+    tags: ["ecosystem", "exotic", "rwa"],
+    website: "https://centrifuge.io/",
   },
   {
     chainId: 8453,
@@ -3541,8 +3541,8 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0x9c5C365e764829876243d0b289733B9D2b729685",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["ecosystem", "exotic"],
-    website: "https://app.centrifuge.io/",
+    tags: ["ecosystem", "exotic", "rwa"],
+    website: "https://centrifuge.io/",
   },
   {
     chainId: 8453,
@@ -3616,7 +3616,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x823FF7Bbde2869aAe73A6CD53e7f614442836757",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x823FF7Bbde2869aAe73A6CD53e7f614442836757",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -3631,7 +3631,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x823FF7Bbde2869aAe73A6CD53e7f614442836757",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -4186,7 +4186,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x043eB4B75d0805c43D7C834902E335621983Cf03",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     depositToken: "0x043eB4B75d0805c43D7C834902E335621983Cf03",
-    tags: ["ecosystem", "stable"],
+    tags: ["ecosystem", "stable", "rwa"],
     website: "https://paytrie.com/cadc",
   },
   {
@@ -4201,7 +4201,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x043eB4B75d0805c43D7C834902E335621983Cf03",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     depositToken: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
-    tags: ["ecosystem", "stable"],
+    tags: ["ecosystem", "stable", "rwa"],
     website: "https://paytrie.com/cadc",
   },
   {
@@ -4216,7 +4216,7 @@ export const strategies: Strategy[] = [
     token0Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     token1Address: "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
     depositToken: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -4231,7 +4231,7 @@ export const strategies: Strategy[] = [
     token0Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     token1Address: "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
     depositToken: "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -4276,7 +4276,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -4291,7 +4291,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -4380,7 +4380,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x370923D39f139C64813f173a1bf0b4f9Ba36a24f",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     depositToken: "0x370923D39f139C64813f173a1bf0b4f9Ba36a24f",
-    tags: ["stable", "correlated", "safe"],
+    tags: ["stable", "correlated", "safe", "rwa"],
     website: "https://www.krwq.cash/",
   },
   {
@@ -4395,7 +4395,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x370923D39f139C64813f173a1bf0b4f9Ba36a24f",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     depositToken: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
-    tags: ["stable", "correlated", "safe"],
+    tags: ["stable", "correlated", "safe", "rwa"],
     website: "https://www.krwq.cash/",
   },
   {
@@ -4455,7 +4455,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x5cDa0E1CA4ce2af96315f7F8963C85399c172204",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -4470,7 +4470,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x5cDa0E1CA4ce2af96315f7F8963C85399c172204",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x5cDa0E1CA4ce2af96315f7F8963C85399c172204",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
   },
   {
@@ -4769,7 +4769,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     depositToken: "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
-    tags: ["stable", "correlated", "safe"],
+    tags: ["stable", "correlated", "safe", "rwa"],
     website: "https://idrx.co/",
   },
   {
@@ -4784,7 +4784,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     depositToken: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
-    tags: ["stable", "correlated", "safe"],
+    tags: ["stable", "correlated", "safe", "rwa"],
     website: "https://idrx.co/",
   },
   {
@@ -4799,7 +4799,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x27f6c8289550fCE67f6B50BeD1F519966aFE5287",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     depositToken: "0x27f6c8289550fCE67f6B50BeD1F519966aFE5287",
-    tags: ["stable", "correlated", "safe"],
+    tags: ["stable", "correlated", "safe", "rwa"],
     website: "https://www.tokenisedgbp.com/",
   },
   {
@@ -4814,7 +4814,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x27f6c8289550fCE67f6B50BeD1F519966aFE5287",
     token1Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     depositToken: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
-    tags: ["stable", "correlated", "safe"],
+    tags: ["stable", "correlated", "safe", "rwa"],
     website: "https://www.tokenisedgbp.com/",
   },
   {
@@ -4829,7 +4829,7 @@ export const strategies: Strategy[] = [
     token0Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     token1Address: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
     depositToken: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
-    tags: ["stable", "correlated", "safe"],
+    tags: ["stable", "correlated", "safe", "rwa"],
     website: "https://www.brztoken.io/",
   },
   {
@@ -4844,7 +4844,7 @@ export const strategies: Strategy[] = [
     token0Address: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     token1Address: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
     depositToken: "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
-    tags: ["stable", "correlated", "safe"],
+    tags: ["stable", "correlated", "safe", "rwa"],
     website: "https://www.brztoken.io/",
   },
   {
@@ -5949,7 +5949,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["ecosystem", "exotic"],
+    tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.brztoken.io/",
   },
   {
@@ -7321,7 +7321,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     token1Address: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
     depositToken: "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
-    tags: ["stable", "correlated"],
+    tags: ["stable", "correlated", "rwa"],
     website: "https://www.brztoken.io/",
   },
   {
@@ -7336,7 +7336,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
-    tags: ["stable", "correlated"],
+    tags: ["stable", "correlated", "rwa"],
     website: "https://idrx.co/",
   },
   {
@@ -7351,7 +7351,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    tags: ["stable", "correlated"],
+    tags: ["stable", "correlated", "rwa"],
     website: "https://idrx.co/",
   },
   {
