@@ -2419,6 +2419,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "stable"],
     website: "https://mxnb.mx/en-US",
   },
+  {
+    chainId: 8453,
+    title: "USDC/deJAAA",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 2,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xa44454183676B976bB8F8F6cFCa39e217A38854e",
+    token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    token1Address: "0xAAA0008C8CF3A7Dca931adaF04336A5D808C82Cc",
+    tags: ["ecosystem", "exotic"],
+    website: "https://centrifuge.io/",
+  },
 
   // ORIGINAL STRATEGIES
   {

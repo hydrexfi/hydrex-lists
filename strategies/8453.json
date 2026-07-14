@@ -2911,6 +2911,23 @@
   },
   {
     "chainId": 8453,
+    "title": "USDC/deJAAA",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xa44454183676B976bB8F8F6cFCa39e217A38854e",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xAAA0008C8CF3A7Dca931adaF04336A5D808C82Cc",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://centrifuge.io/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
