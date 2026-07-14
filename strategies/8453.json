@@ -2639,6 +2639,23 @@
   },
   {
     "chainId": 8453,
+    "title": "USDC/wtNVDA",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x2d8CAf2D736B59b764208ad521669ae1DFcdD9d2",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.st0x.io/"
+  },
+  {
+    "chainId": 8453,
     "title": "wtSGOV/USDC",
     "type": "Manual",
     "liquidityType": "integral-manual",
@@ -2925,6 +2942,74 @@
       "exotic"
     ],
     "website": "https://centrifuge.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/wtSKHY",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x759409935F8b17B6588B1Fbd81b19F400709bcB3",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xFcD17aC4c4BF6a72c93018096F3fC09e66573Ff9",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.st0x.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "wtDRAM/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xa17dB5cf2f25213356f088a92245B9704bC4310f",
+    "token0Address": "0x1A91Df4a970EBaB1bB4AF32Eb6d10509028eE4b8",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.st0x.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "wtIAU/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x45330edec3f58AaF7004C375cAb8F640B9A870AF",
+    "token0Address": "0x1E46d7eFef64A833AFB1CD49299a7AD5B439f4d8",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.st0x.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/PLAY",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 8,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x4cDe01601C64134dE101fa4d776b76C6eeE1d697",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0x853a7c99227499DbA9dB8C3A02aA691aFDeBf841",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://playsout.com/"
   },
   {
     "chainId": 8453,
@@ -3680,6 +3765,42 @@
       "stable",
       "correlated",
       "safe"
+    ],
+    "website": "https://www.st0x.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/wtNVDA",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 5,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0x0c77C4A8D6dD42E134b31E88a3492cC6f8775406",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.st0x.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "wtNVDA/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 5,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0x61F87b111E43A8A71Cd76A2126B49cb05adF7C75",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
+    "depositToken": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
+    "tags": [
+      "ecosystem",
+      "exotic"
     ],
     "website": "https://www.st0x.io/"
   },
