@@ -2489,6 +2489,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://playsout.com/",
   },
+  {
+    chainId: 8453,
+    title: "WETH/LINK",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 3,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xFA601536e38f55b03d569eDdC59B13bA6d6d7693",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196",
+    tags: ["ecosystem", "exotic"],
+    website: "https://chain.link/",
+  },
 
   // ORIGINAL STRATEGIES
   {
