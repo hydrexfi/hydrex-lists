@@ -3052,6 +3052,23 @@
   },
   {
     "chainId": 8453,
+    "title": "wARS/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 3,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x41484C58dD94235985D65379028181D733B34B9e",
+    "token0Address": "0x0DC4F92879B7670e5f4e4e6e3c801D229129D90D",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "stable",
+      "rwa"
+    ],
+    "website": "https://www.ripio.com/en"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
