@@ -2503,6 +2503,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://chain.link/",
   },
+  {
+    chainId: 8453,
+    title: "wARS/USDC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 3,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x41484C58dD94235985D65379028181D733B34B9e",
+    token0Address: "0x0DC4F92879B7670e5f4e4e6e3c801D229129D90D",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["stable", "rwa"],
+    website: "https://www.ripio.com/en",
+  },
 
   // ORIGINAL STRATEGIES
   {
