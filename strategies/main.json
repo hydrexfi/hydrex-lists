@@ -555,7 +555,8 @@
     "token1Address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.brztoken.io/"
   },
@@ -657,7 +658,8 @@
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "stable",
-      "correlated"
+      "correlated",
+      "rwa"
     ],
     "website": "https://idrx.co/"
   },
@@ -1644,7 +1646,8 @@
     "token1Address": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://www.brztoken.io/"
   },
@@ -1661,7 +1664,8 @@
     "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://idrx.co/"
   },
@@ -1678,7 +1682,8 @@
     "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://www.tokenisedgbp.com/"
   },
@@ -1831,9 +1836,10 @@
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -1882,7 +1888,8 @@
     "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://www.krwq.cash/"
   },
@@ -1916,9 +1923,10 @@
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -1950,9 +1958,10 @@
     "token1Address": "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -1967,7 +1976,8 @@
     "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://paytrie.com/cadc"
   },
@@ -2327,9 +2337,10 @@
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -2361,9 +2372,10 @@
     "token1Address": "0x9c5C365e764829876243d0b289733B9D2b729685",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://app.centrifuge.io/"
+    "website": "https://centrifuge.io/"
   },
   {
     "chainId": 8453,
@@ -2639,6 +2651,24 @@
   },
   {
     "chainId": 8453,
+    "title": "USDC/wtNVDA",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x2d8CAf2D736B59b764208ad521669ae1DFcdD9d2",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/"
+  },
+  {
+    "chainId": 8453,
     "title": "wtSGOV/USDC",
     "type": "Manual",
     "liquidityType": "integral-manual",
@@ -2651,9 +2681,10 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -2770,9 +2801,10 @@
     "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -2837,7 +2869,8 @@
     "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://forteaud.com/"
   },
@@ -2854,7 +2887,8 @@
     "token1Address": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://tetradg.com/cadd-stablecoin/"
   },
@@ -2905,9 +2939,116 @@
     "token1Address": "0xF197FFC28c23E0309B5559e7a166f2c6164C80aA",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://mxnb.mx/en-US"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/deJAAA",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xa44454183676B976bB8F8F6cFCa39e217A38854e",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xAAA0008C8CF3A7Dca931adaF04336A5D808C82Cc",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://centrifuge.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/wtSKHY",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x759409935F8b17B6588B1Fbd81b19F400709bcB3",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xFcD17aC4c4BF6a72c93018096F3fC09e66573Ff9",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "wtDRAM/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xa17dB5cf2f25213356f088a92245B9704bC4310f",
+    "token0Address": "0x1A91Df4a970EBaB1bB4AF32Eb6d10509028eE4b8",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "wtIAU/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 2,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x45330edec3f58AaF7004C375cAb8F640B9A870AF",
+    "token0Address": "0x1E46d7eFef64A833AFB1CD49299a7AD5B439f4d8",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/PLAY",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 8,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x4cDe01601C64134dE101fa4d776b76C6eeE1d697",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0x853a7c99227499DbA9dB8C3A02aA691aFDeBf841",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://playsout.com/"
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/LINK",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 3,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xFA601536e38f55b03d569eDdC59B13bA6d6d7693",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://chain.link/"
   },
   {
     "chainId": 8453,
@@ -3049,7 +3190,8 @@
     "depositToken": "0xF197FFC28c23E0309B5559e7a166f2c6164C80aA",
     "tags": [
       "bluechip",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "displayTags": [
       {
@@ -3282,7 +3424,8 @@
     "depositToken": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://tetradg.com/cadd-stablecoin/"
   },
@@ -3300,7 +3443,8 @@
     "depositToken": "0x16F93eBC5320C89EfC8701577efe49d14A276a06",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://tetradg.com/cadd-stablecoin/"
   },
@@ -3318,7 +3462,8 @@
     "depositToken": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://forteaud.com/"
   },
@@ -3336,7 +3481,8 @@
     "depositToken": "0xd2a530170D71a9Cfe1651Fb468E2B98F7Ed7456b",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://forteaud.com/"
   },
@@ -3424,9 +3570,10 @@
     "depositToken": "0x19F89aaEf8a93f38A974beca9776f09aB844887F",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -3442,9 +3589,10 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -3643,9 +3791,10 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -3662,9 +3811,48 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/wtNVDA",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 5,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0x0c77C4A8D6dD42E134b31E88a3492cC6f8775406",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
+    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/"
+  },
+  {
+    "chainId": 8453,
+    "title": "wtNVDA/USDC",
+    "type": "Single Sided",
+    "liquidityType": "integral",
+    "strategist": "Ichi",
+    "riskLevel": 5,
+    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
+    "address": "0x61F87b111E43A8A71Cd76A2126B49cb05adF7C75",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
+    "depositToken": "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -4058,9 +4246,10 @@
     "depositToken": "0x9c5C365e764829876243d0b289733B9D2b729685",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://app.centrifuge.io/"
+    "website": "https://centrifuge.io/"
   },
   {
     "chainId": 8453,
@@ -4076,9 +4265,10 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://app.centrifuge.io/"
+    "website": "https://centrifuge.io/"
   },
   {
     "chainId": 8453,
@@ -4166,9 +4356,10 @@
     "depositToken": "0x823FF7Bbde2869aAe73A6CD53e7f614442836757",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -4184,9 +4375,10 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -4834,7 +5026,8 @@
     "depositToken": "0x043eB4B75d0805c43D7C834902E335621983Cf03",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://paytrie.com/cadc"
   },
@@ -4852,7 +5045,8 @@
     "depositToken": "0xe5020A6d073a794B6E7f05678707dE47986Fb0b6",
     "tags": [
       "ecosystem",
-      "stable"
+      "stable",
+      "rwa"
     ],
     "website": "https://paytrie.com/cadc"
   },
@@ -4870,9 +5064,10 @@
     "depositToken": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -4888,9 +5083,10 @@
     "depositToken": "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -4942,9 +5138,10 @@
     "depositToken": "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -4960,9 +5157,10 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -5069,7 +5267,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.krwq.cash/"
   },
@@ -5088,7 +5287,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.krwq.cash/"
   },
@@ -5160,9 +5360,10 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -5178,9 +5379,10 @@
     "depositToken": "0x5cDa0E1CA4ce2af96315f7F8963C85399c172204",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
-    "website": "https://www.st0x.io/strategies"
+    "website": "https://www.st0x.io/"
   },
   {
     "chainId": 8453,
@@ -5540,7 +5742,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://idrx.co/"
   },
@@ -5559,7 +5762,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://idrx.co/"
   },
@@ -5578,7 +5782,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.tokenisedgbp.com/"
   },
@@ -5597,7 +5802,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.tokenisedgbp.com/"
   },
@@ -5616,7 +5822,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.brztoken.io/"
   },
@@ -5635,7 +5842,8 @@
     "tags": [
       "stable",
       "correlated",
-      "safe"
+      "safe",
+      "rwa"
     ],
     "website": "https://www.brztoken.io/"
   },
@@ -6972,7 +7180,8 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "ecosystem",
-      "exotic"
+      "exotic",
+      "rwa"
     ],
     "website": "https://www.brztoken.io/"
   },
@@ -8527,7 +8736,8 @@
     "depositToken": "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4",
     "tags": [
       "stable",
-      "correlated"
+      "correlated",
+      "rwa"
     ],
     "website": "https://www.brztoken.io/"
   },
@@ -8545,7 +8755,8 @@
     "depositToken": "0x18Bc5bcC660cf2B9cE3cd51a404aFe1a0cBD3C22",
     "tags": [
       "stable",
-      "correlated"
+      "correlated",
+      "rwa"
     ],
     "website": "https://idrx.co/"
   },
@@ -8563,7 +8774,8 @@
     "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     "tags": [
       "stable",
-      "correlated"
+      "correlated",
+      "rwa"
     ],
     "website": "https://idrx.co/"
   },

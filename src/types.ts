@@ -18,7 +18,8 @@ export type StrategyTag =
   | "safe"
   | "standard"
   | "exotic"
-  | "zora-creator";
+  | "zora-creator"
+  | "rwa";
 
 export const ETH_NATIVE_ADDRESS = "0x0000000000000000000000000000000000000000";
 
