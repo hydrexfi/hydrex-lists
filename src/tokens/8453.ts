@@ -3578,6 +3578,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x0DC4F92879B7670e5f4e4e6e3c801D229129D90D",
+    name: "Peso Argentino",
+    symbol: "wARS",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WARS.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x8B12bf09B7c6d73735C6a824F1D74a8B5c1AA5ca",
     name: "WAV.3 AGENTIC MUSIC DISCOVERY by Virtuals",
     symbol: "WAV3",
