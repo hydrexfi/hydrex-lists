@@ -5,6 +5,7 @@ export type LiquidityType =
   | "classic-stable"
   | "morpho"
   | "integral-manual"
+  | "rwa-integral"
   | "euler";
 export type StrategyType =
   | "Narrow"

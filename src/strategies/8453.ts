@@ -17,7 +17,7 @@ export const strategies: Strategy[] = [
     chainId: 8453,
     title: "wtSGOV/USDC",
     type: "Algebra RWA",
-    liquidityType: "integral",
+    liquidityType: "rwa-integral",
     strategist: "Algebra",
     riskLevel: 6,
     riskDescription: ALGEBRA_RWA_RISK_STRING,
