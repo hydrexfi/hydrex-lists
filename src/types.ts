@@ -5,9 +5,18 @@ export type LiquidityType =
   | "classic-stable"
   | "morpho"
   | "integral-manual"
+  | "rwa-integral"
   | "euler";
-export type StrategyType = "Narrow" | "Correlated" | "Long-Short" | "Single Sided" | "Classic" | "Lending" | "Manual";
-export type Strategist = "Ichi" | "Gamma" | "Hydrex" | "Morpho" | "Euler";
+export type StrategyType =
+  | "Narrow"
+  | "Correlated"
+  | "Long-Short"
+  | "Single Sided"
+  | "Classic"
+  | "Lending"
+  | "Manual"
+  | "Algebra RWA";
+export type Strategist = "Ichi" | "Gamma" | "Hydrex" | "Morpho" | "Euler" | "Algebra";
 
 export type StrategyTag =
   | "stable"
@@ -111,6 +120,9 @@ export const MODERATE_LOW_RISK_STRING =
 
 export const MODERATE_HIGH_RISK_STRING =
   "This strategy is moderately-high risk, due to its strategy optimization and the potentially significant price deviations between the non-correlated assets. Expect some impermanent loss.";
+
+export const ALGEBRA_RWA_RISK_STRING =
+  "This strategy behaves differently due to automated rebalancing of liquidity pegged around a price oracle for the deposit assets.";
 
 export interface Banner {
   mobileBannerImage: string;
