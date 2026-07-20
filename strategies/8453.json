@@ -1,22 +1,6 @@
 [
   {
     "chainId": 8453,
-    "title": "wtSGOV/USDC",
-    "type": "Algebra RWA",
-    "liquidityType": "rwa-integral",
-    "strategist": "Algebra",
-    "riskLevel": 6,
-    "riskDescription": "This strategy behaves differently due to automated rebalancing of liquidity pegged around a price oracle for the deposit assets.",
-    "address": "0xBCdC5B29E2Cb9b731BcBd3044A703d37512a6aEB",
-    "token0Address": "0x78c31580c97101694C70022c83D570150c11e935",
-    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    "tags": [
-      "rwa",
-      "standard"
-    ]
-  },
-  {
-    "chainId": 8453,
     "title": "HYDX/USDC",
     "type": "Manual",
     "liquidityType": "integral-manual",
