@@ -8,9 +8,25 @@ import {
   CLASSIC_VOLATILE_RISK_STRING,
   Strategy,
   LENDING_RISK_STRING,
+  ALGEBRA_RWA_RISK_STRING,
 } from "../types";
 
 export const strategies: Strategy[] = [
+  // ALGEBRA RWA STRATEGIES
+  {
+    chainId: 8453,
+    title: "wtSGOV/USDC",
+    type: "Algebra RWA",
+    liquidityType: "rwa-integral",
+    strategist: "Algebra",
+    riskLevel: 6,
+    riskDescription: ALGEBRA_RWA_RISK_STRING,
+    address: "0xBCdC5B29E2Cb9b731BcBd3044A703d37512a6aEB",
+    token0Address: "0x78c31580c97101694C70022c83D570150c11e935",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["rwa", "standard"],
+  },
+
   // MANUAL STRATEGIES
   {
     chainId: 8453,
