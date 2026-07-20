@@ -2517,6 +2517,20 @@ export const strategies: Strategy[] = [
     tags: ["stable", "rwa"],
     website: "https://www.ripio.com/en",
   },
+  {
+    chainId: 8453,
+    title: "USDC/POD",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 8,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x61C73cF91cd6F6D8E39E82a1e1aeF9C722E66DaA",
+    token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    token1Address: "0xeD664536023d8E4b1640C394777D34aBAFF1dF8F",
+    tags: ["ecosystem", "exotic"],
+    website: "https://dphn.ai/",
+  },
 
   // ORIGINAL STRATEGIES
   {
