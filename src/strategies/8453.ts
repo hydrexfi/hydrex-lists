@@ -2531,6 +2531,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://dphn.ai/",
   },
+  {
+    chainId: 8453,
+    title: "syrupUSDC/USDC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 2,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x4B92508D85991b57864cD2dAA312dA143A2CeE4e",
+    token0Address: "0x660975730059246A68521a3e2FBD4740173100f5",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["ecosystem", "stable", "correlated"],
+    website: "https://maple.finance/",
+  },
 
   // ORIGINAL STRATEGIES
   {
