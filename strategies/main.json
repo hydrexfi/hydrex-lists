@@ -3120,6 +3120,23 @@
   },
   {
     "chainId": 8453,
+    "title": "LFI/WETH",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 8,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x24c0F6B57b4A6dAF685986F7E371B7628fc64FD6",
+    "token0Address": "0x3722264aB15a1dfCe5a5af89e6547F7949A8ABA3",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://lienfi.com/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",

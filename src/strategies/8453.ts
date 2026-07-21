@@ -2561,6 +2561,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "stable", "correlated"],
     website: "https://maple.finance/",
   },
+  {
+    chainId: 8453,
+    title: "LFI/WETH",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 8,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x24c0F6B57b4A6dAF685986F7E371B7628fc64FD6",
+    token0Address: "0x3722264aB15a1dfCe5a5af89e6547F7949A8ABA3",
+    token1Address: "0x4200000000000000000000000000000000000006",
+    tags: ["ecosystem", "exotic"],
+    website: "https://lienfi.com/",
+  },
 
   // ORIGINAL STRATEGIES
   {
