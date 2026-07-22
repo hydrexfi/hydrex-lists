@@ -81,6 +81,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0x07E61D8a4e197dfC269e90D7ECe1dF0D26702bA3",
+      "name": "Basemate",
+      "symbol": "BASEMATE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BASEMATE.png",
+      "autoSlippage": 3
+    },
+    {
+      "chainId": 8453,
       "address": "0x16F93eBC5320C89EfC8701577efe49d14A276a06",
       "name": "CAD Digital Inc",
       "symbol": "CADD",
@@ -114,7 +123,7 @@
       "symbol": "40A HYDX",
       "decimals": 12,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/40ACRES1.png",
-      "autoSlippage": 5
+      "autoSlippage": 2
     },
     {
       "chainId": 8453,
