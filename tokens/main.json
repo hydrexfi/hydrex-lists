@@ -1496,6 +1496,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0x4d4ed9163F0732CD0F4C9412417E98103abcDBA3",
+      "name": "Inchaintel",
+      "symbol": "ICI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ICI.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0xE0Cd4cAcDdcBF4f36e845407CE53E87717b6601d",
       "name": "Impossible Cloud Network Token",
       "symbol": "ICNT",
