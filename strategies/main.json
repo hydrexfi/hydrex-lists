@@ -3138,6 +3138,23 @@
   },
   {
     "chainId": 8453,
+    "title": "BASEMATE/WETH",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 9,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xC64b349D38653354Ae36dc199288bB14c5343257",
+    "token0Address": "0x07E61D8a4e197dfC269e90D7ECe1dF0D26702bA3",
+    "token1Address": "0x4200000000000000000000000000000000000006",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://basemate.app/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
