@@ -83,6 +83,7 @@ export interface Strategy {
   liquidityType: LiquidityType;
   strategist: Strategist;
   address: string;
+  vaultGuardAddress?: string;
   riskLevel: number;
   riskDescription: string;
   depositToken?: string;
