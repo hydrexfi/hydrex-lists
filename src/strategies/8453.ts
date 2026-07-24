@@ -2576,6 +2576,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://lienfi.com/",
   },
+  {
+    chainId: 8453,
+    title: "BASEMATE/WETH",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 9,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xC64b349D38653354Ae36dc199288bB14c5343257",
+    token0Address: "0x07E61D8a4e197dfC269e90D7ECe1dF0D26702bA3",
+    token1Address: "0x4200000000000000000000000000000000000006",
+    tags: ["ecosystem", "exotic"],
+    website: "https://basemate.app/",
+  },
 
   // ORIGINAL STRATEGIES
   {
