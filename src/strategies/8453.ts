@@ -2590,6 +2590,19 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://basemate.app/",
   },
+  {
+    chainId: 8453,
+    title: "WETH/ICI",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 10,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x7B83A028fD7554F32aBb3920aD7DECD15556B22F",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0x4d4ed9163F0732CD0F4C9412417E98103abcDBA3",
+    tags: ["ecosystem", "exotic"],
+  },
 
   // ORIGINAL STRATEGIES
   {
