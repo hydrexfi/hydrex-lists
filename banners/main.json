@@ -1,10 +1,10 @@
 [
   {
-    "title": "31 Days of RWAs",
-    "description": "Live in July",
-    "mobileBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/rwas-mobile.png",
-    "desktopBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/rwas-desktop.png",
-    "internalUrl": "/pools",
+    "title": "MXNB",
+    "description": "Morpho and Pool Now Live",
+    "mobileBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/mxnb-mobile.png",
+    "desktopBannerImage": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/mxnb-desktop.png",
+    "internalUrl": "/pools?search=MXNB",
     "isLive": true,
     "placementNumber": 1
   },
