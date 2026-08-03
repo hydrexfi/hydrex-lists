@@ -62,6 +62,24 @@
     },
     {
       "chainId": 8453,
+      "address": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+      "name": "Apple Inc.",
+      "symbol": "AAPL",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AAPL.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb200000000000000000000d9192b6B456483C2E8",
+      "name": "Amazon.com Inc.",
+      "symbol": "AMZN",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AMZN.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0xd2a530170D71a9Cfe1651Fb468E2B98F7Ed7456b",
       "name": "Forte AUD",
       "symbol": "AUDF",
@@ -97,6 +115,24 @@
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CADD.png",
       "type": "stablecoin",
       "autoSlippage": 1
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb200000000000000000000c85a31389D71F3ecfb",
+      "name": "Coinbase Global Inc.",
+      "symbol": "COIN",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/COIN.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xB20000000000000000000019f6E7C675b73C2e4D",
+      "name": "Circle Internet Group Inc.",
+      "symbol": "CRCL",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CRCL.png",
+      "autoSlippage": 5
     },
     {
       "chainId": 8453,
@@ -1405,6 +1441,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0xb2000000000000000000002D0BA3164cc74f58B7",
+      "name": "Alphabet Inc.",
+      "symbol": "GOOGL",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GOOGL.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0xc478eA5d6340eF8Ef04088C3a649DDEAc764B545",
       "name": "Hyperbet",
       "symbol": "HBET",
@@ -1529,6 +1574,15 @@
       "decimals": 2,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/IDRX.png",
       "autoSlippage": 2.5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xB2000000000000000000004AFF16039bA04bdFBc",
+      "name": "Intel Corporation",
+      "symbol": "INTC",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/INTC.png",
+      "autoSlippage": 5
     },
     {
       "chainId": 8453,
@@ -1895,6 +1949,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0xb2000000000000000000008bC8786B856E61707C",
+      "name": "Meta Platforms Inc.",
+      "symbol": "META",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/META.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0xBB2DB41e62abF596b7f8Ca7bD4733a7b357f5Ab9",
       "name": "metacademax",
       "symbol": "metacademax",
@@ -2067,6 +2130,24 @@
     },
     {
       "chainId": 8453,
+      "address": "0xB200000000000000000000Ab99cFa739E253872B",
+      "name": "Microsoft Corporation",
+      "symbol": "MSFT",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MSFT.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb2000000000000000000004884b426556b92883d",
+      "name": "Strategy Inc.",
+      "symbol": "MSTR",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MSTR.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0x526728DBc96689597F85ae4cd716d4f7fCcBAE9d",
       "name": "Metronome Synth USD",
       "symbol": "msUSD",
@@ -2145,6 +2226,15 @@
       "symbol": "nTZS",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NTZS.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb20000000000000000000078ee7ce2fE4908108C",
+      "name": "NVIDIA Corporation",
+      "symbol": "NVDA",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NVDA.png",
       "autoSlippage": 5
     },
     {
@@ -2864,6 +2954,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0xb200000000000000000000397293Cb8cda9a10c5",
+      "name": "Sandisk Corporation",
+      "symbol": "SNDK",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SNDK.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0x22e6966B799c4D5B13BE962E1D117b56327FDa66",
       "name": "Synthetix Network Token",
       "symbol": "SNX",
@@ -2923,6 +3022,15 @@
       "symbol": "SOSO",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SOSO.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb2000000000000000000007b9fcbd005511aCBd5",
+      "name": "Space Exploration Technologies Corp.",
+      "symbol": "SPCX",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPCX.png",
       "autoSlippage": 5
     },
     {
@@ -3244,6 +3352,15 @@
       "symbol": "TRYB",
       "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TRYB.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb2000000000000000000001e800a7f5189430cD0",
+      "name": "Tesla Inc.",
+      "symbol": "TSLA",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TSLA.png",
       "autoSlippage": 5
     },
     {

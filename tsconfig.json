@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs",
+    "module": "nodenext",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "types": ["node", "jest"],
     "outDir": "./dist",
     "rootDir": "./src"
