@@ -2,13 +2,22 @@ import { Banner } from "../types";
 
 export const Banners: Banner[] = [
     {
+        title: "Hydrex Perps",
+        description: "Trade Perps on Hydrex",
+        mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/perps-mobile.png",
+        desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/perps-desktop.png",
+        externalUrl: "https://perps.hydrex.fi",
+        isLive: true,
+        placementNumber: 1,
+    },
+    {
         title: "MXNB",
         description: "Morpho and Pool Now Live",
         mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/mxnb-mobile.png",
         desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/mxnb-desktop.png",
         internalUrl: "/pools?search=MXNB",
         isLive: true,
-        placementNumber: 1,
+        placementNumber: 2,
     },
     {
         title: "Solana on Base",
@@ -17,17 +26,17 @@ export const Banners: Banner[] = [
         desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/sol-desktop.png",
         internalUrl: "/swap?tab=solana",
         isLive: true,
-        placementNumber: 2,
-    },
-    {
-        title: "Bankr Skills Live",
-        description: "Hydrex Skills Live on Bankr",
-        mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/bankr-mobile.png",
-        desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/bankr-desktop.png",
-        internalUrl: "/pools",
-        isLive: true,
         placementNumber: 3,
     },
+    // {
+    //     title: "Bankr Skills Live",
+    //     description: "Hydrex Skills Live on Bankr",
+    //     mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/bankr-mobile.png",
+    //     desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/bankr-desktop.png",
+    //     internalUrl: "/pools",
+    //     isLive: true,
+    //     placementNumber: 3,
+    // },
     // {
     //     title: "Hydrex Academy",
     //     description: "Learn DeFi with the Hydrex Academy.",
