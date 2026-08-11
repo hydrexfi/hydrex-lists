@@ -2873,6 +2873,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0x216Ef90E789A8c97b166901Ec1d11d6612C8cf8C",
+      "name": "SEED Token",
+      "symbol": "SEED",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SEED.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0x1185cB5122Edad199BdBC0cbd7a0457E448f23c7",
       "name": "sekoia by Virtuals",
       "symbol": "SEKOIA",
