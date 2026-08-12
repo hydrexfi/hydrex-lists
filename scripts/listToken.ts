@@ -1,6 +1,6 @@
 import { createPublicClient, http, getAddress, erc20Abi } from "viem";
 import { base } from "viem/chains";
-import { readFileSync, writeFileSync } from "fs";
+import { readFileSync, writeFileSync, existsSync } from "fs";
 import { resolve } from "path";
 import { Token } from "../src/types";
 import sharp from "sharp";
@@ -89,6 +89,129 @@ interface GeckoTerminalResponse {
   included: GeckoTerminalToken[];
 }
 
+interface ResolvedToken {
+  address: `0x${string}`;
+  name: string;
+  symbol: string;
+  decimals: number;
+  logoUrl?: string;
+}
+
+const MAX_RETRIES = 8;
+const RETRY_DELAY_BASE_MS = 3000;
+const BATCH_DELAY_MS = 1500;
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function isRateLimitError(error: unknown): boolean {
+  const message = (error instanceof Error ? error.message : String(error)).toLowerCase();
+  return (
+    message.includes("429") ||
+    message.includes("503") ||
+    message.includes("rate limit") ||
+    message.includes("too many requests") ||
+    message.includes("over rate limit") ||
+    message.includes("rate exceeded") ||
+    message.includes("throttled") ||
+    message.includes("request limit") ||
+    message.includes("exceeded the") // common RPC phrasing: "exceeded the compute units"
+  );
+}
+
+function getRetryAfterMs(response: Response, attempt: number): number {
+  const retryAfter = response.headers.get("retry-after");
+  if (retryAfter) {
+    const asSeconds = Number(retryAfter);
+    if (!Number.isNaN(asSeconds)) {
+      return asSeconds * 1000;
+    }
+    const asDate = Date.parse(retryAfter);
+    if (!Number.isNaN(asDate)) {
+      return Math.max(0, asDate - Date.now());
+    }
+  }
+  return RETRY_DELAY_BASE_MS * Math.pow(2, attempt);
+}
+
+async function withRetry<T>(
+  label: string,
+  fn: () => Promise<T>,
+  options: { retryNonRateLimit?: boolean } = {}
+): Promise<T> {
+  const { retryNonRateLimit = false } = options;
+  let lastError: unknown;
+
+  for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
+    try {
+      return await fn();
+    } catch (error) {
+      lastError = error;
+      const rateLimited = isRateLimitError(error);
+      const shouldRetry = rateLimited || retryNonRateLimit;
+
+      if (!shouldRetry || attempt === MAX_RETRIES - 1) {
+        break;
+      }
+
+      const baseDelay = rateLimited ? RETRY_DELAY_BASE_MS * 2 : RETRY_DELAY_BASE_MS;
+      const delay = baseDelay * Math.pow(2, attempt);
+      console.warn(
+        `  ${rateLimited ? "Rate limited" : "Transient error"} on ${label}, retrying in ${Math.round(delay / 1000)}s... (${attempt + 1}/${MAX_RETRIES})`
+      );
+      await sleep(delay);
+    }
+  }
+
+  throw lastError instanceof Error ? lastError : new Error(String(lastError));
+}
+
+async function fetchWithRetry(url: string, label: string): Promise<Response> {
+  let lastError: unknown;
+
+  for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
+    try {
+      const response = await fetch(url);
+
+      if (response.status === 429 || response.status === 503) {
+        lastError = new Error(`Rate limit (${response.status}) from ${label}`);
+        if (attempt === MAX_RETRIES - 1) {
+          break;
+        }
+
+        const headerDelay = getRetryAfterMs(response, attempt);
+        const exponentialDelay = RETRY_DELAY_BASE_MS * 2 * Math.pow(2, attempt);
+        const delay = Math.max(headerDelay, exponentialDelay);
+        console.warn(
+          `  Rate limited on ${label}, retrying in ${Math.round(delay / 1000)}s... (${attempt + 1}/${MAX_RETRIES})`
+        );
+        await sleep(delay);
+        continue;
+      }
+
+      if (!response.ok) {
+        throw new Error(`${label} error: ${response.status} ${response.statusText}`);
+      }
+
+      return response;
+    } catch (error) {
+      lastError = error;
+      if (!isRateLimitError(error) || attempt === MAX_RETRIES - 1) {
+        throw error instanceof Error ? error : new Error(String(error));
+      }
+
+      const delay = RETRY_DELAY_BASE_MS * 2 * Math.pow(2, attempt);
+      console.warn(
+        `  Rate limited on ${label}, retrying in ${Math.round(delay / 1000)}s... (${attempt + 1}/${MAX_RETRIES})`
+      );
+      await sleep(delay);
+    }
+  }
+
+  throw lastError instanceof Error ? lastError : new Error(String(lastError));
+}
+
 async function downloadTokenLogo(logoUrl: string, symbol: string): Promise<void> {
   // Modify URL parameters to get higher quality image
   const url = new URL(logoUrl);
@@ -96,11 +219,7 @@ async function downloadTokenLogo(logoUrl: string, symbol: string): Promise<void>
   url.searchParams.set('height', '256');
   url.searchParams.set('quality', '100');
   
-  const response = await fetch(url.toString());
-  
-  if (!response.ok) {
-    throw new Error(`Failed to download logo: ${response.status} ${response.statusText}`);
-  }
+  const response = await fetchWithRetry(url.toString(), `logo download for ${symbol}`);
 
   const arrayBuffer = await response.arrayBuffer();
   const buffer = Buffer.from(arrayBuffer);
@@ -129,12 +248,11 @@ async function downloadTokenLogo(logoUrl: string, symbol: string): Promise<void>
   console.log(`Downloaded and processed logo to ${symbol.toUpperCase()}.png (circular with 128px radius)`);
 }
 
-async function fetchFromDexScreener(pairAddress: string): Promise<{ address: string; name: string; symbol: string; decimals: number; logoUrl?: string }> {
-  const response = await fetch(`https://api.dexscreener.com/latest/dex/pairs/base/${pairAddress}`);
-  
-  if (!response.ok) {
-    throw new Error(`DexScreener API error: ${response.status} ${response.statusText}`);
-  }
+async function fetchFromDexScreener(pairAddress: string): Promise<ResolvedToken> {
+  const response = await fetchWithRetry(
+    `https://api.dexscreener.com/latest/dex/pairs/base/${pairAddress}`,
+    "DexScreener"
+  );
 
   const data: DexScreenerResponse = await response.json();
   
@@ -148,15 +266,17 @@ async function fetchFromDexScreener(pairAddress: string): Promise<{ address: str
   // We still need to fetch decimals from the blockchain
   const client = createPublicClient({
     chain: base,
-    transport: http(),
+    transport: http(undefined, { retryCount: 0 }),
   });
 
   const tokenAddress = getAddress(baseToken.address);
-  const decimals = await client.readContract({
-    address: tokenAddress,
-    abi: erc20Abi,
-    functionName: "decimals",
-  });
+  const decimals = await withRetry("RPC decimals (DexScreener)", () =>
+    client.readContract({
+      address: tokenAddress,
+      abi: erc20Abi,
+      functionName: "decimals",
+    })
+  );
 
   // Try to get logo URL from the pair info first
   let logoUrl: string | undefined = pair.info?.imageUrl;
@@ -164,16 +284,17 @@ async function fetchFromDexScreener(pairAddress: string): Promise<{ address: str
   // If not found in pair info, check token profile API
   if (!logoUrl) {
     try {
-      const profileResponse = await fetch(`https://api.dexscreener.com/token-profiles/latest/v1`);
-      if (profileResponse.ok) {
-        const profiles = await profileResponse.json();
-        const profile = profiles.find((p: any) => 
-          p.tokenAddress?.toLowerCase() === tokenAddress.toLowerCase() && 
-          p.chainId === 'base'
-        );
-        if (profile?.icon) {
-          logoUrl = profile.icon;
-        }
+      const profileResponse = await fetchWithRetry(
+        `https://api.dexscreener.com/token-profiles/latest/v1`,
+        "DexScreener token profiles"
+      );
+      const profiles = await profileResponse.json();
+      const profile = profiles.find((p: any) => 
+        p.tokenAddress?.toLowerCase() === tokenAddress.toLowerCase() && 
+        p.chainId === 'base'
+      );
+      if (profile?.icon) {
+        logoUrl = profile.icon;
       }
     } catch (e) {
       // Silently fail if profile API doesn't work
@@ -190,12 +311,11 @@ async function fetchFromDexScreener(pairAddress: string): Promise<{ address: str
   };
 }
 
-async function fetchFromGeckoTerminal(poolAddress: string): Promise<{ address: string; name: string; symbol: string; decimals: number; logoUrl?: string }> {
-  const response = await fetch(`https://api.geckoterminal.com/api/v2/networks/base/pools/${poolAddress}?include=base_token`);
-  
-  if (!response.ok) {
-    throw new Error(`GeckoTerminal API error: ${response.status} ${response.statusText}`);
-  }
+async function fetchFromGeckoTerminal(poolAddress: string): Promise<ResolvedToken> {
+  const response = await fetchWithRetry(
+    `https://api.geckoterminal.com/api/v2/networks/base/pools/${poolAddress}?include=base_token`,
+    "GeckoTerminal"
+  );
 
   const data: GeckoTerminalResponse = await response.json();
   
@@ -225,19 +345,7 @@ async function fetchFromGeckoTerminal(poolAddress: string): Promise<{ address: s
   };
 }
 
-async function main() {
-  const input = process.argv[2];
-  if (!input) {
-    console.error("Please provide a token address, DexScreener URL, or GeckoTerminal URL");
-    process.exit(1);
-  }
-
-  let checksummedAddress: `0x${string}`;
-  let tokenName: string;
-  let tokenSymbol: string;
-  let tokenDecimals: number;
-  let logoUrl: string | undefined;
-
+async function resolveTokenInput(input: string): Promise<ResolvedToken> {
   // Check if input is a DexScreener URL
   // Match any valid hex string (flexible for different pair/pool ID formats)
   const dexScreenerMatch = input.match(/dexscreener\.com\/base\/(0x[a-fA-F0-9]+)/);
@@ -246,138 +354,215 @@ async function main() {
   const geckoTerminalMatch = input.match(/geckoterminal\.com\/base\/pools\/(0x[a-fA-F0-9]+)/);
   
   if (dexScreenerMatch) {
-    // Extract pair address from URL and fetch from DexScreener API
     const pairAddress = dexScreenerMatch[1];
     console.log(`Fetching token data from DexScreener for pair: ${pairAddress}`);
-    
-    try {
-      const tokenData = await fetchFromDexScreener(pairAddress);
-      checksummedAddress = tokenData.address as `0x${string}`;
-      tokenName = tokenData.name;
-      tokenSymbol = tokenData.symbol;
-      tokenDecimals = tokenData.decimals;
-      logoUrl = tokenData.logoUrl;
-      console.log(`Found token: ${tokenSymbol} (${tokenName})`);
-    } catch (e) {
-      console.error("Error fetching from DexScreener:", e instanceof Error ? e.message : e);
-      process.exit(1);
-    }
-  } else if (geckoTerminalMatch) {
-    // Extract pool address from URL and fetch from GeckoTerminal API
+    const tokenData = await fetchFromDexScreener(pairAddress);
+    console.log(`Found token: ${tokenData.symbol} (${tokenData.name})`);
+    return tokenData;
+  }
+
+  if (geckoTerminalMatch) {
     const poolAddress = geckoTerminalMatch[1];
     console.log(`Fetching token data from GeckoTerminal for pool: ${poolAddress}`);
-    
-    try {
-      const tokenData = await fetchFromGeckoTerminal(poolAddress);
-      checksummedAddress = tokenData.address as `0x${string}`;
-      tokenName = tokenData.name;
-      tokenSymbol = tokenData.symbol;
-      tokenDecimals = tokenData.decimals;
-      logoUrl = tokenData.logoUrl;
-      console.log(`Found token: ${tokenSymbol} (${tokenName})`);
-    } catch (e) {
-      console.error("Error fetching from GeckoTerminal:", e instanceof Error ? e.message : e);
-      process.exit(1);
-    }
-  } else {
-    // Treat as direct token address
-    try {
-      checksummedAddress = getAddress(input);
-    } catch (e) {
-      console.error("Invalid address or URL format");
-      process.exit(1);
-    }
+    const tokenData = await fetchFromGeckoTerminal(poolAddress);
+    console.log(`Found token: ${tokenData.symbol} (${tokenData.name})`);
+    return tokenData;
+  }
 
-    // Fetch token data from blockchain
-    const client = createPublicClient({
-      chain: base,
-      transport: http(),
-    });
+  // Treat as direct token address
+  let checksummedAddress: `0x${string}`;
+  try {
+    checksummedAddress = getAddress(input);
+  } catch (e) {
+    throw new Error("Invalid address or URL format");
+  }
 
-    const [name, symbol, decimals] = await Promise.all([
+  const client = createPublicClient({
+    chain: base,
+    transport: http(undefined, { retryCount: 0 }),
+  });
+
+  const [name, symbol, decimals] = await withRetry("RPC token metadata", () =>
+    Promise.all([
       client.readContract({ address: checksummedAddress, abi: erc20Abi, functionName: "name" }),
       client.readContract({ address: checksummedAddress, abi: erc20Abi, functionName: "symbol" }),
       client.readContract({ address: checksummedAddress, abi: erc20Abi, functionName: "decimals" }),
-    ]);
+    ])
+  );
 
-    tokenName = name as string;
-    tokenSymbol = symbol as string;
-    tokenDecimals = Number(decimals);
+  return {
+    address: checksummedAddress,
+    name: name as string,
+    symbol: symbol as string,
+    decimals: Number(decimals),
+  };
+}
+
+async function addToken(token: ResolvedToken): Promise<void> {
+  const filePath = resolve(__dirname, "../src/tokens/8453.ts");
+  const fileContent = readFileSync(filePath, "utf-8");
+
+  // Clear require cache so batch adds always see the latest file contents
+  const tokensModulePath = require.resolve("../src/tokens/8453.ts");
+  delete require.cache[tokensModulePath];
+  const { tokens } = require("../src/tokens/8453.ts");
+
+  if (tokens.find((t: Token) => t.address.toLowerCase() === token.address.toLowerCase())) {
+    throw new Error("Token already exists");
   }
 
-  try {
+  const pinnedAddresses = [
+    "0x00000e7efa313F4E11Bfff432471eD9423AC6B30", // HYDX
+    "0x4200000000000000000000000000000000000006", // WETH
+    "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913", // USDC
+    "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf", // cbBTC
+  ].map(a => a.toLowerCase());
 
-    const filePath = resolve(__dirname, "../src/tokens/8453.ts");
-    const fileContent = readFileSync(filePath, "utf-8");
+  // Find insertion point
+  const unpinned = tokens.filter((t: Token) => !pinnedAddresses.includes(t.address.toLowerCase()));
+  const nextToken = unpinned.find((t: Token) => t.symbol.toLowerCase().localeCompare(token.symbol.toLowerCase()) > 0);
 
-    // Use require to get the current tokens for sorting logic
-    const { tokens } = require("../src/tokens/8453.ts");
-
-    if (tokens.find((t: Token) => t.address.toLowerCase() === checksummedAddress.toLowerCase())) {
-      console.error("Token already exists");
-      process.exit(1);
-    }
-
-    const pinnedAddresses = [
-      "0x00000e7efa313F4E11Bfff432471eD9423AC6B30", // HYDX
-      "0x4200000000000000000000000000000000000006", // WETH
-      "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913", // USDC
-      "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf", // cbBTC
-    ].map(a => a.toLowerCase());
-
-    // Find insertion point
-    const unpinned = tokens.filter((t: Token) => !pinnedAddresses.includes(t.address.toLowerCase()));
-    const nextToken = unpinned.find((t: Token) => t.symbol.toLowerCase().localeCompare(tokenSymbol.toLowerCase()) > 0);
-
-    const newTokenStr = `  {
+  const newTokenStr = `  {
     chainId: 8453,
-    address: "${checksummedAddress}",
-    name: "${tokenName}",
-    symbol: "${tokenSymbol}",
-    decimals: ${tokenDecimals},
-    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/${tokenSymbol.toUpperCase()}.png",
+    address: "${token.address}",
+    name: "${token.name}",
+    symbol: "${token.symbol}",
+    decimals: ${token.decimals},
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/${token.symbol.toUpperCase()}.png",
     autoSlippage: 5,
   },
 `;
 
-    let newFileContent: string;
-    if (nextToken) {
-      // Find the index of the next token's address in the file to insert before it
-      const searchStr = `address: "${nextToken.address}"`;
-      const index = fileContent.indexOf(searchStr);
-      
-      // Find the start of the object containing that address (the opening '{')
-      const openBraceIndex = fileContent.lastIndexOf("{", index);
-      
-      // Find the start of the line (including indentation) by going back to the previous newline
-      const lineStartIndex = fileContent.lastIndexOf("\n", openBraceIndex - 1) + 1;
-      
-      newFileContent = fileContent.slice(0, lineStartIndex) + newTokenStr + fileContent.slice(lineStartIndex);
-    } else {
-      // Insert before the last '];'
-      const lastBracketIndex = fileContent.lastIndexOf("];");
-      newFileContent = fileContent.slice(0, lastBracketIndex) + newTokenStr + fileContent.slice(lastBracketIndex);
+  let newFileContent: string;
+  if (nextToken) {
+    // Find the index of the next token's address in the file to insert before it
+    const searchStr = `address: "${nextToken.address}"`;
+    const index = fileContent.indexOf(searchStr);
+    
+    // Find the start of the object containing that address (the opening '{')
+    const openBraceIndex = fileContent.lastIndexOf("{", index);
+    
+    // Find the start of the line (including indentation) by going back to the previous newline
+    const lineStartIndex = fileContent.lastIndexOf("\n", openBraceIndex - 1) + 1;
+    
+    newFileContent = fileContent.slice(0, lineStartIndex) + newTokenStr + fileContent.slice(lineStartIndex);
+  } else {
+    // Insert before the last '];'
+    const lastBracketIndex = fileContent.lastIndexOf("];");
+    newFileContent = fileContent.slice(0, lastBracketIndex) + newTokenStr + fileContent.slice(lastBracketIndex);
+  }
+
+  writeFileSync(filePath, newFileContent);
+  console.log(`${token.symbol} added to 8453.ts`);
+
+  // Download logo if available
+  if (token.logoUrl) {
+    try {
+      await downloadTokenLogo(token.logoUrl, token.symbol);
+    } catch (error) {
+      console.warn(`Could not download logo: ${error instanceof Error ? error.message : error}`);
+      console.warn(`Please manually add the logo to assets/tokens/${token.symbol.toUpperCase()}.png`);
     }
+  } else {
+    console.warn(`No logo URL found for ${token.symbol}`);
+    console.warn(`Please manually add the logo to assets/tokens/${token.symbol.toUpperCase()}.png`);
+  }
+}
 
-    writeFileSync(filePath, newFileContent);
-    console.log(`${tokenSymbol} added to 8453.ts`);
+function parseInputs(argv: string[]): string[] {
+  if (argv.length === 0) {
+    return [];
+  }
 
-    // Download logo if available
-    if (logoUrl) {
-      try {
-        await downloadTokenLogo(logoUrl, tokenSymbol);
-      } catch (error) {
-        console.warn(`Could not download logo: ${error instanceof Error ? error.message : error}`);
-        console.warn(`Please manually add the logo to assets/tokens/${tokenSymbol.toUpperCase()}.png`);
-      }
-    } else {
-      console.warn(`No logo URL found for ${tokenSymbol}`);
-      console.warn(`Please manually add the logo to assets/tokens/${tokenSymbol.toUpperCase()}.png`);
+  // Support: npm run add-token -- --file path/to/list.txt
+  if (argv[0] === "--file" || argv[0] === "-f") {
+    const filePath = argv[1];
+    if (!filePath) {
+      throw new Error("Please provide a file path after --file");
     }
+    const resolved = resolve(filePath);
+    if (!existsSync(resolved)) {
+      throw new Error(`File not found: ${resolved}`);
+    }
+    return readFileSync(resolved, "utf-8")
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .filter((line) => line.length > 0 && !line.startsWith("#"));
+  }
 
+  // Support comma-separated or space-separated inputs
+  return argv.flatMap((arg) => arg.split(",").map((part) => part.trim()).filter(Boolean));
+}
+
+function printUsage(): void {
+  console.error(`Usage:
+  npm run add-token -- <address|url> [address|url...]
+  npm run add-token -- <address1>,<address2>,...
+  npm run add-token -- --file path/to/tokens.txt
+
+Each input can be a token address, DexScreener URL, or GeckoTerminal URL.
+File format: one address/URL per line (# comments allowed).`);
+}
+
+async function main() {
+  let inputs: string[];
+  try {
+    inputs = parseInputs(process.argv.slice(2));
   } catch (error) {
-    console.error("Error:", error);
+    console.error(error instanceof Error ? error.message : error);
+    printUsage();
     process.exit(1);
+  }
+
+  if (inputs.length === 0) {
+    printUsage();
+    process.exit(1);
+  }
+
+  const isBatch = inputs.length > 1;
+  if (isBatch) {
+    console.log(`Adding ${inputs.length} tokens...\n`);
+  }
+
+  const successes: string[] = [];
+  const failures: Array<{ input: string; error: string }> = [];
+
+  for (let i = 0; i < inputs.length; i++) {
+    const input = inputs[i];
+    if (isBatch) {
+      console.log(`[${i + 1}/${inputs.length}] ${input}`);
+    }
+
+    try {
+      // Outer retry covers any rate-limit escape from nested calls
+      const token = await withRetry(`resolve ${input}`, () => resolveTokenInput(input));
+      await addToken(token);
+      successes.push(token.symbol);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      // Already-present tokens are not retried; keep going in batch mode
+      console.error(`Error: ${message}`);
+      failures.push({ input, error: message });
+      if (!isBatch) {
+        process.exit(1);
+      }
+    }
+
+    if (isBatch && i < inputs.length - 1) {
+      console.log(`Waiting ${BATCH_DELAY_MS / 1000}s before next token...\n`);
+      await sleep(BATCH_DELAY_MS);
+    }
+  }
+
+  if (isBatch) {
+    console.log(`\nDone. Added ${successes.length}/${inputs.length} tokens.`);
+    if (failures.length > 0) {
+      console.error("Failed:");
+      for (const failure of failures) {
+        console.error(`  ${failure.input}: ${failure.error}`);
+      }
+      process.exit(1);
+    }
   }
 }
 
