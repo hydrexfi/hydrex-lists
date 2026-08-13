@@ -2581,6 +2581,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0x1a44233FAe8D50F1AeB3a5d58dd426ff4814Cb53",
+      "name": "Squid",
+      "symbol": "QUID",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/QUID.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0x6444C6c2D527D85EA97032da9A7504d6d1448ecF",
       "name": "Ratio1",
       "symbol": "R1",
