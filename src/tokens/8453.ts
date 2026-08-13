@@ -3245,6 +3245,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xebE516a20238F79DC20b07eaD6768e08891Ed309",
+    name: "THEO",
+    symbol: "THEO",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/THEO.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0xA4A2E2ca3fBfE21aed83471D28b6f65A233C6e00",
     name: "Ribbita by Virtuals",
     symbol: "TIBBIR",
