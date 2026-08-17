@@ -3222,6 +3222,23 @@
   },
   {
     "chainId": 8453,
+    "title": "USDC/KEYCAT",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 8,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xF681e7EE8F1F415bbE9ad663D84B39FDb201491F",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0x9a26F5433671751C3276a065f57e5a02D2817973",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.keyboardcat.fun/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
