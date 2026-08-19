@@ -2659,6 +2659,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://www.keyboardcat.fun/",
   },
+  {
+    chainId: 8453,
+    title: "USDC/Cocoro",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 8,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xE047Bc75abCeA68051a520a66BfEEEa72248b3Da",
+    token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    token1Address: "0x937a1cFAF0A3d9f5Dc4D0927F72ee5e3e5F82a00",
+    tags: ["ecosystem", "exotic"],
+    website: "https://officialcocoro.com/",
+  },
 
   // ORIGINAL STRATEGIES
   {
