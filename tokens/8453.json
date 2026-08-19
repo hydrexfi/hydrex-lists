@@ -106,6 +106,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0x937a1cFAF0A3d9f5Dc4D0927F72ee5e3e5F82a00",
+    "name": "Cocoro",
+    "symbol": "Cocoro",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/COCORO.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0xb200000000000000000000c85a31389D71F3ecfb",
     "name": "Coinbase Global Inc.",
     "symbol": "COIN",
