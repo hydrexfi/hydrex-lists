@@ -3599,42 +3599,6 @@
   },
   {
     "chainId": 8453,
-    "title": "THEO/USDC",
-    "type": "Single Sided",
-    "liquidityType": "integral",
-    "strategist": "Ichi",
-    "riskLevel": 5,
-    "riskDescription": "This strategy is moderate risk, due to its strategy optimization and the price deviations between the non-correlated assets. Impermanent loss can occur based on price deviations.",
-    "address": "0x21B7aF5A392d7F252ac4AC66528ACAB6eE4Ec1c2",
-    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    "token1Address": "0xebE516a20238F79DC20b07eaD6768e08891Ed309",
-    "depositToken": "0xebE516a20238F79DC20b07eaD6768e08891Ed309",
-    "tags": [
-      "ecosystem",
-      "exotic"
-    ],
-    "website": "https://www.autheo.com/"
-  },
-  {
-    "chainId": 8453,
-    "title": "USDC/THEO",
-    "type": "Single Sided",
-    "liquidityType": "integral",
-    "strategist": "Ichi",
-    "riskLevel": 5,
-    "riskDescription": "This strategy is moderately-low risk, due to its narrow strategy and the price deviations between the non-correlated assets. Impermanent loss is possible.",
-    "address": "0x9678c5043a7A5A4632EA96627C2121F93b52A6F2",
-    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    "token1Address": "0xebE516a20238F79DC20b07eaD6768e08891Ed309",
-    "depositToken": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-    "tags": [
-      "ecosystem",
-      "exotic"
-    ],
-    "website": "https://www.autheo.com/"
-  },
-  {
-    "chainId": 8453,
     "title": "ICI/WETH",
     "type": "Single Sided",
     "liquidityType": "integral",
