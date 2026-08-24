@@ -14,7 +14,8 @@
     "tags": [
       "rwa",
       "standard"
-    ]
+    ],
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -1856,7 +1857,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -1943,7 +1945,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -1978,7 +1981,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -2357,7 +2361,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -2392,7 +2397,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://centrifuge.io/"
+    "website": "https://centrifuge.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -2682,7 +2688,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -2701,7 +2708,8 @@
       "safe",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -2821,7 +2829,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -2977,7 +2986,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://centrifuge.io/"
+    "website": "https://centrifuge.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -2995,7 +3005,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3013,7 +3024,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3031,7 +3043,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3269,7 +3282,8 @@
       "ecosystem",
       "exotic",
       "rwa"
-    ]
+    ],
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3286,7 +3300,8 @@
       "ecosystem",
       "exotic",
       "rwa"
-    ]
+    ],
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3303,7 +3318,8 @@
       "ecosystem",
       "exotic",
       "rwa"
-    ]
+    ],
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3320,7 +3336,8 @@
       "ecosystem",
       "exotic",
       "rwa"
-    ]
+    ],
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4001,7 +4018,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4020,7 +4038,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4222,7 +4241,8 @@
       "safe",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4242,7 +4262,8 @@
       "safe",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4261,7 +4282,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4280,7 +4302,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4677,7 +4700,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://centrifuge.io/"
+    "website": "https://centrifuge.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4696,7 +4720,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://centrifuge.io/"
+    "website": "https://centrifuge.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4787,7 +4812,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4806,7 +4832,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -5495,7 +5522,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -5514,7 +5542,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -5569,7 +5598,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -5588,7 +5618,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -5791,7 +5822,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -5810,7 +5842,8 @@
       "exotic",
       "rwa"
     ],
-    "website": "https://www.st0x.io/"
+    "website": "https://www.st0x.io/",
+    "isEquity": true
   },
   {
     "chainId": 8453,

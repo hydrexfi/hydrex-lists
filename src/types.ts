@@ -42,6 +42,7 @@ export interface Token {
   type?: "stablecoin" | "bluechip" | "zora-creator" | "zora-post" | "ecosystem";
   autoSlippage?: number;
   reflect?: boolean;
+  isEquity?: boolean;
 }
 
 export interface TokenList {
@@ -91,6 +92,7 @@ export interface Strategy {
   token1Address?: string;
   v4PoolId?: string;
   tags?: StrategyTag[];
+  isEquity?: boolean;
   website?: string;
   strategyInfoOverride?: string;
   displayTags?: {

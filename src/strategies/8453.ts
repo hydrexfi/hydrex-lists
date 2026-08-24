@@ -26,6 +26,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x78c31580c97101694C70022c83D570150c11e935",
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["rwa", "standard"],
+    isEquity: true,
   },
 
   // MANUAL STRATEGIES
@@ -1528,6 +1529,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -1598,6 +1600,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -1626,6 +1629,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -1932,6 +1936,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -1960,6 +1965,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x9c5C365e764829876243d0b289733B9D2b729685",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://centrifuge.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -2198,6 +2204,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -2212,6 +2219,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["stable", "correlated", "safe", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   // {
   //   chainId: 8453,
@@ -2226,6 +2234,7 @@ export const strategies: Strategy[] = [
   //   token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   //   tags: ["ecosystem", "exotic", "rwa"],
   //   website: "https://www.st0x.io/",
+  //   isEquity: true,
   // },
   {
     chainId: 8453,
@@ -2324,6 +2333,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -2449,6 +2459,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xAAA0008C8CF3A7Dca931adaF04336A5D808C82Cc",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://centrifuge.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -2463,6 +2474,7 @@ export const strategies: Strategy[] = [
     token1Address: "0xFcD17aC4c4BF6a72c93018096F3fC09e66573Ff9",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -2477,6 +2489,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -2491,6 +2504,7 @@ export const strategies: Strategy[] = [
     token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -2685,6 +2699,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xb2000000000000000000002D0BA3164cc74f58B7",
     tags: ["ecosystem", "exotic", "rwa"],
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -2698,6 +2713,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xb200000000000000000000C2e324d24d7eEcd1fb",
     tags: ["ecosystem", "exotic", "rwa"],
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -2711,6 +2727,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xb20000000000000000000078ee7ce2fE4908108C",
     tags: ["ecosystem", "exotic", "rwa"],
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -2724,6 +2741,7 @@ export const strategies: Strategy[] = [
     token0Address: "0x4200000000000000000000000000000000000006",
     token1Address: "0xb2000000000000000000008bC8786B856E61707C",
     tags: ["ecosystem", "exotic", "rwa"],
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3309,6 +3327,7 @@ export const strategies: Strategy[] = [
     depositToken: "0x19F89aaEf8a93f38A974beca9776f09aB844887F",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3324,6 +3343,7 @@ export const strategies: Strategy[] = [
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3489,6 +3509,7 @@ export const strategies: Strategy[] = [
   //   depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
   //   tags: ["ecosystem", "exotic", "rwa"],
   //   website: "https://www.st0x.io/",
+  //   isEquity: true,
   // },
   // {
   //   chainId: 8453,
@@ -3504,6 +3525,7 @@ export const strategies: Strategy[] = [
   //   depositToken: "0x82f5BAEE1076334357a34A19E04f7c282D51cE47",
   //   tags: ["ecosystem", "exotic", "rwa"],
   //   website: "https://www.st0x.io/",
+  //   isEquity: true,
   // },
   {
     chainId: 8453,
@@ -3519,6 +3541,7 @@ export const strategies: Strategy[] = [
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["stable", "correlated", "safe", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3534,6 +3557,7 @@ export const strategies: Strategy[] = [
     depositToken: "0x78c31580c97101694C70022c83D570150c11e935",
     tags: ["stable", "correlated", "safe", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3549,6 +3573,7 @@ export const strategies: Strategy[] = [
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3564,6 +3589,7 @@ export const strategies: Strategy[] = [
     depositToken: "0xFb5B41acdbA20a3230F84BE995173CFb98b8D6E7",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3893,6 +3919,7 @@ export const strategies: Strategy[] = [
     depositToken: "0x9c5C365e764829876243d0b289733B9D2b729685",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://centrifuge.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3908,6 +3935,7 @@ export const strategies: Strategy[] = [
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://centrifuge.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3983,6 +4011,7 @@ export const strategies: Strategy[] = [
     depositToken: "0x823FF7Bbde2869aAe73A6CD53e7f614442836757",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3998,6 +4027,7 @@ export const strategies: Strategy[] = [
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4583,6 +4613,7 @@ export const strategies: Strategy[] = [
     depositToken: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4598,6 +4629,7 @@ export const strategies: Strategy[] = [
     depositToken: "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4643,6 +4675,7 @@ export const strategies: Strategy[] = [
     depositToken: "0x31C2C14134e6E3B7ef9478297F199331133Fc2d8",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4658,6 +4691,7 @@ export const strategies: Strategy[] = [
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4822,6 +4856,7 @@ export const strategies: Strategy[] = [
     depositToken: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4837,6 +4872,7 @@ export const strategies: Strategy[] = [
     depositToken: "0x5cDa0E1CA4ce2af96315f7F8963C85399c172204",
     tags: ["ecosystem", "exotic", "rwa"],
     website: "https://www.st0x.io/",
+    isEquity: true,
   },
   {
     chainId: 8453,
