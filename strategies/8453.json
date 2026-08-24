@@ -3324,6 +3324,73 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/BRIAN",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 9,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xBEB386217298b6154dCea385B4F77c9e8d324139",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xB2000000000000000000007BF6D5cBb0E24cB301",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ]
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/Basecat",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 8,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x59D810201B3f765e133C44486895CA4fB63E3734",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xB2000000000000000000004c27f6523082f41D01",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://basecatonbase.com/"
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/$mfer",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 8,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x9f5e20e082455b9B5d89dB5A121F5668de7A897E",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xE3086852A4B125803C815a158249ae468A3254Ca",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://paragraph.com/@sartoshi/mfercoin"
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/Ratspeak",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 9,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x7d59117BC682dC8ce22B20120E0F03ec7e879f59",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xf1e9Baa65d418A9025e1851DD2D37f1AD208bba3",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://ratspeak.org/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
