@@ -43,6 +43,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xB2000000000000000000007BF6D5cBb0E24cB301",
+    name: "Coinbase Man",
+    symbol: "BRIAN",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRIAN.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0xc5fecC3a29Fb57B5024eEc8a2239d4621e111CBE",
     name: "1INCH Token",
     symbol: "1INCH",
@@ -85,6 +94,15 @@ export const tokens: Token[] = [
     symbol: "BASEAI",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BASEAI.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
+    address: "0xB2000000000000000000004c27f6523082f41D01",
+    name: "Basecat",
+    symbol: "Basecat",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BASECAT.png",
     autoSlippage: 5,
   },
   {
@@ -2156,6 +2174,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xE3086852A4B125803C815a158249ae468A3254Ca",
+    name: "mfercoin",
+    symbol: "mfer",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MFER.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0xfA68Ac5cA298aB4B96bCE6542ec74bB9516b0397",
     name: "Monstro USDC",
     symbol: "mUSDC",
@@ -2594,6 +2621,15 @@ export const tokens: Token[] = [
     symbol: "R1",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/R1.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
+    address: "0xf1e9Baa65d418A9025e1851DD2D37f1AD208bba3",
+    name: "Ratspeak",
+    symbol: "Ratspeak",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RATSPEAK.png",
     autoSlippage: 5,
   },
   {
