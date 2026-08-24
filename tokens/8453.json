@@ -64,7 +64,8 @@
     "symbol": "AAPLc",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AAPLC.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -73,7 +74,8 @@
     "symbol": "AMZNc",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AMZNC.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -138,7 +140,8 @@
     "symbol": "COINc",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/COINC.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -147,7 +150,8 @@
     "symbol": "CRCLc",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CRCLC.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -960,7 +964,8 @@
     "symbol": "deJAAA",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DEJAAA.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -969,7 +974,8 @@
     "symbol": "deSPXA",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DESPXA.png",
-    "autoSlippage": 3
+    "autoSlippage": 3,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -1461,7 +1467,8 @@
     "symbol": "GOOGLc",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GOOGLC.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -1597,7 +1604,8 @@
     "symbol": "INTCc",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/INTCC.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -1969,7 +1977,8 @@
     "symbol": "METAc",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/METAC.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -2150,7 +2159,8 @@
     "symbol": "MSFTc",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MSFTC.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -2159,7 +2169,8 @@
     "symbol": "MSTRc",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MSTRC.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -2259,7 +2270,8 @@
     "symbol": "NVDAc",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NVDAC.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3010,7 +3022,8 @@
     "symbol": "SNDKc",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SNDKC.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3082,7 +3095,8 @@
     "symbol": "SPCXc",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPCXC.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3421,7 +3435,8 @@
     "symbol": "TSLAc",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TSLAC.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3934,7 +3949,8 @@
     "symbol": "wtAAPL",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTAAPL.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3943,7 +3959,8 @@
     "symbol": "wtAMAT",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTAMAT.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3952,7 +3969,8 @@
     "symbol": "wtAMD",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTAMD.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3961,7 +3979,8 @@
     "symbol": "wtAMZN",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTAMZN.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3970,7 +3989,8 @@
     "symbol": "wtARKK",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTARKK.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3979,7 +3999,8 @@
     "symbol": "wtASML",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTASML.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3988,7 +4009,8 @@
     "symbol": "wtAVGO",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTAVGO.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -3997,7 +4019,8 @@
     "symbol": "wtBABA",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTBABA.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4006,7 +4029,8 @@
     "symbol": "wtBMNR",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTBMNR.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4015,7 +4039,8 @@
     "symbol": "wtCEG",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTCEG.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4025,7 +4050,8 @@
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTCOIN.png",
     "autoSlippage": 1,
-    "type": "ecosystem"
+    "type": "ecosystem",
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4034,7 +4060,8 @@
     "symbol": "wtCRCL",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTCRCL.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4043,7 +4070,8 @@
     "symbol": "wtDRAM",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTDRAM.png",
-    "autoSlippage": 2
+    "autoSlippage": 2,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4052,7 +4080,8 @@
     "symbol": "wtGOOGL",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTGOOGL.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4061,7 +4090,8 @@
     "symbol": "wtHOOD",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTHOOD.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4070,7 +4100,8 @@
     "symbol": "wtIAU",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTIAU.png",
-    "autoSlippage": 2
+    "autoSlippage": 2,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4079,7 +4110,8 @@
     "symbol": "wtINTC",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTINTC.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4088,7 +4120,8 @@
     "symbol": "wtLLY",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTLLY.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4097,7 +4130,8 @@
     "symbol": "wtLRCX",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTLRCX.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4106,7 +4140,8 @@
     "symbol": "wtMSFT",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTMSFT.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4115,7 +4150,8 @@
     "symbol": "wtMSTR",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTMSTR.png",
-    "autoSlippage": 2
+    "autoSlippage": 2,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4124,7 +4160,8 @@
     "symbol": "wtMU",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTMU.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4133,7 +4170,8 @@
     "symbol": "wtNVDA",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTNVDA.png",
-    "autoSlippage": 2
+    "autoSlippage": 2,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4142,7 +4180,8 @@
     "symbol": "wtORCL",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTORCL.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4151,7 +4190,8 @@
     "symbol": "wtPPLT",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTPPLT.png",
-    "autoSlippage": 2
+    "autoSlippage": 2,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4160,7 +4200,8 @@
     "symbol": "wtPTY",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTPTY.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4169,7 +4210,8 @@
     "symbol": "wtQQQM",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTQQQM.png",
-    "autoSlippage": 2
+    "autoSlippage": 2,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4178,7 +4220,8 @@
     "symbol": "wtRKLB",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTRKLB.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4187,7 +4230,8 @@
     "symbol": "wtSGOV",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSGOV.png",
-    "autoSlippage": 2
+    "autoSlippage": 2,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4196,7 +4240,8 @@
     "symbol": "wtSIVR",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSIVR.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4205,7 +4250,8 @@
     "symbol": "wtSKHY",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSKHY.png",
-    "autoSlippage": 2
+    "autoSlippage": 2,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4214,7 +4260,8 @@
     "symbol": "wtSMCI",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSMCI.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4223,7 +4270,8 @@
     "symbol": "wtSPCX",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSPCX.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4232,7 +4280,8 @@
     "symbol": "wtSPYM",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSPYM.png",
-    "autoSlippage": 2
+    "autoSlippage": 2,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4241,7 +4290,8 @@
     "symbol": "wtTQQQ",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTTQQQ.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4250,7 +4300,8 @@
     "symbol": "wtTSLA",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTTSLA.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4259,7 +4310,8 @@
     "symbol": "wtTSM",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTTSM.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4268,7 +4320,8 @@
     "symbol": "wtTTWO",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTTTWO.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,
@@ -4277,7 +4330,8 @@
     "symbol": "wtVWO",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTVWO.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isEquity": true
   },
   {
     "chainId": 8453,

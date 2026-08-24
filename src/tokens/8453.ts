@@ -67,6 +67,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AAPLC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -76,6 +77,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AMZNC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -141,6 +143,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/COINC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -150,6 +153,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CRCLC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -963,6 +967,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DEJAAA.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -972,6 +977,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DESPXA.png",
     autoSlippage: 3,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -1464,6 +1470,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GOOGLC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -1600,6 +1607,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/INTCC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -1972,6 +1980,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/METAC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -2153,6 +2162,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MSFTC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -2162,6 +2172,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MSTRC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -2262,6 +2273,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NVDAC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3013,6 +3025,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SNDKC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3085,6 +3098,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SPCXC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3424,6 +3438,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TSLAC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3937,6 +3952,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTAAPL.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3946,6 +3962,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTAMAT.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3955,6 +3972,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTAMD.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3964,6 +3982,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTAMZN.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3973,6 +3992,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTARKK.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3982,6 +4002,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTASML.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -3991,6 +4012,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTAVGO.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4000,6 +4022,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTBABA.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4009,6 +4032,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTBMNR.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4018,6 +4042,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTCEG.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4028,6 +4053,7 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTCOIN.png",
     autoSlippage: 1,
     type: "ecosystem",
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4037,6 +4063,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTCRCL.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4046,6 +4073,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTDRAM.png",
     autoSlippage: 2,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4055,6 +4083,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTGOOGL.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4064,6 +4093,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTHOOD.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4073,6 +4103,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTIAU.png",
     autoSlippage: 2,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4082,6 +4113,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTINTC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4091,6 +4123,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTLLY.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4100,6 +4133,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTLRCX.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4109,6 +4143,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTMSFT.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4118,6 +4153,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTMSTR.png",
     autoSlippage: 2,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4127,6 +4163,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTMU.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4136,6 +4173,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTNVDA.png",
     autoSlippage: 2,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4145,6 +4183,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTORCL.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4154,6 +4193,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTPPLT.png",
     autoSlippage: 2,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4163,6 +4203,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTPTY.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4172,6 +4213,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTQQQM.png",
     autoSlippage: 2,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4181,6 +4223,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTRKLB.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4190,6 +4233,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSGOV.png",
     autoSlippage: 2,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4199,6 +4243,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSIVR.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4208,6 +4253,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSKHY.png",
     autoSlippage: 2,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4217,6 +4263,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSMCI.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4226,6 +4273,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSPCX.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4235,6 +4283,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSPYM.png",
     autoSlippage: 2,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4244,6 +4293,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTTQQQ.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4253,6 +4303,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTTSLA.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4262,6 +4313,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTTSM.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4271,6 +4323,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTTTWO.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4280,6 +4333,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTVWO.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
