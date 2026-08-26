@@ -28,6 +28,21 @@ export const strategies: Strategy[] = [
     tags: ["rwa", "standard"],
     isEquity: true,
   },
+  {
+    chainId: 8453,
+    title: "USDC/wtMSTR",
+    type: "Algebra RWA",
+    liquidityType: "rwa-integral",
+    strategist: "Algebra",
+    riskLevel: 6,
+    riskDescription: ALGEBRA_RWA_RISK_STRING,
+    address: "0x71E0afebf9EAfEB4990A1760E1e3f7cDC8163d6B",
+    vaultGuardAddress: "0x83A4c227E0711224Aa7B2A9FD2297C08c74ad2A5",
+    token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    token1Address: "0xFF05E1bD696900dc6A52CA35Ca61Bb1024eDa8e2",
+    tags: ["rwa", "standard"],
+    isEquity: true,
+  },
 
   // MANUAL STRATEGIES
   {
