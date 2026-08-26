@@ -3408,6 +3408,63 @@
   },
   {
     "chainId": 8453,
+    "title": "wtTSM/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 6,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x603258C5072a01609c4c7269031232695D14f21b",
+    "token0Address": "0x71C66449d2528E23514A9c197BFD55Ae9DB3B714",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/",
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
+    "title": "USDC/wtHOOD",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 6,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x10c163eFEE859D3e6F17407B53CF1625Cbc5Bdd3",
+    "token0Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "token1Address": "0xd50f561322fe3235DBc9Ec8b3aB7693383d8A425",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/",
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
+    "title": "wtBABA/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 6,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x7942A4dBf0C599edB3466a85627Ed276eF748256",
+    "token0Address": "0x7e5cc7eAe0455A07Ab4abf354E0f5657BA2888BD",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/",
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
