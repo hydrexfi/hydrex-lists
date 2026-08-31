@@ -1908,6 +1908,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0xCEF8Db49E456f872E288E1C042F916E9ceD7c781",
+    "name": "Reserve Magnificent 7 DTF",
+    "symbol": "MAG7",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MAG7.png",
+    "autoSlippage": 3
+  },
+  {
+    "chainId": 8453,
     "address": "0x9E6A46f294bB67c20F1D1E7AfB0bBEf614403B55",
     "name": "MAG7.ssi",
     "symbol": "MAG7.ssi",
