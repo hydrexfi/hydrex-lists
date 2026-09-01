@@ -126,6 +126,24 @@
   },
   {
     "chainId": 8453,
+    "address": "0xB200000000000000000000451d033a5000cb479e",
+    "name": "Coinbase Wrapped Hyperliquid",
+    "symbol": "cbHYPE",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBHYPE.png",
+    "autoSlippage": 2
+  },
+  {
+    "chainId": 8453,
+    "address": "0xB2000000000000000000008501b13360000cb2EC",
+    "name": "Coinbase Wrapped ZEC",
+    "symbol": "cbZEC",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CBZEC.png",
+    "autoSlippage": 2
+  },
+  {
+    "chainId": 8453,
     "address": "0x937a1cFAF0A3d9f5Dc4D0927F72ee5e3e5F82a00",
     "name": "Cocoro",
     "symbol": "Cocoro",
