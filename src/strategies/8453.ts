@@ -2903,6 +2903,32 @@ export const strategies: Strategy[] = [
     website: "https://www.st0x.io/",
     isEquity: true,
   },
+  {
+    chainId: 8453,
+    title: "USDC/cbZEC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 4,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xD09240fC346E454E61a833b66de10f88937A0171",
+    token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    token1Address: "0xB2000000000000000000008501b13360000cb2EC",
+    tags: ["ecosystem", "standard"],
+  },
+  {
+    chainId: 8453,
+    title: "USDC/cbHYPE",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 4,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x87E1941E639918C6Ef2D4bEb7b6Ee51441D6ef41",
+    token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    token1Address: "0xB200000000000000000000451d033a5000cb479e",
+    tags: ["ecosystem", "standard"],
+  },
 
   // ORIGINAL STRATEGIES
   {
