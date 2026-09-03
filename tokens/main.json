@@ -53,6 +53,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0xF297Dce5cDc06Cf8Eae00674fA73BA35bBC99B80",
+      "name": "Acua Reserve Unit",
+      "symbol": "ARU",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ARU.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0xB2000000000000000000007BF6D5cBb0E24cB301",
       "name": "Coinbase Man",
       "symbol": "BRIAN",
