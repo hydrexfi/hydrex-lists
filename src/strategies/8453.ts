@@ -3071,6 +3071,21 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic", "rwa"],
     isEquity: true,
   },
+  {
+    chainId: 8453,
+    title: "wtGRND/USDC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 5,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x9849E92f29a9d3b89fe09694746E7AcF52bBc37D",
+    token0Address: "0x1197E6FA778c4D13E47875bD1761c68C22c928e0",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["ecosystem", "exotic", "rwa"],
+    website: "https://www.st0x.io/",
+    isEquity: true,
+  },
 
   // ORIGINAL STRATEGIES
   {
