@@ -4123,6 +4123,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x1197E6FA778c4D13E47875bD1761c68C22c928e0",
+    name: "Wrapped Grindr Inc. ST0x",
+    symbol: "wtGRND",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTGRND.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0xd50f561322fe3235DBc9Ec8b3aB7693383d8A425",
     name: "Wrapped Robinhood Markets, Inc. ST0x",
     symbol: "wtHOOD",
