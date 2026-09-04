@@ -4173,6 +4173,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x7ecAE30Ed8ee4F72653ada7b0941bDE7a0a8eE8d",
+    name: "Wrapped McDonald's Corporation ST0x",
+    symbol: "wtMCD",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTMCD.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x515A3Ac2a6aB590bDFa970caFFFd7fAdC680886E",
     name: "Wrapped Microsoft Corporation ST0x",
     symbol: "wtMSFT",
@@ -4200,6 +4209,15 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTMU.png",
     autoSlippage: 5,
     isEquity: true,
+  },
+  {
+    chainId: 8453,
+    address: "0x0883f32d23Ed5535057a4B5E3eB1970FE08606AF",
+    name: "Wrapped NIKE, Inc. ST0x",
+    symbol: "wtNKE",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTNKE.png",
+    autoSlippage: 5,
   },
   {
     chainId: 8453,
