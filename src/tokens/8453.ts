@@ -4129,6 +4129,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTGRND.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4188,6 +4189,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTMCD.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -4227,6 +4229,7 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTNKE.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
