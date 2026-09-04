@@ -3608,6 +3608,152 @@
   },
   {
     "chainId": 8453,
+    "title": "wtNKE/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xDB57AA8369AE753D2C8a57cd17845cE4D691bc11",
+    "token0Address": "0x0883f32d23Ed5535057a4B5E3eB1970FE08606AF",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/",
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
+    "title": "wtMCD/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 4,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x519Ad6af575388f48Fc9F4eE876b70fA55f5D4EC",
+    "token0Address": "0x7ecAE30Ed8ee4F72653ada7b0941bDE7a0a8eE8d",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/",
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/AMZNc",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 4,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x56ca47f2ADC7e48ACE4b16BA93ec7E1b7c8f1E07",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xb200000000000000000000d9192b6B456483C2E8",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/TSLAc",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 6,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xE82Ca12890c57e316efcde0B4d49FD9D35DDB192",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xb2000000000000000000001e800a7f5189430cD0",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/MSTRc",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xE49E9fA15418569F8b4c6D5a4593873Bb61C745D",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xb2000000000000000000004884b426556b92883d",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/SNDKc",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 4,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xe9096098D332E653077C2bA815d4bEb327e30033",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xb200000000000000000000397293Cb8cda9a10c5",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/MSFTc",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 5,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xe1dFF5fca3925Bb029711351AF5b5C6599351B7C",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xB200000000000000000000Ab99cFa739E253872B",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
+    "title": "WETH/SPCXc",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 6,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xF843Ace1E476146E2F452C73989c2ebeB934550b",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xb2000000000000000000007b9fcbd005511aCBd5",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
