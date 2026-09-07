@@ -1952,7 +1952,8 @@
       "symbol": "MAG7",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MAG7.png",
-      "autoSlippage": 3
+      "autoSlippage": 3,
+      "isEquity": true
     },
     {
       "chainId": 8453,
@@ -4113,12 +4114,32 @@
     },
     {
       "chainId": 8453,
+      "address": "0x1db49Ff8BEe88ec73F82F395B0BEAd372BdcAdb7",
+      "name": "Wrapped Krispy Kreme, Inc. ST0x",
+      "symbol": "wtDNUT",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTDNUT.png",
+      "autoSlippage": 5,
+      "isEquity": true
+    },
+    {
+      "chainId": 8453,
       "address": "0x1A91Df4a970EBaB1bB4AF32Eb6d10509028eE4b8",
       "name": "Wrapped Roundhill Memory ETF ST0x",
       "symbol": "wtDRAM",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTDRAM.png",
       "autoSlippage": 2,
+      "isEquity": true
+    },
+    {
+      "chainId": 8453,
+      "address": "0x6aed8b1aCfb04F4e0e6db580F12fF41438a394e5",
+      "name": "Wrapped FGI Industries Ltd. ST0x",
+      "symbol": "wtFGI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTFGI.png",
+      "autoSlippage": 5,
       "isEquity": true
     },
     {
@@ -4263,6 +4284,16 @@
     },
     {
       "chainId": 8453,
+      "address": "0x35fDe767dBFAa610D12cf99914bCd6CFEda73B7B",
+      "name": "Wrapped Playboy, Inc. ST0x",
+      "symbol": "wtPLBY",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTPLBY.png",
+      "autoSlippage": 5,
+      "isEquity": true
+    },
+    {
+      "chainId": 8453,
       "address": "0x82f5BAEE1076334357a34A19E04f7c282D51cE47",
       "name": "Wrapped abrdn Physical Platinum Shares ETF ST0x",
       "symbol": "wtPPLT",
@@ -4373,6 +4404,16 @@
     },
     {
       "chainId": 8453,
+      "address": "0x433fd2Fc0964B07E9820e4cd01774eDE59D1F002",
+      "name": "Wrapped Tootsie Roll Industries, Inc. ST0x",
+      "symbol": "wtTR",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTTR.png",
+      "autoSlippage": 5,
+      "isEquity": true
+    },
+    {
+      "chainId": 8453,
       "address": "0x219A8d384a10BF19b9f24cB5cC53F79Dd0e5A03D",
       "name": "Wrapped Tesla Inc ST0x",
       "symbol": "wtTSLA",
@@ -4408,6 +4449,16 @@
       "symbol": "wtVWO",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTVWO.png",
+      "autoSlippage": 5,
+      "isEquity": true
+    },
+    {
+      "chainId": 8453,
+      "address": "0x31Fa821F8B1BDea7Db357ec9622d1A2f6aFE903d",
+      "name": "Wrapped The Wendy's Company ST0x",
+      "symbol": "wtWEN",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTWEN.png",
       "autoSlippage": 5,
       "isEquity": true
     },
