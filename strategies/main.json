@@ -3773,6 +3773,101 @@
   },
   {
     "chainId": 8453,
+    "title": "wtDNUT/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 7,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x50669903fbd516dA07aCeb99276995B7eB00e6E0",
+    "token0Address": "0x1db49Ff8BEe88ec73F82F395B0BEAd372BdcAdb7",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/",
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
+    "title": "wtFGI/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 7,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xcE4838e3287d66ce20Fa296704f2B77DE9D2a92d",
+    "token0Address": "0x6aed8b1aCfb04F4e0e6db580F12fF41438a394e5",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/",
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
+    "title": "wtWEN/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 7,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x442b29B177cda78537Dd58A7aee7071729E96885",
+    "token0Address": "0x31Fa821F8B1BDea7Db357ec9622d1A2f6aFE903d",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/",
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
+    "title": "wtPLBY/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 7,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xE70C5d2c76Fe261BA6b0CC1F80ec0628b85e891D",
+    "token0Address": "0x35fDe767dBFAa610D12cf99914bCd6CFEda73B7B",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/",
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
+    "title": "wtTR/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 7,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xFe2D6fa62051EDaCf2f49596A0c79f8d215E719e",
+    "token0Address": "0x433fd2Fc0964B07E9820e4cd01774eDE59D1F002",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic",
+      "rwa"
+    ],
+    "website": "https://www.st0x.io/",
+    "isEquity": true
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
