@@ -3221,6 +3221,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x5ab000ff9B9FfE0349CE5ffA5fD86f217C3680F5",
+    name: "The Stonks Exchange",
+    symbol: "STONKEX",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/STONKEX.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x806041B6473DA60abbe1b256d9A2749A151be6C6",
     name: "Tensorplex Staked TAO",
     symbol: "stTAO",
