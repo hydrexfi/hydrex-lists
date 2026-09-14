@@ -43,6 +43,8 @@ export interface Token {
   autoSlippage?: number;
   reflect?: boolean;
   isEquity?: boolean;
+  isHydropumpPair?: boolean;
+  hydropumpClassification?: "coinbase_stock" | "coinbase_asset" | "st0x" | "memecoin" | "bluechip" | "stablecoin" | "ecosystem";
 }
 
 export interface TokenList {
