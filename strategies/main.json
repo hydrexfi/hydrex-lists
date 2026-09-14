@@ -3868,6 +3868,23 @@
   },
   {
     "chainId": 8453,
+    "title": "STONKEX/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 8,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xD5CbC50636FcA3186859A1946D249f80d3a48CAA",
+    "token0Address": "0x5ab000ff9B9FfE0349CE5ffA5fD86f217C3680F5",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.thestonks.exchange/stats"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",

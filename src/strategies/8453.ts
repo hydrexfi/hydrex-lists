@@ -3161,6 +3161,20 @@ export const strategies: Strategy[] = [
     website: "https://www.st0x.io/",
     isEquity: true,
   },
+  {
+    chainId: 8453,
+    title: "STONKEX/USDC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 8,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xD5CbC50636FcA3186859A1946D249f80d3a48CAA",
+    token0Address: "0x5ab000ff9B9FfE0349CE5ffA5fD86f217C3680F5",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["ecosystem", "exotic"],
+    website: "https://www.thestonks.exchange/stats",
+  },
 
   // ORIGINAL STRATEGIES
   {
