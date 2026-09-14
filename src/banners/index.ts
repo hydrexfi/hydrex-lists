@@ -2,31 +2,22 @@ import { Banner } from "../types";
 
 export const Banners: Banner[] = [
     {
+        title: "Hydrex Governance",
+        description: "Governance on Hydrex",
+        mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/governance-mobile.png",
+        desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/governance-desktop.png",
+        externalUrl: "https://governance.hydrex.fi",
+        isLive: true,
+        placementNumber: 1,
+    },
+    {
         title: "Hydrex Perps",
         description: "Trade Perps on Hydrex",
         mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/perps-mobile.png",
         desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/perps-desktop.png",
         externalUrl: "https://perps.hydrex.fi",
         isLive: true,
-        placementNumber: 1,
-    },
-    {
-        title: "MXNB",
-        description: "Morpho and Pool Now Live",
-        mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/mxnb-mobile.png",
-        desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/mxnb-desktop.png",
-        internalUrl: "/pools?search=MXNB",
-        isLive: true,
         placementNumber: 2,
-    },
-    {
-        title: "Solana on Base",
-        description: "Trade Solana Assets Without Leaving Base",
-        mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/sol-mobile.png",
-        desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/sol-desktop.png",
-        internalUrl: "/swap?tab=solana",
-        isLive: true,
-        placementNumber: 3,
     },
     // {
     //     title: "Bankr Skills Live",
