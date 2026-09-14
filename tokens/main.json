@@ -1511,6 +1511,15 @@
     },
     {
       "chainId": 8453,
+      "address": "0x6cD1C7D41F589b5Ce6b88B1c90bc2F29B0439Ea1",
+      "name": "Gyndore",
+      "symbol": "GYND",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GYND.png",
+      "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
       "address": "0xc478eA5d6340eF8Ef04088C3a649DDEAc764B545",
       "name": "Hyperbet",
       "symbol": "HBET",
