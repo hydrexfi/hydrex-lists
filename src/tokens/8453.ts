@@ -3053,6 +3053,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x797f214a2CD64a4963A91Fa21c8C55Ec3EBa4714",
+    name: "SIBYL by Virtuals",
+    symbol: "SIBYL",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SIBYL.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x868FCEd65edBF0056c4163515dD840e9f287A4c3",
     name: "Sign",
     symbol: "SIGN",
