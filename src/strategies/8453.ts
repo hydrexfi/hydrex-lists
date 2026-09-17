@@ -3175,6 +3175,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://www.thestonks.exchange/stats",
   },
+  {
+    chainId: 8453,
+    title: "WETH/SIBYL",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 9,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x411570fd47020928b6820b4445f5047dfa8FF1b9",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0x797f214a2CD64a4963A91Fa21c8C55Ec3EBa4714",
+    tags: ["ecosystem", "exotic"],
+    website: "https://sibyllabs.org/",
+  },
 
   // ORIGINAL STRATEGIES
   {
