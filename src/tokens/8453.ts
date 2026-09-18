@@ -623,6 +623,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BNKR.png",
     autoSlippage: 2.5,
     type: "ecosystem",
+    isHydropumpPair: true,
+    hydropumpClassification: "ecosystem",
   },
   {
     chainId: 8453,
@@ -670,6 +672,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRETT.png",
     autoSlippage: 5,
     type: "ecosystem",
+    isHydropumpPair: true,
+    hydropumpClassification: "ecosystem",
   },
   {
     chainId: 8453,
@@ -1142,6 +1146,8 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DRB.png",
     autoSlippage: 5,
+    isHydropumpPair: true,
+    hydropumpClassification: "ecosystem",
   },
   {
     chainId: 8453,
@@ -1859,6 +1865,8 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LFI.png",
     autoSlippage: 5,
+    isHydropumpPair: true,
+    hydropumpClassification: "ecosystem",
   },
   {
     chainId: 8453,
@@ -2825,6 +2833,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/REPPO.png",
     autoSlippage: 5,
     type: "ecosystem",
+    isHydropumpPair: true,
+    hydropumpClassification: "ecosystem",
   },
   {
     chainId: 8453,
@@ -3299,7 +3309,10 @@ export const tokens: Token[] = [
     symbol: "superOETHb",
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SUPEROETHB.png",
+    type: "bluechip",
     autoSlippage: 1,
+    isHydropumpPair: true,
+    hydropumpClassification: "bluechip",
   },
   {
     chainId: 8453,
@@ -3439,6 +3452,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TIBBIR.png",
     autoSlippage: 5,
     type: "ecosystem",
+    isHydropumpPair: true,
+    hydropumpClassification: "ecosystem",
   },
   {
     chainId: 8453,
@@ -3874,6 +3889,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VIRTUAL.png",
     autoSlippage: 5,
     type: "ecosystem",
+    isHydropumpPair: true,
+    hydropumpClassification: "ecosystem",
   },
   {
     chainId: 8453,
@@ -3902,6 +3919,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VVV.png",
     autoSlippage: 5,
     type: "ecosystem",
+    isHydropumpPair: true,
+    hydropumpClassification: "ecosystem",
   },
   {
     chainId: 8453,
@@ -3966,6 +3985,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WEETH.png",
     type: "bluechip",
     autoSlippage: 5,
+    isHydropumpPair: true,
+    hydropumpClassification: "bluechip",
   },
   {
     chainId: 8453,
@@ -4011,6 +4032,8 @@ export const tokens: Token[] = [
     decimals: 6,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WMTX.png",
     autoSlippage: 5,
+    isHydropumpPair: true,
+    hydropumpClassification: "ecosystem",
   },
   {
     chainId: 8453,
@@ -4057,6 +4080,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WSTETH.png",
     type: "bluechip",
     autoSlippage: 5,
+    isHydropumpPair: true,
+    hydropumpClassification: "bluechip",
   },
   {
     chainId: 8453,
@@ -4701,6 +4726,8 @@ export const tokens: Token[] = [
     decimals: 18,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ZEN.png",
     autoSlippage: 5,
+    isHydropumpPair: true,
+    hydropumpClassification: "ecosystem",
   },
   {
     chainId: 8453,
