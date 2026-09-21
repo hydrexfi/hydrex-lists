@@ -58,6 +58,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0xB200000000000000000000cFbdF64a8706a94a01",
+    "name": "BLUE CHIP",
+    "symbol": "BLUECHIP",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BLUECHIP.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0xB2000000000000000000007BF6D5cBb0E24cB301",
     "name": "Coinbase Man",
     "symbol": "BRIAN",
