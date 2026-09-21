@@ -3325,6 +3325,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x939ea9384C510e09B13209bd20f32428aaB0c39C",
+    name: "Staked USDVE",
+    symbol: "sUSDVE",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SUSDVE.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0xe31eE12bDFDD0573D634124611e85338e2cBF0cF",
     name: "Staked USDz",
     symbol: "sUSDz",
