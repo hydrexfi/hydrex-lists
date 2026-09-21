@@ -3189,6 +3189,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://sibyllabs.org/",
   },
+  {
+    chainId: 8453,
+    title: "sUSDVE/USDVE",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 2,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xE86C314240698B850e07D1aA330cA8b89D5c15a9",
+    token0Address: "0x939ea9384C510e09B13209bd20f32428aaB0c39C",
+    token1Address: "0xbFCD661Be34C99920036F176876746b9f5B68c26",
+    tags: ["correlated", "stable"],
+    website: "https://www.vaultedge.fi/",
+  },
 
   // ORIGINAL STRATEGIES
   {
