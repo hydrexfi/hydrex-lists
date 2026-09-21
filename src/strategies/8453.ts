@@ -3203,6 +3203,20 @@ export const strategies: Strategy[] = [
     tags: ["correlated", "stable"],
     website: "https://www.vaultedge.fi/",
   },
+  {
+    chainId: 8453,
+    title: "USDC/BLUECHIP",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 8,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xc019397db6fDde0670d571e3E66a23bE0084171d",
+    token0Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    token1Address: "0xB200000000000000000000cFbdF64a8706a94a01",
+    tags: ["ecosystem", "exotic"],
+    website: "https://basebluechip.com/",
+  },
 
   // ORIGINAL STRATEGIES
   {
