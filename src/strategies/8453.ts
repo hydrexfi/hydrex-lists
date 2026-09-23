@@ -3217,6 +3217,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://basebluechip.com/",
   },
+  {
+    chainId: 8453,
+    title: "GYND/cbBTC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 9,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xb87f347807278a727d48e526777704ABd8B2E1b6",
+    token0Address: "0x6cD1C7D41F589b5Ce6b88B1c90bc2F29B0439Ea1",
+    token1Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    tags: ["ecosystem", "exotic"],
+    website: "https://www.gyndore.com/",
+  },
 
   // ORIGINAL STRATEGIES
   {
