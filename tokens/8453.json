@@ -302,7 +302,9 @@
     "symbol": "AERO",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AERO.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "ecosystem"
   },
   {
     "chainId": 8453,
@@ -429,7 +431,9 @@
     "symbol": "AVNT",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AVNT.png",
-    "autoSlippage": 2.5
+    "autoSlippage": 2.5,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "ecosystem"
   },
   {
     "chainId": 8453,
@@ -1808,7 +1812,9 @@
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/KTA.png",
     "autoSlippage": 5,
-    "type": "ecosystem"
+    "type": "ecosystem",
+    "isHydropumpPair": true,
+    "hydropumpClassification": "ecosystem"
   },
   {
     "chainId": 8453,
@@ -2047,7 +2053,9 @@
     "symbol": "MCADE",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MCADE.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "ecosystem"
   },
   {
     "chainId": 8453,
@@ -2328,7 +2336,9 @@
     "symbol": "NOCK",
     "decimals": 16,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NOCK.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "ecosystem"
   },
   {
     "chainId": 8453,
@@ -2619,7 +2629,9 @@
     "symbol": "POD",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/POD.png",
-    "autoSlippage": 5
+    "autoSlippage": 5,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "ecosystem"
   },
   {
     "chainId": 8453,
