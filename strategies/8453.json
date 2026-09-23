@@ -3936,6 +3936,23 @@
   },
   {
     "chainId": 8453,
+    "title": "GYND/cbBTC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 9,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xb87f347807278a727d48e526777704ABd8B2E1b6",
+    "token0Address": "0x6cD1C7D41F589b5Ce6b88B1c90bc2F29B0439Ea1",
+    "token1Address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.gyndore.com/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
