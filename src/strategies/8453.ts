@@ -3245,6 +3245,21 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://www.gyndore.com/",
   },
+  {
+    chainId: 8453,
+    title: "wtGOOGL/USDC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 7,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xaA98B6191Ba4a0385E4123979171DfFC4Deb6aEf",
+    token0Address: "0x6a2357Df4975C667B171bE53dA6FFe6deBf7030c",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["ecosystem", "exotic", "rwa"],
+    website: "https://www.st0x.io/",
+    isEquity: true,
+  },
 
   // ORIGINAL STRATEGIES
   {
