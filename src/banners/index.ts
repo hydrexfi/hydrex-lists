@@ -2,13 +2,22 @@ import { Banner } from "../types";
 
 export const Banners: Banner[] = [
     {
+        title: "Hydropump Is Live",
+        description: "Hydropump is live on Hydrex",
+        mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/hydropump-mobile.png",
+        desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/hydropump-desktop.png",
+        internalUrl: "/hydropump",
+        isLive: true,
+        placementNumber: 1,
+    },
+    {
         title: "Hydrex Governance",
         description: "Governance on Hydrex",
         mobileBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/governance-mobile.png",
         desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/governance-desktop.png",
         externalUrl: "https://governance.hydrex.fi",
         isLive: true,
-        placementNumber: 1,
+        placementNumber: 2,
     },
     {
         title: "Hydrex Perps",
@@ -17,7 +26,7 @@ export const Banners: Banner[] = [
         desktopBannerImage: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/staging/assets/banners/perps-desktop.png",
         externalUrl: "https://perps.hydrex.fi",
         isLive: true,
-        placementNumber: 2,
+        placementNumber: 3,
     },
     // {
     //     title: "Bankr Skills Live",
