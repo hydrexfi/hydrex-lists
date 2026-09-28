@@ -3989,6 +3989,23 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/Surplus",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 9,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xBfe45071fFCe88B0300fb4bdA1f259D6487Ee253",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xC52aeDec3374422d7510E294cfAa90799595CBa3",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.surplusintelligence.ai/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",

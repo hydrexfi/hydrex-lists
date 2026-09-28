@@ -3260,6 +3260,20 @@ export const strategies: Strategy[] = [
     website: "https://www.st0x.io/",
     isEquity: true,
   },
+  {
+    chainId: 8453,
+    title: "WETH/Surplus",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 9,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0xBfe45071fFCe88B0300fb4bdA1f259D6487Ee253",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0xC52aeDec3374422d7510E294cfAa90799595CBa3",
+    tags: ["ecosystem", "exotic"],
+    website: "https://www.surplusintelligence.ai/",
+  },
 
   // ORIGINAL STRATEGIES
   {
