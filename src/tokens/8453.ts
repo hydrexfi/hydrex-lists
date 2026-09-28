@@ -3346,6 +3346,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xC52aeDec3374422d7510E294cfAa90799595CBa3",
+    name: "Surplus Intelligence",
+    symbol: "Surplus",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SURPLUS.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x939ea9384C510e09B13209bd20f32428aaB0c39C",
     name: "Staked USDVE",
     symbol: "sUSDVE",
