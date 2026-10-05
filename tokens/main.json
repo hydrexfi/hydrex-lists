@@ -61,12 +61,42 @@
     },
     {
       "chainId": 8453,
+      "address": "0xB2000000000000000000000d8Ce462E99ee7A47B",
+      "name": "Advanced Micro Devices, Inc.",
+      "symbol": "AMDc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AMDC.png",
+      "autoSlippage": 5,
+      "isEquity": true
+    },
+    {
+      "chainId": 8453,
       "address": "0xF297Dce5cDc06Cf8Eae00674fA73BA35bBC99B80",
       "name": "Acua Reserve Unit",
       "symbol": "ARU",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ARU.png",
       "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xB200000000000000000000B1a29cF17A1819288a",
+      "name": "AST SpaceMobile, Inc.",
+      "symbol": "ASTSc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ASTSC.png",
+      "autoSlippage": 5,
+      "isEquity": true
+    },
+    {
+      "chainId": 8453,
+      "address": "0xB200000000000000000000Fc737aeA6196aB5a4c",
+      "name": "Broadcom Inc.",
+      "symbol": "AVGOc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AVGOC.png",
+      "autoSlippage": 5,
+      "isEquity": true
     },
     {
       "chainId": 8453,
@@ -225,6 +255,16 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CX.png",
       "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb200000000000000000000428E3a3eebBb20692B",
+      "name": "Trump Media & Technology Group Corp.",
+      "symbol": "DJTc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/DJTC.png",
+      "autoSlippage": 5,
+      "isEquity": true
     },
     {
       "chainId": 8453,
@@ -1600,6 +1640,16 @@
     },
     {
       "chainId": 8453,
+      "address": "0xB20000000000000000000043a599976181Bcf336",
+      "name": "Hims & Hers Health, Inc.",
+      "symbol": "HIMSc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HIMSC.png",
+      "autoSlippage": 5,
+      "isEquity": true
+    },
+    {
+      "chainId": 8453,
       "address": "0x4BfAa776991E85e5f8b1255461cbbd216cFc714f",
       "name": "Home",
       "symbol": "HOME",
@@ -2264,6 +2314,26 @@
     },
     {
       "chainId": 8453,
+      "address": "0xB200000000000000000000e215e9B76ecBA02468",
+      "name": "Moderna, Inc.",
+      "symbol": "MRNAc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MRNAC.png",
+      "autoSlippage": 5,
+      "isEquity": true
+    },
+    {
+      "chainId": 8453,
+      "address": "0xB200000000000000000000eC3c4c7395Cc609813",
+      "name": "Marvell Technology, Inc.",
+      "symbol": "MRVLc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MRVLC.png",
+      "autoSlippage": 5,
+      "isEquity": true
+    },
+    {
+      "chainId": 8453,
       "address": "0x7Ba6F01772924a82D9626c126347A28299E98c98",
       "name": "Metronome Synth ETH",
       "symbol": "msETH",
@@ -2312,6 +2382,16 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MFER.png",
       "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb200000000000000000000Fd2f87532B90095211",
+      "name": "Micron Technology Inc.",
+      "symbol": "MUc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MUC.png",
+      "autoSlippage": 5,
+      "isEquity": true
     },
     {
       "chainId": 8453,
@@ -2444,6 +2524,16 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/OPENX.png",
       "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb200000000000000000000347AFbA223D7B6b63C",
+      "name": "Oracle Corporation",
+      "symbol": "ORCLc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ORCLC.png",
+      "autoSlippage": 5,
+      "isEquity": true
     },
     {
       "chainId": 8453,
@@ -2645,6 +2735,16 @@
     },
     {
       "chainId": 8453,
+      "address": "0xb2000000000000000000007d16372840dF4dAbbe",
+      "name": "Palantir Technologies Inc.",
+      "symbol": "PLTRc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PLTRC.png",
+      "autoSlippage": 5,
+      "isEquity": true
+    },
+    {
+      "chainId": 8453,
       "address": "0xeD664536023d8E4b1640C394777D34aBAFF1dF8F",
       "name": "Dolphin",
       "symbol": "POD",
@@ -2779,6 +2879,16 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RAVE.png",
       "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb20000000000000000000066242d4067724cB7A1",
+      "name": "Reddit, Inc.",
+      "symbol": "RDDTc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RDDTC.png",
+      "autoSlippage": 5,
+      "isEquity": true
     },
     {
       "chainId": 8453,
