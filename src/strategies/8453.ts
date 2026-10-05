@@ -3274,6 +3274,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://www.surplusintelligence.ai/",
   },
+  {
+    chainId: 8453,
+    title: "cbBTC/EDGE",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 7,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x4B9E9A6a25A0fb0AA303221e96A63e11a5F4D494",
+    token0Address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+    token1Address: "0xED6E000dEF95780fb89734c07EE2ce9F6dcAf110",
+    tags: ["ecosystem", "exotic"],
+    website: "https://www.definitive.fi/",
+  },
 
   // ORIGINAL STRATEGIES
   {
