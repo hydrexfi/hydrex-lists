@@ -188,6 +188,15 @@
   },
   {
     "chainId": 8453,
+    "address": "0xB200000000000000000000856A95738C92fEed01",
+    "name": "Base Rooms",
+    "symbol": "BRTC",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRTC.png",
+    "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
     "address": "0x16F93eBC5320C89EfC8701577efe49d14A276a06",
     "name": "CAD Digital Inc",
     "symbol": "CADD",
