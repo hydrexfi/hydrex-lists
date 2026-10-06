@@ -58,6 +58,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/AMDC.png",
     autoSlippage: 5,
     isEquity: true,
+    isHydropumpPair: true,
+    hydropumpClassification: "coinbase_stock",
   },
   {
     chainId: 8453,
@@ -1637,6 +1639,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HIMSC.png",
     autoSlippage: 5,
     isEquity: true,
+    isHydropumpPair: true,
+    hydropumpClassification: "coinbase_stock",
   },
   {
     chainId: 8453,
@@ -2382,6 +2386,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MUC.png",
     autoSlippage: 5,
     isEquity: true,
+    isHydropumpPair: true,
+    hydropumpClassification: "coinbase_stock",
   },
   {
     chainId: 8453,
@@ -2732,6 +2738,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PLTRC.png",
     autoSlippage: 5,
     isEquity: true,
+    isHydropumpPair: true,
+    hydropumpClassification: "coinbase_stock",
   },
   {
     chainId: 8453,
@@ -2879,6 +2887,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RDDTC.png",
     autoSlippage: 5,
     isEquity: true,
+    isHydropumpPair: true,
+    hydropumpClassification: "coinbase_stock",
   },
   {
     chainId: 8453,
