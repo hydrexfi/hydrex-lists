@@ -102,6 +102,16 @@
     },
     {
       "chainId": 8453,
+      "address": "0xb20000000000000000000016f9dfe862feBA122b",
+      "name": "Bloom Energy Corporation",
+      "symbol": "BEc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BEC.png",
+      "autoSlippage": 5,
+      "isEquity": true
+    },
+    {
+      "chainId": 8453,
       "address": "0xB200000000000000000000cFbdF64a8706a94a01",
       "name": "BLUE CHIP",
       "symbol": "BLUECHIP",
@@ -1585,6 +1595,16 @@
     },
     {
       "chainId": 8453,
+      "address": "0xb2000000000000000000007790ed6E48e06eD935",
+      "name": "GameStop Corp.",
+      "symbol": "GMEc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GMEC.png",
+      "autoSlippage": 5,
+      "isEquity": true
+    },
+    {
+      "chainId": 8453,
       "address": "0x28974AeC76DE8958361B49e8093865636cE71e1B",
       "name": "GOO",
       "symbol": "GOO",
@@ -1669,6 +1689,16 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HOP.png",
       "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xb2000000000000000000002601C5C94F435da168",
+      "name": "Hertz Global Holdings, Inc.",
+      "symbol": "HTZc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HTZC.png",
+      "autoSlippage": 5,
+      "isEquity": true
     },
     {
       "chainId": 8453,
@@ -1991,6 +2021,18 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LITKEY.png",
       "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xB200000000000000000000f1a0F91e34892E4718",
+      "name": "Eli Lilly & Co",
+      "symbol": "LLYc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LLYC.png",
+      "autoSlippage": 5,
+      "isEquity": true,
+      "isHydropumpPair": true,
+      "hydropumpClassification": "coinbase_stock"
     },
     {
       "chainId": 8453,
@@ -2438,6 +2480,18 @@
     },
     {
       "chainId": 8453,
+      "address": "0xb20000000000000000000058B8c947e44011dFE6",
+      "name": "Netflix Inc",
+      "symbol": "NFLXc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NFLXC.png",
+      "autoSlippage": 5,
+      "isEquity": true,
+      "isHydropumpPair": true,
+      "hydropumpClassification": "coinbase_stock"
+    },
+    {
+      "chainId": 8453,
       "address": "0x9B5E262cF9bb04869ab40b19AF91D2dc85761722",
       "name": "Nock",
       "symbol": "NOCK",
@@ -2854,6 +2908,16 @@
     },
     {
       "chainId": 8453,
+      "address": "0xb200000000000000000000CA425ab42e07C35bC3",
+      "name": "Quantum Computing Inc.",
+      "symbol": "QUBTc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/QUBTC.png",
+      "autoSlippage": 5,
+      "isEquity": true
+    },
+    {
+      "chainId": 8453,
       "address": "0x1a44233FAe8D50F1AeB3a5d58dd426ff4814Cb53",
       "name": "Squid",
       "symbol": "QUID",
@@ -2887,6 +2951,16 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RAVE.png",
       "autoSlippage": 5
+    },
+    {
+      "chainId": 8453,
+      "address": "0xB2000000000000000000005bd7AE89b9E6189Bb5",
+      "name": "Roblox Corporation",
+      "symbol": "RBLXc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RBLXC.png",
+      "autoSlippage": 5,
+      "isEquity": true
     },
     {
       "chainId": 8453,
@@ -3735,6 +3809,16 @@
       "isEquity": true,
       "isHydropumpPair": true,
       "hydropumpClassification": "coinbase_stock"
+    },
+    {
+      "chainId": 8453,
+      "address": "0xB200000000000000000000f720C26062Bc3067Da",
+      "name": "Take-Two Interactive Software, Inc.",
+      "symbol": "TTWOc",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TTWOC.png",
+      "autoSlippage": 5,
+      "isEquity": true
     },
     {
       "chainId": 8453,
