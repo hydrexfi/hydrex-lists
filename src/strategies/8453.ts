@@ -3288,6 +3288,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://www.definitive.fi/",
   },
+  {
+    chainId: 8453,
+    title: "WETH/BRTC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 9,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x363969e5C97FB853D555c2ab389695f61A8feB10",
+    token0Address: "0x4200000000000000000000000000000000000006",
+    token1Address: "0xB200000000000000000000856A95738C92fEed01",
+    tags: ["ecosystem", "exotic"],
+    website: "https://baserooms.io/",
+  },
 
   // ORIGINAL STRATEGIES
   {
