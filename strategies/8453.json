@@ -4023,6 +4023,23 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/BRTC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 9,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0x363969e5C97FB853D555c2ab389695f61A8feB10",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0xB200000000000000000000856A95738C92fEed01",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://baserooms.io/"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
