@@ -108,6 +108,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BIRDC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
@@ -2861,6 +2862,7 @@ export const tokens: Token[] = [
     decimals: 8,
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PMC.png",
     autoSlippage: 5,
+    isEquity: true,
   },
   {
     chainId: 8453,
