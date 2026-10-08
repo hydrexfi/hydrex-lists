@@ -102,6 +102,16 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xB200000000000000000000535fE96f18204BFD96",
+    name: "Smartbird, Inc.",
+    symbol: "BIRDc",
+    decimals: 8,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BIRDC.png",
+    autoSlippage: 5,
+    isEquity: true,
+  },
+  {
+    chainId: 8453,
     address: "0xB200000000000000000000cFbdF64a8706a94a01",
     name: "BLUE CHIP",
     symbol: "BLUECHIP",
@@ -2846,6 +2856,16 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0xB2000000000000000000008FC2A8C23cf5937b66",
+    name: "Philip Morris International Inc.",
+    symbol: "PMc",
+    decimals: 8,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PMC.png",
+    autoSlippage: 5,
+    isEquity: true,
+  },
+  {
+    chainId: 8453,
     address: "0xeD664536023d8E4b1640C394777D34aBAFF1dF8F",
     name: "Dolphin",
     symbol: "POD",
@@ -3022,6 +3042,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/RBLXC.png",
     autoSlippage: 5,
     isEquity: true,
+    isHydropumpPair: true,
+    hydropumpClassification: "coinbase_stock",
   },
   {
     chainId: 8453,
