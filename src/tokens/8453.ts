@@ -251,6 +251,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e",
+    name: "Chip",
+    symbol: "CHIP",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CHIP.png",
+    autoSlippage: 5,
+  },
+  {
+    chainId: 8453,
     address: "0x937a1cFAF0A3d9f5Dc4D0927F72ee5e3e5F82a00",
     name: "Cocoro",
     symbol: "Cocoro",

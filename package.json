@@ -10,6 +10,7 @@
     "generate-bytecode": "npx ts-node scripts/generateBytecode.ts",
     "add-token": "npx ts-node scripts/listToken.ts",
     "add-pool": "npx ts-node scripts/addPool.ts",
+    "pull-tokens": "npx ts-node scripts/pullTokens.ts",
     "audit-hydropump": "npx ts-node scripts/auditHydropump.ts"
   },
   "dependencies": {
