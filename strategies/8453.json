@@ -4040,6 +4040,40 @@
   },
   {
     "chainId": 8453,
+    "title": "WETH/DRV",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 9,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xEb3eBcE104b14fb116aBEaF8d1f4d9784dcE4F88",
+    "token0Address": "0x4200000000000000000000000000000000000006",
+    "token1Address": "0x9d0E8f5b25384C7310CB8C6aE32C8fbeb645d083",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://www.derive.xyz/"
+  },
+  {
+    "chainId": 8453,
+    "title": "CHIP/USDC",
+    "type": "Manual",
+    "liquidityType": "integral-manual",
+    "strategist": "Hydrex",
+    "riskLevel": 7,
+    "riskDescription": "This strategy's risk is determined by the user's manual liquidity positioning. Wider strategies incur less impermanent loss, but generally lower yields.",
+    "address": "0xeB1Cd12d9bb2ba816eCb21F4883B1Ce2E7423f33",
+    "token0Address": "0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e",
+    "token1Address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "tags": [
+      "ecosystem",
+      "exotic"
+    ],
+    "website": "https://usd.ai/chip"
+  },
+  {
+    "chainId": 8453,
     "title": "USDC/HYDX",
     "type": "Single Sided",
     "liquidityType": "integral",
