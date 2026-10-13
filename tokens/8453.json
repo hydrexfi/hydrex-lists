@@ -61,6 +61,18 @@
   },
   {
     "chainId": 8453,
+    "address": "0xB20000000000000000000026215D755356E5043f",
+    "name": "Arm Holdings plc",
+    "symbol": "ARMc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ARMC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
+  },
+  {
+    "chainId": 8453,
     "address": "0xF297Dce5cDc06Cf8Eae00674fA73BA35bBC99B80",
     "name": "Acua Reserve Unit",
     "symbol": "ARU",
@@ -97,6 +109,30 @@
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BEC.png",
     "autoSlippage": 5,
     "isEquity": true
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000d2b7D9aeE52F6C6BEf",
+    "name": "Baidu, Inc.",
+    "symbol": "BIDUc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BIDUC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000ca7C6D1438e7245eb6",
+    "name": "Bilibili Inc.",
+    "symbol": "BILIc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BILIC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -204,6 +240,18 @@
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BRTC.png",
     "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
+    "address": "0xB200000000000000000000c36ce081Dd09e86cA2",
+    "name": "Anheuser-Busch InBev SA/NV",
+    "symbol": "BUDc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BUDC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -1728,6 +1776,18 @@
   },
   {
     "chainId": 8453,
+    "address": "0xb200000000000000000000f3049F4aa834b23b64",
+    "name": "Hesai Group",
+    "symbol": "HSAIc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/HSAIC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
+  },
+  {
+    "chainId": 8453,
     "address": "0xb2000000000000000000002601C5C94F435da168",
     "name": "Hertz Global Holdings, Inc.",
     "symbol": "HTZc",
@@ -1817,6 +1877,18 @@
     "decimals": 2,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/IDRX.png",
     "autoSlippage": 2.5
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000F6b0417af5F52341FC",
+    "name": "Infosys Limited",
+    "symbol": "INFYc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/INFYC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -2012,6 +2084,18 @@
     "autoSlippage": 5,
     "isHydropumpPair": true,
     "hydropumpClassification": "ecosystem"
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000D61eFD9F54A23ef9eB",
+    "name": "Li Auto Inc.",
+    "symbol": "LIc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LIC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -2528,6 +2612,18 @@
   },
   {
     "chainId": 8453,
+    "address": "0xb2000000000000000000002D2B5dc53c61f1bA06",
+    "name": "NIO Inc.",
+    "symbol": "NIOc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NIOC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
+  },
+  {
+    "chainId": 8453,
     "address": "0x9B5E262cF9bb04869ab40b19AF91D2dc85761722",
     "name": "Nock",
     "symbol": "NOCK",
@@ -2545,6 +2641,18 @@
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NOICE.png",
     "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
+    "address": "0xB2000000000000000000005ac674f707E357409c",
+    "name": "Nokia Corporation",
+    "symbol": "NOKc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NOKC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -2581,6 +2689,18 @@
     "symbol": "NVDAc",
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NVDAC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb2000000000000000000008D5328e9208773dC58",
+    "name": "Novo Nordisk A/S",
+    "symbol": "NVOc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/NVOC.png",
     "autoSlippage": 5,
     "isEquity": true,
     "isHydropumpPair": true,
@@ -2721,6 +2841,18 @@
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PAAL.png",
     "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
+    "address": "0xB200000000000000000000c8A7223510467D8563",
+    "name": "PDD Holdings Inc.",
+    "symbol": "PDDc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/PDDC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -3315,12 +3447,36 @@
   },
   {
     "chainId": 8453,
+    "address": "0xB20000000000000000000017BB66E9301E913A99",
+    "name": "Banco Santander, S.A.",
+    "symbol": "SANc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SANC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
+  },
+  {
+    "chainId": 8453,
     "address": "0xac531Eb26Ca1d21b85126De8FB87E80E09002DcF",
     "name": "SAND",
     "symbol": "SAND",
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SAND.png",
     "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000da6F64c306234127E0",
+    "name": "SAP SE",
+    "symbol": "SAPc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SAPC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -3339,6 +3495,18 @@
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SEAM.png",
     "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
+    "address": "0xB2000000000000000000003088798F6d0722AaAC",
+    "name": "Sea Limited",
+    "symbol": "SEc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SEC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -3411,6 +3579,18 @@
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SIMMI.png",
     "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000187f7071D6E321a7d2",
+    "name": "SK hynix Inc.",
+    "symbol": "SKHYc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SKHYC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -3495,6 +3675,18 @@
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SONG.png",
     "autoSlippage": 10
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000a26326a922FFA87f6C",
+    "name": "Sony Group Corporation",
+    "symbol": "SONYc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/SONYC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -3985,6 +4177,18 @@
   },
   {
     "chainId": 8453,
+    "address": "0xB200000000000000000000349ef3Aa93a0897476",
+    "name": "Unilever Plc",
+    "symbol": "ULc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/ULC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
+  },
+  {
+    "chainId": 8453,
     "address": "0xd403D1624DAEF243FbcBd4A80d8A6F36afFe32b2",
     "name": "Chainlink (Universal)",
     "symbol": "uLINK",
@@ -4169,6 +4373,18 @@
     "decimals": 6,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/A40A.png",
     "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
+    "address": "0xB20000000000000000000063376b142C0764B489",
+    "name": "Vale S.A.",
+    "symbol": "VALEc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/VALEC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -4424,6 +4640,18 @@
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WOO.png",
     "autoSlippage": 5
+  },
+  {
+    "chainId": 8453,
+    "address": "0xb200000000000000000000e88EFe88D8aDE3f0dA",
+    "name": "WeRide Inc.",
+    "symbol": "WRDc",
+    "decimals": 8,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WRDC.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
