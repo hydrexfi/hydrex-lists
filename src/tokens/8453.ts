@@ -1688,6 +1688,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/GMEC.png",
     autoSlippage: 5,
     isEquity: true,
+    isHydropumpPair: true,
+    hydropumpClassification: "coinbase_stock",
   },
   {
     chainId: 8453,
@@ -2489,6 +2491,8 @@ export const tokens: Token[] = [
     logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MRNAC.png",
     autoSlippage: 5,
     isEquity: true,
+    isHydropumpPair: true,
+    hydropumpClassification: "coinbase_stock",
   },
   {
     chainId: 8453,
