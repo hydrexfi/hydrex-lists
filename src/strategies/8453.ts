@@ -3330,6 +3330,20 @@ export const strategies: Strategy[] = [
     tags: ["ecosystem", "exotic"],
     website: "https://usd.ai/chip",
   },
+  {
+    chainId: 8453,
+    title: "LCAP/USDC",
+    type: "Manual",
+    liquidityType: "integral-manual",
+    strategist: "Hydrex",
+    riskLevel: 6,
+    riskDescription: MANUAL_CONCENTRATED_RISK_STRING,
+    address: "0x7F3bb80Ef09559ADB387601fc1767E5CCB19023D",
+    token0Address: "0x4dA9A0f397dB1397902070f93a4D6ddBC0E0E6e8",
+    token1Address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    tags: ["ecosystem", "exotic"],
+    website: "https://www.cfbenchmarks.com/data/indices/CFDLCUS_RR_TR",
+  },
 
   // ORIGINAL STRATEGIES
   {
