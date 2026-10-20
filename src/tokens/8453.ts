@@ -2080,6 +2080,15 @@ export const tokens: Token[] = [
   },
   {
     chainId: 8453,
+    address: "0x4dA9A0f397dB1397902070f93a4D6ddBC0E0E6e8",
+    name: "CF Large Cap Index",
+    symbol: "LCAP",
+    decimals: 18,
+    logoURI: "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/LCAP.png",
+    autoSlippage: 2,
+  },
+  {
+    chainId: 8453,
     address: "0x3722264aB15a1dfCe5a5af89e6547F7949A8ABA3",
     name: "LienFi",
     symbol: "LFI",
