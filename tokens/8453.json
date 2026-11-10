@@ -110,7 +110,9 @@
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/BEC.png",
     "autoSlippage": 5,
-    "isEquity": true
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -333,7 +335,9 @@
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/CRCLC.png",
     "autoSlippage": 5,
-    "isEquity": true
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -1902,7 +1906,9 @@
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/INTCC.png",
     "autoSlippage": 5,
-    "isEquity": true
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -2511,7 +2517,9 @@
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/MRVLC.png",
     "autoSlippage": 5,
-    "isEquity": true
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -4127,7 +4135,9 @@
     "decimals": 8,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/TTWOC.png",
     "autoSlippage": 5,
-    "isEquity": true
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "coinbase_stock"
   },
   {
     "chainId": 8453,
@@ -4912,6 +4922,18 @@
   },
   {
     "chainId": 8453,
+    "address": "0x339ad5e0d1Cc8B014eB6aCacbE8991214C5A9325",
+    "name": "Wrapped Infineon Technologies AG ST0x",
+    "symbol": "wtIFX",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTIFX.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "st0x"
+  },
+  {
+    "chainId": 8453,
     "address": "0xf567652fC2d7Db8D5469fD06AEbe8C9c4372d722",
     "name": "Wrapped Intel Corporation ST0x",
     "symbol": "wtINTC",
@@ -5124,6 +5146,18 @@
   },
   {
     "chainId": 8453,
+    "address": "0xD50020eCA7CAAC05Ba7E7571C7B498781ca98d47",
+    "name": "Wrapped Soitec SA ST0x",
+    "symbol": "wtSOI",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSOI.png",
+    "autoSlippage": 5,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "st0x"
+  },
+  {
+    "chainId": 8453,
     "address": "0x19F89aaEf8a93f38A974beca9776f09aB844887F",
     "name": "Wrapped Space Exploration Technologies Corp. ST0x",
     "symbol": "wtSPCX",
@@ -5142,6 +5176,18 @@
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTSPYM.png",
     "autoSlippage": 2,
+    "isEquity": true,
+    "isHydropumpPair": true,
+    "hydropumpClassification": "st0x"
+  },
+  {
+    "chainId": 8453,
+    "address": "0x5ED9f297f10e2b72950F5abc2c2B770ee831805b",
+    "name": "Wrapped Technoprobe S.p.A. ST0x",
+    "symbol": "wtTPRO",
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/hydrexfi/hydrex-lists/main/assets/tokens/WTTPRO.png",
+    "autoSlippage": 5,
     "isEquity": true,
     "isHydropumpPair": true,
     "hydropumpClassification": "st0x"
